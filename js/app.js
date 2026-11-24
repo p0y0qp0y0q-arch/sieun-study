@@ -100,6 +100,16 @@
     audioEl = new Audio(src); audioEl.play().catch(() => {});
   }
 
+  // ---------- AI 녹음 칭찬 목소리 (assets/voice/voice.json 이 있으면 사용, 없으면 TTS) ----------
+  let VOICE = {};
+  fetch('assets/voice/voice.json').then(r => r.ok ? r.json() : {}).then(j => VOICE = j || {}).catch(() => {});
+  function sayPhrase(text) {
+    const key = cleanForSpeech(text).trim();
+    const f = VOICE[key];
+    if (f) { if (window.speechSynthesis) speechSynthesis.cancel(); if (audioEl) audioEl.pause(); audioEl = new Audio(f); audioEl.play().catch(() => speak(text)); return; }
+    speak(text);
+  }
+
   // ---------- 데이터 ----------
   const DATA = {};
   async function loadSubject(key) {
@@ -391,7 +401,7 @@
       const firstTry = cur.tries === 0;
       record(true, firstTry);
       flyStar();
-      speak(msg);
+      sayPhrase(msg);
       if (q.choiceLang && typeof ch.c === 'string') setTimeout(() => speak([{ text: ch.c, lang: q.choiceLang }], { cancel: false }), 50);
       $('#nextBtn').classList.remove('hidden');
       document.querySelectorAll('#choices .choice').forEach(b => b.disabled = true);
@@ -401,7 +411,7 @@
       chime(false);
       if (cur.tries === 1) {
         const msg = pick(RETRY);
-        fb.className = 'feedback no'; fb.textContent = msg; speak(msg);
+        fb.className = 'feedback no'; fb.textContent = msg; sayPhrase(msg);
       } else {
         cur.answered = true;
         const idx = q._choices.findIndex(c => c.ok);
@@ -409,7 +419,7 @@
         if (right) right.classList.add('correct');
         const msg = pick(SHOW);
         fb.className = 'feedback no'; fb.innerHTML = msg + (q.explain ? `<span class="explain">${q.explain}</span>` : '');
-        speak(msg);
+        sayPhrase(msg);
         record(false, false);
         $('#nextBtn').classList.remove('hidden');
         document.querySelectorAll('#choices .choice').forEach(b => b.disabled = true);
@@ -445,7 +455,7 @@
     const subj = SUBJECTS.find(s => s.key === cur.key);
     $('#doneText').textContent = `${subj.name} 10문제 중에 ${Math.min(dd.correct, dd.done)}문제를 맞혔어요!`;
     $('#doneStars').textContent = '⭐'.repeat(Math.max(cur.stars, 0));
-    speak(t.replace('⭐', '') + ' 별을 ' + cur.stars + '개 모았어요!');
+    sayPhrase(t);
     confetti();
   }
   function confetti() {
