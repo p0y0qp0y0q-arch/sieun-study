@@ -1,4 +1,5 @@
 from common import Q, img, who
+from hanja_hints import HINTS, ancient_ref, ancient_local
 import random
 
 # 한자|훈음|레벨|사진ref|이모지|낱말(뜻풀이)들 ; 낱말은 "화산:불 화" 처럼 한자가 들어가는 글자
@@ -59,6 +60,14 @@ CHARS = """
 教|가르칠 교|3|wp:Classroom|🧑‍🏫|교실,교과서
 """.strip().splitlines()
 
+def hint_of(h):
+    emo, story = HINTS[h]
+    ref = ancient_ref(h)
+    d = {"emoji": emo, "story": story}
+    if ref:
+        d["ancient"] = img(ref, "📜", flag=True, local=ancient_local(h))
+    return d
+
 def build():
     rows = []
     for line in CHARS:
@@ -78,20 +87,20 @@ def build():
             pw = who(i, 21)
             out.append(Q(f"han-{n:03d}", "한자", f"{pw['가']} 본 이 사진과 어울리는 한자는?" if i % 2 else "사진을 보고 알맞은 한자를 골라요.",
                          [r["h"]] + R.sample(pool, 2), 0, level=r["lv"], image=img(r["ref"], r["emo"]), pool=pool,
-                         big=True, speakChoices=False, explain=f"{r['h']}  {r['hm']}", group="han-pic"))
+                         big=True, speakChoices=False, explain=f"{r['h']}  {r['hm']}", group="han-pic", _h=r["h"]))
         else:
             n += 1
             out.append(Q(f"han-{n:03d}", "한자", "그림과 어울리는 한자는?", [r["h"]] + R.sample(pool, 2), 0, level=r["lv"],
-                         image=img(None, r["emo"]), pool=pool, big=True, speakChoices=False, explain=f"{r['h']}  {r['hm']}", group="han-pic"))
+                         image=img(None, r["emo"]), pool=pool, big=True, speakChoices=False, explain=f"{r['h']}  {r['hm']}", group="han-pic", _h=r["h"]))
         # 2) 한자 → 훈음 (보기 읽어주기)
         n += 1
         out.append(Q(f"han-{n:03d}", "한자", "이 한자의 뜻과 소리는 무엇일까요?", [r["hm"]] + R.sample(poolhm, 2), 0, level=r["lv"],
-                     display=r["h"], big=True, pool=poolhm, speakChoices=True, explain=f"{r['h']}  {r['hm']}", group="han-read"))
+                     display=r["h"], big=True, pool=poolhm, speakChoices=True, explain=f"{r['h']}  {r['hm']}", group="han-read", _h=r["h"]))
         # 3) 훈음 → 한자
         n += 1
         pw = who(i, 22)
         out.append(Q(f"han-{n:03d}", "한자", f"'{r['hm']}' 은 어느 한자일까요?", [r["h"]] + R.sample(pool, 2), 0, level=r["lv"],
-                     pool=pool, big=True, speakChoices=False, explain=f"{r['h']}  {r['hm']}", group="han-find"))
+                     pool=pool, big=True, speakChoices=False, explain=f"{r['h']}  {r['hm']}", group="han-find", showHint=True, _h=r["h"]))
         # 4) 낱말 속 한자 찾기
         for j, w in enumerate(r["words"]):
             syl = r["hm"].split()[-1]
@@ -104,7 +113,24 @@ def build():
             ws = w[pos]
             out.append(Q(f"han-{n:03d}", "한자", f"'{w}'의 '{ws}'는 어느 한자일까요?", [r["h"]] + R.sample(pool, 2), 0,
                          level=max(2, r["lv"]), pool=pool, big=True, speakChoices=False, display=w,
-                         explain=f"{w}: {r['h']} {r['hm']}", group="han-word"))
+                         explain=f"{w}: {r['h']} {r['hm']}", group="han-word", _h=r["h"]))
+    # 옛날 모양(갑골문 등) 보고 오늘날 한자 고르기
+    for i, r in enumerate(rows):
+        ref = ancient_ref(r["h"])
+        if not ref:
+            continue
+        R = random.Random(700 + i)
+        pool = [x for x in allh if x != r["h"]]
+        n += 1
+        out.append(Q(f"han-{n:03d}", "한자", "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
+                     [r["h"]] + R.sample(pool, 2), 0, level=max(1, r["lv"]), image=img(ref, "📜", flag=True, local=ancient_local(r["h"])), pool=pool,
+                     big=True, speakChoices=False, explain=f"{r['h']}  {r['hm']}", group="han-ancient", _h=r["h"]))
+    for q in out:
+        h = q.get("_h")
+        if h:
+            q["hanjaHint"] = hint_of(h)
+            q["explain"] = q.get("explain", "") + " · " + HINTS[h][1]
+            q.pop("_h")
     return out
 
 GENERATORS = [{"id": "gen-hanja-count", "gen": "hanjaCount", "level": 1, "weight": 3, "title": "숫자 한자 세기"}]

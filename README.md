@@ -44,7 +44,8 @@
 python3 tools/build.py --fetch   # 새 사진을 위키미디어에서 찾아 data/*.json을 다시 만듦
 python3 tools/check_links.py     # 모든 사진·소리 링크가 열리는지 검사 (결과: tools/link_report.json)
 python3 tools/fetch_sounds.py    # 악기·동물 소리를 받아 assets/sounds/에 mp3로 만듦
-python3 tools/fetch_art.py       # 명화 사진을 assets/art/에 내려받음
+python3 tools/fetch_local.py     # 명화·한자 옛 글자 이미지를 앱(assets/)에 내려받음
+sh tools/fetch_all.sh            # 위 작업을 순서대로 한 번에 (요청 제한을 지키며 천천히)
 ```
 
 - 사진이 마음에 들지 않으면 `tools/image_overrides.json`에 `"wp:문서이름": "file:커먼즈_파일명.jpg"`처럼 바꿀 사진을 적습니다. `null`로 적으면 사진 대신 이모지가 나옵니다.

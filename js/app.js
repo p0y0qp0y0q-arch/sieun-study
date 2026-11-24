@@ -45,9 +45,14 @@
   let voices = [];
   function loadVoices() { voices = window.speechSynthesis ? speechSynthesis.getVoices() : []; }
   if (window.speechSynthesis) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+  // 자연스러운 음성 우선: 부모님이 고른 음성 > Google/Natural/Neural/Online 음성 > 기기 기본
+  const GOOD = /natural|neural|online|google|premium|enhanced|siri|yuna|sunhi|injoon|samantha|ava|jenny|aria/i;
   function voiceFor(lang) {
     const l = lang.toLowerCase(), base = l.split('-')[0];
-    return voices.find(v => v.lang.toLowerCase().replace('_', '-') === l) || voices.find(v => v.lang.toLowerCase().startsWith(base));
+    const same = voices.filter(v => v.lang.toLowerCase().replace('_', '-') === l);
+    const cands = same.length ? same : voices.filter(v => v.lang.toLowerCase().startsWith(base));
+    const pref = (S && S.voice || {})[base];
+    return cands.find(v => v.name === pref) || cands.find(v => GOOD.test(v.name) && !v.localService) || cands.find(v => GOOD.test(v.name)) || cands[0];
   }
   // parts: [{text, lang}]
   function speak(parts, { cancel = true } = {}) {
@@ -59,8 +64,9 @@
       const u = new SpeechSynthesisUtterance(cleanForSpeech(p.text));
       u.lang = p.lang || 'ko-KR';
       const v = voiceFor(u.lang); if (v) u.voice = v;
-      u.rate = u.lang.startsWith('ko') ? 0.95 : 0.8;
-      u.pitch = 1.1;
+      const sp = (S && S.speechRate) || 1;
+      u.rate = (u.lang.startsWith('ko') ? 1.0 : 0.85) * sp;
+      u.pitch = 1.0;
       speechSynthesis.speak(u);
     }
   }
@@ -287,7 +293,7 @@
   }
 
   function renderQuestion(q) {
-    $('#prompt').textContent = (q.review ? '🔁 복습! ' : '') + q.prompt;
+    $('#prompt').innerHTML = (q.review ? '🔁 복습! ' : '') + emphasize(q.prompt);
     const media = $('#media'); media.innerHTML = '';
     const fb = $('#feedback'); fb.className = 'feedback'; fb.innerHTML = '';
     $('#nextBtn').classList.add('hidden');
@@ -302,6 +308,15 @@
     }
     if (q.dots) { const d = document.createElement('div'); d.className = 'dots'; d.textContent = '●'.repeat(q.dots); media.appendChild(d); }
     if (q.html) { const d = document.createElement('div'); d.innerHTML = q.html; media.appendChild(d); }
+    if (q.hanjaHint) {
+      const card = hanjaHintCard(q.hanjaHint);
+      if (q.showHint) media.appendChild(card);
+      else { card.classList.add('hidden'); addHintButton(media, () => { card.classList.remove('hidden'); speak(q.hanjaHint.story); }); media.appendChild(card); }
+    } else if (q.hint) {
+      const box = document.createElement('div'); box.className = 'hint-text hidden'; box.textContent = '💡 ' + q.hint;
+      addHintButton(media, () => { box.classList.remove('hidden'); speak(q.hint); });
+      media.appendChild(box);
+    }
     if (q.sound) {
       const b = document.createElement('button'); b.className = 'play-btn' + (q.soundAfter ? ' small' : ''); b.textContent = q.soundAfter ? '🎵 소리 들어 보기' : '🔊 소리 듣기';
       b.onclick = () => playSound(q.sound.url); media.appendChild(b);
@@ -341,8 +356,21 @@
     speakQuestion(q);
   }
 
+  function addHintButton(media, onShow) {
+    const b = document.createElement('button'); b.className = 'hint-btn'; b.textContent = '💡 힌트 볼래요';
+    b.onclick = () => { b.remove(); onShow(); };
+    media.appendChild(b);
+  }
+  function hanjaHintCard(h) {
+    const d = document.createElement('div'); d.className = 'hanja-hint';
+    let anc = '';
+    if (h.ancient && (h.ancient.url || h.ancient.remote)) anc = `<span class="arrow">➜</span><span class="anc"><img src="${h.ancient.url}" alt="옛 글자" onerror="this.parentNode.previousSibling.remove();this.parentNode.remove()"><small>옛날 글자</small></span>`;
+    d.innerHTML = `<div class="row"><span class="pic">${h.emoji}</span>${anc}</div><p>${esc(h.story)}</p>`;
+    return d;
+  }
   function speakQuestion(q) {
     const parts = [{ text: q.speak || q.prompt, lang: 'ko-KR' }];
+    if (q.hanjaHint && q.showHint) parts.push({ text: '힌트! ' + q.hanjaHint.story, lang: 'ko-KR' });
     if (q.sayWord) parts.push({ text: q.sayWord.text, lang: q.sayWord.lang });
     if (q.display && !q.sayWord && !q.speak && /[一-鿿]/.test(q.display) === false && q.subject !== '국어' && q.display.length > 1) parts.push({ text: mathSpeech(q.display), lang: 'ko-KR' });
     if (q.speakChoices && q.type === 'choice') q._choices.forEach(c => parts.push({ text: String(c.c), lang: q.choiceLang || 'ko-KR' }));
@@ -488,6 +516,9 @@
     if (sl.length) parts.push(`<h3>🔊 소리 ${sl.length}개</h3><ul>` + sl.map(([k, v]) => `<li>${esc(k.split(':')[1])}: ${esc(v.credit)}${v.source ? ` · <a href="${v.source}" target="_blank" rel="noopener">원본</a>` : ''}</li>`).join('') + '</ul>');
     body.innerHTML = '<p>이 앱의 사진과 소리는 위키미디어 커먼즈 등에서 자유 이용 허락(퍼블릭 도메인, CC0, CC BY, CC BY-SA)된 자료를 사용했어요. 만든 분들께 감사드려요!</p>' + parts.join('');
   }
+  // 문제 속 중요한 말(아닌 것, 맞는 것, 틀린 것 …)은 굵게 + 밑줄
+  const KEY = /(아니요|아닌|아니|맞는|맞으면|틀린|틀리게|틀리면|틀려요|잘못|바른|바르게|바로 뒤|바로 앞|더 큰|더 작은|더 긴|더 짧은|더 무거운|더 가벼운|더 비싼|더 싼|더 많|안 좋은|좋은 행동|아프게 하는|않은)/g;
+  function emphasize(t) { return esc(t).replace(KEY, '<b class="em">$1</b>'); }
   function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
 
   // ---------- 부모님 메뉴 ----------
@@ -506,9 +537,23 @@
       <p>과목별로 푼 문제: ${SUBJECTS.filter(s => !s.draw).map(s => `${s.name} ${(S.seen[s.key] || []).length}`).join(' · ')}</p>
       <table><tr><th>날짜</th><th>맞힘</th><th>과목</th></tr>${rows || '<tr><td colspan=3>아직 기록이 없어요</td></tr>'}</table>
       <p style="margin-top:14px;font-size:14px;color:#8a7a72">문제는 <code>data/과목.json</code> 파일에 들어 있어요. 파일을 고치면 바로 반영돼요.</p>
+      <h3 style="margin:14px 0 4px">🔊 목소리</h3>
+      <p style="font-size:14px;color:#8a7a72;margin:0 0 6px">목소리는 휴대폰에 설치된 음성을 써요. 'Google' 또는 '자연스러운(Natural)' 음성이 가장 부드러워요.</p>
+      <label>한국어 <select id="voiceKo"></select></label><br>
+      <label>영어 <select id="voiceEn"></select></label><br>
+      <label>빠르기 <select id="speechRate"><option value="0.85">천천히</option><option value="1">보통</option><option value="1.15">조금 빠르게</option></select></label><br>
       <button id="testVoice">🔊 음성 테스트</button>
       <button id="resetToday">오늘 기록 지우기</button>
       <button id="resetAll">전체 기록 지우기</button>`;
+    const fill = (sel, base) => {
+      const vs = voices.filter(v => v.lang.toLowerCase().startsWith(base));
+      const cur = voiceFor(base === 'ko' ? 'ko-KR' : 'en-US');
+      sel.innerHTML = vs.length ? vs.map(v => `<option ${cur && v.name === cur.name ? 'selected' : ''}>${esc(v.name)}</option>`).join('') : '<option>기본 음성</option>';
+      sel.onchange = () => { S.voice = S.voice || {}; S.voice[base] = sel.value; save(); speak([{ text: base === 'ko' ? '시은아, 안녕!' : 'Hello, Sieun!', lang: base === 'ko' ? 'ko-KR' : 'en-US' }]); };
+    };
+    fill($('#voiceKo'), 'ko'); fill($('#voiceEn'), 'en');
+    $('#speechRate').value = String(S.speechRate || 1);
+    $('#speechRate').onchange = (e) => { S.speechRate = +e.target.value; save(); speak('이 빠르기로 읽어 줄게요.'); };
     $('#testVoice').onclick = () => speak([{ text: '시은아, 안녕! 오늘도 같이 공부하자!' }, { text: 'Hello, Sieun!', lang: 'en-US' }]);
     $('#resetToday').onclick = () => { if (confirm('오늘 기록을 지울까요?')) { delete S.daily[today()]; save(); renderParents(); } };
     $('#resetAll').onclick = () => { if (confirm('정말 모든 기록(별, 푼 문제)을 지울까요?')) { localStorage.removeItem(STORE_KEY); load(); renderParents(); } };
@@ -534,6 +579,13 @@
     show('quiz'); nextQuestion(true);
   }
   // 테스트용
-  window.APP = { buildSession, materialize, loadSubject, SUBJECTS, get state() { return S; } };
+  // 미리보기용: 특정 문제 하나 띄우기 (예: APP.preview('hanja', 'han-078'))
+  async function preview(key, id) {
+    const d = await loadSubject(key);
+    const it = d.items.find(x => x.id === id) || (d.generators || []).find(g => g.id === id);
+    cur = { key, d, list: [it.gen ? { gen: it } : { item: it }], idx: 0, base: 0, stars: 0, extra: true };
+    show('quiz'); nextQuestion(true);
+  }
+  window.APP = { buildSession, materialize, loadSubject, SUBJECTS, preview, get state() { return S; } };
   init();
 })();

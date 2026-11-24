@@ -71,6 +71,7 @@ def main():
         media.resolve(sorted(refs), cache)
         media.save(cache)
     missing = []
+    local_media = {}
     def res(o):
         r = o.pop("ref")
         if r in overrides:
@@ -78,6 +79,8 @@ def main():
         local = o.pop("local", None)
         info = media.lookup(r, cache) if r else None
         if info:
+            if local:
+                local_media[local] = info["url"]
             o["url"] = local if local and os.path.exists(os.path.join(ROOT, local)) else info["url"]
             o["remote"] = info["url"]
             o["credit"] = info["credit"]
@@ -91,6 +94,7 @@ def main():
     for v, ref in COIN_FILES.items():
         info = media.lookup(ref, cache, width=330, allow_currency=True)  # 한국은행 화폐 이미지 이용 기준에 따라 허용
         coins[str(v)] = {"url": info["url"], "credit": info["credit"], "source": info["page"]} if info else None
+    json.dump(local_media, open(os.path.join(HERE, "local_media.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     data["store"]["coins"] = coins
     data["math"]["coins"] = coins  # 수학 동전 세기에도 사용
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
