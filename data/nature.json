@@ -66302,7 +66302,7 @@
    "id": "nat-481",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "티라노사우루스",
     "안킬로사우루스",
@@ -66355,7 +66355,7 @@
    "id": "nat-483",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "트리케라톱스",
     "프테라노돈",
@@ -66408,7 +66408,7 @@
    "id": "nat-485",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "스테고사우루스",
     "프테라노돈",
@@ -66461,7 +66461,7 @@
    "id": "nat-487",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "브라키오사우루스",
     "스테고사우루스",
@@ -66514,7 +66514,7 @@
    "id": "nat-489",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "안킬로사우루스",
     "벨로키랍토르",
@@ -66567,7 +66567,7 @@
    "id": "nat-491",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "프테라노돈",
     "브라키오사우루스",
@@ -66620,7 +66620,7 @@
    "id": "nat-493",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "벨로키랍토르",
     "스테고사우루스",
@@ -66673,7 +66673,7 @@
    "id": "nat-495",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "파키케팔로사우루스",
     "스테고사우루스",
@@ -66726,7 +66726,7 @@
    "id": "nat-497",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "스피노사우루스",
     "티라노사우루스",
@@ -66779,7 +66779,7 @@
    "id": "nat-499",
    "subject": "자연",
    "type": "choice",
-   "prompt": "이 공룡의 이름은 무엇일까요? (복원 그림)",
+   "prompt": "이 공룡의 이름은 무엇일까요? (화석·모형)",
    "choices": [
     "파라사우롤로푸스",
     "스피노사우루스",
@@ -67209,11 +67209,7 @@
    "answer": 0,
    "level": 1,
    "image": {
-    "fallbackEmoji": "☀️",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/July_night_sky_%2835972569256%29.jpg/500px-July_night_sky_%2835972569256%29.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/July_night_sky_%2835972569256%29.jpg/500px-July_night_sky_%2835972569256%29.jpg",
-    "credit": "Uroš Novina from Semič, Slovenia, CC BY 2.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:July_night_sky_(35972569256).jpg"
+    "fallbackEmoji": "☀️"
    },
    "pool": [
     "비",

@@ -547,11 +547,7 @@
    "answer": 0,
    "level": 1,
    "image": {
-    "fallbackEmoji": "👕",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Woman_in_a_V-Neck_T-Shirt.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/0/03/Woman_in_a_V-Neck_T-Shirt.jpg",
-    "credit": "Spreadshirt, CC BY 2.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Woman_in_a_V-Neck_T-Shirt.jpg"
+    "fallbackEmoji": "👕"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -2072,11 +2068,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "👓",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2023_Okulary_korekcyjne.jpg/500px-2023_Okulary_korekcyjne.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2023_Okulary_korekcyjne.jpg/500px-2023_Okulary_korekcyjne.jpg",
-    "credit": "Jacek Halicki, CC BY-SA 4.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:2023_Okulary_korekcyjne.jpg"
+    "fallbackEmoji": "👓"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -2424,7 +2416,11 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "✈️"
+    "fallbackEmoji": "✈️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/500px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/500px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg",
+    "credit": "Maarten Visser from Capelle aan den IJssel, Nederland, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A6-EDY_A380_Emirates_31_jan_2013_jfk_(8442269364)_(cropped).jpg"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -2574,11 +2570,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🏍️",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Istockphoto-114285168-612x612.jpg/500px-Istockphoto-114285168-612x612.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Istockphoto-114285168-612x612.jpg/500px-Istockphoto-114285168-612x612.jpg",
-    "credit": "Devanand.j, CC BY-SA 4.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Istockphoto-114285168-612x612.jpg"
+    "fallbackEmoji": "🏍️"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -2940,11 +2932,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "👃",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Fort_Ross_Elena_wearing_Traditional_Russian_Costume_%28cropped%29.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Fort_Ross_Elena_wearing_Traditional_Russian_Costume_%28cropped%29.jpg",
-    "credit": "Franco Folini, CC BY-SA 2.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Fort_Ross_Elena_wearing_Traditional_Russian_Costume_(cropped).jpg"
+    "fallbackEmoji": "👃"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -2962,11 +2950,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🦷",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Close_up_-_chimpanzee_teeth.png/500px-Close_up_-_chimpanzee_teeth.png",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Close_up_-_chimpanzee_teeth.png/500px-Close_up_-_chimpanzee_teeth.png",
-    "credit": "Richard from Canton, United States, CC BY 2.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Close_up_-_chimpanzee_teeth.png"
+    "fallbackEmoji": "🦷"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -3126,11 +3110,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🧑‍🍳",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/William_Orpen_Le_Chef_de_l%27H%C3%B4tel_Chatham%2C_Paris.jpg/500px-William_Orpen_Le_Chef_de_l%27H%C3%B4tel_Chatham%2C_Paris.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/William_Orpen_Le_Chef_de_l%27H%C3%B4tel_Chatham%2C_Paris.jpg/500px-William_Orpen_Le_Chef_de_l%27H%C3%B4tel_Chatham%2C_Paris.jpg",
-    "credit": "William Orpen, Public domain, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:William_Orpen_Le_Chef_de_l%27H%C3%B4tel_Chatham,_Paris.jpg"
+    "fallbackEmoji": "🧑‍🍳"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -3258,11 +3238,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🛝",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/A_girl_sliding_in_Valparaiso%2C_Chile.jpg/500px-A_girl_sliding_in_Valparaiso%2C_Chile.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/A_girl_sliding_in_Valparaiso%2C_Chile.jpg/500px-A_girl_sliding_in_Valparaiso%2C_Chile.jpg",
-    "credit": "Havardtl, CC BY-SA 4.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:A_girl_sliding_in_Valparaiso,_Chile.jpg"
+    "fallbackEmoji": "🛝"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -3962,11 +3938,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🪜",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/At_Victoria_and_Albert_Museum_2025_018.jpg/500px-At_Victoria_and_Albert_Museum_2025_018.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/At_Victoria_and_Albert_Museum_2025_018.jpg/500px-At_Victoria_and_Albert_Museum_2025_018.jpg",
-    "credit": "Photograph by Mike Peel (www.mikepeel.net)., CC BY-SA 4.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:At_Victoria_and_Albert_Museum_2025_018.jpg"
+    "fallbackEmoji": "🪜"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -3984,11 +3956,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🪟",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Atua_Kosua_shrine4.jpg/500px-Atua_Kosua_shrine4.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Atua_Kosua_shrine4.jpg/500px-Atua_Kosua_shrine4.jpg",
-    "credit": "Shahadusadik, CC BY-SA 4.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Atua_Kosua_shrine4.jpg"
+    "fallbackEmoji": "🪟"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -4050,11 +4018,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🍽️",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bundesarchiv_Bild_183-12913-0005%2C_Berlin%2C_Abwaschen.jpg/500px-Bundesarchiv_Bild_183-12913-0005%2C_Berlin%2C_Abwaschen.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bundesarchiv_Bild_183-12913-0005%2C_Berlin%2C_Abwaschen.jpg/500px-Bundesarchiv_Bild_183-12913-0005%2C_Berlin%2C_Abwaschen.jpg",
-    "credit": "Peter Heinz Junge, CC BY-SA 3.0 de, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-12913-0005,_Berlin,_Abwaschen.jpg"
+    "fallbackEmoji": "🍽️"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -4376,11 +4340,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🔥",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Lewes_Bonfire%2C_discarded_torch.jpg/500px-Lewes_Bonfire%2C_discarded_torch.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Lewes_Bonfire%2C_discarded_torch.jpg/500px-Lewes_Bonfire%2C_discarded_torch.jpg",
-    "credit": "Unknown, CC BY-SA 2.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Lewes_Bonfire,_discarded_torch.jpg"
+    "fallbackEmoji": "🔥"
    },
    "speakChoices": false,
    "group": "kor-a"
@@ -4496,11 +4456,7 @@
    "answer": 0,
    "level": 2,
    "image": {
-    "fallbackEmoji": "🧥",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mens_Coats_1872_Fashion_Plate.jpg/500px-Mens_Coats_1872_Fashion_Plate.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mens_Coats_1872_Fashion_Plate.jpg/500px-Mens_Coats_1872_Fashion_Plate.jpg",
-    "credit": "Unknown authorUnknown author, Public domain, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Mens_Coats_1872_Fashion_Plate.jpg"
+    "fallbackEmoji": "🧥"
    },
    "speakChoices": false,
    "group": "kor-a"

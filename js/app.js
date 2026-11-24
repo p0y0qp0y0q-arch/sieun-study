@@ -64,6 +64,9 @@
       speechSynthesis.speak(u);
     }
   }
+  function mathSpeech(t) {
+    return String(t).replace(/(\d|□)\s*\+\s*/g, '$1 더하기 ').replace(/(\d|□)\s*[−-]\s*(?=\d|□)/g, '$1 빼기 ').replace(/\s*=\s*/g, ' 은 ').replace(/→/g, '은').replace(/\?$/, '');
+  }
   function cleanForSpeech(t) {
     return String(t).replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}️‍]/gu, '').replace(/□/g, '네모').replace(/\(\s*\?\s*\)/g, '빈칸').replace(/[〈〉'"]/g, ' ');
   }
@@ -291,7 +294,7 @@
     if (q.image && q.type !== 'sort') media.appendChild(imgEl(q.image));
     if (q.display) {
       const d = document.createElement('div');
-      d.className = 'display' + (q.display.length > 12 ? ' sentence' : '') + (/^[一-鿿]+$/.test(q.display) || q.hanja ? ' hanja' : '');
+      d.className = 'display' + (q.display.length > 12 ? ' sentence' : '') + (q.display.length <= 2 ? ' huge' : '') + (/^[一-鿿]+$/.test(q.display) || q.hanja ? ' hanja' : '');
       if (q.displayLang) d.lang = q.displayLang;
       d.textContent = q.display;
       if (q.displayLang && q.displayLang.startsWith('en')) d.style.fontFamily = '"Comic Sans MS","Chalkboard SE",system-ui,sans-serif';
@@ -341,7 +344,7 @@
   function speakQuestion(q) {
     const parts = [{ text: q.speak || q.prompt, lang: 'ko-KR' }];
     if (q.sayWord) parts.push({ text: q.sayWord.text, lang: q.sayWord.lang });
-    if (q.display && !q.sayWord && !q.speak && /[一-鿿]/.test(q.display) === false && q.subject !== '국어' && q.display.length > 1) parts.push({ text: q.display, lang: 'ko-KR' });
+    if (q.display && !q.sayWord && !q.speak && /[一-鿿]/.test(q.display) === false && q.subject !== '국어' && q.display.length > 1) parts.push({ text: mathSpeech(q.display), lang: 'ko-KR' });
     if (q.speakChoices && q.type === 'choice') q._choices.forEach(c => parts.push({ text: String(c.c), lang: q.choiceLang || 'ko-KR' }));
     if (q.sound && !q.soundAfter) { speak(parts); const wait = setInterval(() => { if (!speechSynthesis.speaking) { clearInterval(wait); if (cur && cur.q === q) playSound(q.sound.url); } }, 300); setTimeout(() => clearInterval(wait), 15000); return; }
     speak(parts);

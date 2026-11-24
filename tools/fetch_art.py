@@ -22,7 +22,7 @@ def main():
         cached = os.path.join(IMG, hashlib.sha1(url.encode()).hexdigest() + os.path.splitext(url)[1][:5])
         if os.path.exists(cached):
             shutil.copy(cached, dst); print("복사", r["t"]); continue
-        for attempt in range(8):
+        for attempt in range(15):
             try:
                 req = urllib.request.Request(url, headers={"User-Agent": wm.UA})
                 with urllib.request.urlopen(req, timeout=60) as resp:
@@ -30,7 +30,8 @@ def main():
                 print("받음", r["t"]); time.sleep(1); break
             except urllib.error.HTTPError as e:
                 if e.code != 429: print("실패", r["t"], e); break
-                time.sleep(20 * (attempt + 1))
+                ra = e.headers.get("retry-after", ""); t = (int(ra) if ra.isdigit() else 30) + 5
+                print("  429, 대기", t, flush=True); time.sleep(t)
 
 if __name__ == "__main__":
     main()

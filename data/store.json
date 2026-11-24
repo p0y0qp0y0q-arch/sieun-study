@@ -2918,11 +2918,7 @@
    "answer": 0,
    "level": 1,
    "image": {
-    "fallbackEmoji": "👟",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Schuhmacher-1568.png",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Schuhmacher-1568.png",
-    "credit": "Unknown, Public domain, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Schuhmacher-1568.png"
+    "fallbackEmoji": "👟"
    },
    "pool": [
     "빵집",

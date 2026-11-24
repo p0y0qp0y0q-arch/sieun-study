@@ -242,8 +242,8 @@
         if (obj.image && obj.image.credit) credits.push(obj.image);
       }
     }
-    const unit = (text.match(/몇 ([가-힣]+)/) || [])[1];
-    const suf = unit && unit.length <= 2 && !['번째', '시', '층', '등', '살', '쪽'].includes(unit) ? unit : '';
+    const m = text.match(/몇 ?(자루|송이|켤레|조각|마리|개|권|장|명|대|번|살|쪽|컵|짝|칸|층|원|일|등)(?!째)/);
+    const suf = m ? m[1] : '';
     const ch = numChoices(ans, [ans + 1, ans - 1, ans + 10, ans - 10, v.a + v.b, Math.abs(v.a - v.b)].filter(x => x !== ans));
     return { prompt: text, html, ...ch, suffix: suf, credits };
   }

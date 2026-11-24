@@ -289,7 +289,7 @@ def build(sounds):
         R = random.Random(5000 + i)
         pool = [x.split("|")[0] for x in DINOS if x.split("|")[0] != nm]
         n += 1
-        out.append(Q(f"nat-{n:03d}", "자연", "이 공룡의 이름은 무엇일까요? (복원 그림)", [nm] + R.sample(pool, 2), 0, level=3,
+        out.append(Q(f"nat-{n:03d}", "자연", "이 공룡의 이름은 무엇일까요? (화석·모형)", [nm] + R.sample(pool, 2), 0, level=3,
                      image=img(ref, emo), pool=pool, group="nat-dino"))
         n += 1
         out.append(Q(f"nat-{n:03d}", "자연", f"{nm}{josa(nm,'은','는')} 무엇을 먹었을까요?",

@@ -5890,11 +5890,7 @@
    "answer": 0,
    "level": 1,
    "image": {
-    "fallbackEmoji": "👄",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lips_2023.jpg/500px-Lips_2023.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lips_2023.jpg/500px-Lips_2023.jpg",
-    "credit": "PumpkinMan1943, CC BY-SA 4.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:Lips_2023.jpg"
+    "fallbackEmoji": "👄"
    },
    "pool": [
     "一",
@@ -11782,11 +11778,7 @@
    "answer": 0,
    "level": 3,
    "image": {
-    "fallbackEmoji": "🟦",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/July_night_sky_%2835972569256%29.jpg/500px-July_night_sky_%2835972569256%29.jpg",
-    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/July_night_sky_%2835972569256%29.jpg/500px-July_night_sky_%2835972569256%29.jpg",
-    "credit": "Uroš Novina from Semič, Slovenia, CC BY 2.0, Wikimedia Commons",
-    "source": "https://commons.wikimedia.org/wiki/File:July_night_sky_(35972569256).jpg"
+    "fallbackEmoji": "🟦"
    },
    "pool": [
     "一",

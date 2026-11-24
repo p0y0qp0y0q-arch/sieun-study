@@ -4424,5 +4424,42 @@
    "title": "동전 세기"
   }
  ],
+ "coins": {
+  "10": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/10_won_2006_obverse.jpeg",
+   "credit": "The Bank of Korea, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:10_won_2006_obverse.jpeg"
+  },
+  "50": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/50_won_1983_obverse.jpeg",
+   "credit": "The Bank of Korea, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:50_won_1983_obverse.jpeg"
+  },
+  "100": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/100_won_1983_obverse.jpeg",
+   "credit": "The Bank of Korea, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:100_won_1983_obverse.jpeg"
+  },
+  "500": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/500_won_1982_obverse.jpeg",
+   "credit": "The Bank of Korea, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:500_won_1982_obverse.jpeg"
+  },
+  "1000": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/1000_won_serieIII_obverse.jpeg/330px-1000_won_serieIII_obverse.jpeg",
+   "credit": "The Bank of Korea한국은행, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:1000_won_serieIII_obverse.jpeg"
+  },
+  "5000": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/5000_won_serieV_obverse.jpeg/330px-5000_won_serieV_obverse.jpeg",
+   "credit": "The Bank of Korea한국은행, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:5000_won_serieV_obverse.jpeg"
+  },
+  "10000": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/10000_won_serieVI_obverse.jpeg/330px-10000_won_serieVI_obverse.jpeg",
+   "credit": "The Bank of Korea한국은행, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:10000_won_serieVI_obverse.jpeg"
+  }
+ },
  "key": "math"
 }

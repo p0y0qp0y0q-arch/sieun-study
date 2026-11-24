@@ -39,7 +39,7 @@ def ff(*args):
 
 def dl(url, path):
     import time, urllib.error
-    for attempt in range(8):
+    for attempt in range(15):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": wm.UA})
             with urllib.request.urlopen(req, timeout=120) as r:
@@ -49,7 +49,8 @@ def dl(url, path):
         except urllib.error.HTTPError as e:
             if e.code != 429:
                 raise
-            time.sleep(15 * (attempt + 1))
+            ra = e.headers.get("retry-after", ""); t = (int(ra) if ra.isdigit() else 30) + 5
+            print("  429, 대기", t, flush=True); time.sleep(t)
     raise RuntimeError("429 계속")
 
 def slug(k):

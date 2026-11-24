@@ -92,6 +92,7 @@ def main():
         info = media.lookup(ref, cache, width=330, allow_currency=True)  # 한국은행 화폐 이미지 이용 기준에 따라 허용
         coins[str(v)] = {"url": info["url"], "credit": info["credit"], "source": info["page"]} if info else None
     data["store"]["coins"] = coins
+    data["math"]["coins"] = coins  # 수학 동전 세기에도 사용
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     summary = {}
     for key, d in data.items():

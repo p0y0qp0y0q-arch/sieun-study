@@ -129,6 +129,8 @@ def lookup(ref, cache, width=500, allow_currency=False):
         info = cache.get("file:" + e["file"].replace(" ", "_"))
     if not info or info.get("missing") or not (license_ok(info.get("license")) or (allow_currency and info.get("license") == "South Korean currency")):
         return None
+    if not str(info.get("mime", "image/")).startswith("image/"):
+        return None  # 동영상·소리 파일은 사진으로 쓰지 않음
     url = thumb(info["orig"], width)
     if not url:
         return None

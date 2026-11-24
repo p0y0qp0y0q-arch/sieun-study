@@ -30,7 +30,6 @@ SPORTS = """
 씨름|wp:Ssireum|🤼|-|샅바|기타
 펜싱|wp:Fencing|🤺|-|검|여름
 양궁|wp:Archery|🏹|wp:Archery target|과녁|여름
-사격|wp:Shooting sports|🎯|-|과녁|여름
 역도|wp:Olympic weightlifting|🏋️|wp:Barbell|역기|여름
 자전거|wp:Road bicycle racing|🚴|wp:Bicycle helmet|헬멧|여름
 승마|wp:Equestrianism|🏇|-|말안장|여름
