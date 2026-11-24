@@ -1,0 +1,3490 @@
+{
+ "subject": "가게",
+ "items": [
+  {
+   "id": "sto-s001",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 0,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s002",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 1,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s003",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 2,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s004",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 3,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s005",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 4,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s006",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 5,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s007",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 6,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s008",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 7,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s009",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 8,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s010",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 9,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s011",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 10,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s012",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?",
+   "kind": "sum2",
+   "level": 2,
+   "seed": 11,
+   "group": "sto-sum2"
+  },
+  {
+   "id": "sto-s013",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 0,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s014",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 1,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s015",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 2,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s016",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 3,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s017",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 4,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s018",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 5,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s019",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 6,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s020",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 7,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s021",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 8,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s022",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 9,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s023",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 10,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s024",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1} 한 개는 {p1}원이에요. {i1} 2개는 얼마일까요?",
+   "kind": "double",
+   "level": 2,
+   "seed": 11,
+   "group": "sto-double"
+  },
+  {
+   "id": "sto-s025",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 0,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s026",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 1,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s027",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 2,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s028",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 3,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s029",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 4,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s030",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 5,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s031",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 6,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s032",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 7,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s033",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 8,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s034",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 9,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s035",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 10,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s036",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {m}원을 가지고 있어요. {i1}({p1}원)를 사면 얼마가 남을까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 11,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s037",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 0,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s038",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 1,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s039",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 2,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s040",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 3,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s041",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 4,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s042",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 5,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s043",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 6,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s044",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 7,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s045",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 8,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s046",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 9,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s047",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 10,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s048",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{m}원으로 살 수 있는 것은 어느 것일까요?",
+   "kind": "canbuy",
+   "level": 2,
+   "seed": 11,
+   "group": "sto-canbuy"
+  },
+  {
+   "id": "sto-s049",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 0,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s050",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 1,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s051",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 2,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s052",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 3,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s053",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 4,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s054",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 5,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s055",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 6,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s056",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 7,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s057",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 8,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s058",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 9,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s059",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 10,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s060",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N가} {m}원을 냈어요. {p1}원짜리 {i1}{를} 사면 거스름돈은 얼마일까요?",
+   "kind": "change",
+   "level": 3,
+   "seed": 11,
+   "group": "sto-change"
+  },
+  {
+   "id": "sto-s061",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 0,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s062",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 1,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s063",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 2,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s064",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 3,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s065",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 4,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s066",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 5,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s067",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 6,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s068",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 7,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s069",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 8,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s070",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 9,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s071",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 10,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s072",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 비싼 것은?",
+   "kind": "pricier",
+   "level": 2,
+   "seed": 11,
+   "group": "sto-pricier"
+  },
+  {
+   "id": "sto-s073",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 0,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s074",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 1,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s075",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 2,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s076",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 3,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s077",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 4,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s078",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 5,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s079",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 6,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s080",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 7,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s081",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 8,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s082",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 9,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s083",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 10,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s084",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{i1}{와} {i2} 중에서 더 싼 것은?",
+   "kind": "cheaper",
+   "level": 2,
+   "seed": 11,
+   "group": "sto-cheaper"
+  },
+  {
+   "id": "sto-s085",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 0,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s086",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 1,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s087",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 2,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s088",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 3,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s089",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 4,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s090",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 5,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s091",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 6,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s092",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 7,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s093",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 8,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s094",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 9,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s095",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 10,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s096",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} 100원짜리 동전으로 {p1}원을 내려고 해요. 동전 몇 개가 필요할까요?",
+   "kind": "count100",
+   "level": 3,
+   "seed": 11,
+   "group": "sto-count100"
+  },
+  {
+   "id": "sto-s097",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 0,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s098",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 1,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s099",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 2,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s100",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 3,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s101",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 4,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s102",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 5,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s103",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 6,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s104",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 7,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s105",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 8,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s106",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 9,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s107",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 10,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-s108",
+   "subject": "가게",
+   "type": "shop",
+   "template": "{N는} {i1}{를} 사려고 {have}원을 모았어요. 얼마가 더 필요할까요?",
+   "kind": "needmore",
+   "level": 3,
+   "seed": 11,
+   "group": "sto-needmore"
+  },
+  {
+   "id": "sto-109",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "사진 속 가게는 어떤 가게일까요?",
+   "choices": [
+    "빵집",
+    "신발가게",
+    "정육점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥐",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Belgium_2013_%2811620905224%29.jpg/500px-Belgium_2013_%2811620905224%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Belgium_2013_%2811620905224%29.jpg/500px-Belgium_2013_%2811620905224%29.jpg",
+    "credit": "Bryan Ledgard, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Belgium_2013_(11620905224).jpg"
+   },
+   "pool": [
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-110",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 빵을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "빵집",
+    "안경점",
+    "정육점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥐"
+   },
+   "pool": [
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-111",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "짝꿍이 케이크를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "빵집",
+    "약국",
+    "과일가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥐"
+   },
+   "pool": [
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-112",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 도넛을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "빵집",
+    "세탁소",
+    "미용실"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥐"
+   },
+   "pool": [
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-113",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "할머니가 식빵을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "빵집",
+    "정육점",
+    "안경점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥐"
+   },
+   "pool": [
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-114",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 이 가게에 왔어요. 어떤 가게일까요?",
+   "choices": [
+    "약국",
+    "문구점",
+    "주유소"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pharmacie%2C_Paris_2010.jpg/500px-Pharmacie%2C_Paris_2010.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pharmacie%2C_Paris_2010.jpg/500px-Pharmacie%2C_Paris_2010.jpg",
+    "credit": "Daniel Stockman, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pharmacie,_Paris_2010.jpg"
+   },
+   "pool": [
+    "빵집",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-115",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "할머니가 감기약을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "약국",
+    "신발가게",
+    "안경점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💊"
+   },
+   "pool": [
+    "빵집",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-116",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 밴드를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "약국",
+    "안경점",
+    "꽃집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💊"
+   },
+   "pool": [
+    "빵집",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-117",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "언니가 연고를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "약국",
+    "과일가게",
+    "꽃집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💊"
+   },
+   "pool": [
+    "빵집",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-118",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "사진 속 가게는 어떤 가게일까요?",
+   "choices": [
+    "꽃집",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💐",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/A_Parisian_Flower_Market.jpg/500px-A_Parisian_Flower_Market.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/A_Parisian_Flower_Market.jpg/500px-A_Parisian_Flower_Market.jpg",
+    "credit": "Victor Gilbert, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Parisian_Flower_Market.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-119",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "짝꿍이 장미꽃을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "꽃집",
+    "빵집",
+    "약국"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💐"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-120",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "할머니가 꽃다발을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "꽃집",
+    "약국",
+    "생선가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💐"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-121",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 화분을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "꽃집",
+    "신발가게",
+    "문구점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💐"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-122",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 이 가게에 왔어요. 어떤 가게일까요?",
+   "choices": [
+    "문구점",
+    "서점",
+    "주유소"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "✏️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Stationery_at_a_shop_in_HiroshimaP1010373.jpg/500px-Stationery_at_a_shop_in_HiroshimaP1010373.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Stationery_at_a_shop_in_HiroshimaP1010373.jpg/500px-Stationery_at_a_shop_in_HiroshimaP1010373.jpg",
+    "credit": "RF Vila, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Stationery_at_a_shop_in_HiroshimaP1010373.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-123",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "짝꿍이 연필을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "문구점",
+    "세탁소",
+    "꽃집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "✏️"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-124",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 공책을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "문구점",
+    "생선가게",
+    "주유소"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "✏️"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-125",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "엄마가 지우개를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "문구점",
+    "미용실",
+    "우체국"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "✏️"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-126",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "사진 속 가게는 어떤 가게일까요?",
+   "choices": [
+    "서점",
+    "문구점",
+    "과일가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Libraria_Carturesti_Carusel_-_Interior_ziua.jpg/500px-Libraria_Carturesti_Carusel_-_Interior_ziua.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Libraria_Carturesti_Carusel_-_Interior_ziua.jpg/500px-Libraria_Carturesti_Carusel_-_Interior_ziua.jpg",
+    "credit": "Mihai Petre, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Libraria_Carturesti_Carusel_-_Interior_ziua.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-127",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 동화책을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "서점",
+    "약국",
+    "은행"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📚"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-128",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "짝꿍이 그림책을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "서점",
+    "정육점",
+    "미용실"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📚"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-129",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "아빠가 잡지를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "서점",
+    "꽃집",
+    "약국"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📚"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-130",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "아빠가 이 가게에 왔어요. 어떤 가게일까요?",
+   "choices": [
+    "과일가게",
+    "주유소",
+    "서점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍎",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Gourock_greengrocers_ext.jpg/500px-Gourock_greengrocers_ext.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Gourock_greengrocers_ext.jpg/500px-Gourock_greengrocers_ext.jpg",
+    "credit": "User:Dave souza, CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Gourock_greengrocers_ext.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-131",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "엄마가 사과를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "과일가게",
+    "은행",
+    "생선가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍎"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-132",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 바나나를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "과일가게",
+    "안경점",
+    "은행"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍎"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-133",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "할머니가 포도를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "과일가게",
+    "신발가게",
+    "은행"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍎"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-134",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "사진 속 가게는 어떤 가게일까요?",
+   "choices": [
+    "생선가게",
+    "안경점",
+    "주유소"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐟",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/PikePlaceMarket2006.jpg/500px-PikePlaceMarket2006.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/PikePlaceMarket2006.jpg/500px-PikePlaceMarket2006.jpg",
+    "credit": "Epukas, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:PikePlaceMarket2006.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-135",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "할머니가 고등어를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "생선가게",
+    "신발가게",
+    "약국"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐟"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-136",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 오징어를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "생선가게",
+    "미용실",
+    "안경점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐟"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-137",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 조개를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "생선가게",
+    "서점",
+    "빵집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐟"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-138",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "짝꿍이 이 가게에 왔어요. 어떤 가게일까요?",
+   "choices": [
+    "정육점",
+    "과일가게",
+    "꽃집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥩",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Wiki_Loves_Mett_P1020898.JPG/500px-Wiki_Loves_Mett_P1020898.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Wiki_Loves_Mett_P1020898.JPG/500px-Wiki_Loves_Mett_P1020898.JPG",
+    "credit": "Fridolin Freudenfett, CC BY 3.0 de, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Wiki_Loves_Mett_P1020898.JPG"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-139",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "할머니가 소고기를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "정육점",
+    "생선가게",
+    "우체국"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥩"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-140",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 돼지고기를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "정육점",
+    "빵집",
+    "약국"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥩"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-141",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "언니가 닭고기를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "정육점",
+    "신발가게",
+    "세탁소"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥩"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-142",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "사진 속 가게는 어떤 가게일까요?",
+   "choices": [
+    "미용실",
+    "문구점",
+    "과일가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💇",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Frisoerin_%28fcm%29.jpg/500px-Frisoerin_%28fcm%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Frisoerin_%28fcm%29.jpg/500px-Frisoerin_%28fcm%29.jpg",
+    "credit": "Photograph: Frank C. Müller, Baden-Baden, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Frisoerin_(fcm).jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-143",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "친구가 머리 자르기를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "미용실",
+    "생선가게",
+    "꽃집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💇"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-144",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 파마를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "미용실",
+    "문구점",
+    "은행"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💇"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-145",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 이 가게에 왔어요. 어떤 가게일까요?",
+   "choices": [
+    "세탁소",
+    "정육점",
+    "주유소"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👔",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Italian_hanging_laundry.jpg/500px-Italian_hanging_laundry.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Italian_hanging_laundry.jpg/500px-Italian_hanging_laundry.jpg",
+    "credit": "Sherurcij at en.wikipedia, Attribution, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Italian_hanging_laundry.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-146",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "엄마가 양복 세탁을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "세탁소",
+    "과일가게",
+    "서점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👔"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-147",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 옷 수선을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "세탁소",
+    "꽃집",
+    "장난감 가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👔"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-148",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "사진 속 가게는 어떤 가게일까요?",
+   "choices": [
+    "주유소",
+    "세탁소",
+    "빵집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⛽",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mattoon_Service_Station_%28pre-fabricated%29%2C_angle_view%2C_National_%26_Washington_Boulevards%2C_Culver_City%2C_California_LOC_37555778230.jpg/500px-Mattoon_Service_Station_%28pre-fabricated%29%2C_angle_view%2C_National_%26_Washington_Boulevards%2C_Culver_City%2C_California_LOC_37555778230.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mattoon_Service_Station_%28pre-fabricated%29%2C_angle_view%2C_National_%26_Washington_Boulevards%2C_Culver_City%2C_California_LOC_37555778230.jpg/500px-Mattoon_Service_Station_%28pre-fabricated%29%2C_angle_view%2C_National_%26_Washington_Boulevards%2C_Culver_City%2C_California_LOC_37555778230.jpg",
+    "credit": "The Library of Congress from Washington, DC, United States, No restrictions, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mattoon_Service_Station_(pre-fabricated),_angle_view,_National_%26_Washington_Boulevards,_Culver_City,_California_LOC_37555778230.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-149",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 휘발유를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "주유소",
+    "생선가게",
+    "정육점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⛽"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-150",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 경유를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "주유소",
+    "세탁소",
+    "빵집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⛽"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-151",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "엄마가 이 가게에 왔어요. 어떤 가게일까요?",
+   "choices": [
+    "우체국",
+    "정육점",
+    "신발가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📮",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EdithburghPostOffice.JPG/500px-EdithburghPostOffice.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EdithburghPostOffice.JPG/500px-EdithburghPostOffice.JPG",
+    "credit": "Mattinbgn, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:EdithburghPostOffice.JPG"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-152",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "친구가 편지 부치기를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "우체국",
+    "미용실",
+    "신발가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📮"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-153",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 우표를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "우체국",
+    "장난감 가게",
+    "안경점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📮"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-154",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 택배를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "우체국",
+    "정육점",
+    "장난감 가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📮"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "은행",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-155",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "사진 속 가게는 어떤 가게일까요?",
+   "choices": [
+    "은행",
+    "정육점",
+    "서점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/London.bankofengland.arp.jpg/500px-London.bankofengland.arp.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/London.bankofengland.arp.jpg/500px-London.bankofengland.arp.jpg",
+    "credit": "Adrian Pingstone, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:London.bankofengland.arp.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-156",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "짝꿍이 저금하기를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "은행",
+    "주유소",
+    "미용실"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏦"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-157",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "아빠가 돈 찾기를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "은행",
+    "주유소",
+    "과일가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏦"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "안경점",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-158",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 이 가게에 왔어요. 어떤 가게일까요?",
+   "choices": [
+    "안경점",
+    "서점",
+    "장난감 가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/US_Navy_021029-N-3228G-001_Adjusting_a_customer%27s_eyeglasses.jpg/500px-US_Navy_021029-N-3228G-001_Adjusting_a_customer%27s_eyeglasses.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/US_Navy_021029-N-3228G-001_Adjusting_a_customer%27s_eyeglasses.jpg/500px-US_Navy_021029-N-3228G-001_Adjusting_a_customer%27s_eyeglasses.jpg",
+    "credit": "U.S. Navy photo by Photographer's Mate 1st Class William R. Goodwin., Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Navy_021029-N-3228G-001_Adjusting_a_customer%27s_eyeglasses.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-159",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 안경을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "안경점",
+    "주유소",
+    "장난감 가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👓"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-160",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "할머니가 선글라스를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "안경점",
+    "은행",
+    "신발가게"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👓"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "신발가게",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-161",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "사진 속 가게는 어떤 가게일까요?",
+   "choices": [
+    "신발가게",
+    "약국",
+    "세탁소"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👟",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Schuhmacher-1568.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Schuhmacher-1568.png",
+    "credit": "Unknown, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Schuhmacher-1568.png"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "장난감 가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-162",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "친구가 운동화를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "신발가게",
+    "우체국",
+    "은행"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👟"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-163",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 구두를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "신발가게",
+    "주유소",
+    "미용실"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👟"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-164",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 장화를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "신발가게",
+    "문구점",
+    "서점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👟"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "장난감 가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-165",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "동생이 이 가게에 왔어요. 어떤 가게일까요?",
+   "choices": [
+    "장난감 가게",
+    "문구점",
+    "빵집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧸",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Toy_Time%2C_a_Toy_Store_in_Constantia%2C_Cape_Town%2C_South_Africa.jpg/500px-Toy_Time%2C_a_Toy_Store_in_Constantia%2C_Cape_Town%2C_South_Africa.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Toy_Time%2C_a_Toy_Store_in_Constantia%2C_Cape_Town%2C_South_Africa.jpg/500px-Toy_Time%2C_a_Toy_Store_in_Constantia%2C_Cape_Town%2C_South_Africa.jpg",
+    "credit": "Husskeyy, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Toy_Time,_a_Toy_Store_in_Constantia,_Cape_Town,_South_Africa.jpg"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게"
+   ],
+   "group": "sto-shop"
+  },
+  {
+   "id": "sto-166",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "시은이가 인형을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "장난감 가게",
+    "미용실",
+    "우체국"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧸"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-167",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "할머니가 블록을 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "장난감 가게",
+    "빵집",
+    "꽃집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧸"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게"
+   ],
+   "group": "sto-where"
+  },
+  {
+   "id": "sto-168",
+   "subject": "가게",
+   "type": "choice",
+   "prompt": "언니가 장난감 자동차를 사려고 해요. 어느 가게에 가야 할까요?",
+   "choices": [
+    "장난감 가게",
+    "신발가게",
+    "문구점"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧸"
+   },
+   "pool": [
+    "빵집",
+    "약국",
+    "꽃집",
+    "문구점",
+    "서점",
+    "과일가게",
+    "생선가게",
+    "정육점",
+    "미용실",
+    "세탁소",
+    "주유소",
+    "우체국",
+    "은행",
+    "안경점",
+    "신발가게"
+   ],
+   "group": "sto-where"
+  }
+ ],
+ "goods": [
+  {
+   "name": "지우개",
+   "price": 300,
+   "image": {
+    "fallbackEmoji": "🧽",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Office-pink-erasers.jpg/500px-Office-pink-erasers.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Office-pink-erasers.jpg/500px-Office-pink-erasers.jpg",
+    "credit": "Evan-Amos, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Office-pink-erasers.jpg"
+   }
+  },
+  {
+   "name": "연필",
+   "price": 500,
+   "image": {
+    "fallbackEmoji": "✏️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pencils_hb.jpg/500px-Pencils_hb.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pencils_hb.jpg/500px-Pencils_hb.jpg",
+    "credit": "Original uploader was Dmgerman at en.wikipedia, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pencils_hb.jpg"
+   }
+  },
+  {
+   "name": "공책",
+   "price": 1000,
+   "image": {
+    "fallbackEmoji": "📓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Notebooks.jpg/500px-Notebooks.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Notebooks.jpg/500px-Notebooks.jpg",
+    "credit": "L.Marie, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Notebooks.jpg"
+   }
+  },
+  {
+   "name": "사탕",
+   "price": 100,
+   "image": {
+    "fallbackEmoji": "🍬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Candy_in_Damascus.jpg/500px-Candy_in_Damascus.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Candy_in_Damascus.jpg/500px-Candy_in_Damascus.jpg",
+    "credit": "Elisa Azzali, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Candy_in_Damascus.jpg"
+   }
+  },
+  {
+   "name": "막대사탕",
+   "price": 200,
+   "image": {
+    "fallbackEmoji": "🍭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Farbenfrohe_Lollipops%2C_Austria.jpg/500px-Farbenfrohe_Lollipops%2C_Austria.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Farbenfrohe_Lollipops%2C_Austria.jpg/500px-Farbenfrohe_Lollipops%2C_Austria.jpg",
+    "credit": "Naturpuur, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Farbenfrohe_Lollipops,_Austria.jpg"
+   }
+  },
+  {
+   "name": "초콜릿",
+   "price": 1000,
+   "image": {
+    "fallbackEmoji": "🍫",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Green_and_Black%27s_dark_chocolate_bar_2.jpg/500px-Green_and_Black%27s_dark_chocolate_bar_2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Green_and_Black%27s_dark_chocolate_bar_2.jpg/500px-Green_and_Black%27s_dark_chocolate_bar_2.jpg",
+    "credit": "Mx. Granger, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_and_Black%27s_dark_chocolate_bar_2.jpg"
+   }
+  },
+  {
+   "name": "우유",
+   "price": 800,
+   "image": {
+    "fallbackEmoji": "🥛",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glass_of_Milk_%2833657535532%29.jpg/500px-Glass_of_Milk_%2833657535532%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glass_of_Milk_%2833657535532%29.jpg/500px-Glass_of_Milk_%2833657535532%29.jpg",
+    "credit": "NIAID, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Glass_of_Milk_(33657535532).jpg"
+   }
+  },
+  {
+   "name": "바나나",
+   "price": 500,
+   "image": {
+    "fallbackEmoji": "🍌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+    "credit": "TimothyPilgrim, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg"
+   }
+  },
+  {
+   "name": "사과",
+   "price": 700,
+   "image": {
+    "fallbackEmoji": "🍎",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apfel-Fuji.jpg/500px-Apfel-Fuji.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apfel-Fuji.jpg/500px-Apfel-Fuji.jpg",
+    "credit": "Superbass, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apfel-Fuji.jpg"
+   }
+  },
+  {
+   "name": "아이스크림",
+   "price": 1000,
+   "image": {
+    "fallbackEmoji": "🍦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg",
+    "credit": "Steven Depolo, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg"
+   }
+  },
+  {
+   "name": "풍선",
+   "price": 300,
+   "image": {
+    "fallbackEmoji": "🎈",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Congrats_bqt.jpg/500px-Congrats_bqt.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Congrats_bqt.jpg/500px-Congrats_bqt.jpg",
+    "credit": "Photographer: Warren Denning. Creative Director: Stan Weir. Marketing Director: , Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Congrats_bqt.jpg"
+   }
+  },
+  {
+   "name": "스티커",
+   "price": 500,
+   "image": {
+    "fallbackEmoji": "⭐"
+   }
+  },
+  {
+   "name": "빵",
+   "price": 1500,
+   "image": {
+    "fallbackEmoji": "🍞",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Korb_mit_Br%C3%B6tchen.JPG/500px-Korb_mit_Br%C3%B6tchen.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Korb_mit_Br%C3%B6tchen.JPG/500px-Korb_mit_Br%C3%B6tchen.JPG",
+    "credit": "3268zauber, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korb_mit_Br%C3%B6tchen.JPG"
+   }
+  },
+  {
+   "name": "주스",
+   "price": 1200,
+   "image": {
+    "fallbackEmoji": "🧃",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/500px-Orange_juice_1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/500px-Orange_juice_1.jpg",
+    "credit": "Agricultural Research Service, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Orange_juice_1.jpg"
+   }
+  },
+  {
+   "name": "색연필",
+   "price": 3000,
+   "image": {
+    "fallbackEmoji": "🖍️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buntstifte_--_2021_--_9156.jpg/500px-Buntstifte_--_2021_--_9156.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buntstifte_--_2021_--_9156.jpg/500px-Buntstifte_--_2021_--_9156.jpg",
+    "credit": "Dietmar Rabich, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Buntstifte_--_2021_--_9156.jpg"
+   }
+  },
+  {
+   "name": "가위",
+   "price": 2000,
+   "image": {
+    "fallbackEmoji": "✂️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Standard_household_scissors.jpg/500px-Standard_household_scissors.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Standard_household_scissors.jpg/500px-Standard_household_scissors.jpg",
+    "credit": "Doggerelblogger, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Standard_household_scissors.jpg"
+   }
+  },
+  {
+   "name": "풀",
+   "price": 700,
+   "image": {
+    "fallbackEmoji": "🧴",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pritt_Sticks.JPG/500px-Pritt_Sticks.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pritt_Sticks.JPG/500px-Pritt_Sticks.JPG",
+    "credit": "Elarkon, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pritt_Sticks.JPG"
+   }
+  },
+  {
+   "name": "껌",
+   "price": 500,
+   "image": {
+    "fallbackEmoji": "🍬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chewing_gum_stick.jpg/500px-Chewing_gum_stick.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chewing_gum_stick.jpg/500px-Chewing_gum_stick.jpg",
+    "credit": "Lusheeta, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Chewing_gum_stick.jpg"
+   }
+  },
+  {
+   "name": "과자",
+   "price": 1500,
+   "image": {
+    "fallbackEmoji": "🥔",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg",
+    "credit": "Evan-Amos for those who dont know, this guy wrote this, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Potato-Chips.jpg"
+   }
+  },
+  {
+   "name": "도넛",
+   "price": 1000,
+   "image": {
+    "fallbackEmoji": "🍩",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/500px-Glazed-Donut.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/500px-Glazed-Donut.jpg",
+    "credit": "Evan-Amos, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Glazed-Donut.jpg"
+   }
+  },
+  {
+   "name": "달걀",
+   "price": 300,
+   "image": {
+    "fallbackEmoji": "🥚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Huevo_frito.jpg/500px-Huevo_frito.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Huevo_frito.jpg/500px-Huevo_frito.jpg",
+    "credit": "Horacio Cambeiro, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Huevo_frito.jpg"
+   }
+  },
+  {
+   "name": "귤",
+   "price": 200,
+   "image": {
+    "fallbackEmoji": "🍊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Citrus_reticulata_April_2013_Nordbaden.JPG/500px-Citrus_reticulata_April_2013_Nordbaden.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Citrus_reticulata_April_2013_Nordbaden.JPG/500px-Citrus_reticulata_April_2013_Nordbaden.JPG",
+    "credit": "4028mdk09, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Citrus_reticulata_April_2013_Nordbaden.JPG"
+   }
+  }
+ ],
+ "generators": [
+  {
+   "id": "gen-money-count",
+   "gen": "moneyCount",
+   "level": 2,
+   "weight": 4,
+   "title": "동전·지폐 세기"
+  },
+  {
+   "id": "gen-money-which",
+   "gen": "moneyWhich",
+   "level": 1,
+   "weight": 2,
+   "title": "이 돈은 얼마?"
+  },
+  {
+   "id": "gen-money-make",
+   "gen": "moneyMake",
+   "level": 3,
+   "weight": 2,
+   "title": "같은 금액 만들기"
+  }
+ ],
+ "coins": {
+  "10": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/10_won_2006_obverse.jpeg",
+   "credit": "The Bank of Korea, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:10_won_2006_obverse.jpeg"
+  },
+  "50": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/50_won_1983_obverse.jpeg",
+   "credit": "The Bank of Korea, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:50_won_1983_obverse.jpeg"
+  },
+  "100": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/100_won_1983_obverse.jpeg",
+   "credit": "The Bank of Korea, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:100_won_1983_obverse.jpeg"
+  },
+  "500": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/500_won_1982_obverse.jpeg",
+   "credit": "The Bank of Korea, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:500_won_1982_obverse.jpeg"
+  },
+  "1000": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/1000_won_serieIII_obverse.jpeg/330px-1000_won_serieIII_obverse.jpeg",
+   "credit": "The Bank of Korea한국은행, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:1000_won_serieIII_obverse.jpeg"
+  },
+  "5000": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/5000_won_serieV_obverse.jpeg/330px-5000_won_serieV_obverse.jpeg",
+   "credit": "The Bank of Korea한국은행, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:5000_won_serieV_obverse.jpeg"
+  },
+  "10000": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/10000_won_serieVI_obverse.jpeg/330px-10000_won_serieVI_obverse.jpeg",
+   "credit": "The Bank of Korea한국은행, South Korean currency, Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:10000_won_serieVI_obverse.jpeg"
+  }
+ },
+ "key": "store"
+}

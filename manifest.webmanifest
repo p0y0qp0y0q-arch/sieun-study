@@ -1,0 +1,17 @@
+{
+  "name": "박시은의 매일매일 공부방",
+  "short_name": "시은이 공부방",
+  "description": "7살 시은이가 매일 10문제씩 혼자 푸는 공부방",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff7ec",
+  "theme_color": "#ffb6c8",
+  "lang": "ko",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

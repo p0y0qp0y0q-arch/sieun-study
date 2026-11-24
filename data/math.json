@@ -1,0 +1,4428 @@
+{
+ "subject": "수학",
+ "items": [
+  {
+   "id": "math-w001",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 가지고 있었는데 동생에게 {b}{u}를 줬어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w002",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 가지고 있었는데 동생에게 {b}{u}를 줬어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w003",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 가지고 있었는데 동생에게 {b}{u}를 줬어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w004",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 가지고 있었는데 동생에게 {b}{u}를 줬어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w005",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 가지고 있었는데 동생에게 {b}{u}를 줬어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w006",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 가지고 있었는데 동생에게 {b}{u}를 줬어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w007",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 {b}{u}를 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     1,
+     3
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w008",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 {b}{u}를 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     1,
+     3
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w009",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 {b}{u}를 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     1,
+     3
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w010",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 {b}{u}를 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     1,
+     3
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w011",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 {b}{u}를 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     1,
+     3
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w012",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 {b}{u}를 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     1,
+     3
+    ]
+   },
+   "ans": "a-b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w013",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 샀어요. 엄마가 {b}{u}를 더 주셨어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a+b",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w014",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 샀어요. 엄마가 {b}{u}를 더 주셨어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a+b",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w015",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 샀어요. 엄마가 {b}{u}를 더 주셨어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a+b",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w016",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 샀어요. 엄마가 {b}{u}를 더 주셨어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a+b",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w017",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 샀어요. 엄마가 {b}{u}를 더 주셨어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a+b",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w018",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} {a}{u}를 샀어요. 엄마가 {b}{u}를 더 주셨어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     1,
+     4
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "show": "a+b",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w019",
+   "subject": "수학",
+   "type": "word",
+   "template": "바구니에 {o} {a}{u}가 있어요. {b}{u}를 더 넣으면 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b<=14",
+   "show": "a+b",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w020",
+   "subject": "수학",
+   "type": "word",
+   "template": "바구니에 {o} {a}{u}가 있어요. {b}{u}를 더 넣으면 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b<=14",
+   "show": "a+b",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w021",
+   "subject": "수학",
+   "type": "word",
+   "template": "바구니에 {o} {a}{u}가 있어요. {b}{u}를 더 넣으면 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b<=14",
+   "show": "a+b",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w022",
+   "subject": "수학",
+   "type": "word",
+   "template": "바구니에 {o} {a}{u}가 있어요. {b}{u}를 더 넣으면 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b<=14",
+   "show": "a+b",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w023",
+   "subject": "수학",
+   "type": "word",
+   "template": "바구니에 {o} {a}{u}가 있어요. {b}{u}를 더 넣으면 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b<=14",
+   "show": "a+b",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w024",
+   "subject": "수학",
+   "type": "word",
+   "template": "바구니에 {o} {a}{u}가 있어요. {b}{u}를 더 넣으면 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b<=14",
+   "show": "a+b",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w025",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 친구는 {b}{u}를 가지고 있어요. 둘이 합하면 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     3,
+     8
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b>10",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w026",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 친구는 {b}{u}를 가지고 있어요. 둘이 합하면 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     3,
+     8
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b>10",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w027",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 친구는 {b}{u}를 가지고 있어요. 둘이 합하면 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     3,
+     8
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b>10",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w028",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 친구는 {b}{u}를 가지고 있어요. 둘이 합하면 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     3,
+     8
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b>10",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w029",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 친구는 {b}{u}를 가지고 있어요. 둘이 합하면 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     3,
+     8
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b>10",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w030",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 친구는 {b}{u}를 가지고 있어요. 둘이 합하면 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     3,
+     8
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b>10",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w031",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 동생은 {b}{u}를 가지고 있어요. 누가 몇 {u} 더 많을까요? (몇 {u} 차이?)",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w032",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 동생은 {b}{u}를 가지고 있어요. 누가 몇 {u} 더 많을까요? (몇 {u} 차이?)",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w033",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 동생은 {b}{u}를 가지고 있어요. 누가 몇 {u} 더 많을까요? (몇 {u} 차이?)",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w034",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 동생은 {b}{u}를 가지고 있어요. 누가 몇 {u} 더 많을까요? (몇 {u} 차이?)",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w035",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 동생은 {b}{u}를 가지고 있어요. 누가 몇 {u} 더 많을까요? (몇 {u} 차이?)",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w036",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}, 동생은 {b}{u}를 가지고 있어요. 누가 몇 {u} 더 많을까요? (몇 {u} 차이?)",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w037",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}를 친구와 똑같이 나누면 한 사람이 몇 {u}씩 가질까요?",
+   "ranges": {
+    "a": [
+     2,
+     10
+    ]
+   },
+   "ans": "a/2",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a%2==0",
+   "show": "a",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w038",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}를 친구와 똑같이 나누면 한 사람이 몇 {u}씩 가질까요?",
+   "ranges": {
+    "a": [
+     2,
+     10
+    ]
+   },
+   "ans": "a/2",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a%2==0",
+   "show": "a",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w039",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}를 친구와 똑같이 나누면 한 사람이 몇 {u}씩 가질까요?",
+   "ranges": {
+    "a": [
+     2,
+     10
+    ]
+   },
+   "ans": "a/2",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a%2==0",
+   "show": "a",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w040",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}를 친구와 똑같이 나누면 한 사람이 몇 {u}씩 가질까요?",
+   "ranges": {
+    "a": [
+     2,
+     10
+    ]
+   },
+   "ans": "a/2",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a%2==0",
+   "show": "a",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w041",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}를 친구와 똑같이 나누면 한 사람이 몇 {u}씩 가질까요?",
+   "ranges": {
+    "a": [
+     2,
+     10
+    ]
+   },
+   "ans": "a/2",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a%2==0",
+   "show": "a",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w042",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}를 친구와 똑같이 나누면 한 사람이 몇 {u}씩 가질까요?",
+   "ranges": {
+    "a": [
+     2,
+     10
+    ]
+   },
+   "ans": "a/2",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a%2==0",
+   "show": "a",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w043",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} 아침에 {o} {a}{u}, 저녁에 {b}{u}를 먹었어요. 모두 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     1,
+     5
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w044",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} 아침에 {o} {a}{u}, 저녁에 {b}{u}를 먹었어요. 모두 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     1,
+     5
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w045",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} 아침에 {o} {a}{u}, 저녁에 {b}{u}를 먹었어요. 모두 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     1,
+     5
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w046",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} 아침에 {o} {a}{u}, 저녁에 {b}{u}를 먹었어요. 모두 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     1,
+     5
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w047",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} 아침에 {o} {a}{u}, 저녁에 {b}{u}를 먹었어요. 모두 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     1,
+     5
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w048",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} 아침에 {o} {a}{u}, 저녁에 {b}{u}를 먹었어요. 모두 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     1,
+     5
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w049",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N의} 필통에 {o} {a}{u}가 있었는데 {b}{u}를 잃어버렸어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w050",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N의} 필통에 {o} {a}{u}가 있었는데 {b}{u}를 잃어버렸어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w051",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N의} 필통에 {o} {a}{u}가 있었는데 {b}{u}를 잃어버렸어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w052",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N의} 필통에 {o} {a}{u}가 있었는데 {b}{u}를 잃어버렸어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w053",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N의} 필통에 {o} {a}{u}가 있었는데 {b}{u}를 잃어버렸어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w054",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N의} 필통에 {o} {a}{u}가 있었는데 {b}{u}를 잃어버렸어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w055",
+   "subject": "수학",
+   "type": "word",
+   "template": "상자에 {o} {a}{u}가 있어요. {N가} {b}{u}를 꺼냈어요. 상자에 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     11,
+     18
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w056",
+   "subject": "수학",
+   "type": "word",
+   "template": "상자에 {o} {a}{u}가 있어요. {N가} {b}{u}를 꺼냈어요. 상자에 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     11,
+     18
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w057",
+   "subject": "수학",
+   "type": "word",
+   "template": "상자에 {o} {a}{u}가 있어요. {N가} {b}{u}를 꺼냈어요. 상자에 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     11,
+     18
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w058",
+   "subject": "수학",
+   "type": "word",
+   "template": "상자에 {o} {a}{u}가 있어요. {N가} {b}{u}를 꺼냈어요. 상자에 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     11,
+     18
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w059",
+   "subject": "수학",
+   "type": "word",
+   "template": "상자에 {o} {a}{u}가 있어요. {N가} {b}{u}를 꺼냈어요. 상자에 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     11,
+     18
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w060",
+   "subject": "수학",
+   "type": "word",
+   "template": "상자에 {o} {a}{u}가 있어요. {N가} {b}{u}를 꺼냈어요. 상자에 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     11,
+     18
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w061",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} 10{u}씩 묶음이 {a}개, 낱개가 {b}{u} 있어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     0,
+     9
+    ]
+   },
+   "ans": "a*10+b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w062",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} 10{u}씩 묶음이 {a}개, 낱개가 {b}{u} 있어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     0,
+     9
+    ]
+   },
+   "ans": "a*10+b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w063",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} 10{u}씩 묶음이 {a}개, 낱개가 {b}{u} 있어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     0,
+     9
+    ]
+   },
+   "ans": "a*10+b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w064",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} 10{u}씩 묶음이 {a}개, 낱개가 {b}{u} 있어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     0,
+     9
+    ]
+   },
+   "ans": "a*10+b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w065",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} 10{u}씩 묶음이 {a}개, 낱개가 {b}{u} 있어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     0,
+     9
+    ]
+   },
+   "ans": "a*10+b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w066",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} 10{u}씩 묶음이 {a}개, 낱개가 {b}{u} 있어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     0,
+     9
+    ]
+   },
+   "ans": "a*10+b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w067",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o}를 하루에 {a}{u}씩 3일 동안 모았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ]
+   },
+   "ans": "a*3",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w068",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o}를 하루에 {a}{u}씩 3일 동안 모았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ]
+   },
+   "ans": "a*3",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w069",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o}를 하루에 {a}{u}씩 3일 동안 모았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ]
+   },
+   "ans": "a*3",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w070",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o}를 하루에 {a}{u}씩 3일 동안 모았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ]
+   },
+   "ans": "a*3",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w071",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o}를 하루에 {a}{u}씩 3일 동안 모았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ]
+   },
+   "ans": "a*3",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w072",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o}를 하루에 {a}{u}씩 3일 동안 모았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ]
+   },
+   "ans": "a*3",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w073",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}를 한 줄에 {a}{u}씩 {b}줄 놓았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     2,
+     4
+    ]
+   },
+   "ans": "a*b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w074",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}를 한 줄에 {a}{u}씩 {b}줄 놓았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     2,
+     4
+    ]
+   },
+   "ans": "a*b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w075",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}를 한 줄에 {a}{u}씩 {b}줄 놓았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     2,
+     4
+    ]
+   },
+   "ans": "a*b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w076",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}를 한 줄에 {a}{u}씩 {b}줄 놓았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     2,
+     4
+    ]
+   },
+   "ans": "a*b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w077",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}를 한 줄에 {a}{u}씩 {b}줄 놓았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     2,
+     4
+    ]
+   },
+   "ans": "a*b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w078",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}를 한 줄에 {a}{u}씩 {b}줄 놓았어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     2,
+     4
+    ]
+   },
+   "ans": "a*b",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w079",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 10{u}가 되려면 몇 {u}가 더 있어야 할까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ]
+   },
+   "ans": "10-a",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w080",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 10{u}가 되려면 몇 {u}가 더 있어야 할까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ]
+   },
+   "ans": "10-a",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w081",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 10{u}가 되려면 몇 {u}가 더 있어야 할까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ]
+   },
+   "ans": "10-a",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w082",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 10{u}가 되려면 몇 {u}가 더 있어야 할까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ]
+   },
+   "ans": "10-a",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w083",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 10{u}가 되려면 몇 {u}가 더 있어야 할까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ]
+   },
+   "ans": "10-a",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w084",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 10{u}가 되려면 몇 {u}가 더 있어야 할까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ]
+   },
+   "ans": "10-a",
+   "level": 1,
+   "group": "math-word",
+   "show": "a",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w085",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 20{u}가 되려면 몇 {u}가 더 필요할까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "20-a",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w086",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 20{u}가 되려면 몇 {u}가 더 필요할까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "20-a",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w087",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 20{u}가 되려면 몇 {u}가 더 필요할까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "20-a",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w088",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 20{u}가 되려면 몇 {u}가 더 필요할까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "20-a",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w089",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 20{u}가 되려면 몇 {u}가 더 필요할까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "20-a",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w090",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 가지고 있어요. 20{u}가 되려면 몇 {u}가 더 필요할까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "20-a",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w091",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}가 {a}{u} 있었어요. 몇 {u}를 먹었더니 {b}{u} 남았어요. 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w092",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}가 {a}{u} 있었어요. 몇 {u}를 먹었더니 {b}{u} 남았어요. 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w093",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}가 {a}{u} 있었어요. 몇 {u}를 먹었더니 {b}{u} 남았어요. 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w094",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}가 {a}{u} 있었어요. 몇 {u}를 먹었더니 {b}{u} 남았어요. 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w095",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}가 {a}{u} 있었어요. 몇 {u}를 먹었더니 {b}{u} 남았어요. 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w096",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o}가 {a}{u} 있었어요. 몇 {u}를 먹었더니 {b}{u} 남았어요. 몇 {u}를 먹었을까요?",
+   "ranges": {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a>b",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w097",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} 몇 {u}를 가지고 있었는데, {a}{u}를 더 받아서 {b}{u}가 되었어요. 처음에 몇 {u}였을까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     8,
+     15
+    ]
+   },
+   "ans": "b-a",
+   "level": 2,
+   "group": "math-word",
+   "cond": "b>a",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w098",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} 몇 {u}를 가지고 있었는데, {a}{u}를 더 받아서 {b}{u}가 되었어요. 처음에 몇 {u}였을까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     8,
+     15
+    ]
+   },
+   "ans": "b-a",
+   "level": 2,
+   "group": "math-word",
+   "cond": "b>a",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w099",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} 몇 {u}를 가지고 있었는데, {a}{u}를 더 받아서 {b}{u}가 되었어요. 처음에 몇 {u}였을까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     8,
+     15
+    ]
+   },
+   "ans": "b-a",
+   "level": 2,
+   "group": "math-word",
+   "cond": "b>a",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w100",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} 몇 {u}를 가지고 있었는데, {a}{u}를 더 받아서 {b}{u}가 되었어요. 처음에 몇 {u}였을까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     8,
+     15
+    ]
+   },
+   "ans": "b-a",
+   "level": 2,
+   "group": "math-word",
+   "cond": "b>a",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w101",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} 몇 {u}를 가지고 있었는데, {a}{u}를 더 받아서 {b}{u}가 되었어요. 처음에 몇 {u}였을까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     8,
+     15
+    ]
+   },
+   "ans": "b-a",
+   "level": 2,
+   "group": "math-word",
+   "cond": "b>a",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w102",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} {o} 몇 {u}를 가지고 있었는데, {a}{u}를 더 받아서 {b}{u}가 되었어요. 처음에 몇 {u}였을까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     8,
+     15
+    ]
+   },
+   "ans": "b-a",
+   "level": 2,
+   "group": "math-word",
+   "cond": "b>a",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w103",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}가 있었는데 {b}{u}를 먹고, {c}{u}를 더 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     1,
+     4
+    ],
+    "c": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b-c",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b-c>0",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w104",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}가 있었는데 {b}{u}를 먹고, {c}{u}를 더 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     1,
+     4
+    ],
+    "c": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b-c",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b-c>0",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w105",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}가 있었는데 {b}{u}를 먹고, {c}{u}를 더 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     1,
+     4
+    ],
+    "c": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b-c",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b-c>0",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w106",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}가 있었는데 {b}{u}를 먹고, {c}{u}를 더 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     1,
+     4
+    ],
+    "c": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b-c",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b-c>0",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w107",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}가 있었는데 {b}{u}를 먹고, {c}{u}를 더 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     1,
+     4
+    ],
+    "c": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b-c",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b-c>0",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w108",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}가 있었는데 {b}{u}를 먹고, {c}{u}를 더 먹었어요. 몇 {u} 남았을까요?",
+   "ranges": {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     1,
+     4
+    ],
+    "c": [
+     1,
+     4
+    ]
+   },
+   "ans": "a-b-c",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b-c>0",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w109",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에 {b}{u}를 더하고, {c}{u}를 더 더했어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     2,
+     5
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b+c",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w110",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에 {b}{u}를 더하고, {c}{u}를 더 더했어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     2,
+     5
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b+c",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w111",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에 {b}{u}를 더하고, {c}{u}를 더 더했어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     2,
+     5
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b+c",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w112",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에 {b}{u}를 더하고, {c}{u}를 더 더했어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     2,
+     5
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b+c",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w113",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에 {b}{u}를 더하고, {c}{u}를 더 더했어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     2,
+     5
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b+c",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w114",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에 {b}{u}를 더하고, {c}{u}를 더 더했어요. 모두 몇 {u}일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     2,
+     5
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b+c",
+   "level": 1,
+   "group": "math-word",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w115",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 받았고 친구에게 {b}{u}를 받았어요. 그리고 동생에게 {c}{u}를 줬어요. 몇 {u}가 남았을까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b-c",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b-c>0",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w116",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 받았고 친구에게 {b}{u}를 받았어요. 그리고 동생에게 {c}{u}를 줬어요. 몇 {u}가 남았을까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b-c",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b-c>0",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w117",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 받았고 친구에게 {b}{u}를 받았어요. 그리고 동생에게 {c}{u}를 줬어요. 몇 {u}가 남았을까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b-c",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b-c>0",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w118",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 받았고 친구에게 {b}{u}를 받았어요. 그리고 동생에게 {c}{u}를 줬어요. 몇 {u}가 남았을까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b-c",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b-c>0",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w119",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 받았고 친구에게 {b}{u}를 받았어요. 그리고 동생에게 {c}{u}를 줬어요. 몇 {u}가 남았을까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b-c",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b-c>0",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w120",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {o} {a}{u}를 받았고 친구에게 {b}{u}를 받았어요. 그리고 동생에게 {c}{u}를 줬어요. 몇 {u}가 남았을까요?",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ],
+    "c": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b-c",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b-c>0",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w121",
+   "subject": "수학",
+   "type": "word",
+   "template": "줄 서기를 했어요. {N는} 앞에서 {a}번째, 뒤에서 {b}번째예요. 모두 몇 명일까요?",
+   "ranges": {
+    "a": [
+     2,
+     7
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a+b-1",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w122",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 계단을 {a}칸 올라갔다가 {b}칸 내려왔어요. 지금 몇 번째 칸에 있을까요?",
+   "ranges": {
+    "a": [
+     8,
+     15
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w123",
+   "subject": "수학",
+   "type": "word",
+   "template": "버스에 {a}명이 타고 있었어요. 정류장에서 {b}명이 더 탔어요. 버스에는 몇 명이 있을까요?",
+   "ranges": {
+    "a": [
+     5,
+     12
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a+b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w124",
+   "subject": "수학",
+   "type": "word",
+   "template": "버스에 {a}명이 타고 있었어요. 정류장에서 {b}명이 내렸어요. 남은 사람은 몇 명일까요?",
+   "ranges": {
+    "a": [
+     11,
+     18
+    ],
+    "b": [
+     2,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w125",
+   "subject": "수학",
+   "type": "word",
+   "template": "놀이터에 친구 {a}명이 놀고 있어요. {b}명이 집에 갔어요. 몇 명이 남았을까요?",
+   "ranges": {
+    "a": [
+     7,
+     13
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w126",
+   "subject": "수학",
+   "type": "word",
+   "template": "나무에 새 {a}마리가 앉아 있었어요. {b}마리가 더 날아왔어요. 새는 모두 몇 마리일까요?",
+   "ranges": {
+    "a": [
+     3,
+     9
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w127",
+   "subject": "수학",
+   "type": "word",
+   "template": "연못에 오리 {a}마리가 있었는데 {b}마리가 날아갔어요. 몇 마리 남았을까요?",
+   "ranges": {
+    "a": [
+     8,
+     14
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w128",
+   "subject": "수학",
+   "type": "word",
+   "template": "닭 {a}마리와 오리 {b}마리가 있어요. 다리는 모두 몇 개일까요?",
+   "ranges": {
+    "a": [
+     1,
+     3
+    ],
+    "b": [
+     1,
+     3
+    ]
+   },
+   "ans": "(a+b)*2",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w129",
+   "subject": "수학",
+   "type": "word",
+   "template": "강아지 {a}마리가 있어요. 강아지 다리는 모두 몇 개일까요?",
+   "ranges": {
+    "a": [
+     1,
+     4
+    ]
+   },
+   "ans": "a*4",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w130",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 동화책을 어제 {a}쪽, 오늘 {b}쪽 읽었어요. 모두 몇 쪽 읽었을까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     4,
+     9
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w131",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 줄넘기를 {a}번 했어요. 동생은 {b}번 했어요. {N가} 몇 번 더 했을까요?",
+   "ranges": {
+    "a": [
+     12,
+     19
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w132",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 지금 {a}살이에요. {b}년 뒤에는 몇 살일까요?",
+   "ranges": {
+    "a": [
+     5,
+     8
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w133",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {a}살이고, 언니는 {N보다} {b}살 많아요. 언니는 몇 살일까요?",
+   "ranges": {
+    "a": [
+     6,
+     8
+    ],
+    "b": [
+     2,
+     5
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w134",
+   "subject": "수학",
+   "type": "word",
+   "template": "공원에 자전거 {a}대와 킥보드 {b}대가 있어요. 모두 몇 대일까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     3,
+     8
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w135",
+   "subject": "수학",
+   "type": "word",
+   "template": "주차장에 자동차가 {a}대 있었는데 {b}대가 나갔어요. 몇 대 남았을까요?",
+   "ranges": {
+    "a": [
+     12,
+     19
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<=10"
+  },
+  {
+   "id": "math-w136",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 칭찬 스티커를 {a}장 모았어요. 20장을 모으면 선물을 받아요. 몇 장 더 모아야 할까요?",
+   "ranges": {
+    "a": [
+     9,
+     17
+    ]
+   },
+   "ans": "20-a",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w137",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N의} 반에는 남자 {a}명, 여자 {b}명이 있어요. 모두 몇 명일까요?",
+   "ranges": {
+    "a": [
+     8,
+     12
+    ],
+    "b": [
+     7,
+     12
+    ]
+   },
+   "ans": "a+b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w138",
+   "subject": "수학",
+   "type": "word",
+   "template": "과자 {a}개를 3명이 똑같이 나눠 먹으면 한 명이 몇 개씩 먹을까요?",
+   "ranges": {
+    "a": [
+     3,
+     15
+    ]
+   },
+   "ans": "a/3",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a%3==0"
+  },
+  {
+   "id": "math-w139",
+   "subject": "수학",
+   "type": "word",
+   "template": "접시 {a}개에 쿠키를 2개씩 놓았어요. 쿠키는 모두 몇 개일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ]
+   },
+   "ans": "a*2",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w140",
+   "subject": "수학",
+   "type": "word",
+   "template": "양말 {a}켤레는 양말이 모두 몇 짝일까요?",
+   "ranges": {
+    "a": [
+     2,
+     6
+    ]
+   },
+   "ans": "a*2",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w141",
+   "subject": "수학",
+   "type": "word",
+   "template": "세발자전거 {a}대의 바퀴는 모두 몇 개일까요?",
+   "ranges": {
+    "a": [
+     1,
+     4
+    ]
+   },
+   "ans": "a*3",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w142",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 10원짜리 동전 {a}개를 가지고 있어요. 모두 얼마일까요? (몇십 원?)",
+   "ranges": {
+    "a": [
+     2,
+     9
+    ]
+   },
+   "ans": "a*10",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w143",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} 구슬을 {a}개 가지고 있었어요. 친구에게 {b}개를 받고, 동생에게 {c}개를 줬어요. 몇 개일까요?",
+   "ranges": {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     2,
+     5
+    ],
+    "c": [
+     1,
+     4
+    ]
+   },
+   "ans": "a+b-c",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b-c>0"
+  },
+  {
+   "id": "math-w144",
+   "subject": "수학",
+   "type": "word",
+   "template": "상자 하나에 귤이 10개씩 들어 있어요. 상자 {a}개에는 귤이 몇 개 있을까요?",
+   "ranges": {
+    "a": [
+     2,
+     9
+    ]
+   },
+   "ans": "a*10",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w145",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 퍼즐 {a}조각 중에서 {b}조각을 맞췄어요. 몇 조각이 남았을까요?",
+   "ranges": {
+    "a": [
+     20,
+     30
+    ],
+    "b": [
+     5,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 3,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w146",
+   "subject": "수학",
+   "type": "word",
+   "template": "수족관에 물고기 {a}마리가 있어요. {b}마리를 더 넣었어요. 모두 몇 마리일까요?",
+   "ranges": {
+    "a": [
+     10,
+     20
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a+b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w147",
+   "subject": "수학",
+   "type": "word",
+   "template": "꽃밭에 빨간 꽃 {a}송이, 노란 꽃 {b}송이가 피었어요. 모두 몇 송이일까요?",
+   "ranges": {
+    "a": [
+     6,
+     9
+    ],
+    "b": [
+     5,
+     9
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word",
+   "cond": "a+b>10"
+  },
+  {
+   "id": "math-w148",
+   "subject": "수학",
+   "type": "word",
+   "template": "꽃밭에 꽃이 {a}송이 피었어요. 그중 {b}송이는 빨간 꽃이에요. 빨갛지 않은 꽃은 몇 송이일까요?",
+   "ranges": {
+    "a": [
+     11,
+     17
+    ],
+    "b": [
+     3,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w149",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 가위바위보에서 {a}번 이기고 {b}번 졌어요. 모두 몇 번 했을까요? (비긴 건 없어요)",
+   "ranges": {
+    "a": [
+     3,
+     8
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w150",
+   "subject": "수학",
+   "type": "word",
+   "template": "달리기 시합에서 {N는} {a}등을 했어요. {N의} 바로 뒤에 들어온 친구는 몇 등일까요?",
+   "ranges": {
+    "a": [
+     1,
+     8
+    ]
+   },
+   "ans": "a+1",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w151",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 어제 물을 {a}컵, 오늘 {b}컵 마셨어요. 모두 몇 컵 마셨을까요?",
+   "ranges": {
+    "a": [
+     3,
+     7
+    ],
+    "b": [
+     3,
+     7
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w152",
+   "subject": "수학",
+   "type": "word",
+   "template": "엘리베이터가 {a}층에서 {b}층을 더 올라갔어요. 지금 몇 층일까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     2,
+     9
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w153",
+   "subject": "수학",
+   "type": "word",
+   "template": "엘리베이터가 {a}층에서 {b}층 내려왔어요. 지금 몇 층일까요?",
+   "ranges": {
+    "a": [
+     10,
+     19
+    ],
+    "b": [
+     2,
+     8
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w154",
+   "subject": "수학",
+   "type": "word",
+   "template": "케이크에 초를 {a}개 꽂았어요. {b}개를 더 꽂으면 모두 몇 개일까요?",
+   "ranges": {
+    "a": [
+     5,
+     8
+    ],
+    "b": [
+     1,
+     5
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w155",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 블록 {a}개로 탑을 쌓았어요. 동생이 {b}개를 빼 갔어요. 탑은 몇 층일까요?",
+   "ranges": {
+    "a": [
+     10,
+     16
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w156",
+   "subject": "수학",
+   "type": "word",
+   "template": "사과나무에 사과가 {a}개 열렸어요. {N가} {b}개를 땄어요. 나무에 몇 개 남았을까요?",
+   "ranges": {
+    "a": [
+     12,
+     18
+    ],
+    "b": [
+     4,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a-b<10"
+  },
+  {
+   "id": "math-w157",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 1부터 {a}까지 셌어요. 다음에 말할 수는 무엇일까요?",
+   "ranges": {
+    "a": [
+     9,
+     49
+    ]
+   },
+   "ans": "a+1",
+   "level": 3,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w158",
+   "subject": "수학",
+   "type": "word",
+   "template": "{a} 바로 앞의 수는 무엇일까요?",
+   "ranges": {
+    "a": [
+     11,
+     50
+    ]
+   },
+   "ans": "a-1",
+   "level": 3,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w159",
+   "subject": "수학",
+   "type": "word",
+   "template": "{a}보다 10 큰 수는 무엇일까요?",
+   "ranges": {
+    "a": [
+     10,
+     89
+    ]
+   },
+   "ans": "a+10",
+   "level": 3,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w160",
+   "subject": "수학",
+   "type": "word",
+   "template": "{a}보다 10 작은 수는 무엇일까요?",
+   "ranges": {
+    "a": [
+     20,
+     99
+    ]
+   },
+   "ans": "a-10",
+   "level": 3,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w161",
+   "subject": "수학",
+   "type": "word",
+   "template": "{a}보다 2 큰 수는 무엇일까요?",
+   "ranges": {
+    "a": [
+     8,
+     30
+    ]
+   },
+   "ans": "a+2",
+   "level": 3,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w162",
+   "subject": "수학",
+   "type": "word",
+   "template": "10이 {a}개, 1이 {b}개이면 어떤 수일까요?",
+   "ranges": {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     0,
+     9
+    ]
+   },
+   "ans": "a*10+b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w163",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 우유를 매일 1개씩 마셔요. {a}일 동안 몇 개를 마실까요?",
+   "ranges": {
+    "a": [
+     5,
+     10
+    ]
+   },
+   "ans": "a",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w164",
+   "subject": "수학",
+   "type": "word",
+   "template": "일주일은 7일이에요. 2주일은 며칠일까요?",
+   "ranges": {},
+   "ans": "14",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w165",
+   "subject": "수학",
+   "type": "word",
+   "template": "1시간 뒤에 만나기로 했어요. 지금 {a}시면 몇 시에 만날까요?",
+   "ranges": {
+    "a": [
+     1,
+     10
+    ]
+   },
+   "ans": "a+1",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w166",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} {a}시에 일어나서 {b}시간 뒤에 학교에 갔어요. 학교에 간 시각은 몇 시일까요?",
+   "ranges": {
+    "a": [
+     6,
+     8
+    ],
+    "b": [
+     1,
+     2
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w167",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N가} 공을 {a}번 던져서 {b}번 골인했어요. 몇 번 놓쳤을까요?",
+   "ranges": {
+    "a": [
+     8,
+     15
+    ],
+    "b": [
+     2,
+     7
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w168",
+   "subject": "수학",
+   "type": "word",
+   "template": "문어 다리는 8개예요. 문어 {a}마리의 다리는 몇 개일까요?",
+   "ranges": {
+    "a": [
+     1,
+     2
+    ]
+   },
+   "ans": "a*8",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w169",
+   "subject": "수학",
+   "type": "word",
+   "template": "개미 다리는 6개예요. 개미 {a}마리의 다리는 몇 개일까요?",
+   "ranges": {
+    "a": [
+     1,
+     3
+    ]
+   },
+   "ans": "a*6",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w170",
+   "subject": "수학",
+   "type": "word",
+   "template": "손가락은 한 손에 5개예요. {a}명의 두 손 손가락은 모두 몇 개일까요?",
+   "ranges": {
+    "a": [
+     1,
+     2
+    ]
+   },
+   "ans": "a*10",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w171",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 동전을 모아요. 100원짜리가 {a}개 있으면 모두 몇백 원일까요? (□백 원)",
+   "ranges": {
+    "a": [
+     2,
+     9
+    ]
+   },
+   "ans": "a",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w172",
+   "subject": "수학",
+   "type": "word",
+   "template": "{a}명이 2명씩 짝을 지으면 몇 짝이 될까요?",
+   "ranges": {
+    "a": [
+     4,
+     16
+    ]
+   },
+   "ans": "a/2",
+   "level": 2,
+   "group": "math-word",
+   "cond": "a%2==0"
+  },
+  {
+   "id": "math-w173",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 한 상자에 6개씩 들어 있는 도넛을 {a}상자 샀어요. 도넛은 모두 몇 개일까요?",
+   "ranges": {
+    "a": [
+     1,
+     3
+    ]
+   },
+   "ans": "a*6",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w174",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 친구 {a}명을 생일 파티에 초대했어요. {N까지} 모두 몇 명일까요?",
+   "ranges": {
+    "a": [
+     3,
+     9
+    ]
+   },
+   "ans": "a+1",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w175",
+   "subject": "수학",
+   "type": "word",
+   "template": "의자가 {a}개 있어요. 친구 {b}명이 앉으면 빈 의자는 몇 개일까요?",
+   "ranges": {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     4,
+     9
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w176",
+   "subject": "수학",
+   "type": "word",
+   "template": "화분 {a}개에 꽃을 한 송이씩 심었어요. 꽃이 {b}송이 남았어요. 꽃은 모두 몇 송이였을까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w177",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 수학 문제를 {a}개 풀었어요. 10개를 다 풀려면 몇 개를 더 풀어야 할까요?",
+   "ranges": {
+    "a": [
+     2,
+     9
+    ]
+   },
+   "ans": "10-a",
+   "level": 1,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w178",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 몇 {u}를 빼야 10{u}가 될까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "a-10",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사과",
+    "풍선",
+    "꽃"
+   ]
+  },
+  {
+   "id": "math-w179",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 몇 {u}를 빼야 10{u}가 될까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "a-10",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "사탕",
+    "구슬",
+    "달걀"
+   ]
+  },
+  {
+   "id": "math-w180",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 몇 {u}를 빼야 10{u}가 될까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "a-10",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "연필",
+    "스티커",
+    "바나나"
+   ]
+  },
+  {
+   "id": "math-w181",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 몇 {u}를 빼야 10{u}가 될까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "a-10",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "귤",
+    "색종이",
+    "도토리"
+   ]
+  },
+  {
+   "id": "math-w182",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 몇 {u}를 빼야 10{u}가 될까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "a-10",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "딸기",
+    "공책",
+    "지우개"
+   ]
+  },
+  {
+   "id": "math-w183",
+   "subject": "수학",
+   "type": "word",
+   "template": "{o} {a}{u}에서 몇 {u}를 빼야 10{u}가 될까요?",
+   "ranges": {
+    "a": [
+     11,
+     19
+    ]
+   },
+   "ans": "a-10",
+   "level": 2,
+   "group": "math-word",
+   "objs": [
+    "쿠키",
+    "동화책",
+    "젤리"
+   ]
+  },
+  {
+   "id": "math-w184",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 종이학을 {a}마리 접었어요. 친구는 {N보다} {b}마리 적게 접었어요. 친구는 몇 마리 접었을까요?",
+   "ranges": {
+    "a": [
+     10,
+     17
+    ],
+    "b": [
+     2,
+     6
+    ]
+   },
+   "ans": "a-b",
+   "level": 2,
+   "group": "math-word"
+  },
+  {
+   "id": "math-w185",
+   "subject": "수학",
+   "type": "word",
+   "template": "{N는} 구슬을 {a}개, 동생은 {N보다} {b}개 더 많이 가지고 있어요. 동생은 몇 개일까요?",
+   "ranges": {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     3,
+     7
+    ]
+   },
+   "ans": "a+b",
+   "level": 1,
+   "group": "math-word"
+  }
+ ],
+ "objects": [
+  {
+   "name": "사과",
+   "unit": "개",
+   "emoji": "🍎",
+   "image": {
+    "fallbackEmoji": "🍎",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apfel-Fuji.jpg/500px-Apfel-Fuji.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apfel-Fuji.jpg/500px-Apfel-Fuji.jpg",
+    "credit": "Superbass, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apfel-Fuji.jpg"
+   }
+  },
+  {
+   "name": "사탕",
+   "unit": "개",
+   "emoji": "🍬",
+   "image": {
+    "fallbackEmoji": "🍬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Candy_in_Damascus.jpg/500px-Candy_in_Damascus.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Candy_in_Damascus.jpg/500px-Candy_in_Damascus.jpg",
+    "credit": "Elisa Azzali, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Candy_in_Damascus.jpg"
+   }
+  },
+  {
+   "name": "연필",
+   "unit": "자루",
+   "emoji": "✏️",
+   "image": {
+    "fallbackEmoji": "✏️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pencils_hb.jpg/500px-Pencils_hb.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pencils_hb.jpg/500px-Pencils_hb.jpg",
+    "credit": "Original uploader was Dmgerman at en.wikipedia, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pencils_hb.jpg"
+   }
+  },
+  {
+   "name": "귤",
+   "unit": "개",
+   "emoji": "🍊",
+   "image": {
+    "fallbackEmoji": "🍊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Citrus_reticulata_April_2013_Nordbaden.JPG/500px-Citrus_reticulata_April_2013_Nordbaden.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Citrus_reticulata_April_2013_Nordbaden.JPG/500px-Citrus_reticulata_April_2013_Nordbaden.JPG",
+    "credit": "4028mdk09, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Citrus_reticulata_April_2013_Nordbaden.JPG"
+   }
+  },
+  {
+   "name": "딸기",
+   "unit": "개",
+   "emoji": "🍓",
+   "image": {
+    "fallbackEmoji": "🍓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/500px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/500px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
+    "credit": "Ivar Leidus, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa)_single2.jpg"
+   }
+  },
+  {
+   "name": "쿠키",
+   "unit": "개",
+   "emoji": "🍪",
+   "image": {
+    "fallbackEmoji": "🍪",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Choco_chip_cookie.png/500px-Choco_chip_cookie.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Choco_chip_cookie.png/500px-Choco_chip_cookie.png",
+    "credit": "brainloc on sxc.hu (Bob Smith), CC BY 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Choco_chip_cookie.png"
+   }
+  },
+  {
+   "name": "풍선",
+   "unit": "개",
+   "emoji": "🎈",
+   "image": {
+    "fallbackEmoji": "🎈",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Congrats_bqt.jpg/500px-Congrats_bqt.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Congrats_bqt.jpg/500px-Congrats_bqt.jpg",
+    "credit": "Photographer: Warren Denning. Creative Director: Stan Weir. Marketing Director: , Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Congrats_bqt.jpg"
+   }
+  },
+  {
+   "name": "구슬",
+   "unit": "개",
+   "emoji": "🔮",
+   "image": {
+    "fallbackEmoji": "🔮",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Marble_collector_-_Flickr_-_smkybear.jpg/500px-Marble_collector_-_Flickr_-_smkybear.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Marble_collector_-_Flickr_-_smkybear.jpg/500px-Marble_collector_-_Flickr_-_smkybear.jpg",
+    "credit": "Wendy, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Marble_collector_-_Flickr_-_smkybear.jpg"
+   }
+  },
+  {
+   "name": "스티커",
+   "unit": "장",
+   "emoji": "⭐",
+   "image": {
+    "fallbackEmoji": "⭐"
+   }
+  },
+  {
+   "name": "색종이",
+   "unit": "장",
+   "emoji": "🟥",
+   "image": {
+    "fallbackEmoji": "🟥"
+   }
+  },
+  {
+   "name": "공책",
+   "unit": "권",
+   "emoji": "📓",
+   "image": {
+    "fallbackEmoji": "📓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Notebooks.jpg/500px-Notebooks.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Notebooks.jpg/500px-Notebooks.jpg",
+    "credit": "L.Marie, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Notebooks.jpg"
+   }
+  },
+  {
+   "name": "동화책",
+   "unit": "권",
+   "emoji": "📕",
+   "image": {
+    "fallbackEmoji": "📕",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/500px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/500px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+    "credit": "NYC Wanderer (Kevin Eng), CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
+   }
+  },
+  {
+   "name": "꽃",
+   "unit": "송이",
+   "emoji": "🌷",
+   "image": {
+    "fallbackEmoji": "🌷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG/500px-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG/500px-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG",
+    "credit": "Dina L, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG"
+   }
+  },
+  {
+   "name": "달걀",
+   "unit": "개",
+   "emoji": "🥚",
+   "image": {
+    "fallbackEmoji": "🥚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Huevo_frito.jpg/500px-Huevo_frito.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Huevo_frito.jpg/500px-Huevo_frito.jpg",
+    "credit": "Horacio Cambeiro, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Huevo_frito.jpg"
+   }
+  },
+  {
+   "name": "바나나",
+   "unit": "개",
+   "emoji": "🍌",
+   "image": {
+    "fallbackEmoji": "🍌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+    "credit": "TimothyPilgrim, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg"
+   }
+  },
+  {
+   "name": "도토리",
+   "unit": "개",
+   "emoji": "🌰",
+   "image": {
+    "fallbackEmoji": "🌰",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Quercus_robur_acorn_-_Keila.jpg/500px-Quercus_robur_acorn_-_Keila.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Quercus_robur_acorn_-_Keila.jpg/500px-Quercus_robur_acorn_-_Keila.jpg",
+    "credit": "Ivar Leidus, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Quercus_robur_acorn_-_Keila.jpg"
+   }
+  },
+  {
+   "name": "지우개",
+   "unit": "개",
+   "emoji": "🧽",
+   "image": {
+    "fallbackEmoji": "🧽",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Office-pink-erasers.jpg/500px-Office-pink-erasers.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Office-pink-erasers.jpg/500px-Office-pink-erasers.jpg",
+    "credit": "Evan-Amos, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Office-pink-erasers.jpg"
+   }
+  },
+  {
+   "name": "젤리",
+   "unit": "개",
+   "emoji": "🍬",
+   "image": {
+    "fallbackEmoji": "🍬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg/500px-Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg/500px-Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg",
+    "credit": "Jebulon, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg"
+   }
+  }
+ ],
+ "generators": [
+  {
+   "id": "gen-split10",
+   "gen": "split10",
+   "level": 1,
+   "weight": 2,
+   "title": "10 가르기·모으기"
+  },
+  {
+   "id": "gen-add10",
+   "gen": "add10",
+   "level": 1,
+   "weight": 1,
+   "title": "10까지 덧셈"
+  },
+  {
+   "id": "gen-sub10",
+   "gen": "sub10",
+   "level": 1,
+   "weight": 1,
+   "title": "10까지 뺄셈"
+  },
+  {
+   "id": "gen-add20",
+   "gen": "add20",
+   "level": 2,
+   "weight": 3,
+   "title": "받아올림 덧셈"
+  },
+  {
+   "id": "gen-sub20",
+   "gen": "sub20",
+   "level": 2,
+   "weight": 3,
+   "title": "받아내림 뺄셈"
+  },
+  {
+   "id": "gen-add2d",
+   "gen": "add2d",
+   "level": 3,
+   "weight": 2,
+   "title": "두 자리 + 한 자리"
+  },
+  {
+   "id": "gen-sub2d",
+   "gen": "sub2d",
+   "level": 3,
+   "weight": 2,
+   "title": "두 자리 - 한 자리"
+  },
+  {
+   "id": "gen-blank",
+   "gen": "blank",
+   "level": 2,
+   "weight": 3,
+   "title": "□ 넣기"
+  },
+  {
+   "id": "gen-tens",
+   "gen": "tens",
+   "level": 2,
+   "weight": 1,
+   "title": "10씩 묶어 세기"
+  },
+  {
+   "id": "gen-pattern",
+   "gen": "pattern",
+   "level": 1,
+   "weight": 2,
+   "title": "규칙 찾기"
+  },
+  {
+   "id": "gen-numpattern",
+   "gen": "numpattern",
+   "level": 2,
+   "weight": 1,
+   "title": "수 규칙"
+  },
+  {
+   "id": "gen-grid",
+   "gen": "grid",
+   "level": 2,
+   "weight": 1,
+   "title": "수 배열표"
+  },
+  {
+   "id": "gen-count",
+   "gen": "count",
+   "level": 1,
+   "weight": 1,
+   "title": "도형 개수 세기"
+  },
+  {
+   "id": "gen-clock",
+   "gen": "clock",
+   "level": 2,
+   "weight": 2,
+   "title": "시계 읽기"
+  },
+  {
+   "id": "gen-compare",
+   "gen": "compare",
+   "level": 1,
+   "weight": 1,
+   "title": "크기·길이·무게 비교"
+  },
+  {
+   "id": "gen-coins",
+   "gen": "coins",
+   "level": 2,
+   "weight": 1,
+   "title": "동전 세기"
+  }
+ ],
+ "key": "math"
+}

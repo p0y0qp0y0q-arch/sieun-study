@@ -1,0 +1,107 @@
+{
+ "instr:피아노": {
+  "url": "assets/sounds/instr-피아노.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/piano"
+ },
+ "instr:바이올린": {
+  "url": "assets/sounds/instr-바이올린.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/violin"
+ },
+ "instr:첼로": {
+  "url": "assets/sounds/instr-첼로.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/cello"
+ },
+ "instr:콘트라베이스": {
+  "url": "assets/sounds/instr-콘트라베이스.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/contrabass"
+ },
+ "instr:기타": {
+  "url": "assets/sounds/instr-기타.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/guitar-nylon"
+ },
+ "instr:하프": {
+  "url": "assets/sounds/instr-하프.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/harp"
+ },
+ "instr:플루트": {
+  "url": "assets/sounds/instr-플루트.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/flute"
+ },
+ "instr:클라리넷": {
+  "url": "assets/sounds/instr-클라리넷.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/clarinet"
+ },
+ "instr:바순": {
+  "url": "assets/sounds/instr-바순.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/bassoon"
+ },
+ "instr:색소폰": {
+  "url": "assets/sounds/instr-색소폰.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/saxophone"
+ },
+ "instr:트럼펫": {
+  "url": "assets/sounds/instr-트럼펫.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/trumpet"
+ },
+ "instr:트롬본": {
+  "url": "assets/sounds/instr-트롬본.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/trombone"
+ },
+ "instr:호른": {
+  "url": "assets/sounds/instr-호른.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/french-horn"
+ },
+ "instr:튜바": {
+  "url": "assets/sounds/instr-튜바.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/tuba"
+ },
+ "instr:오르간": {
+  "url": "assets/sounds/instr-오르간.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/organ"
+ },
+ "instr:실로폰": {
+  "url": "assets/sounds/instr-실로폰.mp3",
+  "credit": "tonejs-instruments 샘플 (Nicholaus Brosowsky), CC BY 3.0",
+  "source": "https://github.com/nbrosowsky/tonejs-instruments/tree/master/samples/xylophone"
+ },
+ "instr:드럼": {
+  "url": "assets/sounds/instr-드럼.mp3",
+  "credit": "Mattgirling, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Drum_beat.ogg"
+ },
+ "instr:장구": {
+  "url": "assets/sounds/instr-장구.mp3",
+  "credit": "Mjphome, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Janggu.ogg"
+ },
+ "animal:강아지": {
+  "url": "assets/sounds/animal-강아지.mp3",
+  "credit": "Amada44, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Barking_of_a_dog.ogg"
+ },
+ "animal:오리": {
+  "url": "assets/sounds/animal-오리.mp3",
+  "credit": "WaderClub, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Pekin_duck_%26_mallard.ogg"
+ },
+ "animal:코끼리": {
+  "url": "assets/sounds/animal-코끼리.mp3",
+  "credit": "தகவலுழவன், CC0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Elephant_voice_-_trumpeting.ogg"
+ }
+}
