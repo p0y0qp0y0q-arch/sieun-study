@@ -8,7 +8,7 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, "content"))
 import media
-import korean, english, mathq, hanja, art, world, nature, store, sports, music, recycle, env, people
+import korean, english, mathq, hanja, art, world, nature, store, sports, music, recycle, env, people, society
 
 SOUNDS = os.path.join(ROOT, "assets", "sounds", "sounds.json")
 OVERRIDES = os.path.join(HERE, "image_overrides.json")   # 사진 수동 교체/제외: {"wp:Dog": "file:X.jpg" 또는 null}
@@ -26,7 +26,8 @@ def all_subjects(sounds):
     return {
         "korean": {"subject": "국어", "items": korean.build()},
         "english": {"subject": "영어", "items": english.build()},
-        "math": {"subject": "수학", "items": math_items, "objects": math_objs, "generators": mathq.GENERATORS},
+        "calc": {"subject": "연산", "items": [], "generators": mathq.CALC_GENERATORS},
+        "math": {"subject": "창의 수학", "items": math_items + mathq.build_puzzles(), "objects": math_objs, "generators": mathq.GENERATORS},
         "hanja": {"subject": "한자", "items": hanja.build(), "generators": hanja.GENERATORS},
         "art": {"subject": "미술", "items": art_items},
         "world": {"subject": "세계", "items": world.build()},
@@ -37,6 +38,7 @@ def all_subjects(sounds):
         "recycle": {"subject": "분리수거", "items": recycle.build()},
         "env": {"subject": "환경", "items": env.build()},
         "people": {"subject": "사람", "items": people.build()},
+        "society": {"subject": "사회", "items": society.build()},
     }
 
 COIN_FILES = {10: "file:10_won_2006_obverse.jpeg", 50: "file:50_won_1983_obverse.jpeg", 100: "file:100_won_1983_obverse.jpeg",
@@ -96,7 +98,7 @@ def main():
         coins[str(v)] = {"url": info["url"], "credit": info["credit"], "source": info["page"]} if info else None
     json.dump(local_media, open(os.path.join(HERE, "local_media.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     data["store"]["coins"] = coins
-    data["math"]["coins"] = coins  # 수학 동전 세기에도 사용
+    data["math"]["coins"] = coins  # 창의 수학 동전 세기에도 사용
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     summary = {}
     for key, d in data.items():

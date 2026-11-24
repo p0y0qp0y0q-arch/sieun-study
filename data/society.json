@@ -1,0 +1,4743 @@
+{
+ "subject": "사회",
+ "items": [
+  {
+   "id": "soc-001",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 불이 났을 때 출동해서 불을 끄는 곳은?",
+   "choices": [
+    "소방서",
+    "우체국",
+    "도서관"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg/500px-FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg/500px-FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg",
+    "credit": "CaptJayRuffins, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg"
+   },
+   "group": "soc-우리 동네",
+   "explain": "[우리 동네]"
+  },
+  {
+   "id": "soc-002",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "편지와 택배를 보내는 곳은?",
+   "choices": [
+    "우체국",
+    "소방서",
+    "은행"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📮",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EdithburghPostOffice.JPG/500px-EdithburghPostOffice.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EdithburghPostOffice.JPG/500px-EdithburghPostOffice.JPG",
+    "credit": "Mattinbgn, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:EdithburghPostOffice.JPG"
+   },
+   "group": "soc-우리 동네",
+   "explain": "[우리 동네]"
+  },
+  {
+   "id": "soc-003",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "책을 빌려 읽을 수 있는 곳은?",
+   "choices": [
+    "도서관",
+    "병원",
+    "시장"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/SanDiegoCityCollegeLearningResource_-_bookshelf.jpg/500px-SanDiegoCityCollegeLearningResource_-_bookshelf.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/SanDiegoCityCollegeLearningResource_-_bookshelf.jpg/500px-SanDiegoCityCollegeLearningResource_-_bookshelf.jpg",
+    "credit": "Joe Crawford from Moorpark, California, USA, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:SanDiegoCityCollegeLearningResource_-_bookshelf.jpg"
+   },
+   "group": "soc-우리 동네",
+   "explain": "[우리 동네]"
+  },
+  {
+   "id": "soc-004",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "할머니가 궁금해요. 아플 때 진찰을 받는 곳은?",
+   "choices": [
+    "병원",
+    "우체국",
+    "경찰서"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hospital-de-Bellvitge.jpg/500px-Hospital-de-Bellvitge.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hospital-de-Bellvitge.jpg/500px-Hospital-de-Bellvitge.jpg",
+    "credit": "H501zalc, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hospital-de-Bellvitge.jpg"
+   },
+   "group": "soc-우리 동네",
+   "explain": "[우리 동네]"
+  },
+  {
+   "id": "soc-005",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "길을 잃었을 때 도움을 받을 수 있는 곳은?",
+   "choices": [
+    "경찰서(파출소)",
+    "미용실",
+    "빵집"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg/500px-NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg/500px-NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg",
+    "credit": "Hugo L. González, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg"
+   },
+   "group": "soc-우리 동네",
+   "explain": "[우리 동네]"
+  },
+  {
+   "id": "soc-006",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "돈을 맡기고 찾는 곳은?",
+   "choices": [
+    "은행",
+    "도서관",
+    "소방서"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/London.bankofengland.arp.jpg/500px-London.bankofengland.arp.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/London.bankofengland.arp.jpg/500px-London.bankofengland.arp.jpg",
+    "credit": "Adrian Pingstone, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:London.bankofengland.arp.jpg"
+   },
+   "group": "soc-우리 동네",
+   "explain": "[우리 동네]"
+  },
+  {
+   "id": "soc-007",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "언니가 궁금해요. 주민등록증을 만들고 동네 일을 돕는 곳은?",
+   "choices": [
+    "주민센터(행정복지센터)",
+    "빵집",
+    "수영장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏢"
+   },
+   "group": "soc-우리 동네",
+   "explain": "[우리 동네]"
+  },
+  {
+   "id": "soc-008",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "여러 가지 물건을 사고파는 곳은?",
+   "choices": [
+    "시장",
+    "소방서",
+    "학교"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🛒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_Moorish_Bazaar.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_Moorish_Bazaar.jpg",
+    "credit": "Rudolf Ernst, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Moorish_Bazaar.jpg"
+   },
+   "group": "soc-우리 동네",
+   "explain": "[우리 동네]"
+  },
+  {
+   "id": "soc-009",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "기차를 타는 곳은?",
+   "choices": [
+    "기차역",
+    "공항",
+    "항구"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚉",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Seoul_Station_West_Side.jpg/500px-Seoul_Station_West_Side.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Seoul_Station_West_Side.jpg/500px-Seoul_Station_West_Side.jpg",
+    "credit": "Minseong Kim, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Seoul_Station_West_Side.jpg"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-010",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 비행기를 타는 곳은?",
+   "choices": [
+    "공항",
+    "기차역",
+    "버스 정류장"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🛫"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-011",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "배를 타는 곳은?",
+   "choices": [
+    "항구",
+    "공항",
+    "기차역"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⚓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/View_of_Nam_Harbor_from_Busan_Tower.jpg/500px-View_of_Nam_Harbor_from_Busan_Tower.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/View_of_Nam_Harbor_from_Busan_Tower.jpg/500px-View_of_Nam_Harbor_from_Busan_Tower.jpg",
+    "credit": "cezzie901, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Nam_Harbor_from_Busan_Tower.jpg"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-012",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "버스를 기다리는 곳은?",
+   "choices": [
+    "버스 정류장",
+    "항구",
+    "공항"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚏",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/People_waiting_at_bus_stop.jpg/500px-People_waiting_at_bus_stop.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/People_waiting_at_bus_stop.jpg/500px-People_waiting_at_bus_stop.jpg",
+    "credit": "Frank Hank, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:People_waiting_at_bus_stop.jpg"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-013",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "언니가 궁금해요. 땅속으로 다니는 기차는?",
+   "choices": [
+    "지하철",
+    "비행기",
+    "배"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚇",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Seoul-metro-2009-20180916-103548.jpg/500px-Seoul-metro-2009-20180916-103548.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Seoul-metro-2009-20180916-103548.jpg/500px-Seoul-metro-2009-20180916-103548.jpg",
+    "credit": "LERK, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Seoul-metro-2009-20180916-103548.jpg"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-014",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "아주 먼 나라에 빨리 갈 때 타는 것은?",
+   "choices": [
+    "비행기",
+    "자전거",
+    "배"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "✈️"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-015",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "신호등의 빨간불은 무슨 뜻일까요?",
+   "choices": [
+    "멈춰요",
+    "건너요",
+    "뛰어요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚦"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-016",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "엄마가 궁금해요. 신호등의 초록불은 무슨 뜻일까요?",
+   "choices": [
+    "건너도 돼요",
+    "멈춰요",
+    "뒤로 가요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚦"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-017",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사람이 길을 건너는 곳에 그려진 흰 줄무늬는?",
+   "choices": [
+    "횡단보도",
+    "주차장",
+    "철길"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🦓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Abbey_Road_Zebra.jpg/500px-Abbey_Road_Zebra.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Abbey_Road_Zebra.jpg/500px-Abbey_Road_Zebra.jpg",
+    "credit": "Misterweiss at English Wikipedia, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Abbey_Road_Zebra.jpg"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-018",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "아픈 사람을 병원으로 빨리 데려가는 차는?",
+   "choices": [
+    "구급차",
+    "소방차",
+    "택시"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚑",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stockholm%2C_ambulans%2C_2014%2C_21.jpg/500px-Stockholm%2C_ambulans%2C_2014%2C_21.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stockholm%2C_ambulans%2C_2014%2C_21.jpg/500px-Stockholm%2C_ambulans%2C_2014%2C_21.jpg",
+    "credit": "AleWi, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Stockholm,_ambulans,_2014,_21.jpg"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-019",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "선생님이 궁금해요. 옛날 사람들이 먼 길을 갈 때 탔던 동물은?",
+   "choices": [
+    "말",
+    "고양이",
+    "토끼"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐴"
+   },
+   "group": "soc-교통",
+   "explain": "[교통]"
+  },
+  {
+   "id": "soc-020",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날에 양반이 타고 다니던, 사람이 메는 탈것은?",
+   "choices": [
+    "가마",
+    "자전거",
+    "기차"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🪑"
+   },
+   "group": "soc-옛날과 오늘",
+   "explain": "[옛날과 오늘]"
+  },
+  {
+   "id": "soc-021",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날에 물을 길어 오던 곳은?",
+   "choices": [
+    "우물",
+    "수도꼭지",
+    "정수기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪣",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Faryab-_village_dug_well.JPG/500px-Faryab-_village_dug_well.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Faryab-_village_dug_well.JPG/500px-Faryab-_village_dug_well.JPG",
+    "credit": "Didiervberghe, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Faryab-_village_dug_well.JPG"
+   },
+   "group": "soc-옛날과 오늘",
+   "explain": "[옛날과 오늘]"
+  },
+  {
+   "id": "soc-022",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 옛날에 밤에 불을 밝히던 것은?",
+   "choices": [
+    "호롱불(등잔)",
+    "전등",
+    "휴대폰"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪔"
+   },
+   "group": "soc-옛날과 오늘",
+   "explain": "[옛날과 오늘]"
+  },
+  {
+   "id": "soc-023",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날에 곡식을 갈던 돌 도구는?",
+   "choices": [
+    "맷돌",
+    "믹서기",
+    "냉장고"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🪨",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Basalt_quern.jpg/500px-Basalt_quern.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Basalt_quern.jpg/500px-Basalt_quern.jpg",
+    "credit": "Davidbena, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Basalt_quern.jpg"
+   },
+   "group": "soc-옛날과 오늘",
+   "explain": "[옛날과 오늘]"
+  },
+  {
+   "id": "soc-024",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날에 빨래를 하던 곳은?",
+   "choices": [
+    "냇가(빨래터)",
+    "세탁기",
+    "목욕탕"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🧺"
+   },
+   "group": "soc-옛날과 오늘",
+   "explain": "[옛날과 오늘]"
+  },
+  {
+   "id": "soc-025",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 오늘날 빨래를 할 때 쓰는 기계는?",
+   "choices": [
+    "세탁기",
+    "맷돌",
+    "다리미"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg/500px-LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg/500px-LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg",
+    "credit": "LG전자, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0,_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg"
+   },
+   "group": "soc-옛날과 오늘",
+   "explain": "[옛날과 오늘]"
+  },
+  {
+   "id": "soc-026",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날 집의 방을 따뜻하게 한 방법은?",
+   "choices": [
+    "온돌(아궁이에 불 때기)",
+    "에어컨",
+    "선풍기"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🔥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ondol.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ondol.png",
+    "credit": "Dzihi, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ondol.png"
+   },
+   "group": "soc-옛날과 오늘",
+   "explain": "[옛날과 오늘]"
+  },
+  {
+   "id": "soc-027",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날 우리 조상이 살던, 기와나 초가지붕을 얹은 집은?",
+   "choices": [
+    "한옥",
+    "아파트",
+    "텐트"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏯",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG/500px-20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG/500px-20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG",
+    "credit": "최광모, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG"
+   },
+   "group": "soc-전통 문화",
+   "explain": "[전통 문화]"
+  },
+  {
+   "id": "soc-028",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 볏짚으로 지붕을 덮은 옛날 집은?",
+   "choices": [
+    "초가집",
+    "기와집",
+    "빌딩"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🛖"
+   },
+   "group": "soc-전통 문화",
+   "explain": "[전통 문화]"
+  },
+  {
+   "id": "soc-029",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "우리나라 전통 옷은?",
+   "choices": [
+    "한복",
+    "기모노",
+    "드레스"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hanbok_Day_2016_29_%2830467033136%29.jpg/500px-Hanbok_Day_2016_29_%2830467033136%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hanbok_Day_2016_29_%2830467033136%29.jpg/500px-Hanbok_Day_2016_29_%2830467033136%29.jpg",
+    "credit": "Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanbok_Day_2016_29_(30467033136).jpg"
+   },
+   "group": "soc-전통 문화",
+   "explain": "[전통 문화]"
+  },
+  {
+   "id": "soc-030",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "설날에 어른께 드리는 큰절을 무엇이라 할까요?",
+   "choices": [
+    "세배",
+    "악수",
+    "경례"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🙇"
+   },
+   "group": "soc-명절",
+   "explain": "[명절]"
+  },
+  {
+   "id": "soc-031",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 설날에 먹는 음식은?",
+   "choices": [
+    "떡국",
+    "송편",
+    "팥죽"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥣",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tteokguk.jpg/500px-Tteokguk.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tteokguk.jpg/500px-Tteokguk.jpg",
+    "credit": "soscs, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tteokguk.jpg"
+   },
+   "group": "soc-명절",
+   "explain": "[명절]"
+  },
+  {
+   "id": "soc-032",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "추석에 빚어 먹는 반달 모양 떡은?",
+   "choices": [
+    "송편",
+    "떡국",
+    "팥죽"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌙",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Songpyeon.jpg/500px-Songpyeon.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Songpyeon.jpg/500px-Songpyeon.jpg",
+    "credit": "wizdata, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Songpyeon.jpg"
+   },
+   "group": "soc-명절",
+   "explain": "[명절]"
+  },
+  {
+   "id": "soc-033",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "추석에 뜨는 크고 둥근 달은?",
+   "choices": [
+    "보름달",
+    "초승달",
+    "반달"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌕"
+   },
+   "group": "soc-명절",
+   "explain": "[명절]"
+  },
+  {
+   "id": "soc-034",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "짝꿍이 궁금해요. 동짓날 먹는 음식은?",
+   "choices": [
+    "팥죽",
+    "송편",
+    "떡국"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥣",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Patjuk_%28red_bean_porridge%29.jpg/500px-Patjuk_%28red_bean_porridge%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Patjuk_%28red_bean_porridge%29.jpg/500px-Patjuk_%28red_bean_porridge%29.jpg",
+    "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Patjuk_(red_bean_porridge).jpg"
+   },
+   "group": "soc-명절",
+   "explain": "[명절]"
+  },
+  {
+   "id": "soc-035",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "단오에 여자들이 하던 놀이는?",
+   "choices": [
+    "그네뛰기",
+    "연날리기",
+    "썰매"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🎠"
+   },
+   "group": "soc-명절",
+   "explain": "[명절]"
+  },
+  {
+   "id": "soc-036",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "설날에 세배를 하면 어른들이 주시는 것은?",
+   "choices": [
+    "세뱃돈",
+    "숙제",
+    "우산"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧧"
+   },
+   "group": "soc-명절",
+   "explain": "[명절]"
+  },
+  {
+   "id": "soc-037",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 윷 네 개를 던져서 말을 움직이는 놀이는?",
+   "choices": [
+    "윷놀이",
+    "제기차기",
+    "팽이치기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎲",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Korea_yut_pan.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/3/34/Korea_yut_pan.jpg",
+    "credit": "Unknown, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korea_yut_pan.jpg"
+   },
+   "group": "soc-전통 놀이",
+   "explain": "[전통 놀이]"
+  },
+  {
+   "id": "soc-038",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "발로 차서 땅에 떨어지지 않게 하는 놀이는?",
+   "choices": [
+    "제기차기",
+    "윷놀이",
+    "연날리기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🪶",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_%2830361247131%29.jpg/500px-Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_%2830361247131%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_%2830361247131%29.jpg/500px-Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_%2830361247131%29.jpg",
+    "credit": "Official U.S. Navy Page from United States of AmericaMC2 Andrew Schneider/U.S. N, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_(30361247131).jpg"
+   },
+   "group": "soc-전통 놀이",
+   "explain": "[전통 놀이]"
+  },
+  {
+   "id": "soc-039",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "얼음 위에서 채로 쳐서 돌리는 놀이는?",
+   "choices": [
+    "팽이치기",
+    "그네뛰기",
+    "널뛰기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌀"
+   },
+   "group": "soc-전통 놀이",
+   "explain": "[전통 놀이]"
+  },
+  {
+   "id": "soc-040",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 긴 널빤지 양쪽에 서서 번갈아 뛰는 놀이는?",
+   "choices": [
+    "널뛰기",
+    "팽이치기",
+    "윷놀이"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🤸",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joie_de_vivre_and_optimism_in_public_life.jpg/500px-Joie_de_vivre_and_optimism_in_public_life.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joie_de_vivre_and_optimism_in_public_life.jpg/500px-Joie_de_vivre_and_optimism_in_public_life.jpg",
+    "credit": "Matthias Schubert, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Joie_de_vivre_and_optimism_in_public_life.jpg"
+   },
+   "group": "soc-전통 놀이",
+   "explain": "[전통 놀이]"
+  },
+  {
+   "id": "soc-041",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "바람 부는 날 하늘 높이 날리는 놀이는?",
+   "choices": [
+    "연날리기",
+    "제기차기",
+    "공기놀이"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🪁"
+   },
+   "group": "soc-전통 놀이",
+   "explain": "[전통 놀이]"
+  },
+  {
+   "id": "soc-042",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "작은 돌 다섯 개를 던지고 받는 놀이는?",
+   "choices": [
+    "공기놀이",
+    "윷놀이",
+    "연날리기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪨"
+   },
+   "group": "soc-전통 놀이",
+   "explain": "[전통 놀이]"
+  },
+  {
+   "id": "soc-043",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "짝꿍이 궁금해요. 얼굴에 탈을 쓰고 춤추는 우리 전통 놀이는?",
+   "choices": [
+    "탈춤",
+    "발레",
+    "줄넘기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🎭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Korean_mask_dance-Eunyul_talchum-03.jpg/500px-Korean_mask_dance-Eunyul_talchum-03.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Korean_mask_dance-Eunyul_talchum-03.jpg/500px-Korean_mask_dance-Eunyul_talchum-03.jpg",
+    "credit": "by lismith28 at Flickr, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korean_mask_dance-Eunyul_talchum-03.jpg"
+   },
+   "group": "soc-전통 문화",
+   "explain": "[전통 문화]"
+  },
+  {
+   "id": "soc-044",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "배추에 양념을 버무려 만든 우리 음식은?",
+   "choices": [
+    "김치",
+    "피자",
+    "초밥"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🥬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
+    "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Various_kimchi.jpg"
+   },
+   "group": "soc-전통 문화",
+   "explain": "[전통 문화]"
+  },
+  {
+   "id": "soc-045",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "메주로 만드는 우리 전통 양념은?",
+   "choices": [
+    "된장·간장",
+    "케첩",
+    "마요네즈"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🫘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Doenjang.jpg/500px-Doenjang.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Doenjang.jpg/500px-Doenjang.jpg",
+    "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Doenjang.jpg"
+   },
+   "group": "soc-전통 문화",
+   "explain": "[전통 문화]"
+  },
+  {
+   "id": "soc-046",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 우리나라 국기의 이름은?",
+   "choices": [
+    "태극기",
+    "성조기",
+    "일장기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🇰🇷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+    "credit": "Original: Government of the Republic of Korea Vector: Great Brightstar and other, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-047",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "우리나라 꽃은?",
+   "choices": [
+    "무궁화",
+    "장미",
+    "튤립"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Hibiscus_Syriacus.JPG/500px-Hibiscus_Syriacus.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Hibiscus_Syriacus.JPG/500px-Hibiscus_Syriacus.JPG",
+    "credit": "Eric Kounce TexasRaiser, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_Syriacus.JPG"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-048",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "우리나라 노래(국가)는?",
+   "choices": [
+    "애국가",
+    "생일 축하 노래",
+    "동요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎵"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-049",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "선생님이 궁금해요. 우리나라 글자의 이름은?",
+   "choices": [
+    "한글",
+    "알파벳",
+    "한자"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🔤"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-050",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "한글을 만든 임금님은?",
+   "choices": [
+    "세종대왕",
+    "이순신 장군",
+    "단군"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👑"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-051",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "거북선을 만들어 나라를 지킨 장군은?",
+   "choices": [
+    "이순신",
+    "세종대왕",
+    "김홍도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐢"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-052",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 한글날은 언제일까요?",
+   "choices": [
+    "10월 9일",
+    "1월 1일",
+    "5월 5일"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-053",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "어린이날은 언제일까요?",
+   "choices": [
+    "5월 5일",
+    "12월 25일",
+    "8월 15일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧒"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-054",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "우리나라의 수도는?",
+   "choices": [
+    "서울",
+    "부산",
+    "제주"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏙️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg/500px-%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg/500px-%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg",
+    "credit": "Eunmi Park, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-055",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "엄마가 궁금해요. 우리나라에서 가장 큰 섬은?",
+   "choices": [
+    "제주도",
+    "독도",
+    "울릉도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏝️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jeju_Island.jpg/500px-Jeju_Island.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jeju_Island.jpg/500px-Jeju_Island.jpg",
+    "credit": "Robert Simmon, using Landsat data provided by the United States Geological Surve, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Jeju_Island.jpg"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-056",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "우리나라 동쪽 끝에 있는 섬은?",
+   "choices": [
+    "독도",
+    "제주도",
+    "강화도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏝️"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-057",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "우리나라 돈 1000원짜리 지폐에 나오는 분은?",
+   "choices": [
+    "퇴계 이황",
+    "세종대왕",
+    "신사임당"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "💵"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-058",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "짝꿍이 궁금해요. 만 원짜리 지폐에 나오는 분은?",
+   "choices": [
+    "세종대왕",
+    "이순신",
+    "이황"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "💵"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-059",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "5만 원짜리 지폐에 나오는 분은?",
+   "choices": [
+    "신사임당",
+    "세종대왕",
+    "유관순"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "💵"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-060",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "태극기 가운데 빨강·파랑 동그라미를 무엇이라 할까요?",
+   "choices": [
+    "태극 문양",
+    "무궁화",
+    "별"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "☯️"
+   },
+   "group": "soc-우리나라",
+   "explain": "[우리나라]"
+  },
+  {
+   "id": "soc-061",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 지도에서 산은 보통 무슨 색으로 그릴까요?",
+   "choices": [
+    "초록이나 갈색",
+    "파란색",
+    "분홍색"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🗺️"
+   },
+   "group": "soc-지도와 방향",
+   "explain": "[지도와 방향]"
+  },
+  {
+   "id": "soc-062",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "지도에서 강과 바다는 무슨 색으로 그릴까요?",
+   "choices": [
+    "파란색",
+    "빨간색",
+    "검은색"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🗺️"
+   },
+   "group": "soc-지도와 방향",
+   "explain": "[지도와 방향]"
+  },
+  {
+   "id": "soc-063",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "해가 뜨는 쪽은?",
+   "choices": [
+    "동쪽",
+    "서쪽",
+    "북쪽"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌅"
+   },
+   "group": "soc-지도와 방향",
+   "explain": "[지도와 방향]"
+  },
+  {
+   "id": "soc-064",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "동생이 궁금해요. 해가 지는 쪽은?",
+   "choices": [
+    "서쪽",
+    "동쪽",
+    "남쪽"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌇"
+   },
+   "group": "soc-지도와 방향",
+   "explain": "[지도와 방향]"
+  },
+  {
+   "id": "soc-065",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "방향을 알려 주는 도구는?",
+   "choices": [
+    "나침반",
+    "돋보기",
+    "자"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🧭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2016_Busola.JPG/500px-2016_Busola.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2016_Busola.JPG/500px-2016_Busola.JPG",
+    "credit": "Jacek Halicki, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Busola.JPG"
+   },
+   "group": "soc-지도와 방향",
+   "explain": "[지도와 방향]"
+  },
+  {
+   "id": "soc-066",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "우리 집의 위치를 나타낸 그림은?",
+   "choices": [
+    "지도",
+    "달력",
+    "시계"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🗺️"
+   },
+   "group": "soc-지도와 방향",
+   "explain": "[지도와 방향]"
+  },
+  {
+   "id": "soc-067",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "선생님이 궁금해요. 지구를 작게 만든 둥근 모형은?",
+   "choices": [
+    "지구본",
+    "축구공",
+    "풍선"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌍",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/The_Great_Globe%2C_Guyot_Hall%2C_Princeton_University.jpg/500px-The_Great_Globe%2C_Guyot_Hall%2C_Princeton_University.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/The_Great_Globe%2C_Guyot_Hall%2C_Princeton_University.jpg/500px-The_Great_Globe%2C_Guyot_Hall%2C_Princeton_University.jpg",
+    "credit": "David Keddie, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Great_Globe,_Guyot_Hall,_Princeton_University.jpg"
+   },
+   "group": "soc-지도와 방향",
+   "explain": "[지도와 방향]"
+  },
+  {
+   "id": "soc-068",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "가족 중 엄마의 엄마는?",
+   "choices": [
+    "외할머니",
+    "고모",
+    "이모"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👵"
+   },
+   "group": "soc-가족",
+   "explain": "[가족]"
+  },
+  {
+   "id": "soc-069",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "아빠의 형은 나에게 누구일까요?",
+   "choices": [
+    "큰아버지",
+    "외삼촌",
+    "이모부"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "👨"
+   },
+   "group": "soc-가족",
+   "explain": "[가족]"
+  },
+  {
+   "id": "soc-070",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 가족끼리 서로 돕는 방법으로 알맞은 것은?",
+   "choices": [
+    "집안일을 나누어 해요",
+    "서로 미뤄요",
+    "혼자만 놀아요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧹"
+   },
+   "group": "soc-가족",
+   "explain": "[가족]"
+  },
+  {
+   "id": "soc-071",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "한 집에 3대(할머니·부모·아이)가 함께 사는 가족을 무엇이라 할까요?",
+   "choices": [
+    "대가족",
+    "핵가족",
+    "이웃"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "👨‍👩‍👧‍👦"
+   },
+   "group": "soc-가족",
+   "explain": "[가족]"
+  },
+  {
+   "id": "soc-072",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "엄마·아빠와 아이들만 사는 가족은?",
+   "choices": [
+    "핵가족",
+    "대가족",
+    "친척"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "👨‍👩‍👧"
+   },
+   "group": "soc-가족",
+   "explain": "[가족]"
+  },
+  {
+   "id": "soc-073",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "동생이 궁금해요. 이웃을 만나면 어떻게 할까요?",
+   "choices": [
+    "반갑게 인사해요",
+    "모른 척해요",
+    "문을 쾅 닫아요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "👋"
+   },
+   "group": "soc-예절",
+   "explain": "[예절]"
+  },
+  {
+   "id": "soc-074",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "도서관에서는 어떻게 해야 할까요?",
+   "choices": [
+    "조용히 책을 읽어요",
+    "뛰어다녀요",
+    "큰 소리로 떠들어요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🤫"
+   },
+   "group": "soc-예절",
+   "explain": "[예절]"
+  },
+  {
+   "id": "soc-075",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "버스에서 할머니가 서 계시면?",
+   "choices": [
+    "자리를 양보해요",
+    "모른 척해요",
+    "가방을 옆자리에 둬요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🚌"
+   },
+   "group": "soc-예절",
+   "explain": "[예절]"
+  },
+  {
+   "id": "soc-076",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 밥을 먹을 때 어른보다 먼저 할 일은?",
+   "choices": [
+    "어른이 수저를 드신 뒤 먹어요",
+    "먼저 다 먹어요",
+    "밥상에서 놀아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🍚"
+   },
+   "group": "soc-예절",
+   "explain": "[예절]"
+  },
+  {
+   "id": "soc-077",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "친구와 다퉜을 때 좋은 방법은?",
+   "choices": [
+    "미안하다고 말하고 화해해요",
+    "때려요",
+    "계속 화내요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🤝"
+   },
+   "group": "soc-예절",
+   "explain": "[예절]"
+  },
+  {
+   "id": "soc-078",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "공공장소에서 쓰레기는?",
+   "choices": [
+    "쓰레기통에 버려요",
+    "바닥에 버려요",
+    "의자 밑에 숨겨요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🗑️"
+   },
+   "group": "soc-예절",
+   "explain": "[예절]"
+  },
+  {
+   "id": "soc-079",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "선생님이 궁금해요. 줄을 설 때는?",
+   "choices": [
+    "차례를 지켜요",
+    "새치기해요",
+    "밀어요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧍🧍🧍"
+   },
+   "group": "soc-예절",
+   "explain": "[예절]"
+  },
+  {
+   "id": "soc-080",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "남의 물건을 쓰고 싶을 때는?",
+   "choices": [
+    "먼저 물어봐요",
+    "몰래 가져가요",
+    "그냥 써요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🙋"
+   },
+   "group": "soc-예절",
+   "explain": "[예절]"
+  },
+  {
+   "id": "soc-081",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "물건을 살 때 내는 것은?",
+   "choices": [
+    "돈",
+    "돌멩이",
+    "나뭇잎"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💰"
+   },
+   "group": "soc-시장과 돈",
+   "explain": "[시장과 돈]"
+  },
+  {
+   "id": "soc-082",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 돈을 아껴서 모아 두는 것은?",
+   "choices": [
+    "저축",
+    "낭비",
+    "빌리기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sparschwein_Haspa02.jpg/500px-Sparschwein_Haspa02.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sparschwein_Haspa02.jpg/500px-Sparschwein_Haspa02.jpg",
+    "credit": "GeorgHH, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sparschwein_Haspa02.jpg"
+   },
+   "group": "soc-시장과 돈",
+   "explain": "[시장과 돈]"
+  },
+  {
+   "id": "soc-083",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "물건을 사는 사람을 무엇이라 할까요?",
+   "choices": [
+    "손님(소비자)",
+    "주인",
+    "배달원"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🛍️"
+   },
+   "group": "soc-시장과 돈",
+   "explain": "[시장과 돈]"
+  },
+  {
+   "id": "soc-084",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "물건을 만드는 곳은?",
+   "choices": [
+    "공장",
+    "도서관",
+    "놀이터"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wolfsburg_VW-Werk.jpg/500px-Wolfsburg_VW-Werk.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wolfsburg_VW-Werk.jpg/500px-Wolfsburg_VW-Werk.jpg",
+    "credit": "AndreasPraefcke, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Wolfsburg_VW-Werk.jpg"
+   },
+   "group": "soc-시장과 돈",
+   "explain": "[시장과 돈]"
+  },
+  {
+   "id": "soc-085",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 돈이 없던 옛날에는 물건을 어떻게 바꿨을까요?",
+   "choices": [
+    "물건과 물건을 바꿨어요(물물교환)",
+    "카드로 냈어요",
+    "휴대폰으로 냈어요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🔄"
+   },
+   "group": "soc-시장과 돈",
+   "explain": "[시장과 돈]"
+  },
+  {
+   "id": "soc-086",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사고 싶은 것이 많을 때 좋은 방법은?",
+   "choices": [
+    "꼭 필요한 것부터 골라요",
+    "다 사 달라고 떼써요",
+    "아무거나 사요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📝"
+   },
+   "group": "soc-시장과 돈",
+   "explain": "[시장과 돈]"
+  },
+  {
+   "id": "soc-087",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "우유는 어디에서 처음 나올까요?",
+   "choices": [
+    "젖소",
+    "닭",
+    "돼지"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐄"
+   },
+   "group": "soc-생산",
+   "explain": "[생산]"
+  },
+  {
+   "id": "soc-088",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 쌀은 무엇을 길러서 얻을까요?",
+   "choices": [
+    "벼",
+    "밀",
+    "옥수수"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌾",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg/500px-20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg/500px-20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg",
+    "credit": "China News Service, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg"
+   },
+   "group": "soc-생산",
+   "explain": "[생산]"
+  },
+  {
+   "id": "soc-089",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "쌀농사를 짓는 곳은?",
+   "choices": [
+    "논",
+    "바다",
+    "사막"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌾",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Pana_Banaue_Rice_Terraces_%28Cropped%29.jpg/500px-Pana_Banaue_Rice_Terraces_%28Cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Pana_Banaue_Rice_Terraces_%28Cropped%29.jpg/500px-Pana_Banaue_Rice_Terraces_%28Cropped%29.jpg",
+    "credit": "User:Ori~, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pana_Banaue_Rice_Terraces_(Cropped).jpg"
+   },
+   "group": "soc-생산",
+   "explain": "[생산]"
+  },
+  {
+   "id": "soc-090",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "배추와 무를 기르는 곳은?",
+   "choices": [
+    "밭",
+    "논",
+    "바다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥬"
+   },
+   "group": "soc-생산",
+   "explain": "[생산]"
+  },
+  {
+   "id": "soc-091",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "선생님이 궁금해요. 바다에서 물고기를 잡는 일을 하는 사람은?",
+   "choices": [
+    "어부",
+    "농부",
+    "광부"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎣"
+   },
+   "group": "soc-생산",
+   "explain": "[생산]"
+  },
+  {
+   "id": "soc-092",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "농부가 가을에 곡식을 거두는 일을 무엇이라 할까요?",
+   "choices": [
+    "추수",
+    "김장",
+    "세배"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌾"
+   },
+   "group": "soc-생산",
+   "explain": "[생산]"
+  },
+  {
+   "id": "soc-093",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "겨울을 나려고 김치를 많이 담그는 일은?",
+   "choices": [
+    "김장",
+    "추수",
+    "세배"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg/500px-Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg/500px-Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg",
+    "credit": "by Caroline Knox at flickr, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg"
+   },
+   "group": "soc-명절",
+   "explain": "[명절]"
+  },
+  {
+   "id": "soc-094",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 편지를 보낼 때 봉투에 붙이는 것은?",
+   "choices": [
+    "우표",
+    "스티커",
+    "반창고"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "✉️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nicaragua1_1913.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nicaragua1_1913.jpg",
+    "credit": "Nicagura Post Office. Stamp artist unknown, work more than 70 years old., Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicaragua1_1913.jpg"
+   },
+   "group": "soc-통신",
+   "explain": "[통신]"
+  },
+  {
+   "id": "soc-095",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "멀리 있는 사람과 얼굴을 보며 이야기할 수 있는 것은?",
+   "choices": [
+    "영상 통화",
+    "편지",
+    "봉화"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📱"
+   },
+   "group": "soc-통신",
+   "explain": "[통신]"
+  },
+  {
+   "id": "soc-096",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날에 산꼭대기에서 연기와 불로 소식을 전하던 것은?",
+   "choices": [
+    "봉화",
+    "전화",
+    "텔레비전"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🔥"
+   },
+   "group": "soc-통신",
+   "explain": "[통신]"
+  },
+  {
+   "id": "soc-097",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "선생님이 궁금해요. 신문, 텔레비전처럼 많은 사람에게 소식을 알려 주는 것은?",
+   "choices": [
+    "대중 매체(방송·신문)",
+    "일기장",
+    "연필"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "📺"
+   },
+   "group": "soc-통신",
+   "explain": "[통신]"
+  },
+  {
+   "id": "soc-098",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "일본 사람들이 입는 전통 옷은?",
+   "choices": [
+    "기모노",
+    "한복",
+    "치파오"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "👘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/500px-Two_young_maiko_in_Seirai-in_Temple_02.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/500px-Two_young_maiko_in_Seirai-in_Temple_02.jpg",
+    "credit": "Takaaki Kawai, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Two_young_maiko_in_Seirai-in_Temple_02.jpg"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-099",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "중국의 전통 옷은?",
+   "choices": [
+    "치파오",
+    "기모노",
+    "사리"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "👗"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-100",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "시은이가 궁금해요. 인도 여성들이 입는 긴 천으로 된 옷은?",
+   "choices": [
+    "사리",
+    "한복",
+    "기모노"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🥻",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sari_on_mannequin_for_demo.jpg/500px-Sari_on_mannequin_for_demo.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sari_on_mannequin_for_demo.jpg/500px-Sari_on_mannequin_for_demo.jpg",
+    "credit": "Suyash.dwivedi, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sari_on_mannequin_for_demo.jpg"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-101",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "북극 가까이에 사는 사람들이 얼음으로 지은 집은?",
+   "choices": [
+    "이글루",
+    "한옥",
+    "텐트"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🧊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Igloos.jpg/500px-Igloos.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Igloos.jpg/500px-Igloos.jpg",
+    "credit": "Drawn by unknown artist based on sketches by C.F. Hall and photographed from the, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Igloos.jpg"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-102",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "몽골 사람들이 옮겨 다니며 사는 둥근 천막집은?",
+   "choices": [
+    "게르",
+    "이글루",
+    "한옥"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "⛺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/SK_yurt_camp_%281_of_1%29-8.jpg/500px-SK_yurt_camp_%281_of_1%29-8.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/SK_yurt_camp_%281_of_1%29-8.jpg/500px-SK_yurt_camp_%281_of_1%29-8.jpg",
+    "credit": "Myrzabek Ozubekov, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:SK_yurt_camp_(1_of_1)-8.jpg"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-103",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "할머니가 궁금해요. 일본 사람들이 밥 먹을 때 주로 쓰는 것은?",
+   "choices": [
+    "젓가락",
+    "포크만",
+    "손"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥢"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-104",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "인도 사람들이 즐겨 먹는 음식은?",
+   "choices": [
+    "카레",
+    "김치",
+    "피자"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🍛",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_-_Lamb_Curry_Madras.jpg/500px-Taj_Mahal_-_Lamb_Curry_Madras.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_-_Lamb_Curry_Madras.jpg/500px-Taj_Mahal_-_Lamb_Curry_Madras.jpg",
+    "credit": "Francesc Fort, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_-_Lamb_Curry_Madras.jpg"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-105",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "나라마다 말과 옷, 음식이 다른 것은 어떻게 생각해야 할까요?",
+   "choices": [
+    "서로 다른 문화를 존중해요",
+    "이상하다고 놀려요",
+    "우리 것만 좋아요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌏"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-106",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "할머니가 궁금해요. 우리와 생김새가 다른 외국 친구를 만나면?",
+   "choices": [
+    "반갑게 같이 놀아요",
+    "놀려요",
+    "피해요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧑‍🤝‍🧑"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-107",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "나라와 나라가 함께 모여 겨루는 운동 경기 대회는?",
+   "choices": [
+    "올림픽",
+    "운동회",
+    "소풍"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏅"
+   },
+   "group": "soc-세계 여러 나라",
+   "explain": "[세계 여러 나라]"
+  },
+  {
+   "id": "soc-108",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "어려운 이웃을 돕는 일을 무엇이라 할까요?",
+   "choices": [
+    "봉사(나눔)",
+    "낭비",
+    "장난"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "💝"
+   },
+   "group": "soc-나눔",
+   "explain": "[나눔]"
+  },
+  {
+   "id": "soc-109",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "언니가 궁금해요. 쓰지 않는 장난감을 나누는 좋은 방법은?",
+   "choices": [
+    "필요한 친구에게 나눠 줘요",
+    "버려요",
+    "숨겨요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧸"
+   },
+   "group": "soc-나눔",
+   "explain": "[나눔]"
+  },
+  {
+   "id": "soc-110",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "학교에서 반을 대표하는 사람을 뽑는 방법은?",
+   "choices": [
+    "투표",
+    "가위바위보만",
+    "싸움"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🗳️"
+   },
+   "group": "soc-규칙",
+   "explain": "[규칙]"
+  },
+  {
+   "id": "soc-111",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "모두가 지키기로 약속한 것은?",
+   "choices": [
+    "규칙",
+    "장난",
+    "비밀"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📜"
+   },
+   "group": "soc-규칙",
+   "explain": "[규칙]"
+  },
+  {
+   "id": "soc-112",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "엄마가 궁금해요. 나라의 큰 약속(규칙)을 무엇이라 할까요?",
+   "choices": [
+    "법",
+    "놀이",
+    "숙제"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "⚖️"
+   },
+   "group": "soc-규칙",
+   "explain": "[규칙]"
+  },
+  {
+   "id": "soc-113",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "문화재(옛 물건이나 건물)를 볼 때는?",
+   "choices": [
+    "만지지 않고 눈으로 봐요",
+    "낙서해요",
+    "올라가요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏛️"
+   },
+   "group": "soc-문화재",
+   "explain": "[문화재]"
+  },
+  {
+   "id": "soc-114",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "경주에 있는 별을 보던 옛 건물은?",
+   "choices": [
+    "첨성대",
+    "남산타워",
+    "63빌딩"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🔭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg/500px-Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg/500px-Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg",
+    "credit": "Basile Morin, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg"
+   },
+   "group": "soc-문화재",
+   "explain": "[문화재]"
+  },
+  {
+   "id": "soc-115",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "선생님이 궁금해요. 서울에 있는 조선 시대의 큰 궁궐은?",
+   "choices": [
+    "경복궁",
+    "불국사",
+    "첨성대"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏯",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg/500px-%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg/500px-%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg",
+    "credit": "서울관광 아카이브, KOGL Type 1, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg"
+   },
+   "group": "soc-문화재",
+   "explain": "[문화재]"
+  },
+  {
+   "id": "soc-116",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "경주에 있는 오래된 절로 다보탑이 있는 곳은?",
+   "choices": [
+    "불국사",
+    "경복궁",
+    "남대문"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🛕",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju%2C_Korea.jpg/500px-Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju%2C_Korea.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju%2C_Korea.jpg/500px-Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju%2C_Korea.jpg",
+    "credit": "Unknown authorUnknown author, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju,_Korea.jpg"
+   },
+   "group": "soc-문화재",
+   "explain": "[문화재]"
+  },
+  {
+   "id": "soc-117",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "소방서",
+    "경찰서(파출소)",
+    "은행"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🚒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg/500px-FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg/500px-FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg",
+    "credit": "CaptJayRuffins, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:FDNY_eng264_328_Ladder_134_20190214_135053~2.jpg"
+   },
+   "pool": [
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-118",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "우체국",
+    "시장",
+    "병원"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📮",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EdithburghPostOffice.JPG/500px-EdithburghPostOffice.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EdithburghPostOffice.JPG/500px-EdithburghPostOffice.JPG",
+    "credit": "Mattinbgn, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:EdithburghPostOffice.JPG"
+   },
+   "pool": [
+    "소방서",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-119",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "도서관",
+    "은행",
+    "병원"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/SanDiegoCityCollegeLearningResource_-_bookshelf.jpg/500px-SanDiegoCityCollegeLearningResource_-_bookshelf.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/SanDiegoCityCollegeLearningResource_-_bookshelf.jpg/500px-SanDiegoCityCollegeLearningResource_-_bookshelf.jpg",
+    "credit": "Joe Crawford from Moorpark, California, USA, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:SanDiegoCityCollegeLearningResource_-_bookshelf.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-120",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "병원",
+    "우체국",
+    "시장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hospital-de-Bellvitge.jpg/500px-Hospital-de-Bellvitge.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hospital-de-Bellvitge.jpg/500px-Hospital-de-Bellvitge.jpg",
+    "credit": "H501zalc, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hospital-de-Bellvitge.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "경찰서(파출소)",
+    "은행",
+    "시장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-121",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "경찰서(파출소)",
+    "병원",
+    "은행"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🚓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg/500px-NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg/500px-NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg",
+    "credit": "Hugo L. González, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:NYPD_Bx_42nd_Precinct_IMG_3248_HLG.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "은행",
+    "시장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-122",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "은행",
+    "우체국",
+    "도서관"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/London.bankofengland.arp.jpg/500px-London.bankofengland.arp.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/London.bankofengland.arp.jpg/500px-London.bankofengland.arp.jpg",
+    "credit": "Adrian Pingstone, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:London.bankofengland.arp.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "시장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-123",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "시장",
+    "병원",
+    "도서관"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🛒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_Moorish_Bazaar.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_Moorish_Bazaar.jpg",
+    "credit": "Rudolf Ernst, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Moorish_Bazaar.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-124",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "기차역",
+    "지하철",
+    "횡단보도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🚉",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Seoul_Station_West_Side.jpg/500px-Seoul_Station_West_Side.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Seoul_Station_West_Side.jpg/500px-Seoul_Station_West_Side.jpg",
+    "credit": "Minseong Kim, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Seoul_Station_West_Side.jpg"
+   },
+   "pool": [
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-125",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "공항",
+    "횡단보도",
+    "지하철"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🛫"
+   },
+   "pool": [
+    "기차역",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-126",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "항구",
+    "구급차",
+    "지하철"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⚓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/View_of_Nam_Harbor_from_Busan_Tower.jpg/500px-View_of_Nam_Harbor_from_Busan_Tower.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/View_of_Nam_Harbor_from_Busan_Tower.jpg/500px-View_of_Nam_Harbor_from_Busan_Tower.jpg",
+    "credit": "cezzie901, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Nam_Harbor_from_Busan_Tower.jpg"
+   },
+   "pool": [
+    "기차역",
+    "공항",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-127",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "버스 정류장",
+    "구급차",
+    "횡단보도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🚏",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/People_waiting_at_bus_stop.jpg/500px-People_waiting_at_bus_stop.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/People_waiting_at_bus_stop.jpg/500px-People_waiting_at_bus_stop.jpg",
+    "credit": "Frank Hank, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:People_waiting_at_bus_stop.jpg"
+   },
+   "pool": [
+    "기차역",
+    "공항",
+    "항구",
+    "지하철",
+    "횡단보도",
+    "구급차"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-128",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "지하철",
+    "기차역",
+    "버스 정류장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🚇",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Seoul-metro-2009-20180916-103548.jpg/500px-Seoul-metro-2009-20180916-103548.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Seoul-metro-2009-20180916-103548.jpg/500px-Seoul-metro-2009-20180916-103548.jpg",
+    "credit": "LERK, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Seoul-metro-2009-20180916-103548.jpg"
+   },
+   "pool": [
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "횡단보도",
+    "구급차"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-129",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "횡단보도",
+    "기차역",
+    "버스 정류장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Abbey_Road_Zebra.jpg/500px-Abbey_Road_Zebra.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Abbey_Road_Zebra.jpg/500px-Abbey_Road_Zebra.jpg",
+    "credit": "Misterweiss at English Wikipedia, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Abbey_Road_Zebra.jpg"
+   },
+   "pool": [
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "구급차"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-130",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "구급차",
+    "기차역",
+    "공항"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🚑",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stockholm%2C_ambulans%2C_2014%2C_21.jpg/500px-Stockholm%2C_ambulans%2C_2014%2C_21.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stockholm%2C_ambulans%2C_2014%2C_21.jpg/500px-Stockholm%2C_ambulans%2C_2014%2C_21.jpg",
+    "credit": "AleWi, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Stockholm,_ambulans,_2014,_21.jpg"
+   },
+   "pool": [
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-131",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "우물",
+    "세탁기",
+    "맷돌"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪣",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Faryab-_village_dug_well.JPG/500px-Faryab-_village_dug_well.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Faryab-_village_dug_well.JPG/500px-Faryab-_village_dug_well.JPG",
+    "credit": "Didiervberghe, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Faryab-_village_dug_well.JPG"
+   },
+   "pool": [
+    "맷돌",
+    "세탁기",
+    "온돌(아궁이에 불 때기)"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-132",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "맷돌",
+    "우물",
+    "세탁기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪨",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Basalt_quern.jpg/500px-Basalt_quern.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Basalt_quern.jpg/500px-Basalt_quern.jpg",
+    "credit": "Davidbena, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Basalt_quern.jpg"
+   },
+   "pool": [
+    "우물",
+    "세탁기",
+    "온돌(아궁이에 불 때기)"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-133",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "세탁기",
+    "온돌(아궁이에 불 때기)",
+    "우물"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🧺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg/500px-LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg/500px-LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg",
+    "credit": "LG전자, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0,_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg"
+   },
+   "pool": [
+    "우물",
+    "맷돌",
+    "온돌(아궁이에 불 때기)"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-134",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "온돌(아궁이에 불 때기)",
+    "맷돌",
+    "세탁기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🔥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ondol.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ondol.png",
+    "credit": "Dzihi, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ondol.png"
+   },
+   "pool": [
+    "우물",
+    "맷돌",
+    "세탁기"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-135",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "한옥",
+    "김치",
+    "된장·간장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏯",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG/500px-20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG/500px-20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG",
+    "credit": "최광모, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:20151003%EC%B5%9C%EA%B4%91%EB%AA%A8RX10DSC03016.JPG"
+   },
+   "pool": [
+    "한복",
+    "탈춤",
+    "김치",
+    "된장·간장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-136",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "한복",
+    "된장·간장",
+    "한옥"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "👘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hanbok_Day_2016_29_%2830467033136%29.jpg/500px-Hanbok_Day_2016_29_%2830467033136%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hanbok_Day_2016_29_%2830467033136%29.jpg/500px-Hanbok_Day_2016_29_%2830467033136%29.jpg",
+    "credit": "Republic of Korea from Seoul, Republic of Korea, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hanbok_Day_2016_29_(30467033136).jpg"
+   },
+   "pool": [
+    "한옥",
+    "탈춤",
+    "김치",
+    "된장·간장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-137",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "떡국",
+    "송편",
+    "김장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥣",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tteokguk.jpg/500px-Tteokguk.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tteokguk.jpg/500px-Tteokguk.jpg",
+    "credit": "soscs, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tteokguk.jpg"
+   },
+   "pool": [
+    "송편",
+    "팥죽",
+    "김장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-138",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "송편",
+    "떡국",
+    "김장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌙",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Songpyeon.jpg/500px-Songpyeon.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Songpyeon.jpg/500px-Songpyeon.jpg",
+    "credit": "wizdata, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Songpyeon.jpg"
+   },
+   "pool": [
+    "떡국",
+    "팥죽",
+    "김장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-139",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "팥죽",
+    "떡국",
+    "김장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥣",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Patjuk_%28red_bean_porridge%29.jpg/500px-Patjuk_%28red_bean_porridge%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Patjuk_%28red_bean_porridge%29.jpg/500px-Patjuk_%28red_bean_porridge%29.jpg",
+    "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Patjuk_(red_bean_porridge).jpg"
+   },
+   "pool": [
+    "떡국",
+    "송편",
+    "김장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-140",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "윷놀이",
+    "널뛰기",
+    "제기차기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🎲",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Korea_yut_pan.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/3/34/Korea_yut_pan.jpg",
+    "credit": "Unknown, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korea_yut_pan.jpg"
+   },
+   "pool": [
+    "제기차기",
+    "널뛰기"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-141",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "제기차기",
+    "윷놀이",
+    "널뛰기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪶",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_%2830361247131%29.jpg/500px-Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_%2830361247131%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_%2830361247131%29.jpg/500px-Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_%2830361247131%29.jpg",
+    "credit": "Official U.S. Navy Page from United States of AmericaMC2 Andrew Schneider/U.S. N, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_(30361247131).jpg"
+   },
+   "pool": [
+    "윷놀이",
+    "널뛰기"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-142",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "널뛰기",
+    "윷놀이",
+    "제기차기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🤸",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joie_de_vivre_and_optimism_in_public_life.jpg/500px-Joie_de_vivre_and_optimism_in_public_life.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joie_de_vivre_and_optimism_in_public_life.jpg/500px-Joie_de_vivre_and_optimism_in_public_life.jpg",
+    "credit": "Matthias Schubert, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Joie_de_vivre_and_optimism_in_public_life.jpg"
+   },
+   "pool": [
+    "윷놀이",
+    "제기차기"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-143",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "탈춤",
+    "한복",
+    "한옥"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🎭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Korean_mask_dance-Eunyul_talchum-03.jpg/500px-Korean_mask_dance-Eunyul_talchum-03.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Korean_mask_dance-Eunyul_talchum-03.jpg/500px-Korean_mask_dance-Eunyul_talchum-03.jpg",
+    "credit": "by lismith28 at Flickr, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korean_mask_dance-Eunyul_talchum-03.jpg"
+   },
+   "pool": [
+    "한옥",
+    "한복",
+    "김치",
+    "된장·간장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-144",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "김치",
+    "된장·간장",
+    "한복"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
+    "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Various_kimchi.jpg"
+   },
+   "pool": [
+    "한옥",
+    "한복",
+    "탈춤",
+    "된장·간장"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-145",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "된장·간장",
+    "한옥",
+    "탈춤"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🫘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Doenjang.jpg/500px-Doenjang.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Doenjang.jpg/500px-Doenjang.jpg",
+    "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Doenjang.jpg"
+   },
+   "pool": [
+    "한옥",
+    "한복",
+    "탈춤",
+    "김치"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-146",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "태극기",
+    "세종대왕",
+    "독도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🇰🇷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+    "credit": "Original: Government of the Republic of Korea Vector: Great Brightstar and other, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg"
+   },
+   "pool": [
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-147",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "무궁화",
+    "서울",
+    "태극기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Hibiscus_Syriacus.JPG/500px-Hibiscus_Syriacus.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Hibiscus_Syriacus.JPG/500px-Hibiscus_Syriacus.JPG",
+    "credit": "Eric Kounce TexasRaiser, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_Syriacus.JPG"
+   },
+   "pool": [
+    "태극기",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-148",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "세종대왕",
+    "무궁화",
+    "제주도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "👑"
+   },
+   "pool": [
+    "태극기",
+    "무궁화",
+    "서울",
+    "제주도",
+    "독도"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-149",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "서울",
+    "무궁화",
+    "독도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏙️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg/500px-%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg/500px-%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg",
+    "credit": "Eunmi Park, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%EC%A4%91%ED%99%94%EC%A0%84%EC%9D%98_%EB%82%AE.jpg"
+   },
+   "pool": [
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "제주도",
+    "독도"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-150",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "제주도",
+    "서울",
+    "무궁화"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏝️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jeju_Island.jpg/500px-Jeju_Island.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jeju_Island.jpg/500px-Jeju_Island.jpg",
+    "credit": "Robert Simmon, using Landsat data provided by the United States Geological Surve, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Jeju_Island.jpg"
+   },
+   "pool": [
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "독도"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-151",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "독도",
+    "서울",
+    "무궁화"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏝️"
+   },
+   "pool": [
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-152",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "나침반",
+    "항구",
+    "탈춤"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🧭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2016_Busola.JPG/500px-2016_Busola.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2016_Busola.JPG/500px-2016_Busola.JPG",
+    "credit": "Jacek Halicki, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Busola.JPG"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장",
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차",
+    "우물",
+    "맷돌",
+    "세탁기",
+    "온돌(아궁이에 불 때기)",
+    "한옥",
+    "한복",
+    "떡국",
+    "송편",
+    "팥죽",
+    "윷놀이",
+    "제기차기",
+    "널뛰기",
+    "탈춤",
+    "김치",
+    "된장·간장",
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도",
+    "지구본",
+    "저축",
+    "공장",
+    "벼",
+    "논",
+    "김장",
+    "우표",
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "게르",
+    "카레",
+    "첨성대",
+    "경복궁",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-153",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "지구본",
+    "카레",
+    "횡단보도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌍",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/The_Great_Globe%2C_Guyot_Hall%2C_Princeton_University.jpg/500px-The_Great_Globe%2C_Guyot_Hall%2C_Princeton_University.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/The_Great_Globe%2C_Guyot_Hall%2C_Princeton_University.jpg/500px-The_Great_Globe%2C_Guyot_Hall%2C_Princeton_University.jpg",
+    "credit": "David Keddie, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Great_Globe,_Guyot_Hall,_Princeton_University.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장",
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차",
+    "우물",
+    "맷돌",
+    "세탁기",
+    "온돌(아궁이에 불 때기)",
+    "한옥",
+    "한복",
+    "떡국",
+    "송편",
+    "팥죽",
+    "윷놀이",
+    "제기차기",
+    "널뛰기",
+    "탈춤",
+    "김치",
+    "된장·간장",
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도",
+    "나침반",
+    "저축",
+    "공장",
+    "벼",
+    "논",
+    "김장",
+    "우표",
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "게르",
+    "카레",
+    "첨성대",
+    "경복궁",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-154",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "저축",
+    "게르",
+    "된장·간장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sparschwein_Haspa02.jpg/500px-Sparschwein_Haspa02.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sparschwein_Haspa02.jpg/500px-Sparschwein_Haspa02.jpg",
+    "credit": "GeorgHH, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sparschwein_Haspa02.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장",
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차",
+    "우물",
+    "맷돌",
+    "세탁기",
+    "온돌(아궁이에 불 때기)",
+    "한옥",
+    "한복",
+    "떡국",
+    "송편",
+    "팥죽",
+    "윷놀이",
+    "제기차기",
+    "널뛰기",
+    "탈춤",
+    "김치",
+    "된장·간장",
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도",
+    "나침반",
+    "지구본",
+    "공장",
+    "벼",
+    "논",
+    "김장",
+    "우표",
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "게르",
+    "카레",
+    "첨성대",
+    "경복궁",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-155",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "공장",
+    "온돌(아궁이에 불 때기)",
+    "한옥"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wolfsburg_VW-Werk.jpg/500px-Wolfsburg_VW-Werk.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wolfsburg_VW-Werk.jpg/500px-Wolfsburg_VW-Werk.jpg",
+    "credit": "AndreasPraefcke, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Wolfsburg_VW-Werk.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장",
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차",
+    "우물",
+    "맷돌",
+    "세탁기",
+    "온돌(아궁이에 불 때기)",
+    "한옥",
+    "한복",
+    "떡국",
+    "송편",
+    "팥죽",
+    "윷놀이",
+    "제기차기",
+    "널뛰기",
+    "탈춤",
+    "김치",
+    "된장·간장",
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도",
+    "나침반",
+    "지구본",
+    "저축",
+    "벼",
+    "논",
+    "김장",
+    "우표",
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "게르",
+    "카레",
+    "첨성대",
+    "경복궁",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-156",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "벼",
+    "한옥",
+    "횡단보도"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌾",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg/500px-20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg/500px-20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg",
+    "credit": "China News Service, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장",
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차",
+    "우물",
+    "맷돌",
+    "세탁기",
+    "온돌(아궁이에 불 때기)",
+    "한옥",
+    "한복",
+    "떡국",
+    "송편",
+    "팥죽",
+    "윷놀이",
+    "제기차기",
+    "널뛰기",
+    "탈춤",
+    "김치",
+    "된장·간장",
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도",
+    "나침반",
+    "지구본",
+    "저축",
+    "공장",
+    "논",
+    "김장",
+    "우표",
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "게르",
+    "카레",
+    "첨성대",
+    "경복궁",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-157",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "논",
+    "벼",
+    "기모노"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌾",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Pana_Banaue_Rice_Terraces_%28Cropped%29.jpg/500px-Pana_Banaue_Rice_Terraces_%28Cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Pana_Banaue_Rice_Terraces_%28Cropped%29.jpg/500px-Pana_Banaue_Rice_Terraces_%28Cropped%29.jpg",
+    "credit": "User:Ori~, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pana_Banaue_Rice_Terraces_(Cropped).jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장",
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차",
+    "우물",
+    "맷돌",
+    "세탁기",
+    "온돌(아궁이에 불 때기)",
+    "한옥",
+    "한복",
+    "떡국",
+    "송편",
+    "팥죽",
+    "윷놀이",
+    "제기차기",
+    "널뛰기",
+    "탈춤",
+    "김치",
+    "된장·간장",
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도",
+    "나침반",
+    "지구본",
+    "저축",
+    "공장",
+    "벼",
+    "김장",
+    "우표",
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "게르",
+    "카레",
+    "첨성대",
+    "경복궁",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-158",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "김장",
+    "송편",
+    "떡국"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg/500px-Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg/500px-Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg",
+    "credit": "by Caroline Knox at flickr, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Gimjang-Preparation_for_making_kimchi-01.jpg"
+   },
+   "pool": [
+    "떡국",
+    "송편",
+    "팥죽"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-159",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "우표",
+    "무궁화",
+    "기차역"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "✉️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nicaragua1_1913.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nicaragua1_1913.jpg",
+    "credit": "Nicagura Post Office. Stamp artist unknown, work more than 70 years old., Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicaragua1_1913.jpg"
+   },
+   "pool": [
+    "소방서",
+    "우체국",
+    "도서관",
+    "병원",
+    "경찰서(파출소)",
+    "은행",
+    "시장",
+    "기차역",
+    "공항",
+    "항구",
+    "버스 정류장",
+    "지하철",
+    "횡단보도",
+    "구급차",
+    "우물",
+    "맷돌",
+    "세탁기",
+    "온돌(아궁이에 불 때기)",
+    "한옥",
+    "한복",
+    "떡국",
+    "송편",
+    "팥죽",
+    "윷놀이",
+    "제기차기",
+    "널뛰기",
+    "탈춤",
+    "김치",
+    "된장·간장",
+    "태극기",
+    "무궁화",
+    "세종대왕",
+    "서울",
+    "제주도",
+    "독도",
+    "나침반",
+    "지구본",
+    "저축",
+    "공장",
+    "벼",
+    "논",
+    "김장",
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "게르",
+    "카레",
+    "첨성대",
+    "경복궁",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-160",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "기모노",
+    "사리",
+    "치파오"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "👘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/500px-Two_young_maiko_in_Seirai-in_Temple_02.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/500px-Two_young_maiko_in_Seirai-in_Temple_02.jpg",
+    "credit": "Takaaki Kawai, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Two_young_maiko_in_Seirai-in_Temple_02.jpg"
+   },
+   "pool": [
+    "치파오",
+    "사리",
+    "이글루",
+    "게르",
+    "카레"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-161",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "치파오",
+    "이글루",
+    "기모노"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "👗"
+   },
+   "pool": [
+    "기모노",
+    "사리",
+    "이글루",
+    "게르",
+    "카레"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-162",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "사리",
+    "치파오",
+    "기모노"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥻",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sari_on_mannequin_for_demo.jpg/500px-Sari_on_mannequin_for_demo.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sari_on_mannequin_for_demo.jpg/500px-Sari_on_mannequin_for_demo.jpg",
+    "credit": "Suyash.dwivedi, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sari_on_mannequin_for_demo.jpg"
+   },
+   "pool": [
+    "기모노",
+    "치파오",
+    "이글루",
+    "게르",
+    "카레"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-163",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "이글루",
+    "기모노",
+    "사리"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🧊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Igloos.jpg/500px-Igloos.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Igloos.jpg/500px-Igloos.jpg",
+    "credit": "Drawn by unknown artist based on sketches by C.F. Hall and photographed from the, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Igloos.jpg"
+   },
+   "pool": [
+    "기모노",
+    "치파오",
+    "사리",
+    "게르",
+    "카레"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-164",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "게르",
+    "기모노",
+    "카레"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⛺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/SK_yurt_camp_%281_of_1%29-8.jpg/500px-SK_yurt_camp_%281_of_1%29-8.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/SK_yurt_camp_%281_of_1%29-8.jpg/500px-SK_yurt_camp_%281_of_1%29-8.jpg",
+    "credit": "Myrzabek Ozubekov, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:SK_yurt_camp_(1_of_1)-8.jpg"
+   },
+   "pool": [
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "카레"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-165",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "카레",
+    "기모노",
+    "게르"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🍛",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_-_Lamb_Curry_Madras.jpg/500px-Taj_Mahal_-_Lamb_Curry_Madras.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_-_Lamb_Curry_Madras.jpg/500px-Taj_Mahal_-_Lamb_Curry_Madras.jpg",
+    "credit": "Francesc Fort, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_-_Lamb_Curry_Madras.jpg"
+   },
+   "pool": [
+    "기모노",
+    "치파오",
+    "사리",
+    "이글루",
+    "게르"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-166",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "첨성대",
+    "경복궁",
+    "불국사"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🔭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg/500px-Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg/500px-Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg",
+    "credit": "Basile Morin, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cheomseongdae_Observatory_under_blue_sky_in_Gyeongju_South_Korea.jpg"
+   },
+   "pool": [
+    "경복궁",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-167",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "경복궁",
+    "불국사",
+    "첨성대"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏯",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg/500px-%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg/500px-%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg",
+    "credit": "서울관광 아카이브, KOGL Type 1, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg"
+   },
+   "pool": [
+    "첨성대",
+    "불국사"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-168",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "사진을 보고 알맞은 이름을 골라요.",
+   "choices": [
+    "불국사",
+    "첨성대",
+    "경복궁"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🛕",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju%2C_Korea.jpg/500px-Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju%2C_Korea.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju%2C_Korea.jpg/500px-Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju%2C_Korea.jpg",
+    "credit": "Unknown authorUnknown author, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lotus_Flower_Bridge_and_Seven_Treasure_Bridge_at_Bulguksa_in_Gyeongju,_Korea.jpg"
+   },
+   "pool": [
+    "첨성대",
+    "경복궁"
+   ],
+   "group": "soc-photo"
+  },
+  {
+   "id": "soc-169",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '우물'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "수도꼭지",
+    "볼펜",
+    "운동화"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "💧"
+   },
+   "pool": [
+    "전등",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-170",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '수도꼭지'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "우물",
+    "엽전",
+    "호롱불"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "💧"
+   },
+   "pool": [
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "봉화",
+    "부채",
+    "아궁이",
+    "짚신",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-171",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '호롱불'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "전등",
+    "믹서기",
+    "자동차"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "💡"
+   },
+   "pool": [
+    "수도꼭지",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-172",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '전등'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "호롱불",
+    "부채",
+    "맷돌"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "💡"
+   },
+   "pool": [
+    "우물",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "봉화",
+    "부채",
+    "아궁이",
+    "짚신",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-173",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '맷돌'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "믹서기",
+    "학교",
+    "세탁기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌀"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "세탁기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-174",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '믹서기'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "맷돌",
+    "서당",
+    "부채"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🌀"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "빨래터",
+    "가마",
+    "봉화",
+    "부채",
+    "아궁이",
+    "짚신",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-175",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '빨래터'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "세탁기",
+    "전등",
+    "믹서기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🧺"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-176",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '세탁기'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "빨래터",
+    "짚신",
+    "서당"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🧺"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "가마",
+    "봉화",
+    "부채",
+    "아궁이",
+    "짚신",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-177",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '가마'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "자동차",
+    "운동화",
+    "볼펜"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🚗"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "세탁기",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-178",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '자동차'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "가마",
+    "호롱불",
+    "부채"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🚗"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "봉화",
+    "부채",
+    "아궁이",
+    "짚신",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-179",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '봉화'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "전화",
+    "운동화",
+    "세탁기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📞"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-180",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '전화'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "봉화",
+    "호롱불",
+    "가마"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "📞"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "부채",
+    "아궁이",
+    "짚신",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-181",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '부채'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "에어컨",
+    "운동화",
+    "수도꼭지"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "❄️"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "전화",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-182",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '에어컨'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "부채",
+    "엽전",
+    "가마"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "❄️"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "봉화",
+    "아궁이",
+    "짚신",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-183",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '아궁이'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "가스레인지",
+    "전화",
+    "전등"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🔥"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "운동화",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-184",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '가스레인지'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "아궁이",
+    "맷돌",
+    "빨래터"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🔥"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "봉화",
+    "부채",
+    "짚신",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-185",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '짚신'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "운동화",
+    "전화",
+    "가스레인지"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "👟"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "학교",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-186",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '운동화'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "짚신",
+    "붓",
+    "가마"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "👟"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "봉화",
+    "부채",
+    "아궁이",
+    "서당",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-187",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '서당'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "학교",
+    "수도꼭지",
+    "에어컨"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🏫"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "카드",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-188",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '학교'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "서당",
+    "맷돌",
+    "엽전"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🏫"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "봉화",
+    "부채",
+    "아궁이",
+    "짚신",
+    "엽전",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-189",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '엽전'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "카드",
+    "학교",
+    "가스레인지"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "💳"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "볼펜"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-190",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '카드'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "엽전",
+    "우물",
+    "맷돌"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "💳"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "봉화",
+    "부채",
+    "아궁이",
+    "짚신",
+    "서당",
+    "붓"
+   ],
+   "group": "soc-newold"
+  },
+  {
+   "id": "soc-191",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "옛날의 '붓'은(는) 오늘날 무엇이 되었을까요?",
+   "choices": [
+    "볼펜",
+    "전등",
+    "믹서기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🖊️"
+   },
+   "pool": [
+    "수도꼭지",
+    "전등",
+    "믹서기",
+    "세탁기",
+    "자동차",
+    "전화",
+    "에어컨",
+    "가스레인지",
+    "운동화",
+    "학교",
+    "카드"
+   ],
+   "group": "soc-oldnew"
+  },
+  {
+   "id": "soc-192",
+   "subject": "사회",
+   "type": "choice",
+   "prompt": "오늘날의 '볼펜'처럼 옛날에 쓰던 것은?",
+   "choices": [
+    "붓",
+    "짚신",
+    "엽전"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🖊️"
+   },
+   "pool": [
+    "우물",
+    "호롱불",
+    "맷돌",
+    "빨래터",
+    "가마",
+    "봉화",
+    "부채",
+    "아궁이",
+    "짚신",
+    "서당",
+    "엽전"
+   ],
+   "group": "soc-newold"
+  }
+ ],
+ "key": "society"
+}

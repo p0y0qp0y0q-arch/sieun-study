@@ -8,7 +8,8 @@
   const SUBJECTS = [
     { key: 'korean', name: '국어', icon: '📖' },
     { key: 'english', name: '영어', icon: '🔤' },
-    { key: 'math', name: '수학', icon: '🔢' },
+    { key: 'calc', name: '연산', icon: '➕' },
+    { key: 'math', name: '창의 수학', icon: '🧩' },
     { key: 'hanja', name: '한자', icon: '🀄' },
     { key: 'art', name: '미술', icon: '🖼️' },
     { key: 'world', name: '세계', icon: '🌏' },
@@ -19,10 +20,11 @@
     { key: 'recycle', name: '분리수거', icon: '♻️' },
     { key: 'env', name: '환경', icon: '🌱' },
     { key: 'people', name: '사람', icon: '🧑‍🚒' },
+    { key: 'society', name: '사회', icon: '🏘️' },
     { key: 'draw', name: '그림', icon: '🎨', draw: true },
   ];
   // 생성기 문제 비율(하루 10문제 중)
-  const GEN_SHARE = { math: 6, store: 5, hanja: 2 };
+  const GEN_SHARE = { calc: 10, math: 4, store: 5, hanja: 2 };
 
   const PRAISE = ['시은아, 정답이야! 🎉', '역시 시은이!', '시은이 천재인걸?', '우와, 맞았어요! 👏', '최고예요, 시은아!', '딩동댕! 정답!', '시은이 정말 똑똑하다!', '멋져요! ⭐', '척척박사 시은이!', '와, 대단해요!'];
   const RETRY = ['아깝다, 시은아! 한 번 더 해볼까?', '괜찮아, 다시 해볼까?', '조금만 더 생각해 볼까?', '천천히 다시 골라 봐요!'];

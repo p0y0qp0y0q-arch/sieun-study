@@ -1,4 +1,5 @@
 from common import Q, img, who, josa
+from nature_wonder import WONDER
 import random
 
 # 이름|사는 곳|먹이|알/새끼|사진|이모지|분류
@@ -309,6 +310,19 @@ def build(sounds):
         n += 1
         out.append(Q(f"nat-{n:03d}", "자연", "사진 속 날씨는 어떤가요?", [w] + random.Random(i).sample([x for x in wn if x != w], 2), 0, level=1,
                      image=img(ref, emo), pool=[x for x in wn if x != w], group="nat-weather"))
+    # 놀라운 자연: 조금 더 생각하는 문제
+    plantref = {l.split("|")[0]: (l.split("|")[2], l.split("|")[3]) for l in PLANTS}
+    dinoref = {l.split("|")[0]: (l.split("|")[2], l.split("|")[3]) for l in DINOS}
+    for i, l in enumerate(WONDER):
+        q, a, w, who_, emo, lv, topic = l.split("|")
+        ref = None
+        if who_ in byname: ref = byname[who_]["ref"]
+        elif who_ in plantref: ref = plantref[who_][0]
+        elif who_ in dinoref: ref = dinoref[who_][0]
+        pw = who(i, 55)
+        n += 1
+        out.append(Q(f"nat-{n:03d}", "자연", (f"{pw['가']} 궁금해요! " if i % 3 == 0 else "") + q, [a] + w.split(","), 0, level=int(lv),
+                     image=img(ref, emo), group="nat-wonder-" + topic, explain=f"놀라운 자연 · {topic}"))
     for i, (q, a, wr, emo) in enumerate(WEATHER_Q + GROWTH):
         n += 1
         out.append(Q(f"nat-{n:03d}", "자연", q, [a] + wr, 0, level=2, image=img(None, emo), group="nat-qa"))

@@ -1,0 +1,70 @@
+{
+ "subject": "연산",
+ "items": [],
+ "generators": [
+  {
+   "id": "gen-split10",
+   "gen": "split10",
+   "level": 1,
+   "weight": 2,
+   "title": "10 가르기·모으기"
+  },
+  {
+   "id": "gen-add10",
+   "gen": "add10",
+   "level": 1,
+   "weight": 2,
+   "title": "10까지 덧셈"
+  },
+  {
+   "id": "gen-sub10",
+   "gen": "sub10",
+   "level": 1,
+   "weight": 2,
+   "title": "10까지 뺄셈"
+  },
+  {
+   "id": "gen-add20",
+   "gen": "add20",
+   "level": 2,
+   "weight": 3,
+   "title": "받아올림 덧셈"
+  },
+  {
+   "id": "gen-sub20",
+   "gen": "sub20",
+   "level": 2,
+   "weight": 3,
+   "title": "받아내림 뺄셈"
+  },
+  {
+   "id": "gen-add2d",
+   "gen": "add2d",
+   "level": 3,
+   "weight": 2,
+   "title": "두 자리 + 한 자리"
+  },
+  {
+   "id": "gen-sub2d",
+   "gen": "sub2d",
+   "level": 3,
+   "weight": 2,
+   "title": "두 자리 - 한 자리"
+  },
+  {
+   "id": "gen-blank",
+   "gen": "blank",
+   "level": 2,
+   "weight": 3,
+   "title": "□ 넣기"
+  },
+  {
+   "id": "gen-tens",
+   "gen": "tens",
+   "level": 2,
+   "weight": 1,
+   "title": "10씩 묶어 세기"
+  }
+ ],
+ "key": "calc"
+}
