@@ -1,4 +1,4 @@
-from common import Q, img, who, josa
+from common import Q, img, who_kid as who, josa
 import random
 
 # 정답|오답1,오답2|이모지|위키 문서(사진)

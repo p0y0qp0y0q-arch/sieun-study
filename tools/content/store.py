@@ -86,7 +86,7 @@ def build(coins):
         for g in goods.split(","):
             n += 1
             pw = who(n, 62)
-            out.append(Q(f"sto-{n:03d}", "가게", f"{pw['가']} {g}{josa(g,'을','를')} 사려고 해요. 어느 가게에 가야 할까요?",
+            out.append(Q(f"sto-{n:03d}", "가게", f"{g}{josa(g,'을','를')} 사려면 어느 가게에 가야 할까요?",
                          [nm] + R.sample(pool, 2), 0, level=1, image=img(None, emo), pool=pool, group="sto-where"))
     return out, items
 

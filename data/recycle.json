@@ -5,7 +5,7 @@
    "id": "rec-001",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 생수 페트병을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 생수 페트병을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "투명 페트병",
     "일반쓰레기",
@@ -89,7 +89,7 @@
    "id": "rec-003",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "엄마가 우유팩을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "엄마가 우유팩을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "종이팩(우유팩)",
     "투명 페트병",
@@ -177,7 +177,7 @@
    "id": "rec-005",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 두유팩을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 두유팩을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "종이팩(우유팩)",
     "종이",
@@ -257,7 +257,7 @@
    "id": "rec-007",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "아빠가 음료수 캔을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "아빠가 음료수 캔을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "캔·고철",
     "플라스틱",
@@ -345,7 +345,7 @@
    "id": "rec-009",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 통조림 캔을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 통조림 캔을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "캔·고철",
     "종이팩(우유팩)",
@@ -429,7 +429,7 @@
    "id": "rec-011",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 냄비를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 냄비를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "캔·고철",
     "투명 페트병",
@@ -517,7 +517,7 @@
    "id": "rec-013",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 부탄가스통을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 부탄가스통을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "캔·고철",
     "음식물",
@@ -601,7 +601,7 @@
    "id": "rec-015",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "엄마가 택배 상자를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "엄마가 택배 상자를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "종이",
     "플라스틱",
@@ -689,7 +689,7 @@
    "id": "rec-017",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "할머니가 공책을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "할머니가 공책을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "종이",
     "비닐",
@@ -777,7 +777,7 @@
    "id": "rec-019",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 과자 상자를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 과자 상자를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "종이",
     "캔·고철",
@@ -865,7 +865,7 @@
    "id": "rec-021",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "선생님이 달걀판(종이)를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "선생님이 달걀판(종이)를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "종이",
     "캔·고철",
@@ -949,7 +949,7 @@
    "id": "rec-023",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 전단지를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 전단지를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "종이",
     "캔·고철",
@@ -1033,7 +1033,7 @@
    "id": "rec-025",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "동생이 영수증을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "동생이 영수증을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "비닐",
@@ -1121,7 +1121,7 @@
    "id": "rec-027",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 기저귀를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 기저귀를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "종이",
@@ -1209,7 +1209,7 @@
    "id": "rec-029",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 코팅된 종이를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 코팅된 종이를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "플라스틱",
@@ -1289,7 +1289,7 @@
    "id": "rec-031",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "아빠가 음료수 유리병을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "아빠가 음료수 유리병을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "유리병",
     "종이팩(우유팩)",
@@ -1377,7 +1377,7 @@
    "id": "rec-033",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 간장병을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 간장병을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "유리병",
     "플라스틱",
@@ -1457,7 +1457,7 @@
    "id": "rec-035",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 깨진 그릇을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 깨진 그릇을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "유리병",
@@ -1541,7 +1541,7 @@
    "id": "rec-037",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "친구가 도자기 컵을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "친구가 도자기 컵을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "유리병",
@@ -1629,7 +1629,7 @@
    "id": "rec-039",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "동생이 라면 봉지를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "동생이 라면 봉지를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "비닐",
     "일반쓰레기",
@@ -1717,7 +1717,7 @@
    "id": "rec-041",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "짝꿍이 비닐봉지를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "짝꿍이 비닐봉지를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "비닐",
     "음식물",
@@ -1801,7 +1801,7 @@
    "id": "rec-043",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 빵 봉지를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 빵 봉지를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "비닐",
     "플라스틱",
@@ -1885,7 +1885,7 @@
    "id": "rec-045",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "친구가 랩을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "친구가 랩을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "비닐",
     "일반쓰레기",
@@ -1973,7 +1973,7 @@
    "id": "rec-047",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 샴푸통을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 샴푸통을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "플라스틱",
     "캔·고철",
@@ -2057,7 +2057,7 @@
    "id": "rec-049",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "할머니가 배달 용기를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "할머니가 배달 용기를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "플라스틱",
     "비닐",
@@ -2141,7 +2141,7 @@
    "id": "rec-051",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "선생님이 스티로폼 상자를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "선생님이 스티로폼 상자를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "플라스틱",
     "음식물",
@@ -2225,7 +2225,7 @@
    "id": "rec-053",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "선생님이 칫솔을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "선생님이 칫솔을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "종이팩(우유팩)",
@@ -2313,7 +2313,7 @@
    "id": "rec-055",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 크레파스를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 크레파스를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "캔·고철",
@@ -2401,7 +2401,7 @@
    "id": "rec-057",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 빨대를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 빨대를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "투명 페트병",
@@ -2485,7 +2485,7 @@
    "id": "rec-059",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 마스크를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 마스크를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "종이",
@@ -2573,7 +2573,7 @@
    "id": "rec-061",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 연필 깎은 부스러기를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 연필 깎은 부스러기를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "종이팩(우유팩)",
@@ -2657,7 +2657,7 @@
    "id": "rec-063",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 솜을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 솜을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "캔·고철",
@@ -2741,7 +2741,7 @@
    "id": "rec-065",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "할머니가 사과 껍질을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "할머니가 사과 껍질을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "음식물",
     "일반쓰레기",
@@ -2829,7 +2829,7 @@
    "id": "rec-067",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "할머니가 먹다 남은 밥을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "할머니가 먹다 남은 밥을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "음식물",
     "플라스틱",
@@ -2917,7 +2917,7 @@
    "id": "rec-069",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "엄마가 귤 껍질을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "엄마가 귤 껍질을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "음식물",
     "일반쓰레기",
@@ -3001,7 +3001,7 @@
    "id": "rec-071",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 채소 찌꺼기를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 채소 찌꺼기를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "음식물",
     "플라스틱",
@@ -3089,7 +3089,7 @@
    "id": "rec-073",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "친구가 김치 찌꺼기를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "친구가 김치 찌꺼기를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "음식물",
     "플라스틱",
@@ -3177,7 +3177,7 @@
    "id": "rec-075",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "친구가 닭 뼈를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "친구가 닭 뼈를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "플라스틱",
@@ -3261,7 +3261,7 @@
    "id": "rec-077",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "선생님이 복숭아 씨를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "선생님이 복숭아 씨를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "유리병",
@@ -3349,7 +3349,7 @@
    "id": "rec-079",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 옥수수 껍질을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 옥수수 껍질을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "종이",
@@ -3437,7 +3437,7 @@
    "id": "rec-081",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 커피 찌꺼기를 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 커피 찌꺼기를 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "종이팩(우유팩)",
@@ -3521,7 +3521,7 @@
    "id": "rec-083",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "친구가 페트병 뚜껑을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "친구가 페트병 뚜껑을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "플라스틱",
     "종이",
@@ -3609,7 +3609,7 @@
    "id": "rec-085",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "선생님이 쇠 숟가락을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "선생님이 쇠 숟가락을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "캔·고철",
     "유리병",
@@ -3697,7 +3697,7 @@
    "id": "rec-087",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 못을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 못을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "캔·고철",
     "투명 페트병",
@@ -3785,7 +3785,7 @@
    "id": "rec-089",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 깨진 화분을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 깨진 화분을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "비닐",
@@ -3869,7 +3869,7 @@
    "id": "rec-091",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "언니가 신발을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "언니가 신발을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "종이",
@@ -3957,7 +3957,7 @@
    "id": "rec-093",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "친구가 종이 쇼핑백을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "친구가 종이 쇼핑백을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "종이",
     "일반쓰레기",
@@ -4041,7 +4041,7 @@
    "id": "rec-095",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "선생님이 공책 스프링을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "선생님이 공책 스프링을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "캔·고철",
     "종이",
@@ -4125,7 +4125,7 @@
    "id": "rec-097",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 과일 망을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 과일 망을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "비닐",
     "유리병",
@@ -4209,7 +4209,7 @@
    "id": "rec-099",
    "subject": "분리수거",
    "type": "sort",
-   "prompt": "시은이가 나무젓가락을 다 썼어요. 어디에 버릴까요?",
+   "prompt": "시은이가 나무젓가락을 버리려고 해요. 어디에 버릴까요?",
    "choices": [
     "일반쓰레기",
     "유리병",
@@ -4264,16 +4264,12 @@
      "source": "https://commons.wikimedia.org/wiki/File:Water_Bottle_(51308317077).jpg"
     },
     {
-     "fallbackEmoji": "🧃",
-     "label": "멸균팩"
+     "fallbackEmoji": "🍜",
+     "label": "남은 국수"
     },
     {
-     "fallbackEmoji": "🧻",
-     "label": "물티슈",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Erfrischungstuch.jpg/500px-Erfrischungstuch.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Erfrischungstuch.jpg/500px-Erfrischungstuch.jpg",
-     "credit": "joho345, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Erfrischungstuch.jpg"
+     "fallbackEmoji": "🍗",
+     "label": "닭 뼈"
     }
    ],
    "answer": 0,
@@ -4967,20 +4963,16 @@
      "label": "음료수 페트병"
     },
     {
-     "fallbackEmoji": "📦",
-     "label": "과자 상자",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/500px-Several_Cartons.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/500px-Several_Cartons.jpg",
-     "credit": "Rlsheehan at English Wikipedia, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Several_Cartons.jpg"
+     "fallbackEmoji": "➰",
+     "label": "고무줄",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Rubber_bands.jpg/500px-Rubber_bands.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Rubber_bands.jpg/500px-Rubber_bands.jpg",
+     "credit": "FML, CC BY-SA 2.5, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Rubber_bands.jpg"
     },
     {
-     "fallbackEmoji": "🛍️",
-     "label": "랩",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pvc-Film.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pvc-Film.jpg",
-     "credit": "Luccadomina, CC BY-SA 4.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Pvc-Film.jpg"
+     "fallbackEmoji": "🥃",
+     "label": "깨진 유리컵"
     }
    ],
    "answer": 0,
@@ -5678,20 +5670,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Joghurt.jpg"
     },
     {
-     "fallbackEmoji": "🧾",
-     "label": "영수증",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/US-BEP-Receipt_for_currency_%2823_July_1915%29.jpg/500px-US-BEP-Receipt_for_currency_%2823_July_1915%29.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/US-BEP-Receipt_for_currency_%2823_July_1915%29.jpg/500px-US-BEP-Receipt_for_currency_%2823_July_1915%29.jpg",
-     "credit": "National Museum of American History, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:US-BEP-Receipt_for_currency_(23_July_1915).jpg"
+     "fallbackEmoji": "☂️",
+     "label": "우산",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/500px-M0354_000727-005_1.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/500px-M0354_000727-005_1.jpg",
+     "credit": "MONNIN Jacques, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:M0354_000727-005_1.jpg"
     },
     {
-     "fallbackEmoji": "🥚",
-     "label": "달걀 껍데기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
-     "credit": "Unknown, CC BY 2.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Egg-rmh.jpg"
+     "fallbackEmoji": "🥫",
+     "label": "음료수 캔",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Drinking_can_ring-pull_tab.jpg/500px-Drinking_can_ring-pull_tab.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Drinking_can_ring-pull_tab.jpg/500px-Drinking_can_ring-pull_tab.jpg",
+     "credit": "Marcos André, CC BY 2.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Drinking_can_ring-pull_tab.jpg"
     }
    ],
    "answer": 0,
@@ -6353,20 +6345,16 @@
      "label": "샴푸통"
     },
     {
-     "fallbackEmoji": "🥬",
-     "label": "김치 찌꺼기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
-     "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Various_kimchi.jpg"
+     "fallbackEmoji": "🏷️",
+     "label": "페트병 라벨"
     },
     {
-     "fallbackEmoji": "🍳",
-     "label": "프라이팬",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pfanne_%28Edelstahl%29.jpg/500px-Pfanne_%28Edelstahl%29.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pfanne_%28Edelstahl%29.jpg/500px-Pfanne_%28Edelstahl%29.jpg",
-     "credit": "Unknown, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Pfanne_(Edelstahl).jpg"
+     "fallbackEmoji": "📕",
+     "label": "책",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/500px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/500px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+     "credit": "NYC Wanderer (Kevin Eng), CC BY-SA 2.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
     }
    ],
    "answer": 0,
@@ -7032,16 +7020,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Pralni_pra%C5%A1ek.JPG"
     },
     {
-     "fallbackEmoji": "✏️",
-     "label": "연필 깎은 부스러기"
+     "fallbackEmoji": "🍌",
+     "label": "바나나 껍질",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+     "credit": "TimothyPilgrim, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg"
     },
     {
-     "fallbackEmoji": "🧤",
-     "label": "고무장갑",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Rubber_Glove_1938_SLNSW_FL9613382.jpg/500px-Rubber_Glove_1938_SLNSW_FL9613382.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Rubber_Glove_1938_SLNSW_FL9613382.jpg/500px-Rubber_Glove_1938_SLNSW_FL9613382.jpg",
-     "credit": "Ray Olson, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Rubber_Glove_1938_SLNSW_FL9613382.jpg"
+     "fallbackEmoji": "🎁",
+     "label": "포장지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG/500px-Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG/500px-Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG",
+     "credit": "katorisi, CC BY 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Traditional_Japanese_wrapping_cloth,huroshiki,katori-city,japan.JPG"
     }
    ],
    "answer": 0,
@@ -7703,16 +7695,16 @@
      "label": "배달 용기"
     },
     {
-     "fallbackEmoji": "🥬",
-     "label": "김치 찌꺼기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
-     "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Various_kimchi.jpg"
+     "fallbackEmoji": "✏️",
+     "label": "연필 깎은 부스러기"
     },
     {
-     "fallbackEmoji": "🔩",
-     "label": "병뚜껑(쇠)"
+     "fallbackEmoji": "🥔",
+     "label": "과자 봉지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg",
+     "credit": "Evan-Amos for those who dont know, this guy wrote this, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Potato-Chips.jpg"
     }
    ],
    "answer": 0,
@@ -8378,20 +8370,16 @@
      "source": "https://commons.wikimedia.org/wiki/File:Cup-Noodles-2.jpg"
     },
     {
-     "fallbackEmoji": "🥚",
-     "label": "달걀 껍데기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
-     "credit": "Unknown, CC BY 2.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Egg-rmh.jpg"
+     "fallbackEmoji": "📄",
+     "label": "코팅된 종이"
     },
     {
-     "fallbackEmoji": "🌽",
-     "label": "옥수수 껍질",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg",
-     "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg"
+     "fallbackEmoji": "🥫",
+     "label": "참치캔",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chicharros_en_escabeche.jpg/500px-Chicharros_en_escabeche.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chicharros_en_escabeche.jpg/500px-Chicharros_en_escabeche.jpg",
+     "credit": "Tamorlan, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Chicharros_en_escabeche.jpg"
     }
    ],
    "answer": 0,
@@ -9057,20 +9045,16 @@
      "source": "https://commons.wikimedia.org/wiki/File:Drinking_can_ring-pull_tab.jpg"
     },
     {
-     "fallbackEmoji": "🫧",
-     "label": "뽁뽁이",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bubble_Wrap.jpg/500px-Bubble_Wrap.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bubble_Wrap.jpg/500px-Bubble_Wrap.jpg",
-     "credit": "User Consequencefree on en.wikipedia, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Bubble_Wrap.jpg"
+     "fallbackEmoji": "🍗",
+     "label": "닭 뼈"
     },
     {
-     "fallbackEmoji": "🪴",
-     "label": "깨진 화분",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%22Meillandine%22_Rose_in_clay_pot.jpg/500px-%22Meillandine%22_Rose_in_clay_pot.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%22Meillandine%22_Rose_in_clay_pot.jpg/500px-%22Meillandine%22_Rose_in_clay_pot.jpg",
-     "credit": "Arch. Attilio Mileto - attilio.mileto@florero.net, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:%22Meillandine%22_Rose_in_clay_pot.jpg"
+     "fallbackEmoji": "🍬",
+     "label": "껌",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chewing_gum_stick.jpg/500px-Chewing_gum_stick.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chewing_gum_stick.jpg/500px-Chewing_gum_stick.jpg",
+     "credit": "Lusheeta, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Chewing_gum_stick.jpg"
     }
    ],
    "answer": 0,
@@ -9688,16 +9672,16 @@
      "source": "https://commons.wikimedia.org/wiki/File:Chicharros_en_escabeche.jpg"
     },
     {
-     "fallbackEmoji": "🍜",
-     "label": "남은 국수"
+     "fallbackEmoji": "🍚",
+     "label": "먹다 남은 밥",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Meshi_001.jpg/500px-Meshi_001.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Meshi_001.jpg/500px-Meshi_001.jpg",
+     "credit": "Ocdp, CC0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Meshi_001.jpg"
     },
     {
-     "fallbackEmoji": "➰",
-     "label": "고무줄",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Rubber_bands.jpg/500px-Rubber_bands.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Rubber_bands.jpg/500px-Rubber_bands.jpg",
-     "credit": "FML, CC BY-SA 2.5, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Rubber_bands.jpg"
+     "fallbackEmoji": "🍞",
+     "label": "빵 봉지"
     }
    ],
    "answer": 0,
@@ -10315,16 +10299,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Empty_tin_can2009-01-19.jpg"
     },
     {
-     "fallbackEmoji": "📄",
-     "label": "전단지"
+     "fallbackEmoji": "😷",
+     "label": "마스크",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Surgical_face_mask.jpg/500px-Surgical_face_mask.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Surgical_face_mask.jpg/500px-Surgical_face_mask.jpg",
+     "credit": "NurseTogether, CC BY-SA 4.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Surgical_face_mask.jpg"
     },
     {
-     "fallbackEmoji": "🍾",
-     "label": "음료수 유리병",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cocacolacollection.JPG/500px-Cocacolacollection.JPG",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cocacolacollection.JPG/500px-Cocacolacollection.JPG",
-     "credit": "User:C`est moi-es, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Cocacolacollection.JPG"
+     "fallbackEmoji": "🍑",
+     "label": "복숭아 씨",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
+     "credit": "File:Illustration Prunus persica0.jpg: PLEASE COMPLETE AUTHOR INFORMATION deriva, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Illustration_Prunus_persica_clean_no_descr.jpg"
     }
    ],
    "answer": 0,
@@ -10938,20 +10926,16 @@
      "label": "분유통(철)"
     },
     {
-     "fallbackEmoji": "🍉",
-     "label": "수박 껍질",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/500px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/500px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
-     "credit": "Fred Hsu (Wikipedia:User:Fred Hsu on en.wikipedia), CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg"
+     "fallbackEmoji": "📦",
+     "label": "스티로폼 상자"
     },
     {
-     "fallbackEmoji": "🐚",
-     "label": "조개껍데기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Conchiglie_Seashells_01.jpg/500px-Conchiglie_Seashells_01.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Conchiglie_Seashells_01.jpg/500px-Conchiglie_Seashells_01.jpg",
-     "credit": "Alessio Sbarbaro User_talk:Yoggysot, CC BY-SA 2.5, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Conchiglie_Seashells_01.jpg"
+     "fallbackEmoji": "📓",
+     "label": "공책",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Notebooks.jpg/500px-Notebooks.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Notebooks.jpg/500px-Notebooks.jpg",
+     "credit": "L.Marie, CC BY 2.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Notebooks.jpg"
     }
    ],
    "answer": 0,
@@ -11569,20 +11553,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Pans_(113563802).jpg"
     },
     {
-     "fallbackEmoji": "🍕",
-     "label": "피자 상자",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Imos_Pizza_in_the_box_1.jpg/500px-Imos_Pizza_in_the_box_1.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Imos_Pizza_in_the_box_1.jpg/500px-Imos_Pizza_in_the_box_1.jpg",
-     "credit": "Kbh3rd, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Imos_Pizza_in_the_box_1.jpg"
+     "fallbackEmoji": "📰",
+     "label": "신문지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NYTimes-Page1-11-11-1918.jpg/500px-NYTimes-Page1-11-11-1918.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NYTimes-Page1-11-11-1918.jpg/500px-NYTimes-Page1-11-11-1918.jpg",
+     "credit": "Charles Ransom Miller, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:NYTimes-Page1-11-11-1918.jpg"
     },
     {
-     "fallbackEmoji": "🛍️",
-     "label": "랩",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pvc-Film.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pvc-Film.jpg",
-     "credit": "Luccadomina, CC BY-SA 4.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Pvc-Film.jpg"
+     "fallbackEmoji": "🍑",
+     "label": "복숭아 씨",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
+     "credit": "File:Illustration Prunus persica0.jpg: PLEASE COMPLETE AUTHOR INFORMATION deriva, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Illustration_Prunus_persica_clean_no_descr.jpg"
     }
    ],
    "answer": 0,
@@ -12200,16 +12184,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Box.agr.jpg"
     },
     {
-     "fallbackEmoji": "🥬",
-     "label": "김치 찌꺼기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Various_kimchi.jpg/500px-Various_kimchi.jpg",
-     "credit": "국립국어원, CC BY-SA 2.0 kr, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Various_kimchi.jpg"
+     "fallbackEmoji": "🥛",
+     "label": "요구르트병",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Joghurt.jpg/500px-Joghurt.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Joghurt.jpg/500px-Joghurt.jpg",
+     "credit": "No machine-readable author provided. Rainer Zenz assumed (based on copyright cla, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Joghurt.jpg"
     },
     {
-     "fallbackEmoji": "🏷️",
-     "label": "페트병 라벨"
+     "fallbackEmoji": "🥔",
+     "label": "과자 봉지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg",
+     "credit": "Evan-Amos for those who dont know, this guy wrote this, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Potato-Chips.jpg"
     }
    ],
    "answer": 0,
@@ -12843,12 +12831,12 @@
      "source": "https://commons.wikimedia.org/wiki/File:NYTimes-Page1-11-11-1918.jpg"
     },
     {
-     "fallbackEmoji": "🌽",
-     "label": "옥수수 껍질",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg",
-     "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg"
+     "fallbackEmoji": "🧴",
+     "label": "세제통",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pralni_pra%C5%A1ek.JPG/500px-Pralni_pra%C5%A1ek.JPG",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pralni_pra%C5%A1ek.JPG/500px-Pralni_pra%C5%A1ek.JPG",
+     "credit": "Uncy at Slovenian Wikipedia, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Pralni_pra%C5%A1ek.JPG"
     },
     {
      "fallbackEmoji": "🍶",
@@ -13486,16 +13474,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Notebooks.jpg"
     },
     {
-     "fallbackEmoji": "🧅",
-     "label": "양파 껍질",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/500px-Mixed_onions.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/500px-Mixed_onions.jpg",
-     "credit": "Colin, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg"
+     "fallbackEmoji": "👟",
+     "label": "신발",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Air_Jordan_1_Banned.jpg/500px-Air_Jordan_1_Banned.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Air_Jordan_1_Banned.jpg/500px-Air_Jordan_1_Banned.jpg",
+     "credit": "HI 622, CC BY-SA 4.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Air_Jordan_1_Banned.jpg"
     },
     {
-     "fallbackEmoji": "🍗",
-     "label": "닭 뼈"
+     "fallbackEmoji": "🪥",
+     "label": "칫솔",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Toothbrush_20050716_004.jpg/500px-Toothbrush_20050716_004.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Toothbrush_20050716_004.jpg/500px-Toothbrush_20050716_004.jpg",
+     "credit": "Jonas Bergsten, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Toothbrush_20050716_004.jpg"
     }
    ],
    "answer": 0,
@@ -14129,20 +14121,16 @@
      "source": "https://commons.wikimedia.org/wiki/File:Several_Cartons.jpg"
     },
     {
-     "fallbackEmoji": "🥤",
-     "label": "빨대",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Eight_drinking_straws_%284273846588%29.jpg/500px-Eight_drinking_straws_%284273846588%29.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Eight_drinking_straws_%284273846588%29.jpg/500px-Eight_drinking_straws_%284273846588%29.jpg",
-     "credit": "Horia Varlan from Bucharest, Romania, CC BY 2.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Eight_drinking_straws_(4273846588).jpg"
+     "fallbackEmoji": "🍜",
+     "label": "라면 봉지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mama_instant_noodle_block.jpg/500px-Mama_instant_noodle_block.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mama_instant_noodle_block.jpg/500px-Mama_instant_noodle_block.jpg",
+     "credit": "Takeaway, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Mama_instant_noodle_block.jpg"
     },
     {
-     "fallbackEmoji": "🍜",
-     "label": "컵라면 용기(스티로폼)",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cup-Noodles-2.jpg/500px-Cup-Noodles-2.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cup-Noodles-2.jpg/500px-Cup-Noodles-2.jpg",
-     "credit": "Rainer Zenz, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Cup-Noodles-2.jpg"
+     "fallbackEmoji": "🛍️",
+     "label": "비닐봉지"
     }
    ],
    "answer": 0,
@@ -14776,8 +14764,8 @@
      "source": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
     },
     {
-     "fallbackEmoji": "🥃",
-     "label": "깨진 유리컵"
+     "fallbackEmoji": "🛍️",
+     "label": "비닐봉지"
     },
     {
      "fallbackEmoji": "🧽",
@@ -15415,20 +15403,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Several_Cartons.jpg"
     },
     {
-     "fallbackEmoji": "🎁",
-     "label": "포장지",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG/500px-Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG/500px-Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG",
-     "credit": "katorisi, CC BY 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Traditional_Japanese_wrapping_cloth,huroshiki,katori-city,japan.JPG"
+     "fallbackEmoji": "🍉",
+     "label": "수박 껍질",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/500px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/500px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+     "credit": "Fred Hsu (Wikipedia:User:Fred Hsu on en.wikipedia), CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg"
     },
     {
-     "fallbackEmoji": "🧦",
-     "label": "양말",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/HandKnittedWhiteLaceSock.jpg/500px-HandKnittedWhiteLaceSock.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/HandKnittedWhiteLaceSock.jpg/500px-HandKnittedWhiteLaceSock.jpg",
-     "credit": "Loggie-log, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:HandKnittedWhiteLaceSock.jpg"
+     "fallbackEmoji": "🍑",
+     "label": "복숭아 씨",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
+     "credit": "File:Illustration Prunus persica0.jpg: PLEASE COMPLETE AUTHOR INFORMATION deriva, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Illustration_Prunus_persica_clean_no_descr.jpg"
     }
    ],
    "answer": 0,
@@ -16106,12 +16094,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Several_Cartons.jpg"
     },
     {
-     "fallbackEmoji": "🍑",
-     "label": "과일 망"
+     "fallbackEmoji": "🎁",
+     "label": "포장지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG/500px-Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG/500px-Traditional_Japanese_wrapping_cloth%2Churoshiki%2Ckatori-city%2Cjapan.JPG",
+     "credit": "katorisi, CC BY 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Traditional_Japanese_wrapping_cloth,huroshiki,katori-city,japan.JPG"
     },
     {
-     "fallbackEmoji": "🧽",
-     "label": "수세미"
+     "fallbackEmoji": "🥛",
+     "label": "요구르트병",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Joghurt.jpg/500px-Joghurt.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Joghurt.jpg/500px-Joghurt.jpg",
+     "credit": "No machine-readable author provided. Rainer Zenz assumed (based on copyright cla, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Joghurt.jpg"
     }
    ],
    "answer": 0,
@@ -16785,20 +16781,20 @@
      "label": "두유팩"
     },
     {
-     "fallbackEmoji": "🥫",
-     "label": "음료수 캔",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Drinking_can_ring-pull_tab.jpg/500px-Drinking_can_ring-pull_tab.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Drinking_can_ring-pull_tab.jpg/500px-Drinking_can_ring-pull_tab.jpg",
-     "credit": "Marcos André, CC BY 2.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Drinking_can_ring-pull_tab.jpg"
+     "fallbackEmoji": "📦",
+     "label": "과자 상자",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/500px-Several_Cartons.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/500px-Several_Cartons.jpg",
+     "credit": "Rlsheehan at English Wikipedia, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Several_Cartons.jpg"
     },
     {
-     "fallbackEmoji": "🍾",
-     "label": "음료수 유리병",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cocacolacollection.JPG/500px-Cocacolacollection.JPG",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cocacolacollection.JPG/500px-Cocacolacollection.JPG",
-     "credit": "User:C`est moi-es, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Cocacolacollection.JPG"
+     "fallbackEmoji": "🥫",
+     "label": "통조림 캔",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Empty_tin_can2009-01-19.jpg/500px-Empty_tin_can2009-01-19.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Empty_tin_can2009-01-19.jpg/500px-Empty_tin_can2009-01-19.jpg",
+     "credit": "Sun Ladder, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Empty_tin_can2009-01-19.jpg"
     }
    ],
    "answer": 0,
@@ -17472,20 +17468,20 @@
      "label": "멸균팩"
     },
     {
-     "fallbackEmoji": "☕",
-     "label": "커피 찌꺼기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/500px-Latte_and_dark_coffee.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Latte_and_dark_coffee.jpg/500px-Latte_and_dark_coffee.jpg",
-     "credit": "Bex Walton, CC BY 2.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Latte_and_dark_coffee.jpg"
+     "fallbackEmoji": "🥄",
+     "label": "쇠 숟가락",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Soup_Spoon.jpg/500px-Soup_Spoon.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Soup_Spoon.jpg/500px-Soup_Spoon.jpg",
+     "credit": "Donovan Govan., CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Soup_Spoon.jpg"
     },
     {
-     "fallbackEmoji": "🍜",
-     "label": "컵라면 용기(스티로폼)",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cup-Noodles-2.jpg/500px-Cup-Noodles-2.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cup-Noodles-2.jpg/500px-Cup-Noodles-2.jpg",
-     "credit": "Rainer Zenz, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Cup-Noodles-2.jpg"
+     "fallbackEmoji": "🥚",
+     "label": "달걀 껍데기",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
+     "credit": "Unknown, CC BY 2.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Egg-rmh.jpg"
     }
    ],
    "answer": 0,
@@ -18163,20 +18159,16 @@
      "source": "https://commons.wikimedia.org/wiki/File:Paper_cup_DS.jpg"
     },
     {
-     "fallbackEmoji": "🧻",
-     "label": "화장지 비닐 포장",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Toiletpapier_%28Gobran111%29.jpg/500px-Toiletpapier_%28Gobran111%29.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Toiletpapier_%28Gobran111%29.jpg/500px-Toiletpapier_%28Gobran111%29.jpg",
-     "credit": "Brandon Blinkenberg, CC BY 2.5, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Toiletpapier_(Gobran111).jpg"
+     "fallbackEmoji": "🔩",
+     "label": "병뚜껑(쇠)"
     },
     {
-     "fallbackEmoji": "🍚",
-     "label": "먹다 남은 밥",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Meshi_001.jpg/500px-Meshi_001.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Meshi_001.jpg/500px-Meshi_001.jpg",
-     "credit": "Ocdp, CC0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Meshi_001.jpg"
+     "fallbackEmoji": "🍾",
+     "label": "음료수 유리병",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cocacolacollection.JPG/500px-Cocacolacollection.JPG",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cocacolacollection.JPG/500px-Cocacolacollection.JPG",
+     "credit": "User:C`est moi-es, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Cocacolacollection.JPG"
     }
    ],
    "answer": 0,
@@ -18854,16 +18846,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Cocacolacollection.JPG"
     },
     {
-     "fallbackEmoji": "🧴",
-     "label": "음료수 페트병"
+     "fallbackEmoji": "🖊️",
+     "label": "볼펜",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/03-BICcristal2008-03-26.jpg/500px-03-BICcristal2008-03-26.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/03-BICcristal2008-03-26.jpg/500px-03-BICcristal2008-03-26.jpg",
+     "credit": "Trounce, CC BY 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:03-BICcristal2008-03-26.jpg"
     },
     {
-     "fallbackEmoji": "🥫",
-     "label": "참치캔",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chicharros_en_escabeche.jpg/500px-Chicharros_en_escabeche.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chicharros_en_escabeche.jpg/500px-Chicharros_en_escabeche.jpg",
-     "credit": "Tamorlan, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Chicharros_en_escabeche.jpg"
+     "fallbackEmoji": "🍲",
+     "label": "냄비",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pans_%28113563802%29.jpg/500px-Pans_%28113563802%29.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pans_%28113563802%29.jpg/500px-Pans_%28113563802%29.jpg",
+     "credit": "Tracy Hunter from Kabul,, Afghanistan, CC BY 2.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Pans_(113563802).jpg"
     }
    ],
    "answer": 0,
@@ -19553,20 +19549,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:PreservedFood1.jpg"
     },
     {
-     "fallbackEmoji": "🔥",
-     "label": "부탄가스통",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Portable_stove.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/7/75/Portable_stove.jpg",
-     "credit": "en.wikipedia.org/wiki/User:Duk, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Portable_stove.jpg"
+     "fallbackEmoji": "😷",
+     "label": "마스크",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Surgical_face_mask.jpg/500px-Surgical_face_mask.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Surgical_face_mask.jpg/500px-Surgical_face_mask.jpg",
+     "credit": "NurseTogether, CC BY-SA 4.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Surgical_face_mask.jpg"
     },
     {
-     "fallbackEmoji": "🧴",
-     "label": "생수 페트병",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Water_Bottle_%2851308317077%29.jpg/500px-Water_Bottle_%2851308317077%29.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Water_Bottle_%2851308317077%29.jpg/500px-Water_Bottle_%2851308317077%29.jpg",
-     "credit": "Alabama Extension, CC0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Water_Bottle_(51308317077).jpg"
+     "fallbackEmoji": "🍎",
+     "label": "사과 껍질",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apfel-Fuji.jpg/500px-Apfel-Fuji.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apfel-Fuji.jpg/500px-Apfel-Fuji.jpg",
+     "credit": "Superbass, CC BY-SA 4.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Apfel-Fuji.jpg"
     }
    ],
    "answer": 0,
@@ -20252,12 +20248,16 @@
      "label": "간장병"
     },
     {
-     "fallbackEmoji": "🥫",
-     "label": "분유통(철)"
+     "fallbackEmoji": "🧴",
+     "label": "음료수 페트병"
     },
     {
-     "fallbackEmoji": "🖼️",
-     "label": "사진"
+     "fallbackEmoji": "🍲",
+     "label": "냄비",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pans_%28113563802%29.jpg/500px-Pans_%28113563802%29.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pans_%28113563802%29.jpg/500px-Pans_%28113563802%29.jpg",
+     "credit": "Tracy Hunter from Kabul,, Afghanistan, CC BY 2.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Pans_(113563802).jpg"
     }
    ],
    "answer": 0,
@@ -20947,16 +20947,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Mama_instant_noodle_block.jpg"
     },
     {
-     "fallbackEmoji": "🧴",
-     "label": "샴푸통"
+     "fallbackEmoji": "🍑",
+     "label": "복숭아 씨",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
+     "credit": "File:Illustration Prunus persica0.jpg: PLEASE COMPLETE AUTHOR INFORMATION deriva, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Illustration_Prunus_persica_clean_no_descr.jpg"
     },
     {
-     "fallbackEmoji": "🌽",
-     "label": "옥수수 껍질",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg",
-     "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Zea_mays_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-283.jpg"
+     "fallbackEmoji": "🥛",
+     "label": "요구르트병",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Joghurt.jpg/500px-Joghurt.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Joghurt.jpg/500px-Joghurt.jpg",
+     "credit": "No machine-readable author provided. Rainer Zenz assumed (based on copyright cla, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Joghurt.jpg"
     }
    ],
    "answer": 0,
@@ -21602,20 +21606,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Potato-Chips.jpg"
     },
     {
-     "fallbackEmoji": "🥬",
-     "label": "채소 찌꺼기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/500px-Marketvegetables.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/500px-Marketvegetables.jpg",
-     "credit": "Jasper Greek Golangco, Copyrighted free use, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Marketvegetables.jpg"
+     "fallbackEmoji": "🍞",
+     "label": "상한 빵",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Korb_mit_Br%C3%B6tchen.JPG/500px-Korb_mit_Br%C3%B6tchen.JPG",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Korb_mit_Br%C3%B6tchen.JPG/500px-Korb_mit_Br%C3%B6tchen.JPG",
+     "credit": "3268zauber, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Korb_mit_Br%C3%B6tchen.JPG"
     },
     {
-     "fallbackEmoji": "🔥",
-     "label": "부탄가스통",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Portable_stove.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/7/75/Portable_stove.jpg",
-     "credit": "en.wikipedia.org/wiki/User:Duk, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Portable_stove.jpg"
+     "fallbackEmoji": "☁️",
+     "label": "솜",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Vatta2.jpg/500px-Vatta2.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Vatta2.jpg/500px-Vatta2.jpg",
+     "credit": "Elkagye, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Vatta2.jpg"
     }
    ],
    "answer": 0,
@@ -22257,16 +22261,16 @@
      "label": "비닐봉지"
     },
     {
-     "fallbackEmoji": "🍜",
-     "label": "남은 국수"
+     "fallbackEmoji": "🖼️",
+     "label": "사진"
     },
     {
-     "fallbackEmoji": "🔥",
-     "label": "부탄가스통",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Portable_stove.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/7/75/Portable_stove.jpg",
-     "credit": "en.wikipedia.org/wiki/User:Duk, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Portable_stove.jpg"
+     "fallbackEmoji": "🥬",
+     "label": "채소 찌꺼기",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/500px-Marketvegetables.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/500px-Marketvegetables.jpg",
+     "credit": "Jasper Greek Golangco, Copyrighted free use, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Marketvegetables.jpg"
     }
    ],
    "answer": 0,
@@ -22912,20 +22916,16 @@
      "source": "https://commons.wikimedia.org/wiki/File:Bubble_Wrap.jpg"
     },
     {
-     "fallbackEmoji": "🫙",
-     "label": "잼 병",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/PreservedFood1.jpg/500px-PreservedFood1.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/PreservedFood1.jpg/500px-PreservedFood1.jpg",
-     "credit": "Unknown, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:PreservedFood1.jpg"
+     "fallbackEmoji": "🧃",
+     "label": "두유팩"
     },
     {
-     "fallbackEmoji": "☂️",
-     "label": "우산",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/500px-M0354_000727-005_1.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/500px-M0354_000727-005_1.jpg",
-     "credit": "MONNIN Jacques, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:M0354_000727-005_1.jpg"
+     "fallbackEmoji": "🍜",
+     "label": "컵라면 용기(스티로폼)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cup-Noodles-2.jpg/500px-Cup-Noodles-2.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cup-Noodles-2.jpg/500px-Cup-Noodles-2.jpg",
+     "credit": "Rainer Zenz, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Cup-Noodles-2.jpg"
     }
    ],
    "answer": 0,
@@ -23567,20 +23567,16 @@
      "label": "빵 봉지"
     },
     {
-     "fallbackEmoji": "🍳",
-     "label": "프라이팬",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pfanne_%28Edelstahl%29.jpg/500px-Pfanne_%28Edelstahl%29.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Pfanne_%28Edelstahl%29.jpg/500px-Pfanne_%28Edelstahl%29.jpg",
-     "credit": "Unknown, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Pfanne_(Edelstahl).jpg"
+     "fallbackEmoji": "🍗",
+     "label": "닭 뼈"
     },
     {
-     "fallbackEmoji": "😷",
-     "label": "마스크",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Surgical_face_mask.jpg/500px-Surgical_face_mask.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Surgical_face_mask.jpg/500px-Surgical_face_mask.jpg",
-     "credit": "NurseTogether, CC BY-SA 4.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Surgical_face_mask.jpg"
+     "fallbackEmoji": "📰",
+     "label": "신문지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NYTimes-Page1-11-11-1918.jpg/500px-NYTimes-Page1-11-11-1918.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NYTimes-Page1-11-11-1918.jpg/500px-NYTimes-Page1-11-11-1918.jpg",
+     "credit": "Charles Ransom Miller, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:NYTimes-Page1-11-11-1918.jpg"
     }
    ],
    "answer": 0,
@@ -24226,20 +24222,16 @@
      "source": "https://commons.wikimedia.org/wiki/File:US-BEP-Receipt_for_currency_(23_July_1915).jpg"
     },
     {
-     "fallbackEmoji": "🥔",
-     "label": "과자 봉지",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg",
-     "credit": "Evan-Amos for those who dont know, this guy wrote this, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Potato-Chips.jpg"
+     "fallbackEmoji": "🍕",
+     "label": "피자 상자",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Imos_Pizza_in_the_box_1.jpg/500px-Imos_Pizza_in_the_box_1.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Imos_Pizza_in_the_box_1.jpg/500px-Imos_Pizza_in_the_box_1.jpg",
+     "credit": "Kbh3rd, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Imos_Pizza_in_the_box_1.jpg"
     },
     {
-     "fallbackEmoji": "📰",
-     "label": "신문지",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NYTimes-Page1-11-11-1918.jpg/500px-NYTimes-Page1-11-11-1918.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NYTimes-Page1-11-11-1918.jpg/500px-NYTimes-Page1-11-11-1918.jpg",
-     "credit": "Charles Ransom Miller, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:NYTimes-Page1-11-11-1918.jpg"
+     "fallbackEmoji": "🧻",
+     "label": "휴지심"
     }
    ],
    "answer": 0,
@@ -24673,16 +24665,16 @@
      "source": "https://commons.wikimedia.org/wiki/File:Box_of_Scotties_tissues.jpg"
     },
     {
-     "fallbackEmoji": "🧴",
-     "label": "음료수 페트병"
+     "fallbackEmoji": "➰",
+     "label": "공책 스프링"
     },
     {
-     "fallbackEmoji": "🧃",
-     "label": "주스팩",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/500px-Several_Cartons.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/500px-Several_Cartons.jpg",
-     "credit": "Rlsheehan at English Wikipedia, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Several_Cartons.jpg"
+     "fallbackEmoji": "🥬",
+     "label": "채소 찌꺼기",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/500px-Marketvegetables.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Marketvegetables.jpg/500px-Marketvegetables.jpg",
+     "credit": "Jasper Greek Golangco, Copyrighted free use, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Marketvegetables.jpg"
     }
    ],
    "answer": 0,
@@ -25120,8 +25112,12 @@
      "label": "병뚜껑(쇠)"
     },
     {
-     "fallbackEmoji": "🍞",
-     "label": "빵 봉지"
+     "fallbackEmoji": "🍌",
+     "label": "바나나 껍질",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+     "credit": "TimothyPilgrim, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg"
     }
    ],
    "answer": 0,
@@ -25555,16 +25551,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Erfrischungstuch.jpg"
     },
     {
-     "fallbackEmoji": "🥫",
-     "label": "참치캔",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chicharros_en_escabeche.jpg/500px-Chicharros_en_escabeche.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chicharros_en_escabeche.jpg/500px-Chicharros_en_escabeche.jpg",
-     "credit": "Tamorlan, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Chicharros_en_escabeche.jpg"
+     "fallbackEmoji": "🍾",
+     "label": "음료수 유리병",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cocacolacollection.JPG/500px-Cocacolacollection.JPG",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cocacolacollection.JPG/500px-Cocacolacollection.JPG",
+     "credit": "User:C`est moi-es, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Cocacolacollection.JPG"
     },
     {
-     "fallbackEmoji": "🧴",
-     "label": "샴푸통"
+     "fallbackEmoji": "🍲",
+     "label": "냄비",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pans_%28113563802%29.jpg/500px-Pans_%28113563802%29.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pans_%28113563802%29.jpg/500px-Pans_%28113563802%29.jpg",
+     "credit": "Tracy Hunter from Kabul,, Afghanistan, CC BY 2.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Pans_(113563802).jpg"
     }
    ],
    "answer": 0,
@@ -25994,16 +25994,20 @@
      "label": "코팅된 종이"
     },
     {
-     "fallbackEmoji": "➰",
-     "label": "공책 스프링"
+     "fallbackEmoji": "🍜",
+     "label": "라면 봉지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mama_instant_noodle_block.jpg/500px-Mama_instant_noodle_block.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mama_instant_noodle_block.jpg/500px-Mama_instant_noodle_block.jpg",
+     "credit": "Takeaway, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Mama_instant_noodle_block.jpg"
     },
     {
-     "fallbackEmoji": "🔩",
-     "label": "못",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Clou_127.jpg/500px-Clou_127.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Clou_127.jpg/500px-Clou_127.jpg",
-     "credit": "Own work, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Clou_127.jpg"
+     "fallbackEmoji": "🍕",
+     "label": "피자 상자",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Imos_Pizza_in_the_box_1.jpg/500px-Imos_Pizza_in_the_box_1.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Imos_Pizza_in_the_box_1.jpg/500px-Imos_Pizza_in_the_box_1.jpg",
+     "credit": "Kbh3rd, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Imos_Pizza_in_the_box_1.jpg"
     }
    ],
    "answer": 0,
@@ -26437,20 +26441,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Apfel-Fuji.jpg"
     },
     {
-     "fallbackEmoji": "🧃",
-     "label": "주스팩",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/500px-Several_Cartons.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/500px-Several_Cartons.jpg",
-     "credit": "Rlsheehan at English Wikipedia, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Several_Cartons.jpg"
+     "fallbackEmoji": "☂️",
+     "label": "우산",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/500px-M0354_000727-005_1.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/500px-M0354_000727-005_1.jpg",
+     "credit": "MONNIN Jacques, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:M0354_000727-005_1.jpg"
     },
     {
-     "fallbackEmoji": "🥚",
-     "label": "달걀 껍데기",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
-     "credit": "Unknown, CC BY 2.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Egg-rmh.jpg"
+     "fallbackEmoji": "☁️",
+     "label": "솜",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Vatta2.jpg/500px-Vatta2.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Vatta2.jpg/500px-Vatta2.jpg",
+     "credit": "Elkagye, CC BY-SA 3.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Vatta2.jpg"
     }
    ],
    "answer": 0,
@@ -27092,16 +27096,12 @@
      "source": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg"
     },
     {
-     "fallbackEmoji": "🍜",
-     "label": "컵라면 용기(스티로폼)",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cup-Noodles-2.jpg/500px-Cup-Noodles-2.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cup-Noodles-2.jpg/500px-Cup-Noodles-2.jpg",
-     "credit": "Rainer Zenz, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Cup-Noodles-2.jpg"
+     "fallbackEmoji": "🍑",
+     "label": "과일 망"
     },
     {
-     "fallbackEmoji": "🥃",
-     "label": "깨진 유리컵"
+     "fallbackEmoji": "📄",
+     "label": "코팅된 종이"
     }
    ],
    "answer": 0,
@@ -27743,16 +27743,12 @@
      "source": "https://commons.wikimedia.org/wiki/File:Meshi_001.jpg"
     },
     {
-     "fallbackEmoji": "🧴",
-     "label": "음료수 페트병"
+     "fallbackEmoji": "📦",
+     "label": "스티로폼 상자"
     },
     {
-     "fallbackEmoji": "🔩",
-     "label": "못",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Clou_127.jpg/500px-Clou_127.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Clou_127.jpg/500px-Clou_127.jpg",
-     "credit": "Own work, CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Clou_127.jpg"
+     "fallbackEmoji": "🧻",
+     "label": "휴지심"
     }
    ],
    "answer": 0,
@@ -28394,16 +28390,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg"
     },
     {
-     "fallbackEmoji": "👟",
-     "label": "신발",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Air_Jordan_1_Banned.jpg/500px-Air_Jordan_1_Banned.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Air_Jordan_1_Banned.jpg/500px-Air_Jordan_1_Banned.jpg",
-     "credit": "HI 622, CC BY-SA 4.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Air_Jordan_1_Banned.jpg"
+     "fallbackEmoji": "📰",
+     "label": "신문지",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NYTimes-Page1-11-11-1918.jpg/500px-NYTimes-Page1-11-11-1918.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/NYTimes-Page1-11-11-1918.jpg/500px-NYTimes-Page1-11-11-1918.jpg",
+     "credit": "Charles Ransom Miller, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:NYTimes-Page1-11-11-1918.jpg"
     },
     {
-     "fallbackEmoji": "🧃",
-     "label": "멸균팩"
+     "fallbackEmoji": "🥚",
+     "label": "달걀 껍데기",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Egg-rmh.jpg/500px-Egg-rmh.jpg",
+     "credit": "Unknown, CC BY 2.0, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Egg-rmh.jpg"
     }
    ],
    "answer": 0,
@@ -29045,20 +29045,20 @@
      "source": "https://commons.wikimedia.org/wiki/File:Citrus_reticulata_April_2013_Nordbaden.JPG"
     },
     {
-     "fallbackEmoji": "🥄",
-     "label": "쇠 숟가락",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Soup_Spoon.jpg/500px-Soup_Spoon.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Soup_Spoon.jpg/500px-Soup_Spoon.jpg",
-     "credit": "Donovan Govan., CC BY-SA 3.0, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Soup_Spoon.jpg"
+     "fallbackEmoji": "🐚",
+     "label": "조개껍데기",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Conchiglie_Seashells_01.jpg/500px-Conchiglie_Seashells_01.jpg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Conchiglie_Seashells_01.jpg/500px-Conchiglie_Seashells_01.jpg",
+     "credit": "Alessio Sbarbaro User_talk:Yoggysot, CC BY-SA 2.5, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Conchiglie_Seashells_01.jpg"
     },
     {
-     "fallbackEmoji": "🍑",
-     "label": "복숭아 씨",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
-     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/500px-Illustration_Prunus_persica_clean_no_descr.jpg",
-     "credit": "File:Illustration Prunus persica0.jpg: PLEASE COMPLETE AUTHOR INFORMATION deriva, Public domain, Wikimedia Commons",
-     "source": "https://commons.wikimedia.org/wiki/File:Illustration_Prunus_persica_clean_no_descr.jpg"
+     "fallbackEmoji": "👶",
+     "label": "기저귀",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Disposablediaper.JPG/500px-Disposablediaper.JPG",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Disposablediaper.JPG/500px-Disposablediaper.JPG",
+     "credit": "Coop41, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Disposablediaper.JPG"
     }
    ],
    "answer": 0,

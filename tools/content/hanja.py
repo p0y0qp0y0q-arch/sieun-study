@@ -85,7 +85,7 @@ def build():
         if r["ref"]:
             n += 1
             pw = who(i, 21)
-            out.append(Q(f"han-{n:03d}", "한자", f"{pw['가']} 본 이 사진과 어울리는 한자는?" if i % 2 else "사진을 보고 알맞은 한자를 골라요.",
+            out.append(Q(f"han-{n:03d}", "한자", "사진을 보고 알맞은 한자를 골라요.",
                          [r["h"]] + R.sample(pool, 2), 0, level=r["lv"], image=img(r["ref"], r["emo"]), pool=pool,
                          big=True, speakChoices=False, explain=f"{r['h']}  {r['hm']}", group="han-pic", _h=r["h"]))
         else:

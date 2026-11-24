@@ -33,3 +33,15 @@ def josa(word, a, b):
     if not ('가' <= c <= '힣'):
         return b
     return a if (ord(c) - 0xAC00) % 28 else b
+
+KIDS = ["친구", "짝꿍", "민지", "준호", "하린", "도윤"]
+def who_kid(i, salt=0):
+    """아이에게 어울리는 문장(일기, 받아쓰기, 나이 등)용: 시은이 또는 또래 친구"""
+    r = random.Random(i * 31 + salt)
+    if r.random() < 0.5:
+        return who(0, -1) if False else {"가": "시은이가", "는": "시은이는", "랑": "시은이랑", "의": "시은이의", "를": "시은이를", "에게": "시은이에게", "name": "시은이"}
+    p = r.choice(KIDS)
+    b = (ord(p[-1]) - 0xAC00) % 28 != 0
+    return {"가": p + ("이가" if b and p not in ("친구", "짝꿍") else ("이" if b else "가")), "는": p + ("이는" if b and p not in ("친구", "짝꿍") else ("은" if b else "는")),
+            "랑": p + ("이랑" if b else "랑"), "의": p + ("이의" if b and p not in ("친구", "짝꿍") else "의"), "를": p + ("이를" if b and p not in ("친구", "짝꿍") else ("을" if b else "를")),
+            "에게": p + ("이에게" if b and p not in ("친구", "짝꿍") else "에게"), "name": p}

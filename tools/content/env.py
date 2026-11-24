@@ -81,7 +81,7 @@ def build():
         q, a, w, emo, ref = l.split("|")
         pw = who(i, 101)
         if i % 3 == 0:
-            q = f"{pw['가']} 궁금해요. " + q
+            pass
         n += 1
         out.append(Q(f"env-{n:03d}", "환경", q, [a] + w.split(","), 0, level=2, image=img(None if ref == "-" else ref, emo), group="env-qa"))
     names = [l.split("|")[0] for l in ENDANGERED]
@@ -98,7 +98,7 @@ def build():
     for i, (s, good, emo) in enumerate(ACTIONS):
         pw = who(i, 102)
         n += 1
-        out.append(Q(f"env-{n:03d}", "환경", f"{pw['가']} '{s}'. 좋은 행동일까요?", ["😊 좋은 행동", "😢 안 좋은 행동"], 0 if good else 1,
+        out.append(Q(f"env-{n:03d}", "환경", f"'{s}' 이것은 좋은 행동일까요?", ["😊 좋은 행동", "😢 안 좋은 행동"], 0 if good else 1,
                      level=1, fixedOrder=True, image=img(None, emo), group="env-goodbad"))
     # 좋은 행동 고르기 (보기 3개)
     goods = [a for a in ACTIONS if a[1]]

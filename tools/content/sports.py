@@ -127,5 +127,5 @@ def build():
     for i, (q, a, w, emo) in enumerate(WARMUP):
         n += 1
         pw = who(i, 72)
-        out.append(Q(f"spo-{n:03d}", "운동", f"{pw['랑']} 같이 몸을 풀어요! " + q, [a] + w, 0, level=1, image=img(None, emo), group="spo-warmup"))
+        out.append(Q(f"spo-{n:03d}", "운동", q, [a] + w, 0, level=1, image=img(None, emo), group="spo-warmup"))
     return out

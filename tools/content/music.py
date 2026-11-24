@@ -124,5 +124,5 @@ def build(sounds):
     for i, (ref, a, w, emo) in enumerate(PERF):
         n += 1
         pw = who(i, 82)
-        out.append(Q(f"mus-{n:03d}", "악기", f"{pw['가']} 본 이 연주 모습은 무엇일까요?", [a] + w, 0, level=3, image=img(ref, emo), group="mus-perf"))
+        out.append(Q(f"mus-{n:03d}", "악기", "사진 속 연주 모습은 무엇일까요?", [a] + w, 0, level=3, image=img(ref, emo), group="mus-perf"))
     return out, rows

@@ -131,7 +131,7 @@ def build():
         topics.setdefault(r[6], []).append(r)
     for i, (q, a, w, emo, ref, lv, topic) in enumerate(rows):
         pw = who(i, 121)
-        prompt = (f"{pw['가']} 궁금해요. " if i % 3 == 0 else "") + q
+        prompt = q
         n += 1
         out.append(Q(f"soc-{n:03d}", "사회", prompt, [a] + w.split(","), 0, level=int(lv),
                      image=img(None if ref == "-" else ref, emo), group="soc-" + topic, explain=f"[{topic}]"))

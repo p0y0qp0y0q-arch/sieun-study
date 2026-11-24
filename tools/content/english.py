@@ -136,7 +136,7 @@ def build():
         lv = 1 if cat in ("animal", "fruit") else 2
         # 1) 사진 → 단어
         n += 1
-        out.append(Q(f"eng-{n:03d}", "영어", f"{pw['가']} 본 이것은 영어로 뭘까요?" if i % 2 == 0 else "사진에 맞는 영어 단어를 골라요.",
+        out.append(Q(f"eng-{n:03d}", "영어", "이것은 영어로 뭘까요?" if i % 2 == 0 else "사진에 맞는 영어 단어를 골라요.",
                      [w] + wr, 0, level=lv, image=img(ref, emo), pool=pool, choiceLang="en-US", speakChoices=True, group="eng-pic2word"))
         # 2) 단어 → 사진
         n += 1

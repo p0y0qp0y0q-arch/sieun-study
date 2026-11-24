@@ -131,7 +131,7 @@ def build():
         pw = who(i, 91)
         wrong = [b for b in allbins if b != r["bin"]]
         n += 1
-        out.append(Q(f"rec-{n:03d}", "분리수거", f"{pw['가']} {r['nm']}{josa(r['nm'],'을','를')} 다 썼어요. 어디에 버릴까요?" if i % 2 == 0 else f"{r['nm']}{josa(r['nm'],'은','는')} 어느 통에 넣을까요?",
+        out.append(Q(f"rec-{n:03d}", "분리수거", f"{pw['가']} {r['nm']}{josa(r['nm'],'을','를')} 버리려고 해요. 어디에 버릴까요?" if i % 2 == 0 else f"{r['nm']}{josa(r['nm'],'은','는')} 어느 통에 넣을까요?",
                      [BIN_LABEL[r["bin"]]] + [BIN_LABEL[b] for b in R.sample(wrong, 2)], 0, type="sort", level=1 if i < 40 else 2,
                      image=img(None if r["ref"] == "-" else r["ref"], r["emo"]), item=r["nm"],
                      pool=[BIN_LABEL[b] for b in wrong], binIcons={BIN_LABEL[k]: v for k, v in BINS.items()},

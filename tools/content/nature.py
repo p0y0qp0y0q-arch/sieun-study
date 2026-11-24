@@ -321,7 +321,7 @@ def build(sounds):
         elif who_ in dinoref: ref = dinoref[who_][0]
         pw = who(i, 55)
         n += 1
-        out.append(Q(f"nat-{n:03d}", "자연", (f"{pw['가']} 궁금해요! " if i % 3 == 0 else "") + q, [a] + w.split(","), 0, level=int(lv),
+        out.append(Q(f"nat-{n:03d}", "자연", q, [a] + w.split(","), 0, level=int(lv),
                      image=img(ref, emo), group="nat-wonder-" + topic, explain=f"놀라운 자연 · {topic}"))
     for i, (q, a, wr, emo) in enumerate(WEATHER_Q + GROWTH):
         n += 1

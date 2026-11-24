@@ -1,4 +1,4 @@
-from common import Q, img, who, josa
+from common import Q, img, who, who_kid, josa
 import random
 
 # 직업|하는 일|도구·장소|사진|이모지
@@ -122,12 +122,12 @@ def build():
     for i, r in enumerate(rows):
         R = random.Random(i)
         pool = [x for x in names if x != r["nm"]]
-        pw = who(i, 111)
+        pw = who(i, 111); pk = who_kid(i, 111)
         n += 1
         out.append(Q(f"ppl-{n:03d}", "사람", f"'{r['do']}' 이런 일을 하는 사람은 누구일까요?", [r["nm"]] + R.sample(pool, 2), 0, level=1,
                      image=img(None, r["emo"]), pool=pool, group="ppl-jobdo"))
         n += 1
-        out.append(Q(f"ppl-{n:03d}", "사람", f"{pw['가']} '{r['tool']}' 사진을 봤어요. 이것과 관련 있는 직업은?" if i % 2 == 0 else f"사진 속 '{r['tool']}'{josa(r['tool'],'을','를')} 쓰는 사람은 누구일까요?",
+        out.append(Q(f"ppl-{n:03d}", "사람", f"사진 속 '{r['tool']}'{josa(r['tool'],'을','를')} 쓰는 사람은 누구일까요?",
                      [r["nm"]] + R.sample(pool, 2), 0, level=2, image=img(r["ref"], r["emo"]), pool=pool, group="ppl-jobtool"))
         dos = [x["do"] for x in rows if x["nm"] != r["nm"]]
         n += 1
@@ -135,7 +135,7 @@ def build():
                      image=img(None, r["emo"]), pool=dos, group="ppl-jobwhat"))
         if i % 3 == 0:
             n += 1
-            out.append(Q(f"ppl-{n:03d}", "사람", f"{pw['는']} 커서 {r['nm']}{josa(r['nm'],'이','가')} 되고 싶어요. {r['nm']}에게 필요한 것은?",
+            out.append(Q(f"ppl-{n:03d}", "사람", f"{pk['는']} 커서 {r['nm']}{josa(r['nm'],'이','가')} 되고 싶어요. {r['nm']}에게 필요한 것은?",
                          [r["tool"]] + R.sample([x["tool"] for x in rows if x["nm"] != r["nm"]], 2), 0, level=2,
                          image=img(None, r["emo"]), pool=[x["tool"] for x in rows if x["nm"] != r["nm"]], group="ppl-jobneed"))
     en = [e[0] for e in EMOTIONS]
@@ -151,9 +151,9 @@ def build():
     for i, (s, e) in enumerate(SITUATIONS):
         R = random.Random(200 + i)
         pool = [x for x in en if x != e]
-        pw = who(i, 112)
+        pw = who(i, 112); pk = who_kid(i, 112)
         n += 1
-        out.append(Q(f"ppl-{n:03d}", "사람", f"{pw['가']} '{s}' 어떤 기분일까요?", [e] + R.sample(pool, 2), 0, level=2,
+        out.append(Q(f"ppl-{n:03d}", "사람", f"'{s}' 이럴 때 어떤 기분일까요?", [e] + R.sample(pool, 2), 0, level=2,
                      image=img(None, dict(EMOTIONS)[e]), pool=pool, group="ppl-situation"))
     for i, (q, a, w) in enumerate(FAMILY):
         n += 1
@@ -164,6 +164,6 @@ def build():
     for i, (q, a, w, emo) in enumerate(SAFETY):
         pw = who(i, 113)
         n += 1
-        out.append(Q(f"ppl-{n:03d}", "사람", (f"{pw['가']} 안전 약속을 배워요. " if i % 2 == 0 else "") + q, [a] + w, 0, level=2,
+        out.append(Q(f"ppl-{n:03d}", "사람", q, [a] + w, 0, level=2,
                      image=img(None, emo), group="ppl-safety"))
     return out

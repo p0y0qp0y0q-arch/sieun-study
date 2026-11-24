@@ -5,7 +5,7 @@
    "id": "eng-001",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "dog",
     "bear",
@@ -933,7 +933,7 @@
    "id": "eng-007",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "pig",
     "cat",
@@ -1861,7 +1861,7 @@
    "id": "eng-013",
    "subject": "영어",
    "type": "choice",
-   "prompt": "언니가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "horse",
     "rabbit",
@@ -2789,7 +2789,7 @@
    "id": "eng-019",
    "subject": "영어",
    "type": "choice",
-   "prompt": "아빠가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "duck",
     "giraffe",
@@ -3717,7 +3717,7 @@
    "id": "eng-025",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "rabbit",
     "chicken",
@@ -4645,7 +4645,7 @@
    "id": "eng-031",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "tiger",
     "giraffe",
@@ -5573,7 +5573,7 @@
    "id": "eng-037",
    "subject": "영어",
    "type": "choice",
-   "prompt": "선생님이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "monkey",
     "frog",
@@ -6501,7 +6501,7 @@
    "id": "eng-043",
    "subject": "영어",
    "type": "choice",
-   "prompt": "동생이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "fish",
     "cow",
@@ -7429,7 +7429,7 @@
    "id": "eng-049",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "frog",
     "elephant",
@@ -8357,7 +8357,7 @@
    "id": "eng-055",
    "subject": "영어",
    "type": "choice",
-   "prompt": "친구가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "mouse",
     "sheep",
@@ -9285,7 +9285,7 @@
    "id": "eng-061",
    "subject": "영어",
    "type": "choice",
-   "prompt": "할머니가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "zebra",
     "turtle",
@@ -10213,7 +10213,7 @@
    "id": "eng-067",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "whale",
     "horse",
@@ -11141,7 +11141,7 @@
    "id": "eng-073",
    "subject": "영어",
    "type": "choice",
-   "prompt": "선생님이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "turtle",
     "whale",
@@ -11859,7 +11859,7 @@
    "id": "eng-079",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "banana",
     "strawberry",
@@ -12367,7 +12367,7 @@
    "id": "eng-085",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "orange",
     "banana",
@@ -12875,7 +12875,7 @@
    "id": "eng-091",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "watermelon",
     "cherry",
@@ -13383,7 +13383,7 @@
    "id": "eng-097",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "peach",
     "banana",
@@ -13891,7 +13891,7 @@
    "id": "eng-103",
    "subject": "영어",
    "type": "choice",
-   "prompt": "엄마가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "cherry",
     "pear",
@@ -14399,7 +14399,7 @@
    "id": "eng-109",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "tomato",
     "egg",
@@ -15027,7 +15027,7 @@
    "id": "eng-115",
    "subject": "영어",
    "type": "choice",
-   "prompt": "할머니가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "potato",
     "cookie",
@@ -15655,7 +15655,7 @@
    "id": "eng-121",
    "subject": "영어",
    "type": "choice",
-   "prompt": "친구가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "bread",
     "cake",
@@ -16283,7 +16283,7 @@
    "id": "eng-127",
    "subject": "영어",
    "type": "choice",
-   "prompt": "선생님이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "egg",
     "cookie",
@@ -16911,7 +16911,7 @@
    "id": "eng-133",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "cake",
     "egg",
@@ -17539,7 +17539,7 @@
    "id": "eng-139",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "rice",
     "carrot",
@@ -18167,7 +18167,7 @@
    "id": "eng-145",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "ice cream",
     "cake",
@@ -18795,7 +18795,7 @@
    "id": "eng-151",
    "subject": "영어",
    "type": "choice",
-   "prompt": "선생님이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "candy",
     "cheese",
@@ -19385,7 +19385,7 @@
    "id": "eng-157",
    "subject": "영어",
    "type": "choice",
-   "prompt": "아빠가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "bus",
     "bicycle",
@@ -19937,7 +19937,7 @@
    "id": "eng-163",
    "subject": "영어",
    "type": "choice",
-   "prompt": "할머니가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "airplane",
     "train",
@@ -20489,7 +20489,7 @@
    "id": "eng-169",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "bicycle",
     "rocket",
@@ -21033,7 +21033,7 @@
    "id": "eng-175",
    "subject": "영어",
    "type": "choice",
-   "prompt": "언니가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "taxi",
     "boat",
@@ -21569,7 +21569,7 @@
    "id": "eng-181",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "rocket",
     "ship",
@@ -22121,7 +22121,7 @@
    "id": "eng-187",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "motorcycle",
     "rocket",
@@ -22661,7 +22661,7 @@
    "id": "eng-193",
    "subject": "영어",
    "type": "choice",
-   "prompt": "짝꿍이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "eye",
     "hand",
@@ -22979,7 +22979,7 @@
    "id": "eng-199",
    "subject": "영어",
    "type": "choice",
-   "prompt": "짝꿍이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "nose",
     "eye",
@@ -23301,7 +23301,7 @@
    "id": "eng-205",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "hand",
     "hair",
@@ -23615,7 +23615,7 @@
    "id": "eng-211",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "hair",
     "eye",
@@ -23929,7 +23929,7 @@
    "id": "eng-217",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "book",
     "chair",
@@ -24781,7 +24781,7 @@
    "id": "eng-223",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "bag",
     "scissors",
@@ -25633,7 +25633,7 @@
    "id": "eng-229",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "desk",
     "door",
@@ -26485,7 +26485,7 @@
    "id": "eng-235",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "cup",
     "clock",
@@ -27337,7 +27337,7 @@
    "id": "eng-241",
    "subject": "영어",
    "type": "choice",
-   "prompt": "아빠가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "hat",
     "shoe",
@@ -28189,7 +28189,7 @@
    "id": "eng-247",
    "subject": "영어",
    "type": "choice",
-   "prompt": "동생이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "umbrella",
     "desk",
@@ -29041,7 +29041,7 @@
    "id": "eng-253",
    "subject": "영어",
    "type": "choice",
-   "prompt": "선생님이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "door",
     "shoe",
@@ -29893,7 +29893,7 @@
    "id": "eng-259",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "phone",
     "book",
@@ -30745,7 +30745,7 @@
    "id": "eng-265",
    "subject": "영어",
    "type": "choice",
-   "prompt": "선생님이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "doll",
     "door",
@@ -31597,7 +31597,7 @@
    "id": "eng-271",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "balloon",
     "cup",
@@ -32449,7 +32449,7 @@
    "id": "eng-277",
    "subject": "영어",
    "type": "choice",
-   "prompt": "친구가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "scissors",
     "key",
@@ -33297,7 +33297,7 @@
    "id": "eng-283",
    "subject": "영어",
    "type": "choice",
-   "prompt": "짝꿍이 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "sock",
     "kite",
@@ -33984,7 +33984,7 @@
    "id": "eng-289",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "moon",
     "snow",
@@ -34502,7 +34502,7 @@
    "id": "eng-295",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "tree",
     "snow",
@@ -35024,7 +35024,7 @@
    "id": "eng-301",
    "subject": "영어",
    "type": "choice",
-   "prompt": "친구가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "rain",
     "star",
@@ -35538,7 +35538,7 @@
    "id": "eng-307",
    "subject": "영어",
    "type": "choice",
-   "prompt": "아빠가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "cloud",
     "star",
@@ -36052,7 +36052,7 @@
    "id": "eng-313",
    "subject": "영어",
    "type": "choice",
-   "prompt": "언니가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "sea",
     "sun",
@@ -36574,7 +36574,7 @@
    "id": "eng-319",
    "subject": "영어",
    "type": "choice",
-   "prompt": "시은이가 본 이것은 영어로 뭘까요?",
+   "prompt": "이것은 영어로 뭘까요?",
    "choices": [
     "leaf",
     "cloud",

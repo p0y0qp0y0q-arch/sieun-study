@@ -215,7 +215,7 @@ def build():
         same = [x for x in names if x != nm and dict((c[0], c[1]) for c in cs)[x] == cont]
         pw = who(i, 41)
         n += 1
-        out.append(Q(f"wld-{n:03d}", "세계", f"{pw['가']} 본 이 국기는 어느 나라 국기일까요?" if i % 2 else "이 국기는 어느 나라일까요?",
+        out.append(Q(f"wld-{n:03d}", "세계", "이 국기는 어느 나라 국기일까요?",
                      [nm] + R.sample(same if len(same) >= 2 else pool, 2), 0, level=1 if i < 30 else 2,
                      image=flag[nm], pool=same if len(same) >= 4 else pool, group="wld-flag"))
         n += 1
