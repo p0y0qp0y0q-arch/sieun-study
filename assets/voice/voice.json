@@ -1,0 +1,23 @@
+{
+ "시은아, 정답이야!": "assets/voice/v00.mp3",
+ "역시 시은이!": "assets/voice/v01.mp3",
+ "시은이 천재인걸?": "assets/voice/v02.mp3",
+ "우와, 맞았어요!": "assets/voice/v03.mp3",
+ "최고예요, 시은아!": "assets/voice/v04.mp3",
+ "딩동댕! 정답!": "assets/voice/v05.mp3",
+ "시은이 정말 똑똑하다!": "assets/voice/v06.mp3",
+ "멋져요! ⭐": "assets/voice/v07.mp3",
+ "척척박사 시은이!": "assets/voice/v08.mp3",
+ "와, 대단해요!": "assets/voice/v09.mp3",
+ "아깝다, 시은아! 한 번 더 해볼까?": "assets/voice/v10.mp3",
+ "괜찮아, 다시 해볼까?": "assets/voice/v11.mp3",
+ "조금만 더 생각해 볼까?": "assets/voice/v12.mp3",
+ "천천히 다시 골라 봐요!": "assets/voice/v13.mp3",
+ "정답은 이거예요. 다음엔 꼭 맞힐 수 있어요!": "assets/voice/v14.mp3",
+ "괜찮아요! 정답을 같이 볼까요?": "assets/voice/v15.mp3",
+ "이번엔 어려웠지? 정답은 이거야!": "assets/voice/v16.mp3",
+ "오늘도 시은이가 해냈어요! ⭐": "assets/voice/v17.mp3",
+ "시은이 오늘 10문제 끝!": "assets/voice/v18.mp3",
+ "와! 시은이 최고! 오늘 공부 끝!": "assets/voice/v19.mp3",
+ "참 잘했어요, 시은아!": "assets/voice/v20.mp3"
+}

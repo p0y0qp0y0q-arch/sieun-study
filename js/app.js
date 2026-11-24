@@ -108,7 +108,7 @@
   function sayPhrase(text) {
     const key = cleanForSpeech(text).trim();
     const f = VOICE[key];
-    if (f) { if (window.speechSynthesis) speechSynthesis.cancel(); if (audioEl) audioEl.pause(); audioEl = new Audio(f); audioEl.play().catch(() => speak(text)); return; }
+    if (f) { if (window.speechSynthesis) speechSynthesis.cancel(); if (audioEl) audioEl.pause(); const au = new Audio(f); audioEl = au; setTimeout(() => { if (audioEl === au) au.play().catch(() => speak(text)); }, 350); return; }
     speak(text);
   }
 

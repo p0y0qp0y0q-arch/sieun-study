@@ -76,3 +76,4 @@ sh tools/fetch_all.sh            # 위 작업을 순서대로 한 번에 (요청
 - 한국 동전·지폐 사진: 한국은행 「화폐 도안 이용 기준」에 따라 쓸 수 있는 커먼즈 이미지(`South Korean currency` 표시)입니다.
 - 악기 소리: [tonejs-instruments](https://github.com/nbrosowsky/tonejs-instruments) 실제 악기 녹음 샘플(CC BY 3.0)과 위키미디어 커먼즈 녹음
 - 동물 소리: 위키미디어 커먼즈 녹음 (CC BY / CC BY-SA / CC0)
+- 칭찬·격려 목소리: 오픈소스 AI 음성 [MeloTTS](https://github.com/myshell-ai/MeloTTS)(MIT 라이선스) 한국어 모델로 만든 녹음 (`tools/make_voice.py`)
