@@ -132,8 +132,8 @@
 
   // ---------- 출제 ----------
   // 창의 수학은 킨더팩토·키즈팩토를 마친 수준이라 레벨 2부터 시작
-  const GROUP_WEIGHT = { 'nat-wonder': 5, 'nat-sound': 3, 'nat-name': 0.4, 'nat-habitat': 0.5, 'nat-birth': 0.4, 'nat-food': 0.5 };
-  const LEVEL_BOOST = { math: 1, nature: 1 };
+  const GROUP_WEIGHT = { 'kor-ant': 5, 'kor-syn': 5, 'kor-mimic': 5, 'kor-honor': 6, 'kor-conj': 6, 'kor-cho': 1.3, 'nat-wonder': 5, 'nat-sound': 3, 'nat-name': 0.4, 'nat-habitat': 0.5, 'nat-birth': 0.4, 'nat-food': 0.5 };
+  const LEVEL_BOOST = { math: 1, nature: 1, korean: 1 };
   function maxLevel(key) { const n = S.solved[key] || 0; return Math.min(3, (n < 30 ? 1 : n < 90 ? 2 : 3) + (LEVEL_BOOST[key] || 0)); }
   function buildSession(key, d) {
     const items = d.items;
@@ -363,7 +363,7 @@
     const isImg = q.type === 'imageChoice';
     if (isImg) box.classList.add('img');
     if (q.clocks) box.classList.add('clocks');
-    else if (q._choices.length === 3 && q._choices.every(c => String(c.c).length <= 3)) box.classList.add('grid3');
+    else if (q._choices.length === 3 && q._choices.every(c => String(c.c).length <= 3)) { box.classList.add('grid3'); if (q._choices.some(c => String(c.c).length === 3)) box.classList.add('g3long'); }
     else if (q._choices.length === 2 && q._choices.every(c => String(c.c).length <= 8)) box.classList.add('two');
     q._choices.forEach((ch, i) => {
       const b = document.createElement('button');

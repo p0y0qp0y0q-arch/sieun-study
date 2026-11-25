@@ -231,3 +231,4 @@ button { font: inherit; color: inherit; border: 0; background: none; cursor: poi
 .cards { display: flex; gap: 10px; justify-content: center; margin: 8px 0; }
 .ncard { width: 58px; height: 76px; border-radius: 10px; background: #fff; border: 3px solid #ff8fab; display: flex; align-items: center; justify-content: center; font-size: 36px; font-weight: 800; }
 .display.scene { font-size: 64px; padding: 6px 24px; letter-spacing: 6px; }
+.choices.grid3.g3long .choice { font-size: 28px; }

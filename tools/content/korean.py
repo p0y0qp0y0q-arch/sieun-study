@@ -344,4 +344,6 @@ def build():
         prompt = PROMPTS_C[i % len(PROMPTS_C)].replace("{w}가", pw["가"])
         out.append(Q(f"kor-{n:03d}", "국어", prompt, [ans] + wr.split(","), 0, level=3,
                      display=s.replace("□", "(  ?  )"), speak=prompt + " " + s.replace("□", ", 빈칸,"), speakChoices=False, group="kor-c"))
+    import korean2
+    out += korean2.build(words)
     return out

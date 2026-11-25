@@ -54805,6 +54805,5482 @@
    "speak": "빈칸에 들어갈 바른 말은? 강아지가 꼬리를 , 빈칸,",
    "speakChoices": false,
    "group": "kor-c"
+  },
+  {
+   "id": "kor2-001",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'크다'의 반대말은 무엇일까요?",
+   "choices": [
+    "작다",
+    "높다",
+    "많다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🐘🐭"
+  },
+  {
+   "id": "kor2-002",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'길다'의 반대말은 무엇일까요?",
+   "choices": [
+    "짧다",
+    "넓다",
+    "굵다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "📏"
+  },
+  {
+   "id": "kor2-003",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'높다'의 반대말은 무엇일까요?",
+   "choices": [
+    "낮다",
+    "작다",
+    "깊다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🏔️"
+  },
+  {
+   "id": "kor2-004",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'많다'의 반대말은 무엇일까요?",
+   "choices": [
+    "적다",
+    "작다",
+    "짧다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🍬"
+  },
+  {
+   "id": "kor2-005",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'무겁다'의 반대말은 무엇일까요?",
+   "choices": [
+    "가볍다",
+    "작다",
+    "얇다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🏋️"
+  },
+  {
+   "id": "kor2-006",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'뜨겁다'의 반대말은 무엇일까요?",
+   "choices": [
+    "차갑다",
+    "시원하다",
+    "따뜻하다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🔥🧊"
+  },
+  {
+   "id": "kor2-007",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'덥다'의 반대말은 무엇일까요?",
+   "choices": [
+    "춥다",
+    "차갑다",
+    "시원하다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "☀️❄️"
+  },
+  {
+   "id": "kor2-008",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'밝다'의 반대말은 무엇일까요?",
+   "choices": [
+    "어둡다",
+    "검다",
+    "흐리다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "💡"
+  },
+  {
+   "id": "kor2-009",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'빠르다'의 반대말은 무엇일까요?",
+   "choices": [
+    "느리다",
+    "늦다",
+    "멈추다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🐆🐢"
+  },
+  {
+   "id": "kor2-010",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'넓다'의 반대말은 무엇일까요?",
+   "choices": [
+    "좁다",
+    "작다",
+    "짧다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🛣️"
+  },
+  {
+   "id": "kor2-011",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'깊다'의 반대말은 무엇일까요?",
+   "choices": [
+    "얕다",
+    "낮다",
+    "좁다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🌊"
+  },
+  {
+   "id": "kor2-012",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'두껍다'의 반대말은 무엇일까요?",
+   "choices": [
+    "얇다",
+    "가늘다",
+    "작다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "📚"
+  },
+  {
+   "id": "kor2-013",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'굵다'의 반대말은 무엇일까요?",
+   "choices": [
+    "가늘다",
+    "얇다",
+    "짧다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🪵"
+  },
+  {
+   "id": "kor2-014",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'멀다'의 반대말은 무엇일까요?",
+   "choices": [
+    "가깝다",
+    "짧다",
+    "작다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🗺️"
+  },
+  {
+   "id": "kor2-015",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'열다'의 반대말은 무엇일까요?",
+   "choices": [
+    "닫다",
+    "잠그다",
+    "끄다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🚪"
+  },
+  {
+   "id": "kor2-016",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'켜다'의 반대말은 무엇일까요?",
+   "choices": [
+    "끄다",
+    "닫다",
+    "멈추다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "💡"
+  },
+  {
+   "id": "kor2-017",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'들어가다'의 반대말은 무엇일까요?",
+   "choices": [
+    "나오다",
+    "올라가다",
+    "가다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🏠"
+  },
+  {
+   "id": "kor2-018",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'올라가다'의 반대말은 무엇일까요?",
+   "choices": [
+    "내려가다",
+    "들어가다",
+    "떨어지다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🪜"
+  },
+  {
+   "id": "kor2-019",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'앞'의 반대말은 무엇일까요?",
+   "choices": [
+    "뒤",
+    "옆",
+    "위"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "⬆️"
+  },
+  {
+   "id": "kor2-020",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'위'의 반대말은 무엇일까요?",
+   "choices": [
+    "아래",
+    "뒤",
+    "옆"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "⬆️⬇️"
+  },
+  {
+   "id": "kor2-021",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'안'의 반대말은 무엇일까요?",
+   "choices": [
+    "밖",
+    "뒤",
+    "옆"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "📦"
+  },
+  {
+   "id": "kor2-022",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'왼쪽'의 반대말은 무엇일까요?",
+   "choices": [
+    "오른쪽",
+    "앞쪽",
+    "아래쪽"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "⬅️➡️"
+  },
+  {
+   "id": "kor2-023",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'낮'의 반대말은 무엇일까요?",
+   "choices": [
+    "밤",
+    "아침",
+    "저녁"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "☀️🌙"
+  },
+  {
+   "id": "kor2-024",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'아침'의 반대말은 무엇일까요?",
+   "choices": [
+    "저녁",
+    "낮",
+    "새벽"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🌅🌇"
+  },
+  {
+   "id": "kor2-025",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'기쁘다'의 반대말은 무엇일까요?",
+   "choices": [
+    "슬프다",
+    "화나다",
+    "무섭다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "😀😢"
+  },
+  {
+   "id": "kor2-026",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'웃다'의 반대말은 무엇일까요?",
+   "choices": [
+    "울다",
+    "자다",
+    "먹다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "😄😭"
+  },
+  {
+   "id": "kor2-027",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'입다'의 반대말은 무엇일까요?",
+   "choices": [
+    "벗다",
+    "신다",
+    "쓰다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "👕"
+  },
+  {
+   "id": "kor2-028",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'주다'의 반대말은 무엇일까요?",
+   "choices": [
+    "받다",
+    "갖다",
+    "사다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-ant",
+   "display": "🎁"
+  },
+  {
+   "id": "kor2-029",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'사다'의 반대말은 무엇일까요?",
+   "choices": [
+    "팔다",
+    "주다",
+    "받다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🛒"
+  },
+  {
+   "id": "kor2-030",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'이기다'의 반대말은 무엇일까요?",
+   "choices": [
+    "지다",
+    "싸우다",
+    "놀다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🏆"
+  },
+  {
+   "id": "kor2-031",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'같다'의 반대말은 무엇일까요?",
+   "choices": [
+    "다르다",
+    "비슷하다",
+    "많다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🟰"
+  },
+  {
+   "id": "kor2-032",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'깨끗하다'의 반대말은 무엇일까요?",
+   "choices": [
+    "더럽다",
+    "지저분하다",
+    "예쁘다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🧼"
+  },
+  {
+   "id": "kor2-033",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'쉽다'의 반대말은 무엇일까요?",
+   "choices": [
+    "어렵다",
+    "힘들다",
+    "싫다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "📝"
+  },
+  {
+   "id": "kor2-034",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'새것'의 반대말은 무엇일까요?",
+   "choices": [
+    "헌것",
+    "빈것",
+    "작은것"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "👟"
+  },
+  {
+   "id": "kor2-035",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'처음'의 반대말은 무엇일까요?",
+   "choices": [
+    "끝",
+    "중간",
+    "다음"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🏁"
+  },
+  {
+   "id": "kor2-036",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'젊다'의 반대말은 무엇일까요?",
+   "choices": [
+    "늙다",
+    "작다",
+    "크다"
+   ],
+   "answer": 0,
+   "level": 3,
+   "group": "kor-ant",
+   "display": "👶👴"
+  },
+  {
+   "id": "kor2-037",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'부지런하다'의 반대말은 무엇일까요?",
+   "choices": [
+    "게으르다",
+    "느리다",
+    "졸리다"
+   ],
+   "answer": 0,
+   "level": 3,
+   "group": "kor-ant",
+   "display": "🐜"
+  },
+  {
+   "id": "kor2-038",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'배부르다'의 반대말은 무엇일까요?",
+   "choices": [
+    "배고프다",
+    "목마르다",
+    "졸리다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🍚"
+  },
+  {
+   "id": "kor2-039",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'더하다'의 반대말은 무엇일까요?",
+   "choices": [
+    "빼다",
+    "곱하다",
+    "나누다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "➕➖"
+  },
+  {
+   "id": "kor2-040",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'시작하다'의 반대말은 무엇일까요?",
+   "choices": [
+    "끝내다",
+    "멈추다",
+    "쉬다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-ant",
+   "display": "🏃"
+  },
+  {
+   "id": "kor2-041",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'기쁘다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "즐겁다",
+    "슬프다",
+    "졸리다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "😀"
+  },
+  {
+   "id": "kor2-042",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'예쁘다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "아름답다",
+    "무섭다",
+    "작다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "🌸"
+  },
+  {
+   "id": "kor2-043",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'아버지'와 뜻이 비슷한 말은?",
+   "choices": [
+    "아빠",
+    "할아버지",
+    "삼촌"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "👨"
+  },
+  {
+   "id": "kor2-044",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'어머니'와 뜻이 비슷한 말은?",
+   "choices": [
+    "엄마",
+    "할머니",
+    "이모"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "👩"
+  },
+  {
+   "id": "kor2-045",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'빨리'와 뜻이 비슷한 말은?",
+   "choices": [
+    "얼른",
+    "천천히",
+    "가끔"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "🏃"
+  },
+  {
+   "id": "kor2-046",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'크다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "커다랗다",
+    "조그맣다",
+    "가늘다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "🐘"
+  },
+  {
+   "id": "kor2-047",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'작다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "조그맣다",
+    "커다랗다",
+    "무겁다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "🐜"
+  },
+  {
+   "id": "kor2-048",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'무섭다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "두렵다",
+    "즐겁다",
+    "가볍다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "👻"
+  },
+  {
+   "id": "kor2-049",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'화나다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "성나다",
+    "웃기다",
+    "기쁘다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "😠"
+  },
+  {
+   "id": "kor2-050",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'걱정하다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "근심하다",
+    "기뻐하다",
+    "노래하다"
+   ],
+   "answer": 0,
+   "level": 3,
+   "group": "kor-syn",
+   "display": "😟"
+  },
+  {
+   "id": "kor2-051",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'똑똑하다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "영리하다",
+    "게으르다",
+    "느리다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "🦉"
+  },
+  {
+   "id": "kor2-052",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'친구'와 뜻이 비슷한 말은?",
+   "choices": [
+    "동무",
+    "선생님",
+    "이웃"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "🧑‍🤝‍🧑"
+  },
+  {
+   "id": "kor2-053",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'이'와 뜻이 비슷한 말은?",
+   "choices": [
+    "치아",
+    "입술",
+    "혀"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "🦷"
+  },
+  {
+   "id": "kor2-054",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'밥'과 뜻이 비슷한 말은?",
+   "choices": [
+    "식사",
+    "간식",
+    "물"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "🍚"
+  },
+  {
+   "id": "kor2-055",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'생각하다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "떠올리다",
+    "잊다",
+    "잠자다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "💭"
+  },
+  {
+   "id": "kor2-056",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'모으다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "합치다",
+    "나누다",
+    "버리다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "🧺"
+  },
+  {
+   "id": "kor2-057",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'아주'와 뜻이 비슷한 말은?",
+   "choices": [
+    "매우",
+    "조금",
+    "가끔"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "💯"
+  },
+  {
+   "id": "kor2-058",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'많이'와 뜻이 비슷한 말은?",
+   "choices": [
+    "잔뜩",
+    "조금",
+    "살짝"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "🍬"
+  },
+  {
+   "id": "kor2-059",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'깨끗하다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "청결하다",
+    "더럽다",
+    "어둡다"
+   ],
+   "answer": 0,
+   "level": 3,
+   "group": "kor-syn",
+   "display": "🧼"
+  },
+  {
+   "id": "kor2-060",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'고맙다'와 뜻이 비슷한 말은?",
+   "choices": [
+    "감사하다",
+    "미안하다",
+    "반갑다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-syn",
+   "display": "🙏"
+  },
+  {
+   "id": "kor2-061",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "'잘못'과 뜻이 비슷한 말은?",
+   "choices": [
+    "실수",
+    "칭찬",
+    "정답"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-syn",
+   "display": "😅"
+  },
+  {
+   "id": "kor2-062",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "주룩주룩",
+    "깡충깡충",
+    "엉금엉금"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🌧️  비가 (  ?  ) 내려요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 비가 , 빈칸, 내려요."
+  },
+  {
+   "id": "kor2-063",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "깡충깡충",
+    "뒤뚱뒤뚱",
+    "주룩주룩"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐰  토끼가 (  ?  ) 뛰어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 토끼가 , 빈칸, 뛰어요."
+  },
+  {
+   "id": "kor2-064",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "뒤뚱뒤뚱",
+    "깡충깡충",
+    "반짝반짝"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🦆  오리가 (  ?  ) 걸어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 오리가 , 빈칸, 걸어요."
+  },
+  {
+   "id": "kor2-065",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "엉금엉금",
+    "훨훨",
+    "깡충깡충"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐢  거북이가 (  ?  ) 기어가요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 거북이가 , 빈칸, 기어가요."
+  },
+  {
+   "id": "kor2-066",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "반짝반짝",
+    "꿀꿀",
+    "펄럭펄럭"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "⭐  별이 (  ?  ) 빛나요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 별이 , 빈칸, 빛나요."
+  },
+  {
+   "id": "kor2-067",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "훨훨",
+    "엉금엉금",
+    "쿵쿵"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🦋  나비가 (  ?  ) 날아가요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 나비가 , 빈칸, 날아가요."
+  },
+  {
+   "id": "kor2-068",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "멍멍",
+    "야옹",
+    "꿀꿀"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐶  강아지가 (  ?  ) 짖어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 강아지가 , 빈칸, 짖어요."
+  },
+  {
+   "id": "kor2-069",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "야옹야옹",
+    "멍멍",
+    "음매"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐱  고양이가 (  ?  ) 울어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 고양이가 , 빈칸, 울어요."
+  },
+  {
+   "id": "kor2-070",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "꿀꿀",
+    "꼬끼오",
+    "개굴개굴"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐷  돼지가 (  ?  ) 소리를 내요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 돼지가 , 빈칸, 소리를 내요."
+  },
+  {
+   "id": "kor2-071",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "꼬끼오",
+    "음매",
+    "멍멍"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐔  닭이 (  ?  ) 하고 울어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 닭이 , 빈칸, 하고 울어요."
+  },
+  {
+   "id": "kor2-072",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "음매",
+    "꿀꿀",
+    "짹짹"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐮  소가 (  ?  ) 하고 울어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 소가 , 빈칸, 하고 울어요."
+  },
+  {
+   "id": "kor2-073",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "개굴개굴",
+    "짹짹",
+    "멍멍"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐸  개구리가 (  ?  ) 울어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 개구리가 , 빈칸, 울어요."
+  },
+  {
+   "id": "kor2-074",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "짹짹",
+    "꽥꽥",
+    "음매"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐦  참새가 (  ?  ) 지저귀어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 참새가 , 빈칸, 지저귀어요."
+  },
+  {
+   "id": "kor2-075",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "꽥꽥",
+    "짹짹",
+    "야옹"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🦆  오리가 (  ?  ) 울어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 오리가 , 빈칸, 울어요."
+  },
+  {
+   "id": "kor2-076",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "삐악삐악",
+    "음매",
+    "멍멍"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🐥  병아리가 (  ?  ) 울어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 병아리가 , 빈칸, 울어요."
+  },
+  {
+   "id": "kor2-077",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "똑똑",
+    "쨍쨍",
+    "살랑살랑"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🚪  문을 (  ?  ) 두드려요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 문을 , 빈칸, 두드려요."
+  },
+  {
+   "id": "kor2-078",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "쨍쨍",
+    "주룩주룩",
+    "보슬보슬"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "☀️  해가 (  ?  ) 내리쬐어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 해가 , 빈칸, 내리쬐어요."
+  },
+  {
+   "id": "kor2-079",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "살랑살랑",
+    "쨍쨍",
+    "엉금엉금"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "🍃  바람이 (  ?  ) 불어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 바람이 , 빈칸, 불어요."
+  },
+  {
+   "id": "kor2-080",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "새근새근",
+    "쿵쾅쿵쾅",
+    "팔짝팔짝"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "👶  아기가 (  ?  ) 자고 있어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 아기가 , 빈칸, 자고 있어요."
+  },
+  {
+   "id": "kor2-081",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "쿵쿵",
+    "사뿐사뿐",
+    "팔랑팔랑"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "🐘  코끼리가 (  ?  ) 걸어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 코끼리가 , 빈칸, 걸어요."
+  },
+  {
+   "id": "kor2-082",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "째깍째깍",
+    "부릉부릉",
+    "콜록콜록"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "⏰  시계가 (  ?  ) 가요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 시계가 , 빈칸, 가요."
+  },
+  {
+   "id": "kor2-083",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "부릉부릉",
+    "째깍째깍",
+    "쨍그랑"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🚗  자동차가 (  ?  ) 달려요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 자동차가 , 빈칸, 달려요."
+  },
+  {
+   "id": "kor2-084",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "콜록콜록",
+    "하하하",
+    "짹짹"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🤧  감기에 걸려 (  ?  ) 기침해요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 감기에 걸려 , 빈칸, 기침해요."
+  },
+  {
+   "id": "kor2-085",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "쨍그랑",
+    "보글보글",
+    "살금살금"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "🍽️  접시가 (  ?  ) 깨졌어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 접시가 , 빈칸, 깨졌어요."
+  },
+  {
+   "id": "kor2-086",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "보글보글",
+    "쨍그랑",
+    "깡충깡충"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "🍲  찌개가 (  ?  ) 끓어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 찌개가 , 빈칸, 끓어요."
+  },
+  {
+   "id": "kor2-087",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "살금살금",
+    "쿵쾅쿵쾅",
+    "부릉부릉"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "🐈  고양이가 (  ?  ) 다가가요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 고양이가 , 빈칸, 다가가요."
+  },
+  {
+   "id": "kor2-088",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "펄럭펄럭",
+    "엉금엉금",
+    "새근새근"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "🚩  깃발이 바람에 (  ?  ) 날려요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 깃발이 바람에 , 빈칸, 날려요."
+  },
+  {
+   "id": "kor2-089",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "팔랑팔랑",
+    "쿵쿵",
+    "꿀꿀"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "🍂  나뭇잎이 (  ?  ) 떨어져요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 나뭇잎이 , 빈칸, 떨어져요."
+  },
+  {
+   "id": "kor2-090",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "펑펑",
+    "주룩주룩",
+    "쨍쨍"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "❄️  눈이 (  ?  ) 내려요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 눈이 , 빈칸, 내려요."
+  },
+  {
+   "id": "kor2-091",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "깔깔",
+    "엉엉",
+    "콜록콜록"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "😆  아이들이 (  ?  ) 웃어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 아이들이 , 빈칸, 웃어요."
+  },
+  {
+   "id": "kor2-092",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "엉엉",
+    "깔깔",
+    "짹짹"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "😭  동생이 (  ?  ) 울어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 동생이 , 빈칸, 울어요."
+  },
+  {
+   "id": "kor2-093",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "꼬르륵",
+    "부릉부릉",
+    "똑똑"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-mimic",
+   "display": "🍚  배가 고파서 (  ?  ) 소리가 나요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 배가 고파서 , 빈칸, 소리가 나요."
+  },
+  {
+   "id": "kor2-094",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "벌컥벌컥",
+    "사뿐사뿐",
+    "반짝반짝"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "🥛  물을 (  ?  ) 마셔요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 물을 , 빈칸, 마셔요."
+  },
+  {
+   "id": "kor2-095",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "화끈화끈",
+    "엉금엉금",
+    "짹짹"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "😳  부끄러워서 얼굴이 (  ?  ) 달아올랐어요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 부끄러워서 얼굴이 , 빈칸, 달아올랐어요."
+  },
+  {
+   "id": "kor2-096",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "빈칸에 알맞은 흉내 내는 말은?",
+   "choices": [
+    "우르릉 쾅쾅",
+    "살랑살랑",
+    "새근새근"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-mimic",
+   "display": "⛈️  천둥이 (  ?  ) 쳐요.",
+   "speak": "빈칸에 알맞은 흉내 내는 말은? 천둥이 , 빈칸, 쳐요."
+  },
+  {
+   "id": "kor2-097",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "진지",
+    "밥",
+    "먹이"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-honor",
+   "display": "👵  할머니께서 (  ?  )를 드세요.",
+   "speak": "높임말로 바르게 말해요. 할머니께서 , 빈칸,를 드세요.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-098",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "주무세요",
+    "자요",
+    "잠자요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-honor",
+   "display": "👴  할아버지께서 방에서 (  ?  ).",
+   "speak": "높임말로 바르게 말해요. 할아버지께서 방에서 , 빈칸,.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-099",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "계세요",
+    "있어요",
+    "있다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-honor",
+   "display": "👩‍🏫  선생님께서 교실에 (  ?  ).",
+   "speak": "높임말로 바르게 말해요. 선생님께서 교실에 , 빈칸,.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-100",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "가셨어요",
+    "갔어",
+    "갔다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-honor",
+   "display": "👨  아버지께서 회사에 (  ?  ).",
+   "speak": "높임말로 바르게 말해요. 아버지께서 회사에 , 빈칸,.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-101",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "진지",
+    "밥",
+    "먹이"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-honor",
+   "display": "🍚  할머니, (  ?  ) 많이 드세요.",
+   "speak": "높임말로 바르게 말해요. 할머니, , 빈칸, 많이 드세요.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-102",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "연세",
+    "나이",
+    "살"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-honor",
+   "display": "👴  할아버지의 (  ?  )가 몇이세요?",
+   "speak": "높임말로 바르게 말해요. 할아버지의 , 빈칸,가 몇이세요?",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-103",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "생신",
+    "생일",
+    "돌"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-honor",
+   "display": "🎂  할머니 (  ?  )이 언제예요?",
+   "speak": "높임말로 바르게 말해요. 할머니 , 빈칸,이 언제예요?",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-104",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "드렸어요",
+    "줬어요",
+    "주었다"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-honor",
+   "display": "🎁  할머니께 선물을 (  ?  ).",
+   "speak": "높임말로 바르게 말해요. 할머니께 선물을 , 빈칸,.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-105",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "여쭤",
+    "물어",
+    "묻어"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-honor",
+   "display": "🙋  모르는 것을 선생님께 (  ?  ) 봐요.",
+   "speak": "높임말로 바르게 말해요. 모르는 것을 선생님께 , 빈칸, 봐요.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-106",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "주무세요",
+    "자",
+    "잘 자"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-honor",
+   "display": "🌙  할아버지, 안녕히 (  ?  ).",
+   "speak": "높임말로 바르게 말해요. 할아버지, 안녕히 , 빈칸,.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-107",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "부르셨어요",
+    "불렀어",
+    "불렀다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-honor",
+   "display": "👩  어머니께서 저를 (  ?  ).",
+   "speak": "높임말로 바르게 말해요. 어머니께서 저를 , 빈칸,.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-108",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "말씀",
+    "말",
+    "소리"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-honor",
+   "display": "💬  할머니께서 (  ?  )을 하세요.",
+   "speak": "높임말로 바르게 말해요. 할머니께서 , 빈칸,을 하세요.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-109",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "높임말로 바르게 말해요. 빈칸에 알맞은 말은?",
+   "choices": [
+    "하세요",
+    "해",
+    "하니"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-honor",
+   "display": "👋  선생님, 안녕(  ?  ).",
+   "speak": "높임말로 바르게 말해요. 선생님, 안녕, 빈칸,.",
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-110",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그래서",
+    "그러나",
+    "그런데"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-conj",
+   "display": "☔  비가 왔어요. (  ?  ) 우산을 썼어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 비가 왔어요. 빈칸, 우산을 썼어요."
+  },
+  {
+   "id": "kor2-111",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그래서",
+    "그러나",
+    "그리고"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-conj",
+   "display": "🍚  배가 고팠어요. (  ?  ) 밥을 먹었어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 배가 고팠어요. 빈칸, 밥을 먹었어요."
+  },
+  {
+   "id": "kor2-112",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그러나",
+    "그래서",
+    "그리고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-conj",
+   "display": "🏃  열심히 달렸어요. (  ?  ) 1등을 못 했어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 열심히 달렸어요. 빈칸, 1등을 못 했어요."
+  },
+  {
+   "id": "kor2-113",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그리고",
+    "그러나",
+    "그래서"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-conj",
+   "display": "🍎🍐  사과를 샀어요. (  ?  ) 배도 샀어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 사과를 샀어요. 빈칸, 배도 샀어요."
+  },
+  {
+   "id": "kor2-114",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그래서",
+    "그러나",
+    "그리고"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-conj",
+   "display": "🧥  날씨가 추웠어요. (  ?  ) 두꺼운 옷을 입었어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 날씨가 추웠어요. 빈칸, 두꺼운 옷을 입었어요."
+  },
+  {
+   "id": "kor2-115",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그리고",
+    "그러나",
+    "하지만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-conj",
+   "display": "🛝  숙제를 다 했어요. (  ?  ) 놀이터에 갔어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 숙제를 다 했어요. 빈칸, 놀이터에 갔어요."
+  },
+  {
+   "id": "kor2-116",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그래서",
+    "그러나",
+    "하지만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-conj",
+   "display": "💯  열심히 공부했어요. (  ?  ) 시험을 잘 봤어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 열심히 공부했어요. 빈칸, 시험을 잘 봤어요."
+  },
+  {
+   "id": "kor2-117",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "하지만",
+    "그래서",
+    "그리고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-conj",
+   "display": "💪  키가 작아요. (  ?  ) 힘은 세요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 키가 작아요. 빈칸, 힘은 세요."
+  },
+  {
+   "id": "kor2-118",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그래서",
+    "그러나",
+    "하지만"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-conj",
+   "display": "😭  동생이 넘어졌어요. (  ?  ) 울음을 터뜨렸어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 동생이 넘어졌어요. 빈칸, 울음을 터뜨렸어요."
+  },
+  {
+   "id": "kor2-119",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "하지만",
+    "그래서",
+    "그리고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-conj",
+   "display": "🌧️  밖에 나가고 싶었어요. (  ?  ) 비가 와서 못 나갔어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 밖에 나가고 싶었어요. 빈칸, 비가 와서 못 나갔어요."
+  },
+  {
+   "id": "kor2-120",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그리고",
+    "그러나",
+    "그래서"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-conj",
+   "display": "🎹  피아노를 쳤어요. (  ?  ) 노래도 불렀어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 피아노를 쳤어요. 빈칸, 노래도 불렀어요."
+  },
+  {
+   "id": "kor2-121",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그래서",
+    "그러나",
+    "그리고"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-conj",
+   "display": "⏰  늦잠을 잤어요. (  ?  ) 지각했어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 늦잠을 잤어요. 빈칸, 지각했어요."
+  },
+  {
+   "id": "kor2-122",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그러나",
+    "그래서",
+    "그리고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-conj",
+   "display": "💊  약을 먹었어요. (  ?  ) 감기가 낫지 않았어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 약을 먹었어요. 빈칸, 감기가 낫지 않았어요."
+  },
+  {
+   "id": "kor2-123",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그런데",
+    "그래서",
+    "그러니까"
+   ],
+   "answer": 0,
+   "level": 3,
+   "group": "kor-conj",
+   "display": "🥛  나는 우유를 좋아해요. (  ?  ) 동생은 주스를 좋아해요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 나는 우유를 좋아해요. 빈칸, 동생은 주스를 좋아해요."
+  },
+  {
+   "id": "kor2-124",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "두 문장을 이어 주는 알맞은 말은?",
+   "choices": [
+    "그래서",
+    "그러나",
+    "하지만"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-conj",
+   "display": "🌷  꽃에 물을 주었어요. (  ?  ) 꽃이 활짝 피었어요.",
+   "speak": "두 문장을 이어 주는 알맞은 말은? 꽃에 물을 주었어요. 빈칸, 꽃이 활짝 피었어요."
+  },
+  {
+   "id": "kor2-125",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㄱ",
+    "ㅅㄲ",
+    "ㅆㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍎",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apfel-Fuji.jpg/500px-Apfel-Fuji.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Apfel-Fuji.jpg/500px-Apfel-Fuji.jpg",
+    "credit": "Superbass, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apfel-Fuji.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-126",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㅇㅌ'인 낱말은 무엇일까요?",
+   "choices": [
+    "스웨터",
+    "선생님",
+    "신발"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㅇㅌ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㅇ ㅌ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-127",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄷㅈ",
+    "ㄸㅈ",
+    "ㅌㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg",
+    "credit": "kallerna, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pig_farm_Vampula_1.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-128",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅈ'인 낱말은 무엇일까요?",
+   "choices": [
+    "의자",
+    "인형",
+    "여우"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅈ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅈ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-129",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㅇㄹ",
+    "ㅂㅇㅁ",
+    "ㅃㅇㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/New_Born_Baby_Chicks.jpg/500px-New_Born_Baby_Chicks.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/New_Born_Baby_Chicks.jpg/500px-New_Born_Baby_Chicks.jpg",
+    "credit": "Yvessurbano0, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:New_Born_Baby_Chicks.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-130",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅅㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "원숭이",
+    "연필",
+    "요리사"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅅㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅅ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-131",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㅂㅇ",
+    "ㄱㅂㅎ",
+    "ㄲㅂㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐢",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Turtle_diversity.jpg/500px-Turtle_diversity.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Turtle_diversity.jpg/500px-Turtle_diversity.jpg",
+    "credit": "See his respective owners, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Turtle_diversity.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-132",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅎㅂㄹㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "해바라기",
+    "회전목마",
+    "횃불"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅎㅂㄹㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅎ ㅂ ㄹ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-133",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅍ",
+    "ㅇㅂ",
+    "ㅎㅍ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "✏️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pencils_hb.jpg/500px-Pencils_hb.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pencils_hb.jpg/500px-Pencils_hb.jpg",
+    "credit": "Original uploader was Dmgerman at en.wikipedia, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pencils_hb.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-134",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅎㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "학교",
+    "휴지",
+    "햄버거"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅎㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅎ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-135",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㅂ",
+    "ㅅㅍ",
+    "ㅆㅂ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "👟",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Air_Jordan_1_Banned.jpg/500px-Air_Jordan_1_Banned.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Air_Jordan_1_Banned.jpg/500px-Air_Jordan_1_Banned.jpg",
+    "credit": "HI 622, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Air_Jordan_1_Banned.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-136",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄴㅆ'인 낱말은 무엇일까요?",
+   "choices": [
+    "눈썹",
+    "나무",
+    "놀이터"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄴㅆ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄴ ㅆ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-137",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅋㅇㅋ",
+    "ㄱㅇㅋ",
+    "ㅋㅇㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🎂",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Delicious_Birthday_Cake_%2814346969741%29.jpg/500px-Delicious_Birthday_Cake_%2814346969741%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Delicious_Birthday_Cake_%2814346969741%29.jpg/500px-Delicious_Birthday_Cake_%2814346969741%29.jpg",
+    "credit": "Jonathan Rolande from Worthing, England, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Delicious_Birthday_Cake_(14346969741).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-138",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅊㅋㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "초콜릿",
+    "촛불",
+    "참외"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅊㅋㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅊ ㅋ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-139",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅌㄹㅂㅈ",
+    "ㄷㄹㅂㅈ",
+    "ㅌㅁㅂㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "📺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Museum_f%C3%BCr_Kommunikation_-_Depot_Heusenstamm_-_Technik_12_-_Flickr_-_KlausNahr.jpg/500px-Museum_f%C3%BCr_Kommunikation_-_Depot_Heusenstamm_-_Technik_12_-_Flickr_-_KlausNahr.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Museum_f%C3%BCr_Kommunikation_-_Depot_Heusenstamm_-_Technik_12_-_Flickr_-_KlausNahr.jpg/500px-Museum_f%C3%BCr_Kommunikation_-_Depot_Heusenstamm_-_Technik_12_-_Flickr_-_KlausNahr.jpg",
+    "credit": "Klaus Nahr from Germany, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Museum_f%C3%BCr_Kommunikation_-_Depot_Heusenstamm_-_Technik_12_-_Flickr_-_KlausNahr.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-140",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅋㅍㅌ'인 낱말은 무엇일까요?",
+   "choices": [
+    "컴퓨터",
+    "캥거루",
+    "크레파스"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅋㅍㅌ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅋ ㅍ ㅌ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-141",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄹㅂ",
+    "ㄹㅃ",
+    "ㄹㅍ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🤖"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-142",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "괴물",
+    "기린",
+    "계단"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-143",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅊㅅ",
+    "ㅈㅅ",
+    "ㅊㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "📚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bureau_table_MET_DP108643.jpg/500px-Bureau_table_MET_DP108643.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bureau_table_MET_DP108643.jpg/500px-Bureau_table_MET_DP108643.jpg",
+    "credit": "John Townsend, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bureau_table_MET_DP108643.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-144",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "국물",
+    "고구마",
+    "궤도열차"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-145",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㅇ",
+    "ㅂㄴ",
+    "ㅃㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍳",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Julie_child_kitchen.jpg/500px-Julie_child_kitchen.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Julie_child_kitchen.jpg/500px-Julie_child_kitchen.jpg",
+    "credit": "RadioFan (talk), CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Julie_child_kitchen.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-146",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄸㅂㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "떡볶이",
+    "땅콩",
+    "딸기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄸㅂㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄸ ㅂ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-147",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㄱㄹ",
+    "ㄱㄲㄹ",
+    "ㄱㅋㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐸",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-eyed_Leaf_Frog_%2849661076226%29.jpg/500px-Red-eyed_Leaf_Frog_%2849661076226%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-eyed_Leaf_Frog_%2849661076226%29.jpg/500px-Red-eyed_Leaf_Frog_%2849661076226%29.jpg",
+    "credit": "Charlie Jackson, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-eyed_Leaf_Frog_(49661076226).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-148",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅇㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "고양이",
+    "괴물",
+    "고슴도치"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅇㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅇ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-149",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㅇㅈ",
+    "ㄱㄴㅈ",
+    "ㅋㅇㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐶",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Golde33443.jpg/500px-Golde33443.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Golde33443.jpg/500px-Golde33443.jpg",
+    "credit": "Golden Trvs Gol twister, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Golde33443.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-150",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅌㄲ'인 낱말은 무엇일까요?",
+   "choices": [
+    "토끼",
+    "트럭",
+    "택시"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅌㄲ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅌ ㄲ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-151",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅋㄲㄹ",
+    "ㄲㄲㄹ",
+    "ㅋㄱㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/500px-Elephas_maximus_%28Bandipur%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/500px-Elephas_maximus_%28Bandipur%29.jpg",
+    "credit": "Yathin S Krishnappa, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_(Bandipur).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-152",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "기린",
+    "공책",
+    "계단"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-153",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㅈ",
+    "ㅅㅊ",
+    "ㅆㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦁",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-154",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅎㄹㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "호랑이",
+    "할머니",
+    "하마"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅎㄹㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅎ ㄹ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-155",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅇ",
+    "ㅇㄴ",
+    "ㅇㅎ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg/500px-Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg/500px-Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg",
+    "credit": "ClaudiaTen, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-156",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄴㄷ'인 낱말은 무엇일까요?",
+   "choices": [
+    "늑대",
+    "냉장고",
+    "나무"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄴㄷ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄴ ㄷ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-157",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄷㄹㅈ",
+    "ㄸㄹㅈ",
+    "ㅌㄹㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐿️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Streifenhoernchen.jpg/500px-Streifenhoernchen.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Streifenhoernchen.jpg/500px-Streifenhoernchen.jpg",
+    "credit": "AndiW 10:51:45, 2005-09-04 (UTC), Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Streifenhoernchen.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-158",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "고래",
+    "갈매기",
+    "감자"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-159",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㅇ",
+    "ㅅㄴ",
+    "ㅆㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦈",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Corl0207_%2828225976491%29.jpg/500px-Corl0207_%2828225976491%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Corl0207_%2828225976491%29.jpg/500px-Corl0207_%2828225976491%29.jpg",
+    "credit": "NOAA Photo Library, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Corl0207_(28225976491).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-160",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅁㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "문어",
+    "망원경",
+    "만두"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅁㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅁ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-161",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅈㅇ",
+    "ㄴㅈㅇ",
+    "ㅇㅊㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦑",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg/500px-Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg/500px-Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg",
+    "credit": "Nhobgood Nick Hobgood, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sepioteuthis_sepioidea_(Caribbean_Reef_Squid).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-162",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄴㅂ'인 낱말은 무엇일까요?",
+   "choices": [
+    "나비",
+    "냉장고",
+    "낙타"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄴㅂ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄴ ㅂ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-163",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄲㅂ",
+    "ㄲㅃ",
+    "ㄲㅍ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐝",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/500px-Apis_mellifera_Western_honey_bee.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/500px-Apis_mellifera_Western_honey_bee.jpg",
+    "credit": "Andreas Trepte, CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-164",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "개미",
+    "고양이",
+    "국물"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-165",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅈㅈㄹ",
+    "ㅉㅈㄹ",
+    "ㅊㅈㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🪰",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/500px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/500px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_grasshawk_(Neurothemis_fluctuans)_male_Phuket_2.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-166",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅁㄷㅂㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "무당벌레",
+    "모자",
+    "모래"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅁㄷㅂㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅁ ㄷ ㅂ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-167",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄷㅍㅇ",
+    "ㄷㅂㅇ",
+    "ㅌㅍㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/500px-Snail.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/500px-Snail.jpg",
+    "credit": "Geierunited, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Snail.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-168",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅍㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "펭귄",
+    "피아노",
+    "피자"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅍㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅍ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-169",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅁㅅ",
+    "ㅇㅁㅈ",
+    "ㅎㅁㅅ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦜",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg/500px-Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg/500px-Rainbow_lorikeet_%28Trichoglossus_moluccanus_moluccanus%29_Sydney.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rainbow_lorikeet_(Trichoglossus_moluccanus_moluccanus)_Sydney.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-170",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "오리",
+    "오토바이",
+    "외투"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-171",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄷㅅㄹ",
+    "ㄷㅅㅁ",
+    "ㄷㅈㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦅",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg/500px-015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg/500px-015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_(Switzerland)_Photo_by_Giles_Laurent.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-172",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅂㅇㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "부엉이",
+    "비누",
+    "부엌"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅂㅇㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅂ ㅇ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-173",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㄹ",
+    "ㄱㅁ",
+    "ㄲㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦕"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-174",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅍㄷ'인 낱말은 무엇일까요?",
+   "choices": [
+    "포도",
+    "펭귄",
+    "파인애플"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅍㄷ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅍ ㄷ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-175",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄸㄱ",
+    "ㄸㄲ",
+    "ㅌㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/500px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/500px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
+    "credit": "Ivar Leidus, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa)_single2.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-176",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㅂ'인 낱말은 무엇일까요?",
+   "choices": [
+    "수박",
+    "스웨터",
+    "사자"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㅂ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㅂ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-177",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㄴㄴ",
+    "ㅂㄴㄹ",
+    "ㅃㄴㄴ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg",
+    "credit": "TimothyPilgrim, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-178",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅂㅅㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "복숭아",
+    "병원",
+    "바다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅂㅅㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅂ ㅅ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-179",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅊㅇ",
+    "ㅈㅇ",
+    "ㅉㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍈",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Korean_melon1.jpg/500px-Korean_melon1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Korean_melon1.jpg/500px-Korean_melon1.jpg",
+    "credit": "randychiu, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korean_melon1.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-180",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄹㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "레몬",
+    "로봇",
+    "라면"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄹㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄹ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-181",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅍㅇㅇㅍ",
+    "ㅍㅇㄴㅍ",
+    "ㅍㅇㅇㅂ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍍",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg/500px-%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg/500px-%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg",
+    "credit": "Suniltg at Malayalam Wikipedia, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-182",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅊㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "체리",
+    "책상",
+    "칫솔"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅊㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅊ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-183",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅌㅁㅌ",
+    "ㄷㅁㅌ",
+    "ㅌㅂㅌ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍅",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/500px-Tomato_je.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/500px-Tomato_je.jpg",
+    "credit": "Softeis, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tomato_je.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-184",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄷㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "당근",
+    "다람쥐",
+    "도넛"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄷㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄷ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-185",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅇ",
+    "ㅇㄴ",
+    "ㅎㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🥒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/ARS_cucumber.jpg/500px-ARS_cucumber.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/ARS_cucumber.jpg/500px-ARS_cucumber.jpg",
+    "credit": "Stephen Ausmus, USDA ARS, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-186",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅈ'인 낱말은 무엇일까요?",
+   "choices": [
+    "감자",
+    "기린",
+    "기차"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅈ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅈ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-187",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㄱㅁ",
+    "ㄱㄱㄴ",
+    "ㄱㄲㅁ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍠",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ipomoea_batatas_006.JPG/500px-Ipomoea_batatas_006.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ipomoea_batatas_006.JPG/500px-Ipomoea_batatas_006.JPG",
+    "credit": "Llez, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ipomoea_batatas_006.JPG"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-188",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅅㅅ'인 낱말은 무엇일까요?",
+   "choices": [
+    "옥수수",
+    "외투",
+    "이빨"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅅㅅ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅅ ㅅ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-189",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅍ",
+    "ㅇㅂ",
+    "ㅇㅃ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧅",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/500px-Mixed_onions.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/500px-Mixed_onions.jpg",
+    "credit": "Colin, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-190",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅂㅅ'인 낱말은 무엇일까요?",
+   "choices": [
+    "버섯",
+    "브로콜리",
+    "비둘기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅂㅅ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅂ ㅅ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-191",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㄹㅋㄹ",
+    "ㅂㄴㅋㄹ",
+    "ㅂㅁㅋㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🥦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Brassica_oleracea_italica%2C_Sault_Ste_Marie_1.JPG/500px-Brassica_oleracea_italica%2C_Sault_Ste_Marie_1.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Brassica_oleracea_italica%2C_Sault_Ste_Marie_1.JPG/500px-Brassica_oleracea_italica%2C_Sault_Ste_Marie_1.JPG",
+    "credit": "Fungus Guy, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Brassica_oleracea_italica,_Sault_Ste_Marie_1.JPG"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-192",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅊ'인 낱말은 무엇일까요?",
+   "choices": [
+    "김치",
+    "고래",
+    "김밥"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅊ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅊ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-193",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㅂ",
+    "ㄱㅍ",
+    "ㄲㅂ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍙",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Gimbap_%28pixabay%29.jpg/500px-Gimbap_%28pixabay%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Gimbap_%28pixabay%29.jpg/500px-Gimbap_%28pixabay%29.jpg",
+    "credit": "changupn, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Gimbap_(pixabay).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-194",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄹㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "라면",
+    "로켓",
+    "로봇"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄹㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄹ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-195",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅁㄷ",
+    "ㅁㅌ",
+    "ㅂㄷ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🥟",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/%EB%A7%8C%EB%91%90.jpg/500px-%EB%A7%8C%EB%91%90.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/%EB%A7%8C%EB%91%90.jpg/500px-%EB%A7%8C%EB%91%90.jpg",
+    "credit": "Raven9722, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%EB%A7%8C%EB%91%90.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-196",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅍㅈ'인 낱말은 무엇일까요?",
+   "choices": [
+    "피자",
+    "포도",
+    "판다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅍㅈ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅍ ㅈ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-197",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅎㅂㄱ",
+    "ㅎㅂㅋ",
+    "ㅎㅍㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍔",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/500px-RedDot_Burger.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/500px-RedDot_Burger.jpg",
+    "credit": "Hongreddotbrewhouse, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:RedDot_Burger.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-198",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㄷㅇㅊ'인 낱말은 무엇일까요?",
+   "choices": [
+    "샌드위치",
+    "선생님",
+    "신발"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㄷㅇㅊ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㄷ ㅇ ㅊ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-199",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅇ",
+    "ㄴㅇ",
+    "ㅎㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🥛",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glass_of_Milk_%2833657535532%29.jpg/500px-Glass_of_Milk_%2833657535532%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glass_of_Milk_%2833657535532%29.jpg/500px-Glass_of_Milk_%2833657535532%29.jpg",
+    "credit": "NIAID, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Glass_of_Milk_(33657535532).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-200",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅈㅅ'인 낱말은 무엇일까요?",
+   "choices": [
+    "주스",
+    "지우개",
+    "장갑"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅈㅅ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅈ ㅅ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-201",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄷㄱ",
+    "ㄷㄲ",
+    "ㅌㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🥚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Huevo_frito.jpg/500px-Huevo_frito.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Huevo_frito.jpg/500px-Huevo_frito.jpg",
+    "credit": "Horacio Cambeiro, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Huevo_frito.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-202",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅊㅈ'인 낱말은 무엇일까요?",
+   "choices": [
+    "치즈",
+    "책상",
+    "축구공"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅊㅈ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅊ ㅈ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-203",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄷㄴ",
+    "ㄷㄹ",
+    "ㅌㄴ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍩",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/500px-Glazed-Donut.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/500px-Glazed-Donut.jpg",
+    "credit": "Evan-Amos, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Glazed-Donut.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-204",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㅌ'인 낱말은 무엇일까요?",
+   "choices": [
+    "사탕",
+    "소방관",
+    "선물"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㅌ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㅌ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-205",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅋㅋ",
+    "ㄱㅋ",
+    "ㅋㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍪",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Choco_chip_cookie.png/500px-Choco_chip_cookie.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Choco_chip_cookie.png/500px-Choco_chip_cookie.png",
+    "credit": "brainloc on sxc.hu (Bob Smith), CC BY 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Choco_chip_cookie.png"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-206",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㄱㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "숟가락",
+    "상어",
+    "사과"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㄱㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㄱ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-207",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅈㄱㄹ",
+    "ㅈㄱㄴ",
+    "ㅊㄱㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🥢",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Many-chopsticks.jpg/500px-Many-chopsticks.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Many-chopsticks.jpg/500px-Many-chopsticks.jpg",
+    "credit": "FiveRings at English Wikipedia, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Many-chopsticks.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-208",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄴㅈㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "냉장고",
+    "놀이터",
+    "나뭇잎"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄴㅈㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄴ ㅈ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-209",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㅌㄱ",
+    "ㅅㄷㄱ",
+    "ㅅㅌㄲ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg/500px-LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg/500px-LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0%2C_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg",
+    "credit": "LG전자, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:LG_%EB%93%9C%EB%9F%BC%EC%84%B8%ED%83%81%EA%B8%B0%EC%99%80_%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0,_%EC%98%81%EA%B5%AD%EC%84%9C_%EB%AC%BC%EC%82%AC%EC%9A%A9_%ED%9A%A8%EC%9C%A8_%EC%B5%9C%EC%9A%B0%EC%88%98_%EC%A0%9C%ED%92%88_%EC%88%98%EC%83%81.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-210",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "시계",
+    "사과",
+    "사다리"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-211",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㄱ",
+    "ㅇㄲ",
+    "ㅎㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "👓"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-212",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅁㅈ'인 낱말은 무엇일까요?",
+   "choices": [
+    "모자",
+    "무지개",
+    "문어"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅁㅈ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅁ ㅈ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-213",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㅂ",
+    "ㄱㅃ",
+    "ㄱㅍ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🎒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Rucksack1.jpg/500px-Rucksack1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Rucksack1.jpg/500px-Rucksack1.jpg",
+    "credit": "de:Benutzer:sjr, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rucksack1.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-214",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅅ'인 낱말은 무엇일까요?",
+   "choices": [
+    "우산",
+    "의사",
+    "인형"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅅ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅅ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-215",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅈㄱ",
+    "ㅈㅋ",
+    "ㅉㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧤",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG/500px-Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG/500px-Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG",
+    "credit": "Kippelboy, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-216",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "양말",
+    "얼룩말",
+    "요리사"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-217",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㅈ",
+    "ㅂㅉ",
+    "ㅃㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "👖",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Jeans.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Jeans.jpg",
+    "credit": "uploaded by Juanmak, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Jeans.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-218",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅊㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "치마",
+    "칫솔",
+    "참외"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅊㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅊ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-219",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄷㅊ",
+    "ㄷㅈ",
+    "ㄸㅊ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🔘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Reserveknapper_til_Hans%27_uniform.jpg/500px-Reserveknapper_til_Hans%27_uniform.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Reserveknapper_til_Hans%27_uniform.jpg/500px-Reserveknapper_til_Hans%27_uniform.jpg",
+    "credit": "Europeana staff photographer, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Reserveknapper_til_Hans%27_uniform.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-220",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "가위",
+    "구름",
+    "괴물"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-221",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅈㅇㄱ",
+    "ㅈㄴㄱ",
+    "ㅉㅇㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧽",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Office-pink-erasers.jpg/500px-Office-pink-erasers.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Office-pink-erasers.jpg/500px-Office-pink-erasers.jpg",
+    "credit": "Evan-Amos, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Office-pink-erasers.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-222",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅊ'인 낱말은 무엇일까요?",
+   "choices": [
+    "공책",
+    "고래",
+    "기린"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅊ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅊ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-223",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅋㄹㅍㅅ",
+    "ㄲㄹㅍㅅ",
+    "ㅋㄹㅂㅅ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🖍️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crayones_cera.jpg/500px-Crayones_cera.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crayones_cera.jpg/500px-Crayones_cera.jpg",
+    "credit": "Jorge Barrios, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Crayones_cera.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-224",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅍㅅ'인 낱말은 무엇일까요?",
+   "choices": [
+    "풍선",
+    "피아노",
+    "펭귄"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅍㅅ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅍ ㅅ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-225",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅎ",
+    "ㄴㅎ",
+    "ㅇㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧸",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Teddy_bear_early_1900s_-_Smithsonian_Museum_of_Natural_History.jpg/500px-Teddy_bear_early_1900s_-_Smithsonian_Museum_of_Natural_History.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Teddy_bear_early_1900s_-_Smithsonian_Museum_of_Natural_History.jpg/500px-Teddy_bear_early_1900s_-_Smithsonian_Museum_of_Natural_History.jpg",
+    "credit": "Smithsonian Museum of Natural History, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Teddy_bear_early_1900s_-_Smithsonian_Museum_of_Natural_History.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-226",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅈㅈㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "자전거",
+    "지우개",
+    "장갑"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅈㅈㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅈ ㅈ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-227",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㅎㄱ",
+    "ㅂㅎㄲ",
+    "ㅂㅎㅋ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "✈️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/500px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/500px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg",
+    "credit": "Maarten Visser from Capelle aan den IJssel, Nederland, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A6-EDY_A380_Emirates_31_jan_2013_jfk_(8442269364)_(cropped).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-228",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅊ'인 낱말은 무엇일까요?",
+   "choices": [
+    "기차",
+    "계단",
+    "공책"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅊ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅊ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-229",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㅅ",
+    "ㅂㅆ",
+    "ㅂㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🚌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/LTZ1328-19-20241030-160332.jpg/500px-LTZ1328-19-20241030-160332.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/LTZ1328-19-20241030-160332.jpg/500px-LTZ1328-19-20241030-160332.jpg",
+    "credit": "SIA321, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:LTZ1328-19-20241030-160332.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-230",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅌㅅ'인 낱말은 무엇일까요?",
+   "choices": [
+    "택시",
+    "토마토",
+    "텔레비전"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅌㅅ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅌ ㅅ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-231",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㅂㅊ",
+    "ㅅㅂㅈ",
+    "ㅅㅃㅊ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🚒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dublin_Fire_Brigade_Pump_Ladder_D32.jpg/500px-Dublin_Fire_Brigade_Pump_Ladder_D32.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dublin_Fire_Brigade_Pump_Ladder_D32.jpg/500px-Dublin_Fire_Brigade_Pump_Ladder_D32.jpg",
+    "credit": "William Murphy, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Dublin_Fire_Brigade_Pump_Ladder_D32.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-232",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅎㄹㅋㅌ'인 낱말은 무엇일까요?",
+   "choices": [
+    "헬리콥터",
+    "햄버거",
+    "화분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅎㄹㅋㅌ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅎ ㄹ ㅋ ㅌ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-233",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅌㄹ",
+    "ㄸㄹ",
+    "ㅌㄴ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🚚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/2001_Ford_F-250_Super_Duty_XL_regular_cab_flatbed%2C_front_left%2C_05-17-2025.jpg/500px-2001_Ford_F-250_Super_Duty_XL_regular_cab_flatbed%2C_front_left%2C_05-17-2025.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/2001_Ford_F-250_Super_Duty_XL_regular_cab_flatbed%2C_front_left%2C_05-17-2025.jpg/500px-2001_Ford_F-250_Super_Duty_XL_regular_cab_flatbed%2C_front_left%2C_05-17-2025.jpg",
+    "credit": "MercurySable99, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2001_Ford_F-250_Super_Duty_XL_regular_cab_flatbed,_front_left,_05-17-2025.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-234",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅌㅂㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "오토바이",
+    "오징어",
+    "옥수수"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅌㅂㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅌ ㅂ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-235",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄹㅋ",
+    "ㄴㅋ",
+    "ㅁㅋ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🚀",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Soyuz_TMA-9_launch.jpg/500px-Soyuz_TMA-9_launch.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Soyuz_TMA-9_launch.jpg/500px-Soyuz_TMA-9_launch.jpg",
+    "credit": "Bill Ingalls, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Soyuz_TMA-9_launch.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-236",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅁㅈㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "무지개",
+    "미끄럼틀",
+    "망원경"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅁㅈㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅁ ㅈ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-237",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㄹ",
+    "ㄲㄹ",
+    "ㅋㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "☁️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/GoldenMedows.jpg/500px-GoldenMedows.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/GoldenMedows.jpg/500px-GoldenMedows.jpg",
+    "credit": "PiccoloNamek, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:GoldenMedows.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-238",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄴㅅㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "눈사람",
+    "낙타",
+    "나비"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄴㅅㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄴ ㅅ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-239",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㄷ",
+    "ㅂㄸ",
+    "ㅂㅌ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🌊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mediterranean_Sea_16.61811E_38.99124N.jpg/500px-Mediterranean_Sea_16.61811E_38.99124N.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mediterranean_Sea_16.61811E_38.99124N.jpg/500px-Mediterranean_Sea_16.61811E_38.99124N.jpg",
+    "credit": "of the modification : Eric Gaba (Sting), Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mediterranean_Sea_16.61811E_38.99124N.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-240",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄴㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "나무",
+    "늑대",
+    "나뭇잎"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄴㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄴ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-241",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄴㅁㅇ",
+    "ㄴㄴㅇ",
+    "ㄴㅂㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍃",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Lisc_lipy.jpg/500px-Lisc_lipy.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Lisc_lipy.jpg/500px-Lisc_lipy.jpg",
+    "credit": "Krzysztof P. Jasiutowicz, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lisc_lipy.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-242",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅂㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "바위",
+    "바구니",
+    "병원"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅂㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅂ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-243",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅁㄹ",
+    "ㅁㅁ",
+    "ㅂㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🏖️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Libya_4608_Idehan_Ubari_Dunes_Luca_Galuzzi_2007.jpg/500px-Libya_4608_Idehan_Ubari_Dunes_Luca_Galuzzi_2007.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Libya_4608_Idehan_Ubari_Dunes_Luca_Galuzzi_2007.jpg/500px-Libya_4608_Idehan_Ubari_Dunes_Luca_Galuzzi_2007.jpg",
+    "credit": "Luca Galuzzi (Lucag), CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Libya_4608_Idehan_Ubari_Dunes_Luca_Galuzzi_2007.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-244",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "얼음",
+    "이빨",
+    "연필"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-245",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅃ",
+    "ㅇㅍ",
+    "ㅎㅃ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦷"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-246",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅁㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "무릎",
+    "문어",
+    "만두"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅁㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅁ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-247",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅎㅁㄴ",
+    "ㅎㄴㄴ",
+    "ㅎㅂㄴ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "👵"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-248",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅎㅇㅂㅈ'인 낱말은 무엇일까요?",
+   "choices": [
+    "할아버지",
+    "하마",
+    "호랑이"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅎㅇㅂㅈ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅎ ㅇ ㅂ ㅈ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-249",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㅅㄴ",
+    "ㅅㅅㅁ",
+    "ㅈㅅㄴ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧑‍🏫"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-250",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅊㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "경찰관",
+    "괴물",
+    "계단"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅊㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅊ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-251",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅅ",
+    "ㄴㅅ",
+    "ㅎㅅ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧑‍⚕️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Stethoscope-2.png/500px-Stethoscope-2.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Stethoscope-2.png/500px-Stethoscope-2.png",
+    "credit": "this version: Sonarpulse. origenal:Huji, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Stethoscope-2.png"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-252",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㅂㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "소방관",
+    "숟가락",
+    "신발"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㅂㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㅂ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-253",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㄹㅅ",
+    "ㄴㄹㅅ",
+    "ㅇㄹㅆ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧑‍🍳"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-254",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "왕관",
+    "여우",
+    "인형"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-255",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅅ",
+    "ㄴㅅ",
+    "ㅇㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🔑",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Solex_99_30_padlock_with_keys_%28DSCF2659%29.jpg/500px-Solex_99_30_padlock_with_keys_%28DSCF2659%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Solex_99_30_padlock_with_keys_%28DSCF2659%29.jpg/500px-Solex_99_30_padlock_with_keys_%28DSCF2659%29.jpg",
+    "credit": "Trougnouf, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Solex_99_30_padlock_with_keys_(DSCF2659).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-256",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "거울",
+    "경찰관",
+    "고양이"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-257",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅊㅂ",
+    "ㅈㅂ",
+    "ㅊㅃ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🕯️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/LA2_Skultuna_kontorsljusstake.jpg/500px-LA2_Skultuna_kontorsljusstake.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/LA2_Skultuna_kontorsljusstake.jpg/500px-LA2_Skultuna_kontorsljusstake.jpg",
+    "credit": "LA2, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:LA2_Skultuna_kontorsljusstake.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-258",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅈㄴㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "줄넘기",
+    "젓가락",
+    "주스"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅈㄴㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅈ ㄴ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-259",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅁㄲㄹㅌ",
+    "ㅁㄲㅁㅌ",
+    "ㅁㅋㄹㅌ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🛝"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-260",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㄴ'인 낱말은 무엇일까요?",
+   "choices": [
+    "그네",
+    "가방",
+    "공책"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㄴ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㄴ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-261",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅍㅇㄴ",
+    "ㅍㄴㄴ",
+    "ㅍㅇㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🎹",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Steinway_Vienna_002.JPG/500px-Steinway_Vienna_002.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Steinway_Vienna_002.JPG/500px-Steinway_Vienna_002.JPG",
+    "credit": "Gryffindor, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Steinway_Vienna_002.JPG"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-262",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅊㄱㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "축구공",
+    "초콜릿",
+    "치즈"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅊㄱㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅊ ㄱ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-263",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄴㅌ",
+    "ㄴㄷ",
+    "ㄹㅌ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐫",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg/500px-07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg/500px-07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg",
+    "credit": "Jjron, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:07._Camel_Profile,_near_Silverton,_NSW,_07.07.2007.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-264",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅎㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "하마",
+    "호박",
+    "학교"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅎㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅎ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-265",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㄹㅁ",
+    "ㅇㄹㄴ",
+    "ㅇㄹㅂ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🦓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grevy%27s_Zebra_Stallion.jpg/500px-Grevy%27s_Zebra_Stallion.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Grevy%27s_Zebra_Stallion.jpg/500px-Grevy%27s_Zebra_Stallion.jpg",
+    "credit": "Rainbirder, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Grevy%27s_Zebra_Stallion.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-266",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅋㄱㄹ'인 낱말은 무엇일까요?",
+   "choices": [
+    "캥거루",
+    "컴퓨터",
+    "코끼리"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅋㄱㄹ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅋ ㄱ ㄹ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-267",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅍㄷ",
+    "ㅂㄷ",
+    "ㅍㅌ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐼",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/500px-Grosser_Panda.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/500px-Grosser_Panda.JPG",
+    "credit": "J. Patrick Fischer, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Grosser_Panda.JPG"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-268",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅅㄷㅊ'인 낱말은 무엇일까요?",
+   "choices": [
+    "고슴도치",
+    "괴물",
+    "고양이"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅅㄷㅊ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅅ ㄷ ㅊ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-269",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㅇㅈ",
+    "ㅅㅇㅊ",
+    "ㅆㅇㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🏊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Backyardpool.jpg/500px-Backyardpool.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Backyardpool.jpg/500px-Backyardpool.jpg",
+    "credit": "Vic Brincat from Keswick, Ontario, Canada, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Backyardpool.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-270",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄴㅇㅌ'인 낱말은 무엇일까요?",
+   "choices": [
+    "놀이터",
+    "나뭇잎",
+    "늑대"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄴㅇㅌ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄴ ㅇ ㅌ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-271",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㅇ",
+    "ㅂㄴ",
+    "ㅃㅇ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🏥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hospital-de-Bellvitge.jpg/500px-Hospital-de-Bellvitge.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hospital-de-Bellvitge.jpg/500px-Hospital-de-Bellvitge.jpg",
+    "credit": "H501zalc, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hospital-de-Bellvitge.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-272",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄷㅅㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "도서관",
+    "독수리",
+    "당근"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄷㅅㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄷ ㅅ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-273",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅍㅈ",
+    "ㅂㅈ",
+    "ㅃㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "✉️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Envelope_-_Boonville_Address-000.jpg/500px-Envelope_-_Boonville_Address-000.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Envelope_-_Boonville_Address-000.jpg/500px-Envelope_-_Boonville_Address-000.jpg",
+    "credit": "Unknown, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Envelope_-_Boonville_Address-000.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-274",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "선물",
+    "숟가락",
+    "수영장"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-275",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅇㅅ",
+    "ㄴㅅ",
+    "ㅇㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐐",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/500px-Hausziege_04.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/500px-Hausziege_04.jpg",
+    "credit": "Kuebi = Armin Kübelbeck, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hausziege_04.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-276",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄸㅋ'인 낱말은 무엇일까요?",
+   "choices": [
+    "땅콩",
+    "딸기",
+    "떡볶이"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄸㅋ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄸ ㅋ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-277",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅎㅂ",
+    "ㄱㅂ",
+    "ㅇㅂ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🎃",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FrenchMarketPumpkinsB.jpg/500px-FrenchMarketPumpkinsB.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FrenchMarketPumpkinsB.jpg/500px-FrenchMarketPumpkinsB.jpg",
+    "credit": "Infrogmation of New Orleans, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:FrenchMarketPumpkinsB.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-278",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅅㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "수건",
+    "시계",
+    "선생님"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅅㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅅ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-279",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅊㅅ",
+    "ㅉㅅ",
+    "ㅊㅆ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🪥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Toothbrush_20050716_004.jpg/500px-Toothbrush_20050716_004.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Toothbrush_20050716_004.jpg/500px-Toothbrush_20050716_004.jpg",
+    "credit": "Jonas Bergsten, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Toothbrush_20050716_004.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-280",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅂㄴ'인 낱말은 무엇일까요?",
+   "choices": [
+    "비누",
+    "바지",
+    "비행기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅂㄴ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅂ ㄴ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-281",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅎㅈ",
+    "ㅇㅈ",
+    "ㅎㅉ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧻",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Toiletpapier_%28Gobran111%29.jpg/500px-Toiletpapier_%28Gobran111%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Toiletpapier_%28Gobran111%29.jpg/500px-Toiletpapier_%28Gobran111%29.jpg",
+    "credit": "Brandon Blinkenberg, CC BY 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Toiletpapier_(Gobran111).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-282",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅆㄹㄱㅌ'인 낱말은 무엇일까요?",
+   "choices": [
+    "쓰레기통",
+    "오징어",
+    "비행기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅆㄹㄱㅌ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅆ ㄹ ㄱ ㅌ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-283",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㄷ",
+    "ㄱㄸ",
+    "ㅋㄷ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🪜"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-284",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅊㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "창문",
+    "책상",
+    "칫솔"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅊㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅊ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-285",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㄱ",
+    "ㅂㅋ",
+    "ㅍㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🛏️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Pillows_on_a_hotel_bed.jpg/500px-Pillows_on_a_hotel_bed.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Pillows_on_a_hotel_bed.jpg/500px-Pillows_on_a_hotel_bed.jpg",
+    "credit": "Amin, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pillows_on_a_hotel_bed.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-286",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅉㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "찌개",
+    "꿀벌",
+    "햄버거"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅉㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅉ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-287",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㄱㅈ",
+    "ㅅㄱㅉ",
+    "ㅈㄱㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍽️"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-288",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅎㅈㅁㅁ'인 낱말은 무엇일까요?",
+   "choices": [
+    "회전목마",
+    "횃불",
+    "호박"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅎㅈㅁㅁ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅎ ㅈ ㅁ ㅁ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-289",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㅇㅍ",
+    "ㅅㅇㅂ",
+    "ㅆㅇㅍ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🖍️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buntstifte_--_2021_--_9156.jpg/500px-Buntstifte_--_2021_--_9156.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buntstifte_--_2021_--_9156.jpg/500px-Buntstifte_--_2021_--_9156.jpg",
+    "credit": "Dietmar Rabich, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Buntstifte_--_2021_--_9156.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-290",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅆㅇ'인 낱말은 무엇일까요?",
+   "choices": [
+    "씨앗",
+    "떡볶이",
+    "해바라기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅆㅇ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅆ ㅇ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-291",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄲㅂ",
+    "ㄱㅂ",
+    "ㄲㅃ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🏺"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-292",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅎㅂ'인 낱말은 무엇일까요?",
+   "choices": [
+    "화분",
+    "할아버지",
+    "하마"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅎㅂ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅎ ㅂ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-293",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄷㅂㄱ",
+    "ㄷㅂㄲ",
+    "ㄷㅍㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🔍",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Mag_glass_request.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Mag_glass_request.jpg",
+    "credit": "WolfenSilva, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mag_glass_request.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-294",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅁㅇㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "망원경",
+    "문어",
+    "미끄럼틀"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅁㅇㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅁ ㅇ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-295",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅅㄷㄹ",
+    "ㅅㄷㄴ",
+    "ㅆㄷㄹ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🪜",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ladder.webp/500px-Ladder.webp",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ladder.webp/500px-Ladder.webp",
+    "credit": "Wikideas1, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ladder.webp"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-296",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅁㅊ'인 낱말은 무엇일까요?",
+   "choices": [
+    "망치",
+    "미끄럼틀",
+    "무지개"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅁㅊ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅁ ㅊ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-297",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㄱㄴ",
+    "ㅃㄱㄴ",
+    "ㅍㄱㄴ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🧺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Baskets_in_Haikou_03.jpg/500px-Baskets_in_Haikou_03.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Baskets_in_Haikou_03.jpg/500px-Baskets_in_Haikou_03.jpg",
+    "credit": "Anna Frodesiak, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Baskets_in_Haikou_03.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-298",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅈㅈㅈ'인 낱말은 무엇일까요?",
+   "choices": [
+    "주전자",
+    "장갑",
+    "자전거"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅈㅈㅈ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅈ ㅈ ㅈ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-299",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅈㅅ",
+    "ㅈㅆ",
+    "ㅈㅈ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🍽️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Botanical_plate_with_spray_of_fruiting_Indian_Bean_Tree_MET_DP-1687-038_%28cropped%29.jpg/500px-Botanical_plate_with_spray_of_fruiting_Indian_Bean_Tree_MET_DP-1687-038_%28cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Botanical_plate_with_spray_of_fruiting_Indian_Bean_Tree_MET_DP-1687-038_%28cropped%29.jpg/500px-Botanical_plate_with_spray_of_fruiting_Indian_Bean_Tree_MET_DP-1687-038_%28cropped%29.jpg",
+    "credit": "Chelsea porcelain factory, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Botanical_plate_with_spray_of_fruiting_Indian_Bean_Tree_MET_DP-1687-038_(cropped).jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-300",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄲㅂㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "꽈배기",
+    "꽃병",
+    "까치"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄲㅂㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄲ ㅂ ㄱ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-301",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅎㅂ",
+    "ㅇㅂ",
+    "ㅎㅍ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🔥"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-302",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅅ'인 낱말은 무엇일까요?",
+   "choices": [
+    "왼손",
+    "왕관",
+    "염소"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅅ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅅ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-303",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㄱㄷㅇㅊ",
+    "ㄱㄷㅎㅊ",
+    "ㅋㄷㅇㅊ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🚝",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Chongqing_Rail_Transit_Line_3_Monorail_Train_near_Xuetangwan_Station.jpg/500px-Chongqing_Rail_Transit_Line_3_Monorail_Train_near_Xuetangwan_Station.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Chongqing_Rail_Transit_Line_3_Monorail_Train_near_Xuetangwan_Station.jpg/500px-Chongqing_Rail_Transit_Line_3_Monorail_Train_near_Xuetangwan_Station.jpg",
+    "credit": "Baycrest, CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Chongqing_Rail_Transit_Line_3_Monorail_Train_near_Xuetangwan_Station.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-304",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㅇㅌ'인 낱말은 무엇일까요?",
+   "choices": [
+    "외투",
+    "원숭이",
+    "오토바이"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㅇㅌ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㅇ ㅌ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-305",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅊㅅ",
+    "ㅉㅅ",
+    "ㅊㅆ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tree_Sparrow_August_2007_Osaka_Japan.jpg/500px-Tree_Sparrow_August_2007_Osaka_Japan.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tree_Sparrow_August_2007_Osaka_Japan.jpg/500px-Tree_Sparrow_August_2007_Osaka_Japan.jpg",
+    "credit": "Laitche, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tree_Sparrow_August_2007_Osaka_Japan.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-306",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄲㅊ'인 낱말은 무엇일까요?",
+   "choices": [
+    "까치",
+    "꽃병",
+    "꽈배기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄲㅊ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄲ ㅊ 인 낱말은 무엇일까요?"
+  },
+  {
+   "id": "kor2-307",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "그림을 보고 첫소리(초성)가 맞는 것을 골라요.",
+   "choices": [
+    "ㅂㄷㄱ",
+    "ㅂㄸㄱ",
+    "ㅂㅌㄱ"
+   ],
+   "answer": 0,
+   "level": 1,
+   "group": "kor-cho",
+   "image": {
+    "fallbackEmoji": "🕊️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg/500px-Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg/500px-Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg",
+    "credit": "william_stephens, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Columba_livia_(Rock_Dove,_wild),_Duncansby_Head,_Caithness,_Scotland_1.jpg"
+   },
+   "speakChoices": false
+  },
+  {
+   "id": "kor2-308",
+   "subject": "국어",
+   "type": "choice",
+   "prompt": "첫소리가 'ㄱㅁㄱ'인 낱말은 무엇일까요?",
+   "choices": [
+    "갈매기",
+    "기차",
+    "기린"
+   ],
+   "answer": 0,
+   "level": 2,
+   "group": "kor-cho",
+   "display": "ㄱㅁㄱ",
+   "speakChoices": false,
+   "speak": "첫소리가 ㄱ ㅁ ㄱ 인 낱말은 무엇일까요?"
   }
  ],
  "key": "korean"
