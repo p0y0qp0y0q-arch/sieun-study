@@ -2639,7 +2639,15 @@
    "group": "han-pic",
    "hanjaHint": {
     "emoji": "🔪",
-    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!"
+    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!",
+    "ancient": {
+     "fallbackEmoji": "📜",
+     "flag": true,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "credit": "Digital file creation, see the contributor names shown in the “User” column of t, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%83-oracle.svg"
+    }
    }
   },
   {
@@ -2716,7 +2724,15 @@
    "group": "han-read",
    "hanjaHint": {
     "emoji": "🔪",
-    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!"
+    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!",
+    "ancient": {
+     "fallbackEmoji": "📜",
+     "flag": true,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "credit": "Digital file creation, see the contributor names shown in the “User” column of t, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%83-oracle.svg"
+    }
    }
   },
   {
@@ -2793,7 +2809,15 @@
    "showHint": true,
    "hanjaHint": {
     "emoji": "🔪",
-    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!"
+    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!",
+    "ancient": {
+     "fallbackEmoji": "📜",
+     "flag": true,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "credit": "Digital file creation, see the contributor names shown in the “User” column of t, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%83-oracle.svg"
+    }
    }
   },
   {
@@ -2870,7 +2894,15 @@
    "group": "han-word",
    "hanjaHint": {
     "emoji": "🔪",
-    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!"
+    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!",
+    "ancient": {
+     "fallbackEmoji": "📜",
+     "flag": true,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "credit": "Digital file creation, see the contributor names shown in the “User” column of t, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%83-oracle.svg"
+    }
    }
   },
   {
@@ -2947,7 +2979,15 @@
    "group": "han-word",
    "hanjaHint": {
     "emoji": "🔪",
-    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!"
+    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!",
+    "ancient": {
+     "fallbackEmoji": "📜",
+     "flag": true,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "credit": "Digital file creation, see the contributor names shown in the “User” column of t, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%83-oracle.svg"
+    }
    }
   },
   {
@@ -23625,6 +23665,98 @@
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
    "choices": [
+    "七",
+    "南",
+    "木"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📜",
+    "flag": true,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+    "credit": "Digital file creation, see the contributor names shown in the “User” column of t, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%83-oracle.svg"
+   },
+   "pool": [
+    "一",
+    "二",
+    "三",
+    "四",
+    "五",
+    "六",
+    "八",
+    "九",
+    "十",
+    "山",
+    "水",
+    "火",
+    "日",
+    "月",
+    "人",
+    "口",
+    "木",
+    "金",
+    "土",
+    "大",
+    "小",
+    "上",
+    "下",
+    "中",
+    "父",
+    "母",
+    "子",
+    "女",
+    "王",
+    "門",
+    "白",
+    "青",
+    "年",
+    "生",
+    "先",
+    "學",
+    "校",
+    "東",
+    "西",
+    "南",
+    "北",
+    "國",
+    "韓",
+    "民",
+    "軍",
+    "兄",
+    "弟",
+    "外",
+    "萬",
+    "寸",
+    "長",
+    "室",
+    "教"
+   ],
+   "big": true,
+   "speakChoices": false,
+   "explain": "七  일곱 칠 · 가로 막대를 칼로 툭 자른 모양이에요. 일곱!",
+   "group": "han-ancient",
+   "hanjaHint": {
+    "emoji": "🔪",
+    "story": "가로 막대를 칼로 툭 자른 모양이에요. 일곱!",
+    "ancient": {
+     "fallbackEmoji": "📜",
+     "flag": true,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "remote": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E4%B8%83-oracle.svg",
+     "credit": "Digital file creation, see the contributor names shown in the “User” column of t, Public domain, Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%83-oracle.svg"
+    }
+   }
+  },
+  {
+   "id": "han-278",
+   "subject": "한자",
+   "type": "choice",
+   "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
+   "choices": [
     "八",
     "二",
     "西"
@@ -23712,7 +23844,7 @@
    }
   },
   {
-   "id": "han-278",
+   "id": "han-279",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -23804,7 +23936,7 @@
    }
   },
   {
-   "id": "han-279",
+   "id": "han-280",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -23896,7 +24028,7 @@
    }
   },
   {
-   "id": "han-280",
+   "id": "han-281",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -23988,7 +24120,7 @@
    }
   },
   {
-   "id": "han-281",
+   "id": "han-282",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24080,7 +24212,7 @@
    }
   },
   {
-   "id": "han-282",
+   "id": "han-283",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24172,7 +24304,7 @@
    }
   },
   {
-   "id": "han-283",
+   "id": "han-284",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24264,7 +24396,7 @@
    }
   },
   {
-   "id": "han-284",
+   "id": "han-285",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24356,7 +24488,7 @@
    }
   },
   {
-   "id": "han-285",
+   "id": "han-286",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24448,7 +24580,7 @@
    }
   },
   {
-   "id": "han-286",
+   "id": "han-287",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24540,7 +24672,7 @@
    }
   },
   {
-   "id": "han-287",
+   "id": "han-288",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24632,7 +24764,7 @@
    }
   },
   {
-   "id": "han-288",
+   "id": "han-289",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24724,7 +24856,7 @@
    }
   },
   {
-   "id": "han-289",
+   "id": "han-290",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24816,7 +24948,7 @@
    }
   },
   {
-   "id": "han-290",
+   "id": "han-291",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -24908,7 +25040,7 @@
    }
   },
   {
-   "id": "han-291",
+   "id": "han-292",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25000,7 +25132,7 @@
    }
   },
   {
-   "id": "han-292",
+   "id": "han-293",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25092,7 +25224,7 @@
    }
   },
   {
-   "id": "han-293",
+   "id": "han-294",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25184,7 +25316,7 @@
    }
   },
   {
-   "id": "han-294",
+   "id": "han-295",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25276,7 +25408,7 @@
    }
   },
   {
-   "id": "han-295",
+   "id": "han-296",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25368,7 +25500,7 @@
    }
   },
   {
-   "id": "han-296",
+   "id": "han-297",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25460,7 +25592,7 @@
    }
   },
   {
-   "id": "han-297",
+   "id": "han-298",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25552,7 +25684,7 @@
    }
   },
   {
-   "id": "han-298",
+   "id": "han-299",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25644,7 +25776,7 @@
    }
   },
   {
-   "id": "han-299",
+   "id": "han-300",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25736,7 +25868,7 @@
    }
   },
   {
-   "id": "han-300",
+   "id": "han-301",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25828,7 +25960,7 @@
    }
   },
   {
-   "id": "han-301",
+   "id": "han-302",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -25920,7 +26052,7 @@
    }
   },
   {
-   "id": "han-302",
+   "id": "han-303",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26012,7 +26144,7 @@
    }
   },
   {
-   "id": "han-303",
+   "id": "han-304",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26104,7 +26236,7 @@
    }
   },
   {
-   "id": "han-304",
+   "id": "han-305",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26196,7 +26328,7 @@
    }
   },
   {
-   "id": "han-305",
+   "id": "han-306",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26288,7 +26420,7 @@
    }
   },
   {
-   "id": "han-306",
+   "id": "han-307",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26380,7 +26512,7 @@
    }
   },
   {
-   "id": "han-307",
+   "id": "han-308",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26472,7 +26604,7 @@
    }
   },
   {
-   "id": "han-308",
+   "id": "han-309",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26564,7 +26696,7 @@
    }
   },
   {
-   "id": "han-309",
+   "id": "han-310",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26656,7 +26788,7 @@
    }
   },
   {
-   "id": "han-310",
+   "id": "han-311",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26748,7 +26880,7 @@
    }
   },
   {
-   "id": "han-311",
+   "id": "han-312",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26840,7 +26972,7 @@
    }
   },
   {
-   "id": "han-312",
+   "id": "han-313",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -26932,7 +27064,7 @@
    }
   },
   {
-   "id": "han-313",
+   "id": "han-314",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27024,7 +27156,7 @@
    }
   },
   {
-   "id": "han-314",
+   "id": "han-315",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27116,7 +27248,7 @@
    }
   },
   {
-   "id": "han-315",
+   "id": "han-316",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27208,7 +27340,7 @@
    }
   },
   {
-   "id": "han-316",
+   "id": "han-317",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27300,7 +27432,7 @@
    }
   },
   {
-   "id": "han-317",
+   "id": "han-318",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27392,7 +27524,7 @@
    }
   },
   {
-   "id": "han-318",
+   "id": "han-319",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27484,7 +27616,7 @@
    }
   },
   {
-   "id": "han-319",
+   "id": "han-320",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27576,7 +27708,7 @@
    }
   },
   {
-   "id": "han-320",
+   "id": "han-321",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27668,7 +27800,7 @@
    }
   },
   {
-   "id": "han-321",
+   "id": "han-322",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",
@@ -27760,7 +27892,7 @@
    }
   },
   {
-   "id": "han-322",
+   "id": "han-323",
    "subject": "한자",
    "type": "choice",
    "prompt": "아주 옛날 사람들이 쓰던 글자 모양이에요. 오늘날 어떤 한자가 되었을까요?",

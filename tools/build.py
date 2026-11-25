@@ -8,7 +8,7 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, "content"))
 import media
-import korean, english, mathq, hanja, art, world, nature, store, sports, music, recycle, env, people, society, timeq, folktale
+import korean, english, mathq, hanja, art, world, nature, store, sports, music, recycle, env, people, society, timeq, folktale, world2
 
 SOUNDS = os.path.join(ROOT, "assets", "sounds", "sounds.json")
 OVERRIDES = os.path.join(HERE, "image_overrides.json")   # 사진 수동 교체/제외: {"wp:Dog": "file:X.jpg" 또는 null}
@@ -30,7 +30,7 @@ def all_subjects(sounds):
         "math": {"subject": "창의 수학", "items": [i for i in math_items if i["level"] >= 2] + mathq.build_puzzles(), "objects": math_objs, "generators": mathq.GENERATORS},
         "hanja": {"subject": "한자", "items": hanja.build(), "generators": hanja.GENERATORS},
         "art": {"subject": "미술", "items": art_items},
-        "world": {"subject": "세계", "items": world.build()},
+        "world": {"subject": "세계", "items": world.build() + world2.build()},
         "nature": {"subject": "자연", "items": nature.build(sounds)},
         "store": {"subject": "가게", "items": store_items, "goods": store_goods, "generators": store.GENERATORS},
         "sports": {"subject": "운동", "items": sports.build()},

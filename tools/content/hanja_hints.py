@@ -56,7 +56,7 @@ HINTS = {
  "教": ("🧑‍🏫", "회초리를 든 손으로 아이를 가르치는 모양이에요."),
 }
 # 위키미디어 커먼즈 고대 한자(퍼블릭 도메인): 갑골문 > 금문 > 소전
-NO_ORACLE = {"金": "bronze", "青": "bronze", "校": "seal", "國": "bronze", "軍": "bronze", "弟": "bronze", "寸": "bronze", "韓": None, "七": None}  # 七의 갑골문은 十과 똑같이 생겨 아이가 헷갈려서 뺌
+NO_ORACLE = {"金": "bronze", "青": "bronze", "校": "seal", "國": "bronze", "軍": "bronze", "弟": "bronze", "寸": "bronze", "韓": None}
 def ancient_ref(c):
     kind = NO_ORACLE.get(c, "oracle")
     return f"file:{c}-{kind}.svg" if kind else None
