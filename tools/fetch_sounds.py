@@ -33,7 +33,9 @@ COMMONS = {
 }
 # 시작 위치(초) 수동 조정
 START = {}
-DUR = {"instr:오보에": 4.0, "instr:비올라": 4.0, "animal:늑대": 4.0, "animal:뻐꾸기": 4.0, "animal:코끼리": 3.5}
+# 아주 짧은 소리는 여러 번 반복
+LOOP = {"instr:캐스터네츠": 4, "animal:돼지": 3}
+DUR = {"animal:칠면조": 4.0, "animal:부엉이": 4.0, "instr:오보에": 4.0, "instr:비올라": 4.0, "animal:늑대": 4.0, "animal:뻐꾸기": 4.0, "animal:코끼리": 3.5}
 
 def ff(*args):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *args], check=True)
@@ -107,6 +109,11 @@ def main():
         st = START.get(key)
         pre = ["-ss", str(st)] if st is not None else []
         af = "" if st is not None else "silenceremove=start_periods=1:start_threshold=-40dB:start_silence=0.05,"
+        if key in LOOP:
+            looped = os.path.join(tmp, slug(key) + "-loop.wav")
+            ff("-i", src, "-af", "apad=pad_dur=0.25", "-ac", "1", "-ar", "44100", os.path.join(tmp, "one.wav"))
+            ff("-stream_loop", str(LOOP[key] - 1), "-i", os.path.join(tmp, "one.wav"), looped)
+            src = looped; af = ""
         ff(*pre, "-i", src, "-af", f"{af}atrim=0:{dur},afade=t=in:d=0.05,afade=t=out:st={dur - 0.4}:d=0.4,loudnorm=I=-16:TP=-1.5", "-ac", "1", "-ar", "44100", "-b:a", "64k", dst)
         out[key] = {"url": f"assets/sounds/{slug(key)}.mp3", "credit": f'{info["artist"]}, {info["license"]}, Wikimedia Commons', "source": info["page"]}
         print("ok", key, info["license"], flush=True)

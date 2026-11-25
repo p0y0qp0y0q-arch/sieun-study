@@ -103,5 +103,140 @@
   "url": "assets/sounds/animal-코끼리.mp3",
   "credit": "தகவலுழவன், CC0, Wikimedia Commons",
   "source": "https://commons.wikimedia.org/wiki/File:Elephant_voice_-_trumpeting.ogg"
+ },
+ "instr:탬버린": {
+  "url": "assets/sounds/instr-탬버린.mp3",
+  "credit": "Freddythehat at English Wikipedia, Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Tambourine.ogg"
+ },
+ "instr:트라이앵글": {
+  "url": "assets/sounds/instr-트라이앵글.mp3",
+  "credit": "http://en.wikipedia.org/wiki/User:Freddythehat, Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:LatinTriangle.ogg"
+ },
+ "instr:리코더": {
+  "url": "assets/sounds/instr-리코더.mp3",
+  "credit": "User:Thparkth, Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:SopranoRecorder.ogg"
+ },
+ "instr:하모니카": {
+  "url": "assets/sounds/instr-하모니카.mp3",
+  "credit": "mastermesh, Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Harmonica_playing.ogg"
+ },
+ "instr:아코디언": {
+  "url": "assets/sounds/instr-아코디언.mp3",
+  "credit": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyri, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Accordion_chords-01.ogg"
+ },
+ "instr:비올라": {
+  "url": "assets/sounds/instr-비올라.mp3",
+  "credit": "Kat Walsh, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Viola-walshimprov.ogg"
+ },
+ "instr:우쿨렐레": {
+  "url": "assets/sounds/instr-우쿨렐레.mp3",
+  "credit": "Cassa342, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Ukulele_playing.ogg"
+ },
+ "instr:오보에": {
+  "url": "assets/sounds/instr-오보에.mp3",
+  "credit": "Aaron Hill Oboe / Franz Wilhelm Ferling (1796–1874) Bearbeitung (Video entfernt), Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Ferling_Oboe_Study_No_28_Aaron_Hill.ogg"
+ },
+ "instr:심벌즈": {
+  "url": "assets/sounds/instr-심벌즈.mp3",
+  "credit": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyri, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Crash_cymbal.ogg"
+ },
+ "instr:팀파니": {
+  "url": "assets/sounds/instr-팀파니.mp3",
+  "credit": "Schrauber5, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Timpani_F_major_triad.ogg"
+ },
+ "instr:마라카스": {
+  "url": "assets/sounds/instr-마라카스.mp3",
+  "credit": "Unknown, Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Maracas.ogg"
+ },
+ "instr:캐스터네츠": {
+  "url": "assets/sounds/instr-캐스터네츠.mp3",
+  "credit": "ZappaMidiPF, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Casta%C3%B1uelas.ogg"
+ },
+ "animal:소": {
+  "url": "assets/sounds/animal-소.mp3",
+  "credit": "MichaeltheFox8621, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Single_Cow_Moo.ogg"
+ },
+ "animal:닭": {
+  "url": "assets/sounds/animal-닭.mp3",
+  "credit": "Filo gèn', CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Rooster_crowing.ogg"
+ },
+ "animal:양": {
+  "url": "assets/sounds/animal-양.mp3",
+  "credit": "earthcalling, Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Sheep_bleating.ogg"
+ },
+ "animal:염소": {
+  "url": "assets/sounds/animal-염소.mp3",
+  "credit": "stephan, Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Herd_of_goats_bleating.ogg"
+ },
+ "animal:말": {
+  "url": "assets/sounds/animal-말.mp3",
+  "credit": "Hü., Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Wiehern.ogg"
+ },
+ "animal:돼지": {
+  "url": "assets/sounds/animal-돼지.mp3",
+  "credit": "Secretlondon, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Mudchute_pig_1.ogg"
+ },
+ "animal:개구리": {
+  "url": "assets/sounds/animal-개구리.mp3",
+  "credit": "MichaeltheFox8621, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Single_Frog_Croak.oga"
+ },
+ "animal:부엉이": {
+  "url": "assets/sounds/animal-부엉이.mp3",
+  "credit": "Mirko Tomasi, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_-_Eurasian_Eagle-Owl_XC461330.mp3"
+ },
+ "animal:늑대": {
+  "url": "assets/sounds/animal-늑대.mp3",
+  "credit": "Unknown, Public domain, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg"
+ },
+ "animal:갈매기": {
+  "url": "assets/sounds/animal-갈매기.mp3",
+  "credit": "Marie-Lan Taÿ Pamart, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Larus_argentatus_-_European_Herring_Gull_XC488995.mp3"
+ },
+ "animal:귀뚜라미": {
+  "url": "assets/sounds/animal-귀뚜라미.mp3",
+  "credit": "Thatcher, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Field_cricket_unedited.ogg"
+ },
+ "animal:매미": {
+  "url": "assets/sounds/animal-매미.mp3",
+  "credit": "Travus, CC BY-SA 2.5, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Cicada_orni_(Singing).ogg"
+ },
+ "animal:참새": {
+  "url": "assets/sounds/animal-참새.mp3",
+  "credit": "Derek Paulo, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Passer_montanus_-_Eurasian_Tree_Sparrow_XC347807.mp3"
+ },
+ "animal:칠면조": {
+  "url": "assets/sounds/animal-칠면조.mp3",
+  "credit": "Jonathon Jongsma, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Meleagris_gallopavo_-_Wild_Turkey_XC134155.ogg"
+ },
+ "animal:뻐꾸기": {
+  "url": "assets/sounds/animal-뻐꾸기.mp3",
+  "credit": "Benoît Van Hecke, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Cuculus_canorus_-_Common_Cuckoo_XC554785.mp3"
  }
 }

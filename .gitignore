@@ -2,3 +2,5 @@ tools/.cache/
 __pycache__/
 *.pyc
 tools/link_report.json
+tools/raw_sounds/*
+!tools/raw_sounds/.gitkeep
