@@ -24,6 +24,7 @@
     { key: 'society', name: '사회', icon: '🏘️' },
     { key: 'folktale', name: '전래동화', icon: '📜' },
     { key: 'draw', name: '그림', icon: '🎨', draw: true },
+    { key: 'notes', name: '오답노트', icon: '📒', notes: true },
   ];
   // 생성기 문제 비율(하루 10문제 중)
   const GEN_SHARE = { calc: 10, math: 5, time: 7, store: 5, hanja: 2 };
@@ -40,7 +41,7 @@
   let S;
   function load() {
     try { S = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch (e) { S = {}; }
-    S.seen = S.seen || {}; S.wrong = S.wrong || {}; S.daily = S.daily || {}; S.stars = S.stars || 0; S.solved = S.solved || {};
+    S.seen = S.seen || {}; S.wrong = S.wrong || {}; S.notes = S.notes || {}; S.daily = S.daily || {}; S.stars = S.stars || 0; S.solved = S.solved || {};
   }
   function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(S)); } catch (e) {} }
   function day(subj) { const t = today(); S.daily[t] = S.daily[t] || {}; S.daily[t][subj] = S.daily[t][subj] || { done: 0, correct: 0, stars: 0 }; return S.daily[t][subj]; }
@@ -193,6 +194,12 @@
   function materialize(entry, d) {
     const ctx = { coins: d.coins, objects: d.objects, goods: d.goods };
     let q;
+    if (entry.note) {
+      q = JSON.parse(JSON.stringify(entry.note.snap));
+      q.id = entry.note.id; q.noteId = entry.note.id; q.isGen = true;
+      if (q.type !== 'clockInput') q._choices = q.fixedOrder ? q._choices : shuffle(q._choices);
+      return q;
+    }
     if (entry.gen) {
       q = window.GEN.G[entry.gen.gen](ctx);
       q.id = entry.gen.id; q.type = q.type || 'choice'; q.isGen = true;
@@ -241,7 +248,12 @@
       b.className = 'tile';
       const dd = t[s.key];
       const done = dd ? Math.min(dd.done, PER_DAY) : 0;
-      if (s.draw) {
+      if (s.notes) {
+        const all = Object.values(S.notes), left = all.filter(x => !x.fixed).length;
+        b.classList.add('notes-tile');
+        b.innerHTML = `<div class="ic">${s.icon}</div><div class="nm">${s.name}</div><div class="sub">${all.length ? `${all.length}문제 · 남은 ${left}` : '틀린 문제가 모여요'}</div>`;
+        b.onclick = () => renderNotes();
+      } else if (s.draw) {
         b.innerHTML = `<div class="ic">${s.icon}</div><div class="nm">${s.name}</div><div class="sub">자유롭게 그려요</div>`;
         b.onclick = () => { show('draw'); window.DRAW && window.DRAW.open(); };
       } else {
@@ -428,6 +440,7 @@
       document.querySelectorAll('#choices .choice').forEach(b => b.disabled = true);
     } else {
       cur.tries++;
+      noteWrong(q);
       btn.classList.add('wrong'); btn.disabled = true;
       chime(false);
       if (cur.tries === 1) {
@@ -454,6 +467,7 @@
     dd.done++;
     if (ok) { dd.correct++; dd.stars++; S.stars++; cur.stars++; }
     S.solved[key] = (S.solved[key] || 0) + 1;
+    if (q.noteId && S.notes[q.noteId] && ok) S.notes[q.noteId].fixed = today();
     if (!q.isGen) {
       S.seen[key] = S.seen[key] || [];
       if (!S.seen[key].includes(q.id)) S.seen[key].push(q.id);
@@ -474,7 +488,8 @@
     const t = pick(DONE);
     $('#doneTitle').textContent = t;
     const subj = SUBJECTS.find(s => s.key === cur.key);
-    $('#doneText').textContent = `${subj.name} 10문제 중에 ${Math.min(dd.correct, dd.done)}문제를 맞혔어요!`;
+    if (cur.key === 'notes') $('#doneText').textContent = `오답노트 ${cur.list.length}문제 중에 ${cur.stars}문제를 맞혔어요!`;
+    else $('#doneText').textContent = `${subj.name} 10문제 중에 ${Math.min(dd.correct, dd.done)}문제를 맞혔어요!`;
     $('#doneStars').textContent = '⭐'.repeat(Math.max(cur.stars, 0));
     sayPhrase(t);
     confetti();
@@ -488,6 +503,82 @@
       c.appendChild(e);
     }
     setTimeout(() => c.innerHTML = '', 6000);
+  }
+
+  // ---------- 오답노트 ----------
+  const SNAP_KEYS = ['type', 'subject', 'prompt', 'image', 'display', 'displayClass', 'displayLang', 'dots', 'html', 'hint', 'hanjaHint', 'showHint', 'sound', 'soundAfter',
+    'sayWord', 'listenOnly', 'speak', 'speakChoices', 'choiceLang', 'suffix', 'big', 'clocks', 'explain', 'binIcons', 'h', 'm', 'minutes', 'fixedOrder', 'hanja'];
+  function answerText(q) {
+    if (q.type === 'clockInput') return `${q.h}시` + (q.m ? ` ${q.m}분` : '');
+    const c = (q._choices.find(x => x.ok) || {}).c;
+    if (c == null) return '';
+    if (typeof c === 'string' || typeof c === 'number') return String(c) + (q.suffix && /^\d[\d,]*$/.test(String(c)) ? q.suffix : '');
+    return c.label || '(그림)';
+  }
+  function noteWrong(q) {
+    if (!q || cur.tries > 1) return; // 한 문제에서 두 번째 틀림은 한 번으로 셈
+    const subj = q.noteId ? (S.notes[q.noteId] || {}).subj : cur.key;
+    const id = q.noteId || (q.isGen ? 'g:' + subj + ':' + (q.prompt + '|' + (q.html || q.display || '') + '|' + answerText(q)).slice(0, 300) : q.id);
+    let n = S.notes[id];
+    if (!n) {
+      const snap = {}; SNAP_KEYS.forEach(k => { if (q[k] !== undefined) snap[k] = q[k]; });
+      snap._choices = (q._choices || []).map(c => ({ c: c.c, ok: c.ok }));
+      n = S.notes[id] = { id, subj, snap, ans: answerText(q), first: today(), count: 0 };
+    }
+    n.count++; n.last = today(); delete n.fixed;
+    // 너무 많이 쌓이면 다시 맞힌 오래된 것부터 정리 (최대 500개)
+    const all = Object.values(S.notes);
+    if (all.length > 500) all.filter(x => x.fixed).sort((a, b) => (a.last > b.last ? 1 : -1)).slice(0, all.length - 500).forEach(x => delete S.notes[x.id]);
+    save();
+  }
+  let notesFilter = 'all';
+  function strip(h) { const d = document.createElement('div'); d.innerHTML = h || ''; return d.textContent; }
+  function renderNotes() {
+    stopAll();
+    show('notes');
+    const body = $('#notesBody');
+    const all = Object.values(S.notes).sort((a, b) => (!!a.fixed - !!b.fixed) || (a.last < b.last ? 1 : -1));
+    const subjOf = (k) => SUBJECTS.find(s => s.key === k) || { name: k, icon: '📘' };
+    const keys = [...new Set(all.map(n => n.subj))];
+    if (!keys.includes(notesFilter)) notesFilter = 'all';
+    const list = all.filter(n => notesFilter === 'all' || n.subj === notesFilter);
+    const left = list.filter(n => !n.fixed).length;
+    if (!all.length) { body.innerHTML = '<p class="notes-empty">아직 틀린 문제가 없어요! 👏<br>문제를 틀리면 여기에 모여요.</p>'; return; }
+    body.innerHTML = `<div class="notes-chips"><button data-f="all" class="${notesFilter === 'all' ? 'on' : ''}">전체 ${all.length}</button>${keys.map(k => `<button data-f="${k}" class="${notesFilter === k ? 'on' : ''}">${subjOf(k).icon} ${subjOf(k).name} ${all.filter(n => n.subj === k).length}</button>`).join('')}</div>
+      <button class="big-btn notes-go">✏️ 오답노트 풀기 (${Math.min(PER_DAY, list.length)}문제)</button>
+      <p class="notes-sum">아직 다시 못 맞힌 문제 <b>${left}</b>개 · 다시 맞힌 문제 <b>${list.length - left}</b>개</p>
+      <div class="notes-list">${list.map(n => {
+        const sj = subjOf(n.subj), pr = strip(n.snap.prompt), dp = n.snap.display ? `<div class="nd">${esc(n.snap.display)}</div>` : '';
+        const ans = n.ans ? esc(n.ans) : '';
+        const ansImg = !ans || ans === '(그림)' ? (() => { const c = (n.snap._choices.find(x => x.ok) || {}).c; return c && c.color ? `<i class="sw" style="background:${c.color}"></i>` : c && c.url ? `<img src="${c.url}" alt="">` : (c && c.fallbackEmoji) || ''; })() : '';
+        return `<div class="note ${n.fixed ? 'fixed' : ''}" data-id="${esc(n.id)}">
+          <div class="nh"><span>${sj.icon} ${sj.name}</span><span>${n.fixed ? '✅ 다시 맞혔어요' : `❌ ${n.count}번 틀림`}</span></div>
+          <div class="np">${esc(pr)}</div>${dp}${noteMedia(n.snap)}
+          <div class="na">정답: <b>${ans && ans !== '(그림)' ? ans : ''}</b>${ansImg}</div>
+          <div class="nb"><small>${n.first.slice(5).replace('-', '/')}${n.last !== n.first ? ' ~ ' + n.last.slice(5).replace('-', '/') : ''}</small><span><button class="n-try">풀기</button><button class="n-del">지우기</button></span></div></div>`;
+      }).join('')}</div>`;
+    body.querySelectorAll('[data-f]').forEach(b => b.onclick = () => { notesFilter = b.dataset.f; renderNotes(); });
+    body.querySelector('.notes-go').onclick = () => startNotes(list.filter(n => !n.fixed).concat(list.filter(n => n.fixed)).slice(0, PER_DAY));
+    body.querySelectorAll('.note').forEach(el => {
+      const n = S.notes[el.dataset.id];
+      el.querySelector('.n-try').onclick = () => startNotes([n]);
+      el.querySelector('.n-del').onclick = () => { if (confirm('이 문제를 오답노트에서 지울까요?')) { delete S.notes[n.id]; save(); renderNotes(); } };
+    });
+  }
+  function noteMedia(sn) {
+    let h = '';
+    const im = sn.image;
+    if (im && (im.url || im.fallbackEmoji)) h += `<div class="nimg">${im.url ? `<img src="${im.url}" alt="" onerror="this.outerHTML='${(im.fallbackEmoji || '').replace(/'/g, '')}'">` : im.fallbackEmoji}</div>`;
+    if (sn.html) h += `<div class="nhtml">${sn.html}</div>`;
+    const ch = (sn._choices || []).map(x => x.c);
+    if (ch.length && ch.every(c => typeof c === 'string' || typeof c === 'number')) h += `<div class="nch">보기: ${ch.map(c => esc(String(c) + (sn.suffix && /^\d[\d,]*$/.test(String(c)) ? sn.suffix : ''))).join(' · ')}</div>`;
+    else if (ch.length) h += `<div class="nch imgs">${ch.map(c => c && c.color ? `<i class="sw" style="background:${c.color}"></i>` : c && c.url ? `<img src="${c.url}" alt="">` : `<span>${(c && c.fallbackEmoji) || ''}</span>`).join('')}</div>`;
+    return h;
+  }
+  function startNotes(notes) {
+    if (!notes.length) return;
+    cur = { key: 'notes', d: {}, list: shuffle(notes).map(n => ({ note: n })), idx: 0, base: 0, stars: 0, extra: true };
+    show('quiz'); nextQuestion(true);
   }
 
   // ---------- 시계: 시·분 직접 고르기 ----------
@@ -524,7 +615,7 @@
         sayPhrase(msg);
       };
       if (okH && okM) { chime(true); const first = cur.tries === 0; record(true, first); flyStar(); return finish(true); }
-      cur.tries++; chime(false);
+      cur.tries++; noteWrong(q); chime(false);
       if (cur.tries === 1) {
         if (!okH) { box.querySelector(`[data-h="${sh}"]`).classList.add('wrong'); sh = null; }
         if (!okM) { box.querySelector(`[data-m="${sm}"]`).classList.add('wrong'); sm = null; }
@@ -583,7 +674,7 @@
     const parts = [];
     let sounds = {};
     try { sounds = await (await fetch('assets/sounds/sounds.json')).json(); } catch (e) {}
-    for (const s of SUBJECTS.filter(s => !s.draw)) {
+    for (const s of SUBJECTS.filter(s => !s.draw && !s.notes)) {
       const d = await loadSubject(s.key);
       const seen = new Map();
       const walk = (o) => { if (!o || typeof o !== 'object') return; if (Array.isArray(o)) return o.forEach(walk); if (o.credit && (o.url || o.remote)) seen.set(o.source || o.url, o); Object.values(o).forEach(walk); };
@@ -613,7 +704,7 @@
     const wrongN = Object.keys(S.wrong).length;
     $('#parentsBody').innerHTML = `
       <p>모은 별: <b>${S.stars}</b>개 · 복습 대기 문제: <b>${wrongN}</b>개</p>
-      <p>과목별로 푼 문제: ${SUBJECTS.filter(s => !s.draw).map(s => `${s.name} ${(S.seen[s.key] || []).length}`).join(' · ')}</p>
+      <p>과목별로 푼 문제: ${SUBJECTS.filter(s => !s.draw && !s.notes).map(s => `${s.name} ${(S.seen[s.key] || []).length}`).join(' · ')}</p>
       <table><tr><th>날짜</th><th>맞힘</th><th>과목</th></tr>${rows || '<tr><td colspan=3>아직 기록이 없어요</td></tr>'}</table>
       <p style="margin-top:14px;font-size:14px;color:#8a7a72">문제는 <code>data/과목.json</code> 파일에 들어 있어요. 파일을 고치면 바로 반영돼요.</p>
       <h3 style="margin:14px 0 4px">🔊 목소리</h3>
@@ -646,7 +737,7 @@
     $('#speakBtn').onclick = () => cur && cur.q && speakQuestion(cur.q);
     $('#nextBtn').onclick = () => nextQuestion(false);
     $('#doneHome').onclick = () => { stopAll(); renderHome(); show('home'); };
-    $('#doneMore').onclick = () => { const k = cur.key; startExtra(k); };
+    $('#doneMore').onclick = () => { const k = cur.key; if (k === 'notes') return renderNotes(); startExtra(k); };
     $('#openCredits').onclick = renderCredits;
     $('#openParents').onclick = renderParents;
     document.querySelectorAll('[data-home]').forEach(b => b.onclick = () => { stopAll(); renderHome(); show('home'); });
@@ -665,6 +756,6 @@
     cur = { key, d, list: [it.gen ? { gen: it } : { item: it }], idx: 0, base: 0, stars: 0, extra: true };
     show('quiz'); nextQuestion(true);
   }
-  window.APP = { buildSession, materialize, loadSubject, SUBJECTS, preview, get state() { return S; } };
+  window.APP = { buildSession, materialize, loadSubject, SUBJECTS, preview, get state() { return S; }, get cur() { return cur; } };
   init();
 })();

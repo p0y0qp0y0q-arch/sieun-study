@@ -1,5 +1,5 @@
 // 홈 화면 추가(PWA)용 서비스 워커. 오프라인 지원은 필요 없어서 앱 화면 파일만 가볍게 캐시하고, 나머지는 항상 인터넷에서 받는다.
-const CACHE = 'sieun-shell-v13';
+const CACHE = 'sieun-shell-v14';
 const SHELL = ['./', './index.html', './css/style.css', './js/app.js', './js/gen.js', './js/draw.js', './manifest.webmanifest', './icons/icon-192.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });

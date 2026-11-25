@@ -232,3 +232,34 @@ button { font: inherit; color: inherit; border: 0; background: none; cursor: poi
 .ncard { width: 58px; height: 76px; border-radius: 10px; background: #fff; border: 3px solid #ff8fab; display: flex; align-items: center; justify-content: center; font-size: 36px; font-weight: 800; }
 .display.scene { font-size: 64px; padding: 6px 24px; letter-spacing: 6px; }
 .choices.grid3.g3long .choice { font-size: 28px; }
+
+/* 오답노트 */
+.tile.notes-tile { background: #fff6d8; }
+.notes-empty { text-align: center; font-size: 20px; padding: 40px 10px; background: #fff; border-radius: 16px; }
+.notes-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.notes-chips button { background: #fff; border-radius: 999px; padding: 7px 12px; font-size: 15px; box-shadow: 0 2px 0 #ead9cc; }
+.notes-chips button.on { background: var(--pink); color: #fff; }
+.notes-go { margin: 4px 0 6px; }
+.notes-sum { text-align: center; font-size: 15px; color: #6b5a50; margin: 4px 0 10px; }
+.notes-list { display: flex; flex-direction: column; gap: 10px; padding-bottom: 30px; }
+.note { background: #fff; border-radius: 16px; padding: 12px 14px; box-shadow: 0 3px 0 #f0e2d6; border-left: 6px solid #ff8fab; }
+.note.fixed { border-left-color: #69db7c; opacity: .8; }
+.note .nh { display: flex; justify-content: space-between; font-size: 14px; color: #6b5a50; margin-bottom: 4px; }
+.note .np { font-size: 17px; font-weight: 700; line-height: 1.4; }
+.note .nd { font-size: 20px; margin: 4px 0; word-break: keep-all; }
+.note .na { font-size: 16px; margin-top: 6px; color: #2b8a3e; display: flex; align-items: center; gap: 6px; }
+.note .na img { height: 44px; border-radius: 6px; }
+.note .nb { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; }
+.note .nb small { color: #9a8a80; }
+.note .nb button { background: #fff3d6; border-radius: 10px; padding: 7px 12px; margin-left: 6px; font-size: 15px; }
+.note .nb .n-del { background: #f1f3f5; color: #868e96; }
+.note .nimg { margin: 6px 0; font-size: 40px; }
+.note .nimg img { max-height: 90px; max-width: 160px; border-radius: 8px; }
+.note .nhtml { max-height: 150px; overflow: hidden; margin: 6px 0; }
+.note .nhtml .svgbox, .note .nhtml svg { max-width: 140px !important; width: 140px; }
+.note .nhtml .cal { transform: scale(.6); transform-origin: top left; height: 140px; }
+.note .nch { font-size: 15px; color: #6b5a50; margin-top: 4px; }
+.note .nch.imgs { display: flex; gap: 6px; }
+.note .nch.imgs img { height: 50px; border-radius: 6px; }
+.note .nhtml .svgbox { width: 130px !important; margin: 0; }
+.note i.sw { display: inline-block; width: 40px; height: 40px; border-radius: 8px; border: 2px solid #eee; }
