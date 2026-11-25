@@ -25,7 +25,7 @@
     { key: 'draw', name: '그림', icon: '🎨', draw: true },
   ];
   // 생성기 문제 비율(하루 10문제 중)
-  const GEN_SHARE = { calc: 10, math: 4, time: 7, store: 5, hanja: 2 };
+  const GEN_SHARE = { calc: 10, math: 5, time: 7, store: 5, hanja: 2 };
 
   const PRAISE = ['시은아, 정답이야! 🎉', '역시 시은이!', '시은이 천재인걸?', '우와, 맞았어요! 👏', '최고예요, 시은아!', '딩동댕! 정답!', '시은이 정말 똑똑하다!', '멋져요! ⭐', '척척박사 시은이!', '와, 대단해요!'];
   const RETRY = ['아깝다, 시은아! 한 번 더 해볼까?', '괜찮아, 다시 해볼까?', '조금만 더 생각해 볼까?', '천천히 다시 골라 봐요!'];
@@ -98,6 +98,11 @@
     } catch (e) {}
   }
   let audioEl = null;
+  // 칭찬 녹음·소리·음성을 모두 멈춤 (다음 문제로 넘어갈 때 겹치지 않게)
+  function stopAll() {
+    if (audioEl) { audioEl.pause(); audioEl = null; }
+    if (window.speechSynthesis) speechSynthesis.cancel();
+  }
   function playSound(src) {
     if (!src) return;
     if (audioEl) { audioEl.pause(); }
@@ -125,7 +130,9 @@
   }
 
   // ---------- 출제 ----------
-  function maxLevel(key) { const n = S.solved[key] || 0; return n < 30 ? 1 : n < 90 ? 2 : 3; }
+  // 창의 수학은 킨더팩토·키즈팩토를 마친 수준이라 레벨 2부터 시작
+  const LEVEL_BOOST = { math: 1 };
+  function maxLevel(key) { const n = S.solved[key] || 0; return Math.min(3, (n < 30 ? 1 : n < 90 ? 2 : 3) + (LEVEL_BOOST[key] || 0)); }
   function buildSession(key, d) {
     const items = d.items;
     const byId = Object.fromEntries(items.map(i => [i.id, i]));
@@ -288,6 +295,7 @@
   }
 
   function nextQuestion(first) {
+    stopAll();
     if (!first) cur.idx++;
     if (cur.idx >= PER_DAY || cur.idx - cur.base >= cur.list.length) return finish();
     const entry = cur.list[cur.idx - cur.base];
@@ -630,14 +638,14 @@
   function init() {
     load();
     renderHome();
-    $('#quizHome').onclick = () => { speak(''); if (audioEl) audioEl.pause(); renderHome(); show('home'); };
+    $('#quizHome').onclick = () => { stopAll(); renderHome(); show('home'); };
     $('#speakBtn').onclick = () => cur && cur.q && speakQuestion(cur.q);
     $('#nextBtn').onclick = () => nextQuestion(false);
-    $('#doneHome').onclick = () => { renderHome(); show('home'); };
+    $('#doneHome').onclick = () => { stopAll(); renderHome(); show('home'); };
     $('#doneMore').onclick = () => { const k = cur.key; startExtra(k); };
     $('#openCredits').onclick = renderCredits;
     $('#openParents').onclick = renderParents;
-    document.querySelectorAll('[data-home]').forEach(b => b.onclick = () => { renderHome(); show('home'); });
+    document.querySelectorAll('[data-home]').forEach(b => b.onclick = () => { stopAll(); renderHome(); show('home'); });
     window.addEventListener('popstate', () => { renderHome(); show('home'); });
   }
   async function startExtra(key) {

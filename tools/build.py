@@ -27,7 +27,7 @@ def all_subjects(sounds):
         "korean": {"subject": "국어", "items": korean.build()},
         "english": {"subject": "영어", "items": english.build()},
         "calc": {"subject": "연산", "items": [], "generators": mathq.CALC_GENERATORS},
-        "math": {"subject": "창의 수학", "items": math_items + mathq.build_puzzles(), "objects": math_objs, "generators": mathq.GENERATORS},
+        "math": {"subject": "창의 수학", "items": [i for i in math_items if i["level"] >= 2] + mathq.build_puzzles(), "objects": math_objs, "generators": mathq.GENERATORS},
         "hanja": {"subject": "한자", "items": hanja.build(), "generators": hanja.GENERATORS},
         "art": {"subject": "미술", "items": art_items},
         "world": {"subject": "세계", "items": world.build()},

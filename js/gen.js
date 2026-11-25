@@ -129,7 +129,7 @@
     items.forEach((s, i) => { const c = cells[i], x = 25 + (c % 6) * 50, y = 25 + Math.floor(c / 6) * 50; svg += SHAPES[s](x + R(-4, 4), y + R(-4, 4), pick(COLORS)); });
     svg += '</svg>';
     const p = person();
-    return { prompt: `${p.가} 도형을 세고 있어요. ${target}는 모두 몇 개일까요?`, html: `<div class="svgbox">${svg}</div>`, ...numChoices(n, [n + 1, n - 1, items.length]) };
+    return { prompt: `${target}는 모두 몇 개일까요?`, html: `<div class="svgbox">${svg}</div>`, ...numChoices(n, [n + 1, n - 1, items.length]) };
   };
   G.clock = () => {
     const h = R(1, 12), m = pick([0, 30]);
@@ -158,6 +158,112 @@
     }
     const w = pick(WEIGHTS); const heavy = Math.random() < .5;
     return { prompt: heavy ? '더 무거운 것은 어느 것일까요?' : '더 가벼운 것은 어느 것일까요?', choices: heavy ? [w[1] + ' ' + w[0], w[3] + ' ' + w[2]] : [w[3] + ' ' + w[2], w[1] + ' ' + w[0]], answer: 0 };
+  };
+
+
+  // ---------- 창의 수학 (팩토 1단계 수준) ----------
+  // 수 피라미드: 아래 두 수를 더해 위에 써요
+  G.pyramid = () => {
+    const a = R(1, 6), b = R(1, 6), c = R(1, 6), ab = a + b, bc = b + c, top = ab + bc;
+    const hideTop = Math.random() < .5;
+    const cell = (v, q) => `<span class="pyr${q ? ' q' : ''}">${q ? '?' : v}</span>`;
+    let ans, html;
+    if (hideTop) { ans = top; html = `<div class="pyramid"><div>${cell(top, 1)}</div><div>${cell(ab)}${cell(bc)}</div><div>${cell(a)}${cell(b)}${cell(c)}</div></div>`; }
+    else { ans = b; html = `<div class="pyramid"><div>${cell(top)}</div><div>${cell(ab)}${cell(bc)}</div><div>${cell(a)}${cell(b, 1)}${cell(c)}</div></div>`; }
+    return { prompt: '바로 아래 두 수를 더하면 위의 수가 돼요. ? 에 알맞은 수는?', html, ...numChoices(ans, [ans + 1, ans - 1, ans + 2, top - ab]),
+      explain: `${a} + ${b} = ${ab}, ${b} + ${c} = ${bc}, ${ab} + ${bc} = ${top}` };
+  };
+  // 그림 식: 같은 그림은 같은 수
+  const PICS = [['🍎', '🍌'], ['🐶', '🐱'], ['⭐', '🌙'], ['🚗', '🚲'], ['🍩', '🍪']];
+  G.picEq = () => {
+    const [x, y] = pick(PICS), vx = R(2, 8), vy = R(1, 9);
+    const k = pick([2, 3]);
+    const line1 = Array(k).fill(x).join(' + ') + ` = ${vx * k}`;
+    const line2 = `${x} + ${y} = ${vx + vy}`;
+    return { prompt: `같은 그림은 같은 수예요. ${y}는 얼마일까요?`, html: `<div class="eqs"><div>${line1}</div><div>${line2}</div><div>${y} = ?</div></div>`,
+      ...numChoices(vy, [vx, vx + vy, vy + 1, vy - 1], 0), explain: `${x} 하나는 ${vx * k} ÷ ${k} = ${vx}. 그래서 ${y}는 ${vx + vy} − ${vx} = ${vy}` };
+  };
+  // 저울: 무게 바꾸기
+  G.balance = () => {
+    const sets = [['🍉', '🍎', '🍓'], ['🐘', '🐶', '🐭'], ['📦', '📕', '✏️']];
+    const [A, B, C] = pick(sets), ab = pick([2, 3]), bc = pick([2, 3, 4]), na = pick([1, 2]);
+    const ans = na * ab * bc;
+    return { prompt: `저울이 평평해요. ${A} 1개는 ${B} ${ab}개와 무게가 같고, ${B} 1개는 ${C} ${bc}개와 무게가 같아요. ${A} ${na}개는 ${C} 몇 개와 무게가 같을까요?`,
+      html: `<div class="eqs"><div>${A} = ${B.repeat(ab)}</div><div>${B} = ${C.repeat(bc)}</div><div>${A.repeat(na)} = ${C} ?개</div></div>`,
+      ...numChoices(ans, [ab + bc, ab * bc + 1, na * (ab + bc), ans + bc]), suffix: '개' };
+  };
+  // 거꾸로 생각하기
+  G.backward = () => {
+    const x = R(3, 15), a = R(2, 9), b = R(1, Math.min(9, x + a - 1)), r = x + a - b;
+    return { prompt: `어떤 수에 ${J(String(a), '을', '를')} 더하고 ${J(String(b), '을', '를')} 뺐더니 ${J(String(r), '이', '가')} 되었어요. 어떤 수는 얼마일까요?`,
+      ...numChoices(x, [r + a - b, r - a, r + b, x + 1]), explain: `거꾸로 생각해요: ${r} + ${b} − ${a} = ${x}` };
+  };
+  // 수 카드로 두 자리 수 만들기
+  G.cards = () => {
+    let ds; do { ds = shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]).slice(0, 3); } while (ds.filter(d => d === 0).length > 1);
+    const nums = []; for (const a of ds) for (const b of ds) if (a !== b && a !== 0) nums.push(a * 10 + b);
+    const kind = pick(['max', 'min', 'max', 'min', 'count']);
+    const html = `<div class="cards">${ds.map(d => `<span class="ncard">${d}</span>`).join('')}</div>`;
+    if (kind === 'count') { const n = nums.length; return { prompt: '수 카드 2장을 골라 만들 수 있는 두 자리 수는 모두 몇 개일까요?', html, ...numChoices(n, [3, 9, 6, 4].filter(v => v !== n)), suffix: '개' }; }
+    const ans = kind === 'max' ? Math.max(...nums) : Math.min(...nums);
+    const other = nums.filter(v => v !== ans);
+    const rev = Number(String(ans).split('').reverse().join(''));
+    return { prompt: `수 카드 2장으로 만들 수 있는 가장 ${kind === 'max' ? '큰' : '작은'} 두 자리 수는?`, html,
+      ...numChoices(ans, [rev >= 10 ? rev : null, ...shuffle(other)].filter(v => v != null && v !== ans)) };
+  };
+  // 줄 서기: 앞에서 몇째, 뒤에서 몇째
+  G.lineup = () => {
+    const f = R(3, 8), b = R(2, 7), n = f + b - 1, p = person();
+    if (Math.random() < .5) return { prompt: `${p.가} 줄을 섰어요. 앞에서 ${f}번째, 뒤에서 ${b}번째예요. 줄을 선 사람은 모두 몇 명일까요?`, html: `<div class="dots" style="font-size:26px">🧍🧍🙋‍♀️🧍🧍</div>`,
+      ...numChoices(n, [f + b, f + b + 1, n - 1]), suffix: '명', explain: `${f} + ${b} − 1 = ${n}명 (${p.가} 두 번 세어졌어요)` };
+    return { prompt: `${n}명이 한 줄로 섰어요. ${p.는} 앞에서 ${f}번째예요. 뒤에서는 몇 번째일까요?`, html: `<div class="dots" style="font-size:26px">🧍🧍🙋‍♀️🧍🧍</div>`,
+      ...numChoices(b, [n - f, b + 1, n - f + 2]), suffix: '번째', explain: `${n} − ${f} + 1 = ${b}번째` };
+  };
+  // 나무 심기 (간격)
+  G.trees = () => {
+    const gap = pick([2, 3, 5]), k = R(3, 6), len = gap * k;
+    if (Math.random() < .5) return { prompt: `길이가 ${len}m인 길의 처음부터 끝까지 ${gap}m마다 나무를 심어요. 처음과 끝에도 심으면 나무는 모두 몇 그루일까요?`,
+      html: `<div class="dots" style="font-size:24px">🌳—🌳—🌳—🌳</div>`, ...numChoices(k + 1, [k, k + 2, len]), suffix: '그루', explain: `간격이 ${k}개면 나무는 ${k} + 1 = ${k + 1}그루예요.` };
+    const n = R(4, 8);
+    return { prompt: `깃발 ${n}개를 한 줄로 꽂았어요. 깃발과 깃발 사이는 모두 몇 군데일까요?`, html: `<div class="dots" style="font-size:24px">🚩 🚩 🚩 🚩</div>`,
+      ...numChoices(n - 1, [n, n + 1, n - 2]), suffix: '군데', explain: `깃발이 ${n}개면 사이는 ${n} − 1 = ${n - 1}군데예요.` };
+  };
+  // 다리 수 세기
+  G.legs = () => {
+    const c = R(1, 5), d = R(1, 5);
+    if (Math.random() < .55) return { prompt: `닭 ${c}마리와 강아지 ${d}마리가 있어요. 다리는 모두 몇 개일까요?`, html: `<div class="dots" style="font-size:30px">${'🐔'.repeat(c)} ${'🐶'.repeat(d)}</div>`,
+      ...numChoices(2 * c + 4 * d, [2 * (c + d), 4 * (c + d), c + d, 2 * c + 4 * d + 2]), suffix: '개' };
+    const heads = c + d, legs = 2 * c + 4 * d;
+    return { prompt: `닭과 강아지가 모두 ${heads}마리 있어요. 다리를 세어 보니 ${legs}개예요. 강아지는 몇 마리일까요?`, html: '<div class="dots" style="font-size:30px">🐔 🐶 ❓</div>',
+      ...numChoices(d, [c, d + 1, d - 1]), suffix: '마리', explain: `모두 닭이라면 다리는 ${heads * 2}개. 남는 다리 ${legs - heads * 2}개를 2개씩 나누면 강아지 ${d}마리!` };
+  };
+  // 같은 수 □
+  G.sameBox = () => {
+    const x = R(2, 9), k = R(1, 9), kind = pick([2, 3]);
+    const s = x * kind + k;
+    return { prompt: '□ 에는 모두 같은 수가 들어가요. □ 는 얼마일까요?', display: `${Array(kind).fill('□').join(' + ')} + ${k} = ${s}`, ...numChoices(x, [s - k, x + 1, x - 1, Math.floor((s) / kind)]) };
+  };
+  // 규칙이 바뀌는 수 (늘어나는 간격)
+  G.growPattern = () => {
+    const a = R(1, 5), d0 = R(1, 3); const seq = [a]; let d = d0;
+    for (let i = 0; i < 4; i++) { seq.push(seq[seq.length - 1] + d); d++; }
+    const ans = seq.pop();
+    return { prompt: '수가 늘어나는 규칙을 찾아봐요. □ 에 알맞은 수는?', display: seq.join(', ') + ', □',
+      ...numChoices(ans, [ans - 1, ans + 1, seq[3] + (seq[3] - seq[2])]), explain: `${d0}, ${d0 + 1}, ${d0 + 2}, ${d0 + 3}씩 커져요.` };
+  };
+  // 두 가지가 함께 바뀌는 규칙
+  G.pattern2 = () => {
+    const shapes = ['●', '▲', '■'], cols = ['#ff6b6b', '#4c9aff', '#f6b100'];
+    const ls = R(2, 3), lc = ls === 2 ? 3 : 2;
+    const len = 7;
+    const item = (i) => ({ s: shapes[i % ls], c: cols[i % lc] });
+    const span = (o) => `<span style="color:${o.c}">${o.s}</span>`;
+    const seq = []; for (let i = 0; i < len; i++) seq.push(item(i));
+    const ans = item(len);
+    const wrong = [{ s: ans.s, c: cols[(cols.indexOf(ans.c) + 1) % lc] }, { s: shapes[(shapes.indexOf(ans.s) + 1) % ls], c: ans.c }];
+    const lab = (o) => ({ 'ff6b6b': '빨간 ', '4c9aff': '파란 ', 'f6b100': '노란 ' }[o.c.slice(1)] + ({ '●': '동그라미', '▲': '세모', '■': '네모' }[o.s]));
+    return { prompt: '모양과 색깔이 함께 바뀌어요. ? 에 올 것은?', html: `<div class="dots" style="font-size:38px">${seq.map(span).join(' ')} ❓</div>`,
+      choices: [lab(ans), ...wrong.map(lab)], answer: 0 };
   };
 
   // ---------- 돈 ----------
@@ -319,12 +425,12 @@
   G.tHalf = () => {
     const h = R(1, 12);
     return { prompt: '시계가 가리키는 시각은 몇 시 몇 분일까요?', html: clockBox(h, 30), ...timeChoices(h, 30, [0, 30, 15, 45]),
-      explain: `긴바늘이 6을 가리키면 30분이에요. 짧은바늘은 ${h}${J(String(h), '과', '와')} ${hAdd(h, 1)} 사이에 있으니까 ${h}시 30분!` };
+      explain: `긴바늘이 6을 가리키면 30분이에요. 짧은바늘은 ${J(String(h), '과', '와')} ${hAdd(h, 1)} 사이에 있으니까 ${h}시 30분!` };
   };
   G.tQuarter = () => {
     const h = R(1, 12), m = pick([15, 45]);
     return { prompt: '시계가 가리키는 시각은 몇 시 몇 분일까요?', html: clockBox(h, m), ...timeChoices(h, m, [0, 15, 30, 45]),
-      explain: `긴바늘이 ${m / 5}${J(String(m / 5), '을', '를')} 가리키면 ${m}분이에요.` };
+      explain: `긴바늘이 ${J(String(m / 5), '을', '를')} 가리키면 ${m}분이에요.` };
   };
   G.t5 = () => {
     const h = R(1, 12), m = 5 * R(1, 11);

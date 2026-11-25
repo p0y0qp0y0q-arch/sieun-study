@@ -221,3 +221,12 @@ button { font: inherit; color: inherit; border: 0; background: none; cursor: poi
 .choices.img.clocks .choice:nth-child(3) { grid-column: 1 / span 2; width: calc(50% - 6px); justify-self: center; }
 .choices.img.clocks .choice .thumb { background: #fff; }
 .choices.img.clocks .choice .thumb img { object-fit: contain; }
+
+/* 창의 수학 */
+.pyramid { display: flex; flex-direction: column; align-items: center; gap: 6px; margin: 6px 0; }
+.pyramid > div { display: flex; gap: 6px; }
+.pyr { width: 56px; height: 48px; border-radius: 10px; background: #fff; box-shadow: 0 3px 0 #ead9cc; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 800; }
+.pyr.q { background: #ffd6e0; color: #d6336c; }
+.eqs { display: flex; flex-direction: column; gap: 6px; align-items: center; font-size: 28px; font-weight: 700; margin: 6px 0; }
+.cards { display: flex; gap: 10px; justify-content: center; margin: 8px 0; }
+.ncard { width: 58px; height: 76px; border-radius: 10px; background: #fff; border: 3px solid #ff8fab; display: flex; align-items: center; justify-content: center; font-size: 36px; font-weight: 800; }
