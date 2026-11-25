@@ -2,11 +2,12 @@
 - 악기: tonejs-instruments 샘플 (CC BY 3.0, github.com/nbrosowsky/tonejs-instruments) 의 실제 녹음 3음을 이어 붙임
 - 그 밖: 위키미디어 커먼즈 오디오 (라이선스 확인 후 사용)
 """
-import json, os, subprocess, sys, tempfile, urllib.request
+import json, os, subprocess, sys, tempfile, urllib.request, urllib.parse
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import wm, media
 OUT = os.path.join(ROOT, "assets", "sounds")
+RAW = os.path.join(HERE, "raw_sounds")
 TONE = "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/master/samples/{}/{}.mp3"
 TONE_SET = {
     "피아노": ("piano", ["C4", "E4", "G4"]), "바이올린": ("violin", ["C4", "E4", "G4"]), "첼로": ("cello", ["C3", "E4", "A3"]),
@@ -79,7 +80,9 @@ def main():
         print("ok", key, flush=True)
     # 2) commons
     cache = media.load()
-    media.resolve(["file:" + f for f in COMMONS.values()], cache); media.save(cache)
+    need = ["file:" + f for f in COMMONS.values() if ("file:" + f) not in cache]
+    if need:
+        media.resolve(need, cache); media.save(cache)
     for key, f in COMMONS.items():
         if key in out: continue
         info = cache.get("file:" + f)
@@ -87,11 +90,18 @@ def main():
             print("없음", key, f); continue
         if not media.license_ok(info["license"]):
             print("라이선스 제외", key, info["license"]); continue
-        src = os.path.join(tmp, slug(key) + os.path.splitext(f)[1])
-        try:
-            dl(info["orig"], src)
-        except Exception as e:
-            print("받기 실패", key, e); continue
+        # 직접 받아 둔 파일이 tools/raw_sounds/ 에 있으면 그걸 씀 (위키미디어가 막힐 때)
+        local = [os.path.join(RAW, x) for x in os.listdir(RAW)] if os.path.isdir(RAW) else []
+        norm = lambda x: urllib.parse.unquote(os.path.basename(x)).replace(" ", "_").lower()
+        hit = [x for x in local if norm(x) == norm(f)]
+        if hit:
+            src = hit[0]; print("  직접 받은 파일 사용:", os.path.basename(src))
+        else:
+            src = os.path.join(tmp, slug(key) + os.path.splitext(f)[1])
+            try:
+                dl(info["orig"], src)
+            except Exception as e:
+                print("받기 실패", key, e); continue
         dst = os.path.join(OUT, slug(key) + ".mp3")
         dur = DUR.get(key, 3.0)
         st = START.get(key)
