@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "families": {
+      "$code": {
+        ".read": "auth != null && $code.length >= 12",
+        ".write": "auth != null && $code.length >= 12",
+        "rec": { ".validate": "newData.isString() && newData.val().length < 5000000" }
+      }
+    }
+  }
+}

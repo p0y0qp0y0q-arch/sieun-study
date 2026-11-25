@@ -43,7 +43,7 @@
     try { S = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch (e) { S = {}; }
     S.seen = S.seen || {}; S.wrong = S.wrong || {}; S.notes = S.notes || {}; S.daily = S.daily || {}; S.stars = S.stars || 0; S.solved = S.solved || {};
   }
-  function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(S)); } catch (e) {} }
+  function save(fromSync) { try { localStorage.setItem(STORE_KEY, JSON.stringify(S)); } catch (e) {} if (!fromSync && window.SYNC) window.SYNC.dirty(); }
   function day(subj) { const t = today(); S.daily[t] = S.daily[t] || {}; S.daily[t][subj] = S.daily[t][subj] || { done: 0, correct: 0, stars: 0 }; return S.daily[t][subj]; }
 
   // ---------- 음성 ----------
@@ -562,7 +562,7 @@
     body.querySelectorAll('.note').forEach(el => {
       const n = S.notes[el.dataset.id];
       el.querySelector('.n-try').onclick = () => startNotes([n]);
-      el.querySelector('.n-del').onclick = () => { if (confirm('이 문제를 오답노트에서 지울까요?')) { delete S.notes[n.id]; save(); renderNotes(); } };
+      el.querySelector('.n-del').onclick = () => { if (confirm('이 문제를 오답노트에서 지울까요?')) { delete S.notes[n.id]; save(); window.SYNC && window.SYNC.authoritative(); renderNotes(); } };
     });
   }
   function noteMedia(sn) {
@@ -712,6 +712,8 @@
       <label>한국어 <select id="voiceKo"></select></label><br>
       <label>영어 <select id="voiceEn"></select></label><br>
       <label>빠르기 <select id="speechRate"><option value="0.85">천천히</option><option value="1">보통</option><option value="1.15">조금 빠르게</option></select></label><br>
+      <h3 style="margin:18px 0 4px">☁️ 자동 동기화 (여러 폰에서 같은 기록)</h3>
+      <div id="syncBox"></div>
       <h3 style="margin:18px 0 4px">📲 기록 옮기기 (다른 폰과 합치기)</h3>
       <p style="font-size:14px;color:#8a7a72;margin:0 0 6px">① 이 폰에서 「기록 내보내기」 → 카톡 등으로 보내기 ② 다른 폰 공부방의 「기록 가져오기」에 붙여 넣기.<br>두 폰의 기록(별·푼 문제·복습·오답노트)이 <b>합쳐져요</b>. 몇 번을 해도 같은 기록이 두 번 더해지지 않아요.</p>
       <button id="exportRec">📤 기록 내보내기</button>
@@ -730,6 +732,7 @@
     fill($('#voiceKo'), 'ko'); fill($('#voiceEn'), 'en');
     $('#speechRate').value = String(S.speechRate || 1);
     $('#speechRate').onchange = (e) => { S.speechRate = +e.target.value; save(); speak('이 빠르기로 읽어 줄게요.'); };
+    if (window.SYNC) window.SYNC.renderBox($('#syncBox')); else $('#syncBox').innerHTML = '<p>동기화 기능을 불러오지 못했어요.</p>';
     $('#exportRec').onclick = exportRecord;
     $('#importRec').onclick = () => {
       const box = $('#xferBox'); box.classList.remove('hidden');
@@ -749,8 +752,8 @@
       };
     };
     $('#testVoice').onclick = () => speak([{ text: '시은아, 안녕! 오늘도 같이 공부하자!' }, { text: 'Hello, Sieun!', lang: 'en-US' }]);
-    $('#resetToday').onclick = () => { if (confirm('오늘 기록을 지울까요?')) { delete S.daily[today()]; save(); renderParents(); } };
-    $('#resetAll').onclick = () => { if (confirm('정말 모든 기록(별, 푼 문제)을 지울까요?')) { localStorage.removeItem(STORE_KEY); load(); renderParents(); } };
+    $('#resetToday').onclick = () => { if (confirm('오늘 기록을 지울까요?')) { delete S.daily[today()]; save(); window.SYNC && window.SYNC.authoritative(); renderParents(); } };
+    $('#resetAll').onclick = () => { if (confirm('정말 모든 기록(별, 푼 문제)을 지울까요?')) { const keep = { syncEpoch: S.syncEpoch, voice: S.voice, speechRate: S.speechRate }; localStorage.removeItem(STORE_KEY); load(); Object.assign(S, keep); save(); window.SYNC && window.SYNC.authoritative(); renderParents(); } };
   }
 
   // ---------- 기록 옮기기 (내보내기·가져오기·합치기) ----------
@@ -776,8 +779,10 @@
     const json = m[1] === '1' ? new TextDecoder().decode(await gz(bytes, 'd')) : new TextDecoder().decode(bytes);
     return JSON.parse(json);
   }
-  function mergeRecord(o) {
+  function mergeRecord(o) { mergeInto(S, o); }
+  function mergeInto(S, o) {
     o = o || {};
+    REC_KEYS.forEach(k => { if (S[k] == null) S[k] = k === 'stars' ? 0 : {}; });
     S.stars = Math.max(S.stars || 0, o.stars || 0);
     for (const [k, v] of Object.entries(o.solved || {})) S.solved[k] = Math.max(S.solved[k] || 0, v || 0);
     for (const [k, arr] of Object.entries(o.seen || {})) S.seen[k] = [...new Set([...(S.seen[k] || []), ...(arr || [])])];
@@ -846,6 +851,8 @@
     cur = { key, d, list: [it.gen ? { gen: it } : { item: it }], idx: 0, base: 0, stars: 0, extra: true };
     show('quiz'); nextQuestion(true);
   }
-  window.APP = { buildSession, materialize, loadSubject, SUBJECTS, preview, get state() { return S; }, get cur() { return cur; }, encodeRecord, decodeRecord, mergeRecord };
+  window.APP = { buildSession, materialize, loadSubject, SUBJECTS, preview, get state() { return S; }, get cur() { return cur; }, encodeRecord, decodeRecord, mergeRecord, mergeInto, REC_KEYS, save,
+    // 동기화가 원격 기록을 가져왔을 때 화면 새로 그리기 (문제 푸는 중에는 건드리지 않음)
+    refresh() { const a = document.querySelector('.screen.active'); if (!a) return; if (a.id === 'home') renderHome(); else if (a.id === 'notes') renderNotes(); else if (a.id === 'parents') renderParents(); } };
   init();
 })();
