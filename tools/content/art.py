@@ -11,7 +11,6 @@ WORKS = """
 꽃 피는 아몬드 나무|고흐|파란 하늘과 하얀 꽃 핀 나뭇가지|wp:Almond Blossoms
 붓꽃|고흐|보라색 붓꽃이 가득한 꽃밭|wp:Irises (painting)
 인상, 해돋이|모네|바다 위에 뜨는 빨간 해와 작은 배|wp:Impression, Sunrise
-수련|모네|연못에 동동 떠 있는 수련 꽃|wp:Water Lilies (Monet series)
 양산을 든 여인|모네|양산을 쓰고 언덕에 선 사람|wp:Woman with a Parasol – Madame Monet and Her Son
 수련 연못 위의 다리|모네|연못 위의 둥근 다리|wp:Bridge over a Pond of Water Lilies
 건초더미|모네|들판에 쌓아 놓은 건초더미|wp:Haystacks (Monet series)
@@ -36,7 +35,7 @@ WORKS = """
 키스|클림트|금빛 옷을 입고 안고 있는 두 사람|wp:The Kiss (Klimt)
 빨강, 파랑, 노랑의 구성|몬드리안|검은 선과 빨강·파랑·노랑 네모|file:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg
 베르툼누스|아르침볼도|과일과 채소로 만든 얼굴|wp:Vertumnus (painting)
-여름|아르침볼도|여름 과일로 만든 얼굴|wp:Summer (Arcimboldo)
+봄|아르침볼도|꽃으로 만든 얼굴|wp:Summer (Arcimboldo)
 열대 폭풍 속의 호랑이|루소|정글 속에 숨은 호랑이|wp:Tiger in a Tropical Storm
 발레 수업|드가|발레를 연습하는 아이들|wp:The Ballet Class (Degas, Musée d'Orsay)
 사과 바구니|세잔|탁자 위의 사과와 바구니|wp:The Basket of Apples
@@ -61,7 +60,7 @@ PAINTER = {
     "르누아르": "르누아르는 밝고 행복한 사람들의 모습을 그렸어요.",
     "클림트": "클림트는 반짝이는 금색을 많이 쓴 화가예요.",
     "몬드리안": "몬드리안은 검은 선과 빨강·파랑·노랑 네모로 그림을 그렸어요.",
-    "아르침볼도": "아르침볼도는 과일과 채소로 사람 얼굴을 만들었어요.",
+    "아르침볼도": "아르침볼도는 과일, 채소, 꽃을 모아 사람 얼굴을 만들었어요.",
     "루소": "루소는 초록 정글과 동물을 그렸어요.",
     "드가": "드가는 발레하는 무용수들을 많이 그렸어요.",
     "세잔": "세잔은 사과 같은 과일을 여러 번 그렸어요.",
