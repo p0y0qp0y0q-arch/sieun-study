@@ -1,5 +1,6 @@
 from common import Q, img, who, josa
 from nature_wonder import WONDER
+from nature_wonder2 import WONDER2
 import random
 
 # 이름|사는 곳|먹이|알/새끼|사진|이모지|분류
@@ -313,7 +314,7 @@ def build(sounds):
     # 놀라운 자연: 조금 더 생각하는 문제
     plantref = {l.split("|")[0]: (l.split("|")[2], l.split("|")[3]) for l in PLANTS}
     dinoref = {l.split("|")[0]: (l.split("|")[2], l.split("|")[3]) for l in DINOS}
-    for i, l in enumerate(WONDER):
+    for i, l in enumerate(WONDER + WONDER2):
         q, a, w, who_, emo, lv, topic = l.split("|")
         ref = None
         if who_ in byname: ref = byname[who_]["ref"]

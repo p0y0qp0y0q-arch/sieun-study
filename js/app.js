@@ -132,7 +132,8 @@
 
   // ---------- 출제 ----------
   // 창의 수학은 킨더팩토·키즈팩토를 마친 수준이라 레벨 2부터 시작
-  const LEVEL_BOOST = { math: 1 };
+  const GROUP_WEIGHT = { 'nat-wonder': 5, 'nat-sound': 3, 'nat-name': 0.4, 'nat-habitat': 0.5, 'nat-birth': 0.4, 'nat-food': 0.5 };
+  const LEVEL_BOOST = { math: 1, nature: 1 };
   function maxLevel(key) { const n = S.solved[key] || 0; return Math.min(3, (n < 30 ? 1 : n < 90 ? 2 : 3) + (LEVEL_BOOST[key] || 0)); }
   function buildSession(key, d) {
     const items = d.items;
@@ -172,7 +173,9 @@
     const ml = maxLevel(key);
     let lvPool = pool.filter(it => (it.level || 1) <= ml);
     if (lvPool.length < PER_DAY) lvPool = pool;
-    const cand = shuffle(lvPool);
+    // 많이 나왔으면 하는 유형은 더 자주 (자연: '왜? 어떻게?'·울음소리 ↑, 이름 맞히기 같은 기본 문제 ↓)
+    const wOf = (it) => { const g = it.group || ''; for (const k in GROUP_WEIGHT) if (g.startsWith(k)) return GROUP_WEIGHT[k]; return 1; };
+    const cand = lvPool.map(it => ({ it, k: Math.pow(Math.random(), 1 / wOf(it)) })).sort((a, b) => b.k - a.k).map(x => x.it);
     const groupCap = Math.max(2, Math.ceil(PER_DAY / 3));
     for (const pass of [0, 1]) {
       for (const it of cand) {

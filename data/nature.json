@@ -73130,6 +73130,3130 @@
    "id": "nat-633",
    "subject": "자연",
    "type": "choice",
+   "prompt": "선인장 가시는 무엇이 변한 것일까요?",
+   "choices": [
+    "잎",
+    "꽃",
+    "뿌리"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌵",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Various_Cactaceae.jpg/500px-Various_Cactaceae.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Various_Cactaceae.jpg/500px-Various_Cactaceae.jpg",
+    "credit": "G. Mütrel, Leipzig ; Berlin ; Wien : F.A. Brockhaus, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Various_Cactaceae.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-634",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "선인장은 왜 사막에서도 살 수 있을까요?",
+   "choices": [
+    "두꺼운 줄기에 물을 저장해서",
+    "물을 안 마셔도 돼서",
+    "밤에만 자라서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌵",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Various_Cactaceae.jpg/500px-Various_Cactaceae.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Various_Cactaceae.jpg/500px-Various_Cactaceae.jpg",
+    "credit": "G. Mütrel, Leipzig ; Berlin ; Wien : F.A. Brockhaus, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Various_Cactaceae.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-635",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "낙타는 물을 안 마시고 어떻게 오래 걸을까요?",
+   "choices": [
+    "혹의 지방을 에너지로 써요",
+    "혹에 물을 담아 다녀요",
+    "잠을 많이 자요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐫",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/500px-Camelus_dromedarius_in_Nuweiba.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/500px-Camelus_dromedarius_in_Nuweiba.jpg",
+    "credit": "Florian Prischl, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-636",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "낙타의 긴 속눈썹은 무엇을 막아 줄까요?",
+   "choices": [
+    "모래바람",
+    "햇빛만",
+    "빗물만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐫",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/500px-Camelus_dromedarius_in_Nuweiba.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/500px-Camelus_dromedarius_in_Nuweiba.jpg",
+    "credit": "Florian Prischl, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-637",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "낙타 발바닥이 넓적한 까닭은?",
+   "choices": [
+    "모래에 빠지지 않으려고",
+    "빨리 헤엄치려고",
+    "나무에 오르려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐫",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/500px-Camelus_dromedarius_in_Nuweiba.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/500px-Camelus_dromedarius_in_Nuweiba.jpg",
+    "credit": "Florian Prischl, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-638",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "북극곰의 털 속 피부는 무슨 색일까요?",
+   "choices": [
+    "검은색",
+    "흰색",
+    "분홍색"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐻‍❄️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/500px-Polar_Bear_-_Alaska_%28cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/500px-Polar_Bear_-_Alaska_%28cropped%29.jpg",
+    "credit": "Alan Wilson, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska_(cropped).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-639",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "북극곰이 추운 곳에서 살 수 있는 까닭은?",
+   "choices": [
+    "두꺼운 지방과 털이 있어서",
+    "불을 피워서",
+    "겨울에만 나와서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐻‍❄️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/500px-Polar_Bear_-_Alaska_%28cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/500px-Polar_Bear_-_Alaska_%28cropped%29.jpg",
+    "credit": "Alan Wilson, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska_(cropped).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-640",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "사막여우의 귀가 아주 큰 까닭은?",
+   "choices": [
+    "몸의 열을 내보내려고",
+    "날기 위해서",
+    "물을 담으려고"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fennec_Fox_Vulpes_zerda.jpg/500px-Fennec_Fox_Vulpes_zerda.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fennec_Fox_Vulpes_zerda.jpg/500px-Fennec_Fox_Vulpes_zerda.jpg",
+    "credit": "Drew Avery, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fennec_Fox_Vulpes_zerda.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-641",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "북극여우의 귀가 작은 까닭은?",
+   "choices": [
+    "열을 빼앗기지 않으려고",
+    "소리를 안 들으려고",
+    "예뻐 보이려고"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg/500px-Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg/500px-Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg",
+    "credit": "Jonatan Pie (unsplash.com/@r3dmax), CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Vulpes_lagopus_in_Iceland_(cropped_3).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-642",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "북극여우의 털 색깔은 겨울에 어떻게 변할까요?",
+   "choices": [
+    "하얗게 변해요",
+    "까맣게 변해요",
+    "빨갛게 변해요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg/500px-Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg/500px-Vulpes_lagopus_in_Iceland_%28cropped_3%29.jpg",
+    "credit": "Jonatan Pie (unsplash.com/@r3dmax), CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Vulpes_lagopus_in_Iceland_(cropped_3).jpg"
+   },
+   "group": "nat-wonder-계절과 동물",
+   "explain": "놀라운 자연 · 계절과 동물"
+  },
+  {
+   "id": "nat-643",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "얼룩말의 줄무늬는 무리 속에서 어떤 도움이 될까요?",
+   "choices": [
+    "적이 한 마리를 골라내기 어렵게 해요",
+    "헤엄을 잘 치게 해요",
+    "잠이 잘 오게 해요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦓",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg/500px-Equus_quagga_burchellii_-_Etosha%2C_2014.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg/500px-Equus_quagga_burchellii_-_Etosha%2C_2014.jpg",
+    "credit": "Yathin S Krishnappa, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Equus_quagga_burchellii_-_Etosha,_2014.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-644",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "하마는 낮에 주로 어디에 있을까요?",
+   "choices": [
+    "물속",
+    "나무 위",
+    "땅굴 속"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦛",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Portrait_Hippopotamus_in_the_water.jpg/500px-Portrait_Hippopotamus_in_the_water.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Portrait_Hippopotamus_in_the_water.jpg/500px-Portrait_Hippopotamus_in_the_water.jpg",
+    "credit": "Muhammad Mahdi Karim, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_Hippopotamus_in_the_water.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-645",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "하마가 물속에 있는 까닭은?",
+   "choices": [
+    "뜨거운 햇빛에서 피부를 지키려고",
+    "물고기를 잡으려고",
+    "알을 낳으려고"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦛",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Portrait_Hippopotamus_in_the_water.jpg/500px-Portrait_Hippopotamus_in_the_water.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Portrait_Hippopotamus_in_the_water.jpg/500px-Portrait_Hippopotamus_in_the_water.jpg",
+    "credit": "Muhammad Mahdi Karim, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_Hippopotamus_in_the_water.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-646",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "치타는 무엇을 가장 잘할까요?",
+   "choices": [
+    "아주 빨리 달리기",
+    "나무 타기",
+    "헤엄치기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐆",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/500px-Male_cheetah_facing_left_in_South_Africa.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/500px-Male_cheetah_facing_left_in_South_Africa.jpg",
+    "credit": "AfricanConservation, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_cheetah_facing_left_in_South_Africa.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-647",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "치타와 표범을 구별하는 방법은?",
+   "choices": [
+    "치타는 눈 밑에 눈물 같은 검은 줄이 있어요",
+    "표범만 꼬리가 있어요",
+    "치타는 줄무늬예요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐆",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/500px-Male_cheetah_facing_left_in_South_Africa.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/500px-Male_cheetah_facing_left_in_South_Africa.jpg",
+    "credit": "AfricanConservation, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Male_cheetah_facing_left_in_South_Africa.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-648",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "호랑이의 줄무늬는 어떤 도움이 될까요?",
+   "choices": [
+    "풀숲에 숨기 좋아요",
+    "헤엄을 잘 쳐요",
+    "하늘을 날아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐯",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg/500px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg/500px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-649",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "사자 무리에서 주로 사냥을 하는 것은?",
+   "choices": [
+    "암사자",
+    "수사자",
+    "새끼 사자"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦁",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-650",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "수사자의 갈기는 무엇일까요?",
+   "choices": [
+    "목 둘레의 긴 털",
+    "뿔",
+    "날개"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🦁",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-651",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "코뿔소의 뿔은 무엇과 같은 성분일까요?",
+   "choices": [
+    "우리 손톱과 머리카락",
+    "뼈",
+    "돌"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦏",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg/500px-109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg/500px-109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-652",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "코끼리의 큰 귀는 어떤 도움이 될까요?",
+   "choices": [
+    "펄럭여서 몸을 식혀요",
+    "하늘을 날아요",
+    "먹이를 담아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/500px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/500px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-653",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "코끼리의 상아는 무엇일까요?",
+   "choices": [
+    "아주 길게 자란 이빨",
+    "뿔",
+    "손톱"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/500px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/500px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-654",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "기린의 혀는 무슨 색일까요?",
+   "choices": [
+    "검푸른색",
+    "분홍색",
+    "노란색"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg/500px-Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg/500px-Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Masai_giraffes_(Giraffa_tippelskirchi)_Arusha.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-655",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "기린은 어떻게 잠을 잘까요?",
+   "choices": [
+    "아주 짧게 조금씩 자요",
+    "하루 종일 자요",
+    "물속에서 자요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg/500px-Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg/500px-Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Masai_giraffes_(Giraffa_tippelskirchi)_Arusha.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-656",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "고릴라가 가슴을 두드리는 까닭은?",
+   "choices": [
+    "힘을 뽐내고 신호를 보내려고",
+    "배가 아파서",
+    "노래하려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦍",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg/500px-Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg/500px-Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg",
+    "credit": "Thurundir, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Gorille_des_plaines_de_l%27ouest_%C3%A0_l%27Espace_Zoologique.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-657",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "침팬지는 개미를 어떻게 잡아먹을까요?",
+   "choices": [
+    "나뭇가지를 도구로 써요",
+    "물을 부어요",
+    "불을 피워요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐒",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/500px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/500px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-658",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "오랑우탄은 주로 어디에서 살까요?",
+   "choices": [
+    "숲속 나무 위",
+    "사막",
+    "바다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦧",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG/500px-Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG/500px-Orang_Utan%2C_Semenggok_Forest_Reserve%2C_Sarawak%2C_Borneo%2C_Malaysia.JPG",
+    "credit": "Eleifert, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Orang_Utan,_Semenggok_Forest_Reserve,_Sarawak,_Borneo,_Malaysia.JPG"
+   },
+   "group": "nat-wonder-사는 곳",
+   "explain": "놀라운 자연 · 사는 곳"
+  },
+  {
+   "id": "nat-659",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "판다는 곰일까요?",
+   "choices": [
+    "네! 곰 무리예요",
+    "아니요! 고양이예요",
+    "아니요! 너구리예요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐼",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/500px-Grosser_Panda.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/500px-Grosser_Panda.JPG",
+    "credit": "J. Patrick Fischer, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Grosser_Panda.JPG"
+   },
+   "group": "nat-wonder-분류",
+   "explain": "놀라운 자연 · 분류"
+  },
+  {
+   "id": "nat-660",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "아기 판다는 태어날 때 얼마나 작을까요?",
+   "choices": [
+    "엄마보다 아주아주 작아요",
+    "엄마만큼 커요",
+    "엄마보다 커요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐼",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/500px-Grosser_Panda.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/500px-Grosser_Panda.JPG",
+    "credit": "J. Patrick Fischer, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Grosser_Panda.JPG"
+   },
+   "group": "nat-wonder-아기 기르기",
+   "explain": "놀라운 자연 · 아기 기르기"
+  },
+  {
+   "id": "nat-661",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "코알라가 먹는 나뭇잎은?",
+   "choices": [
+    "유칼립투스 잎",
+    "대나무 잎",
+    "은행잎"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐨",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/500px-Koala_climbing_tree.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/500px-Koala_climbing_tree.jpg",
+    "credit": "Diliff, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-662",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "코알라 아기는 어디에서 자랄까요?",
+   "choices": [
+    "엄마 배 주머니",
+    "나무 구멍",
+    "물속"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐨",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/500px-Koala_climbing_tree.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/500px-Koala_climbing_tree.jpg",
+    "credit": "Diliff, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg"
+   },
+   "group": "nat-wonder-아기 기르기",
+   "explain": "놀라운 자연 · 아기 기르기"
+  },
+  {
+   "id": "nat-663",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "캥거루는 꼬리로 무엇을 할까요?",
+   "choices": [
+    "몸을 받치고 균형을 잡아요",
+    "헤엄을 쳐요",
+    "먹이를 집어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦘",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Macropus_giganteus_-_Brunkerville.jpg/500px-Macropus_giganteus_-_Brunkerville.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Macropus_giganteus_-_Brunkerville.jpg/500px-Macropus_giganteus_-_Brunkerville.jpg",
+    "credit": "JJ Harrison (https://www.jjharrison.com.au/), CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Macropus_giganteus_-_Brunkerville.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-664",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "곰은 겨울을 어떻게 보낼까요?",
+   "choices": [
+    "굴에서 겨울잠을 자요",
+    "남쪽으로 날아가요",
+    "바다로 가요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐻",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG/500px-Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG/500px-Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG",
+    "credit": "Guérin Nicolas (messages), CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ursus_thibetanus_3_(Wroclaw_zoo).JPG"
+   },
+   "group": "nat-wonder-계절과 동물",
+   "explain": "놀라운 자연 · 계절과 동물"
+  },
+  {
+   "id": "nat-665",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "반달가슴곰이라는 이름은 왜 붙었을까요?",
+   "choices": [
+    "가슴에 반달 모양 흰 털이 있어서",
+    "반달을 좋아해서",
+    "밤에만 다녀서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐻",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG/500px-Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG/500px-Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG",
+    "credit": "Guérin Nicolas (messages), CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ursus_thibetanus_3_(Wroclaw_zoo).JPG"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-666",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "다람쥐는 겨울을 위해 무엇을 할까요?",
+   "choices": [
+    "도토리를 모아 숨겨 둬요",
+    "털을 다 깎아요",
+    "바다로 가요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐿️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Streifenhoernchen.jpg/500px-Streifenhoernchen.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Streifenhoernchen.jpg/500px-Streifenhoernchen.jpg",
+    "credit": "AndiW 10:51:45, 2005-09-04 (UTC), Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Streifenhoernchen.jpg"
+   },
+   "group": "nat-wonder-계절과 동물",
+   "explain": "놀라운 자연 · 계절과 동물"
+  },
+  {
+   "id": "nat-667",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "다람쥐가 땅에 묻고 잊어버린 도토리는 어떻게 될까요?",
+   "choices": [
+    "싹이 나서 나무가 돼요",
+    "돌이 돼요",
+    "사라져요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐿️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Streifenhoernchen.jpg/500px-Streifenhoernchen.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Streifenhoernchen.jpg/500px-Streifenhoernchen.jpg",
+    "credit": "AndiW 10:51:45, 2005-09-04 (UTC), Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Streifenhoernchen.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-668",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "고슴도치는 위험할 때 어떻게 할까요?",
+   "choices": [
+    "몸을 동그랗게 말아 가시를 세워요",
+    "빨리 날아가요",
+    "물속에 숨어요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🦔",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Igel.JPG/500px-Igel.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Igel.JPG/500px-Igel.JPG",
+    "credit": "Gibe, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Igel.JPG"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-669",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "두더지의 앞발은 무엇을 하기 좋을까요?",
+   "choices": [
+    "땅을 파기",
+    "헤엄치기",
+    "날기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐀",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Talpa_europaea_I.jpg/500px-Talpa_europaea_I.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Talpa_europaea_I.jpg/500px-Talpa_europaea_I.jpg",
+    "credit": "bristolian, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Talpa_europaea_I.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-670",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "두더지는 눈이 어떨까요?",
+   "choices": [
+    "아주 작아서 잘 못 봐요",
+    "아주 커요",
+    "밤에 빛나요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐀",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Talpa_europaea_I.jpg/500px-Talpa_europaea_I.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Talpa_europaea_I.jpg/500px-Talpa_europaea_I.jpg",
+    "credit": "bristolian, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Talpa_europaea_I.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-671",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "비버는 무엇으로 댐을 지을까요?",
+   "choices": [
+    "나뭇가지와 진흙",
+    "돌과 얼음",
+    "모래만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦫",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/500px-American_Beaver.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/500px-American_Beaver.jpg",
+    "credit": "Steve from Washington, DC, USA, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Beaver.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-672",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "비버의 이빨은 무엇을 잘할까요?",
+   "choices": [
+    "나무를 갉아 넘어뜨려요",
+    "물고기를 씹어요",
+    "풀을 뽑아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦫",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/500px-American_Beaver.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/500px-American_Beaver.jpg",
+    "credit": "Steve from Washington, DC, USA, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Beaver.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-673",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "수달은 물속에서 무엇을 잡아먹을까요?",
+   "choices": [
+    "물고기",
+    "도토리",
+    "나뭇잎"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🦦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Fischotter%2C_Lutra_Lutra.JPG/500px-Fischotter%2C_Lutra_Lutra.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Fischotter%2C_Lutra_Lutra.JPG/500px-Fischotter%2C_Lutra_Lutra.JPG",
+    "credit": "Bernard Landgraf, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fischotter,_Lutra_Lutra.JPG"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-674",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "해달은 조개를 어떻게 깨 먹을까요?",
+   "choices": [
+    "배 위에 돌을 올려놓고 깨요",
+    "이빨로만 깨요",
+    "모래에 묻어요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg/500px-Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg/500px-Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+    "credit": "Marshal Hedin from San Diego, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sea_Otter_(Enhydra_lutris)_(25169790524)_crop.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-675",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "해달은 잘 때 왜 서로 손을 잡을까요?",
+   "choices": [
+    "떠내려가지 않으려고",
+    "추워서",
+    "춤추려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg/500px-Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg/500px-Sea_Otter_%28Enhydra_lutris%29_%2825169790524%29_crop.jpg",
+    "credit": "Marshal Hedin from San Diego, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sea_Otter_(Enhydra_lutris)_(25169790524)_crop.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-676",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "순록은 암컷도 뿔이 있을까요?",
+   "choices": [
+    "네! 암컷도 뿔이 있어요",
+    "아니요! 수컷만 있어요",
+    "아니요! 뿔이 없어요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg/500px-Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg/500px-Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg",
+    "credit": "Are G Nilsen, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Reinbukken_p%C3%A5_frisk_gr%C3%B8nt_beite._-_panoramio.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-677",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "사슴뿔은 어떻게 될까요?",
+   "choices": [
+    "해마다 떨어지고 새로 나요",
+    "평생 그대로예요",
+    "점점 작아져요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg/500px-Cervus_elaphus_Luc_Viatour_6.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg/500px-Cervus_elaphus_Luc_Viatour_6.jpg",
+    "credit": "Lviatour, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_6.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-678",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "나무늘보는 왜 '늘보'라는 이름이 붙었을까요?",
+   "choices": [
+    "아주아주 느리게 움직여서",
+    "빨리 달려서",
+    "잠을 안 자서"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🦥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bicho-pregui%C3%A7a_3.jpg/500px-Bicho-pregui%C3%A7a_3.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bicho-pregui%C3%A7a_3.jpg/500px-Bicho-pregui%C3%A7a_3.jpg",
+    "credit": "Daniella Maraschiello, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bicho-pregui%C3%A7a_3.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-679",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "나무늘보는 나무에 어떻게 매달려 있을까요?",
+   "choices": [
+    "거꾸로 매달려요",
+    "꼬리로만 매달려요",
+    "서서 있어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦥",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bicho-pregui%C3%A7a_3.jpg/500px-Bicho-pregui%C3%A7a_3.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bicho-pregui%C3%A7a_3.jpg/500px-Bicho-pregui%C3%A7a_3.jpg",
+    "credit": "Daniella Maraschiello, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bicho-pregui%C3%A7a_3.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-680",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "개미핥기는 개미를 어떻게 먹을까요?",
+   "choices": [
+    "길고 끈끈한 혀로 핥아 먹어요",
+    "이빨로 씹어요",
+    "코로 빨아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐜",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Myresluger2.jpg/500px-Myresluger2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Myresluger2.jpg/500px-Myresluger2.jpg",
+    "credit": "Malene Thyssen, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-681",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "박쥐는 낮에 어떻게 쉴까요?",
+   "choices": [
+    "거꾸로 매달려 자요",
+    "땅에 누워 자요",
+    "물에 떠서 자요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦇",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/500px-047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/500px-047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-682",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "토끼의 귀가 긴 덕분에 무엇을 잘할까요?",
+   "choices": [
+    "작은 소리도 잘 들어요",
+    "물을 잘 마셔요",
+    "잘 날아요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐰",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/500px-Oryctolagus_cuniculus_Rcdo.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Oryctolagus_cuniculus_Rcdo.jpg/500px-Oryctolagus_cuniculus_Rcdo.jpg",
+    "credit": "JM Ligero Loarte, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_Rcdo.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-683",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "강아지는 무엇이 사람보다 훨씬 뛰어날까요?",
+   "choices": [
+    "냄새 맡기",
+    "글 읽기",
+    "색깔 보기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐶",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/500px-Huskiesatrest.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/500px-Huskiesatrest.jpg",
+    "credit": "M. Rehemtulla, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Huskiesatrest.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-684",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "강아지가 혀를 내밀고 헥헥거리는 까닭은?",
+   "choices": [
+    "몸의 열을 식히려고",
+    "배가 고파서",
+    "노래하려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐶",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/500px-Huskiesatrest.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/500px-Huskiesatrest.jpg",
+    "credit": "M. Rehemtulla, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Huskiesatrest.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-685",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "고양이 수염은 무엇을 도와줄까요?",
+   "choices": [
+    "좁은 곳을 지나갈 수 있는지 알아요",
+    "맛을 봐요",
+    "소리를 내요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐱",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/500px-Siam_lilacpoint.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/500px-Siam_lilacpoint.jpg",
+    "credit": "Karin Langner-Bahmann, upload von Martin Bahmann, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Siam_lilacpoint.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-686",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "고양이 눈이 밤에 빛나 보이는 까닭은?",
+   "choices": [
+    "눈 속에서 빛을 반사해서",
+    "눈에 전등이 있어서",
+    "눈물이 많아서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐱",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/500px-Siam_lilacpoint.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/500px-Siam_lilacpoint.jpg",
+    "credit": "Karin Langner-Bahmann, upload von Martin Bahmann, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Siam_lilacpoint.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-687",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "소는 왜 계속 입을 오물오물할까요?",
+   "choices": [
+    "먹은 풀을 다시 꺼내 씹어서(되새김질)",
+    "껌을 씹어서",
+    "말을 해서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐮",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/500px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/500px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "credit": "Kim Hansen, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-688",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "소의 위는 몇 개의 방으로 나뉘어 있을까요?",
+   "choices": [
+    "4개",
+    "1개",
+    "10개"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐮",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/500px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/500px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "credit": "Kim Hansen, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-689",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "돼지가 진흙에서 뒹구는 까닭은?",
+   "choices": [
+    "몸을 시원하게 하려고",
+    "진흙이 맛있어서",
+    "잠자려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg",
+    "credit": "kallerna, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pig_farm_Vampula_1.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-690",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "돼지 코가 납작하고 튼튼한 까닭은?",
+   "choices": [
+    "땅을 파서 먹이를 찾으려고",
+    "헤엄치려고",
+    "하늘을 보려고"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/500px-Pig_farm_Vampula_1.jpg",
+    "credit": "kallerna, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pig_farm_Vampula_1.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-691",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "양털은 무엇으로 만들까요?",
+   "choices": [
+    "털실과 따뜻한 옷",
+    "종이",
+    "유리"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐑",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flock_of_sheep.jpg/500px-Flock_of_sheep.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flock_of_sheep.jpg/500px-Flock_of_sheep.jpg",
+    "credit": "Keith Weller, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Flock_of_sheep.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-692",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "고래는 물고기일까요?",
+   "choices": [
+    "아니요! 젖을 먹이는 포유류예요",
+    "네! 물고기예요",
+    "네! 새예요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐋",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Humpback_whale_breaching_off_Cabo_San_Lucas.jpg/500px-Humpback_whale_breaching_off_Cabo_San_Lucas.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Humpback_whale_breaching_off_Cabo_San_Lucas.jpg/500px-Humpback_whale_breaching_off_Cabo_San_Lucas.jpg",
+    "credit": "Juan Cruzado Cortés, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Humpback_whale_breaching_off_Cabo_San_Lucas.jpg"
+   },
+   "group": "nat-wonder-분류",
+   "explain": "놀라운 자연 · 분류"
+  },
+  {
+   "id": "nat-693",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "흰긴수염고래는 얼마나 클까요?",
+   "choices": [
+    "지구에서 가장 큰 동물이에요",
+    "강아지만 해요",
+    "코끼리보다 작아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐋",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Humpback_whale_breaching_off_Cabo_San_Lucas.jpg/500px-Humpback_whale_breaching_off_Cabo_San_Lucas.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Humpback_whale_breaching_off_Cabo_San_Lucas.jpg/500px-Humpback_whale_breaching_off_Cabo_San_Lucas.jpg",
+    "credit": "Juan Cruzado Cortés, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Humpback_whale_breaching_off_Cabo_San_Lucas.jpg"
+   },
+   "group": "nat-wonder-기록",
+   "explain": "놀라운 자연 · 기록"
+  },
+  {
+   "id": "nat-694",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "고래는 아기를 어떻게 낳을까요?",
+   "choices": [
+    "물속에서 새끼를 낳아요",
+    "알을 낳아요",
+    "땅에서 낳아요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐋",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Humpback_whale_breaching_off_Cabo_San_Lucas.jpg/500px-Humpback_whale_breaching_off_Cabo_San_Lucas.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Humpback_whale_breaching_off_Cabo_San_Lucas.jpg/500px-Humpback_whale_breaching_off_Cabo_San_Lucas.jpg",
+    "credit": "Juan Cruzado Cortés, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Humpback_whale_breaching_off_Cabo_San_Lucas.jpg"
+   },
+   "group": "nat-wonder-아기 기르기",
+   "explain": "놀라운 자연 · 아기 기르기"
+  },
+  {
+   "id": "nat-695",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "돌고래는 무엇으로 숨을 쉴까요?",
+   "choices": [
+    "머리 위 숨구멍(허파)",
+    "아가미",
+    "꼬리"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/500px-Tursiops_truncatus_01-cropped.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/500px-Tursiops_truncatus_01-cropped.jpg",
+    "credit": "NASA, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-696",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "돌고래는 잘 때 뇌가 어떨까요?",
+   "choices": [
+    "반쪽씩 번갈아 자요",
+    "하루 종일 깨어 있어요",
+    "뇌가 쉬지 않아요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐬",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/500px-Tursiops_truncatus_01-cropped.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/500px-Tursiops_truncatus_01-cropped.jpg",
+    "credit": "NASA, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-697",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "물개와 바다사자의 차이는?",
+   "choices": [
+    "바다사자는 귓바퀴가 보여요",
+    "물개만 수염이 있어요",
+    "바다사자는 알을 낳아요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/California_Sea_Lion%2C_Monterey%2C_California%2C_United_States_imported_from_iNaturalist_photo_203598492.jpg/500px-California_Sea_Lion%2C_Monterey%2C_California%2C_United_States_imported_from_iNaturalist_photo_203598492.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/California_Sea_Lion%2C_Monterey%2C_California%2C_United_States_imported_from_iNaturalist_photo_203598492.jpg/500px-California_Sea_Lion%2C_Monterey%2C_California%2C_United_States_imported_from_iNaturalist_photo_203598492.jpg",
+    "credit": "(c) Jonathan Eisen, some rights reserved (CC BY), CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:California_Sea_Lion,_Monterey,_California,_United_States_imported_from_iNaturalist_photo_203598492.jpg"
+   },
+   "group": "nat-wonder-분류",
+   "explain": "놀라운 자연 · 분류"
+  },
+  {
+   "id": "nat-698",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "바다코끼리는 긴 엄니로 무엇을 할까요?",
+   "choices": [
+    "얼음 위로 몸을 끌어 올려요",
+    "날아다녀요",
+    "나무를 베요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦭",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg/500px-Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg/500px-Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg",
+    "credit": "Nixette, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Walrus_in_the_Russian_Arctic_National_Park,_Novaya_Zemlya_2015-2.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-699",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "펭귄은 바다에서 무엇을 잘할까요?",
+   "choices": [
+    "헤엄치기",
+    "하늘 날기",
+    "나무 타기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐧",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/500px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/500px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "credit": "Ian Duffy from UK, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-700",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "황제펭귄의 알은 누가 발 위에 올려 품을까요?",
+   "choices": [
+    "아빠 펭귄",
+    "엄마 펭귄",
+    "할머니 펭귄"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐧",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/500px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/500px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "credit": "Ian Duffy from UK, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg"
+   },
+   "group": "nat-wonder-아기 기르기",
+   "explain": "놀라운 자연 · 아기 기르기"
+  },
+  {
+   "id": "nat-701",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "펭귄은 추위를 어떻게 이길까요?",
+   "choices": [
+    "서로 바짝 붙어 모여요",
+    "불을 피워요",
+    "굴을 파고 잠만 자요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐧",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/500px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/500px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+    "credit": "Ian Duffy from UK, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-702",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "타조는 무엇을 잘할까요?",
+   "choices": [
+    "빨리 달리기",
+    "높이 날기",
+    "헤엄치기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/500px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/500px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
+    "credit": "Yathin S Krishnappa, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_(3).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-703",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "타조알은 어떨까요?",
+   "choices": [
+    "세상에서 가장 큰 새알이에요",
+    "가장 작은 새알이에요",
+    "알을 안 낳아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🥚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/500px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/500px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
+    "credit": "Yathin S Krishnappa, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Struthio_camelus_-_Etosha_2014_(3).jpg"
+   },
+   "group": "nat-wonder-기록",
+   "explain": "놀라운 자연 · 기록"
+  },
+  {
+   "id": "nat-704",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "홍학이 분홍색인 까닭은?",
+   "choices": [
+    "분홍빛을 내는 먹이를 먹어서",
+    "분홍 물감을 발라서",
+    "태어날 때부터 분홍이라서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦩",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/American_Flamingo_JG.jpg/500px-American_Flamingo_JG.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/American_Flamingo_JG.jpg/500px-American_Flamingo_JG.jpg",
+    "credit": "JeffreyGammon, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Flamingo_JG.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-705",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "홍학은 왜 한 다리로 서 있을까요?",
+   "choices": [
+    "몸의 열을 덜 빼앗기려고",
+    "다리가 하나라서",
+    "춤추려고"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦩",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/American_Flamingo_JG.jpg/500px-American_Flamingo_JG.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/American_Flamingo_JG.jpg/500px-American_Flamingo_JG.jpg",
+    "credit": "JeffreyGammon, CC BY 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Flamingo_JG.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-706",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "부엉이는 언제 주로 사냥할까요?",
+   "choices": [
+    "밤",
+    "낮",
+    "아침"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🦉",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg/500px-Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg/500px-Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg",
+    "credit": "Martin Mecnarowski (http://www.photomecan.eu/), CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_3_(Martin_Mecnarowski).jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-707",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "부엉이는 고개를 얼마나 돌릴 수 있을까요?",
+   "choices": [
+    "뒤쪽까지 아주 많이",
+    "조금도 못 돌려요",
+    "옆으로만 조금"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦉",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg/500px-Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg/500px-Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg",
+    "credit": "Martin Mecnarowski (http://www.photomecan.eu/), CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bubo_bubo_3_(Martin_Mecnarowski).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-708",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "딱따구리는 왜 나무를 쪼을까요?",
+   "choices": [
+    "벌레를 찾고 집을 지으려고",
+    "나무가 미워서",
+    "노래하려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg/500px-Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg/500px-Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_male_Drenthe.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-709",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "앵무새가 할 수 있는 신기한 일은?",
+   "choices": [
+    "사람 말을 흉내 내요",
+    "물속에서 숨 쉬어요",
+    "땅을 파요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🦜",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/500px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/500px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Scarlet_macaw_(Ara_macao_cyanopterus)_Copan.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-710",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "벌새의 날갯짓은 어떨까요?",
+   "choices": [
+    "아주 빨라서 '윙' 소리가 나요",
+    "아주 느려요",
+    "날개가 없어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Trinidad_and_Tobago_hummingbirds_composite.jpg/500px-Trinidad_and_Tobago_hummingbirds_composite.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Trinidad_and_Tobago_hummingbirds_composite.jpg/500px-Trinidad_and_Tobago_hummingbirds_composite.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Trinidad_and_Tobago_hummingbirds_composite.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-711",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "벌새는 무엇을 먹을까요?",
+   "choices": [
+    "꽃꿀",
+    "물고기",
+    "풀씨만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Trinidad_and_Tobago_hummingbirds_composite.jpg/500px-Trinidad_and_Tobago_hummingbirds_composite.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Trinidad_and_Tobago_hummingbirds_composite.jpg/500px-Trinidad_and_Tobago_hummingbirds_composite.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Trinidad_and_Tobago_hummingbirds_composite.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-712",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "제비는 가을이 되면 어디로 갈까요?",
+   "choices": [
+    "따뜻한 남쪽 나라",
+    "북극",
+    "땅속"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/500px-Rauchschwalbe_Hirundo_rustica.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/500px-Rauchschwalbe_Hirundo_rustica.jpg",
+    "credit": "Andreas Trepte, CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg"
+   },
+   "group": "nat-wonder-계절과 동물",
+   "explain": "놀라운 자연 · 계절과 동물"
+  },
+  {
+   "id": "nat-713",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "철 따라 사는 곳을 옮기는 새를 무엇이라 할까요?",
+   "choices": [
+    "철새",
+    "텃새",
+    "물새만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦢",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg/500px-Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg/500px-Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg",
+    "credit": "Alastair Rae from London, United Kingdom, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Grus_japonensis_-Hokkaido,_Japan_-several-8_(1).jpg"
+   },
+   "group": "nat-wonder-계절과 동물",
+   "explain": "놀라운 자연 · 계절과 동물"
+  },
+  {
+   "id": "nat-714",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "까치처럼 한곳에서 일 년 내내 사는 새는?",
+   "choices": [
+    "텃새",
+    "철새",
+    "바닷새"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Korean_magpie_in_Daejeon_%28side_profile%29.jpg/500px-Korean_magpie_in_Daejeon_%28side_profile%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Korean_magpie_in_Daejeon_%28side_profile%29.jpg/500px-Korean_magpie_in_Daejeon_%28side_profile%29.jpg",
+    "credit": "Yoo Chung, CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Korean_magpie_in_Daejeon_(side_profile).jpg"
+   },
+   "group": "nat-wonder-계절과 동물",
+   "explain": "놀라운 자연 · 계절과 동물"
+  },
+  {
+   "id": "nat-715",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "펠리컨의 커다란 부리 주머니는 무엇에 쓸까요?",
+   "choices": [
+    "물고기를 퍼 담아요",
+    "알을 넣어요",
+    "물을 저장해 다녀요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Brown_pelican_in_flight_%28Bodega_Bay%29.jpg/500px-Brown_pelican_in_flight_%28Bodega_Bay%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Brown_pelican_in_flight_%28Bodega_Bay%29.jpg/500px-Brown_pelican_in_flight_%28Bodega_Bay%29.jpg",
+    "credit": "Frank Schulenburg, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Brown_pelican_in_flight_(Bodega_Bay).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-716",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "공작 수컷이 꼬리깃을 활짝 펴는 까닭은?",
+   "choices": [
+    "암컷에게 멋을 뽐내려고",
+    "날기 위해서",
+    "햇빛을 가리려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦚",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/500px-Peacock_on_tree_%2852077240794%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/500px-Peacock_on_tree_%2852077240794%29.jpg",
+    "credit": "Kandukuru Nagarjun from Bangalore, India, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Peacock_on_tree_(52077240794).jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-717",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "큰부리새의 큰 부리는 무엇을 도와줄까요?",
+   "choices": [
+    "열매를 따고 몸의 열을 식혀요",
+    "땅을 파요",
+    "헤엄쳐요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐦",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent_%28cropped%29.jpg/500px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent_%28cropped%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent_%28cropped%29.jpg/500px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent_%28cropped%29.jpg",
+    "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent_(cropped).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-718",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "악어는 물속에서 어떻게 숨어 있을까요?",
+   "choices": [
+    "눈과 콧구멍만 물 밖에 내놓아요",
+    "머리를 다 내놓아요",
+    "물 밖에서만 살아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/500px-NileCrocodile.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/500px-NileCrocodile.jpg",
+    "credit": "Dewet, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:NileCrocodile.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-719",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "악어는 아기를 어떻게 낳을까요?",
+   "choices": [
+    "알을 낳아요",
+    "새끼를 낳아요",
+    "아기 주머니에서 키워요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐊",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/500px-NileCrocodile.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/500px-NileCrocodile.jpg",
+    "credit": "Dewet, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:NileCrocodile.jpg"
+   },
+   "group": "nat-wonder-아기 기르기",
+   "explain": "놀라운 자연 · 아기 기르기"
+  },
+  {
+   "id": "nat-720",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "바다거북은 알을 어디에 낳을까요?",
+   "choices": [
+    "바닷가 모래 속",
+    "깊은 바다 밑",
+    "나무 위"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐢",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/500px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/500px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg"
+   },
+   "group": "nat-wonder-아기 기르기",
+   "explain": "놀라운 자연 · 아기 기르기"
+  },
+  {
+   "id": "nat-721",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "거북은 위험할 때 어떻게 할까요?",
+   "choices": [
+    "등딱지 속으로 머리를 넣어요",
+    "빨리 날아요",
+    "색을 바꿔요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐢",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Turtle_diversity.jpg/500px-Turtle_diversity.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Turtle_diversity.jpg/500px-Turtle_diversity.jpg",
+    "credit": "See his respective owners, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Turtle_diversity.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-722",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "뱀은 어떻게 냄새를 맡을까요?",
+   "choices": [
+    "혀를 날름거려서",
+    "코를 킁킁해서",
+    "귀로"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐍",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CornSnake.jpg/500px-CornSnake.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CornSnake.jpg/500px-CornSnake.jpg",
+    "credit": "Ethan Porcaro, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:CornSnake.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-723",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "뱀이 허물을 벗는 까닭은?",
+   "choices": [
+    "몸이 자라서 작아진 껍질을 벗어요",
+    "추워서",
+    "배가 고파서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐍",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CornSnake.jpg/500px-CornSnake.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/CornSnake.jpg/500px-CornSnake.jpg",
+    "credit": "Ethan Porcaro, CC0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:CornSnake.jpg"
+   },
+   "group": "nat-wonder-자라기",
+   "explain": "놀라운 자연 · 자라기"
+  },
+  {
+   "id": "nat-724",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "카멜레온의 눈은 어떻게 움직일까요?",
+   "choices": [
+    "양쪽 눈이 따로따로 움직여요",
+    "눈이 하나예요",
+    "눈을 못 움직여요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦎",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Yemen_Chameleon.jpg/500px-Yemen_Chameleon.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Yemen_Chameleon.jpg/500px-Yemen_Chameleon.jpg",
+    "credit": "Kupos, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Yemen_Chameleon.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-725",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "카멜레온은 먹이를 어떻게 잡을까요?",
+   "choices": [
+    "긴 혀를 쭉 뻗어서",
+    "앞발로 잡아서",
+    "그물을 쳐서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦎",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Yemen_Chameleon.jpg/500px-Yemen_Chameleon.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Yemen_Chameleon.jpg/500px-Yemen_Chameleon.jpg",
+    "credit": "Kupos, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Yemen_Chameleon.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-726",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "도마뱀이 위험할 때 하는 일은?",
+   "choices": [
+    "꼬리를 끊고 도망가요",
+    "크게 짖어요",
+    "날아가요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦎",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Hemidactylus_platyurus_%28Flat-tailed_House_Gecko%29_on_white_background%2C_focus_stacking.jpg/500px-Hemidactylus_platyurus_%28Flat-tailed_House_Gecko%29_on_white_background%2C_focus_stacking.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Hemidactylus_platyurus_%28Flat-tailed_House_Gecko%29_on_white_background%2C_focus_stacking.jpg/500px-Hemidactylus_platyurus_%28Flat-tailed_House_Gecko%29_on_white_background%2C_focus_stacking.jpg",
+    "credit": "Basile Morin, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hemidactylus_platyurus_(Flat-tailed_House_Gecko)_on_white_background,_focus_stacking.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-727",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "개구리는 무엇으로도 숨을 쉴 수 있을까요?",
+   "choices": [
+    "촉촉한 피부",
+    "등껍질",
+    "꼬리"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐸",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-eyed_Leaf_Frog_%2849661076226%29.jpg/500px-Red-eyed_Leaf_Frog_%2849661076226%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-eyed_Leaf_Frog_%2849661076226%29.jpg/500px-Red-eyed_Leaf_Frog_%2849661076226%29.jpg",
+    "credit": "Charlie Jackson, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-eyed_Leaf_Frog_(49661076226).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-728",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "개구리는 겨울을 어떻게 보낼까요?",
+   "choices": [
+    "땅속에서 겨울잠을 자요",
+    "남쪽으로 날아가요",
+    "털옷을 입어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐸",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-eyed_Leaf_Frog_%2849661076226%29.jpg/500px-Red-eyed_Leaf_Frog_%2849661076226%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Red-eyed_Leaf_Frog_%2849661076226%29.jpg/500px-Red-eyed_Leaf_Frog_%2849661076226%29.jpg",
+    "credit": "Charlie Jackson, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Red-eyed_Leaf_Frog_(49661076226).jpg"
+   },
+   "group": "nat-wonder-계절과 동물",
+   "explain": "놀라운 자연 · 계절과 동물"
+  },
+  {
+   "id": "nat-729",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "상어는 이빨이 빠지면 어떻게 될까요?",
+   "choices": [
+    "새 이빨이 계속 나요",
+    "다시는 안 나요",
+    "잇몸으로만 먹어요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦈",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/500px-White_shark.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/500px-White_shark.jpg",
+    "credit": "Pterantula (Terry Goss) at en.wikipedia, CC BY 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:White_shark.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-730",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "상어는 물고기일까요?",
+   "choices": [
+    "네! 아가미로 숨 쉬는 물고기예요",
+    "아니요! 포유류예요",
+    "아니요! 새예요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦈",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/500px-White_shark.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/500px-White_shark.jpg",
+    "credit": "Pterantula (Terry Goss) at en.wikipedia, CC BY 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:White_shark.jpg"
+   },
+   "group": "nat-wonder-분류",
+   "explain": "놀라운 자연 · 분류"
+  },
+  {
+   "id": "nat-731",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "흰동가리는 어디에 숨어 살까요?",
+   "choices": [
+    "말미잘 사이",
+    "조개 속",
+    "모래 속"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐠",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg/500px-Clown_fish_in_the_Andaman_Coral_Reef.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg/500px-Clown_fish_in_the_Andaman_Coral_Reef.jpg",
+    "credit": "Ritiks, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Clown_fish_in_the_Andaman_Coral_Reef.jpg"
+   },
+   "group": "nat-wonder-사는 곳",
+   "explain": "놀라운 자연 · 사는 곳"
+  },
+  {
+   "id": "nat-732",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "복어는 위험할 때 어떻게 할까요?",
+   "choices": [
+    "몸을 공처럼 부풀려요",
+    "색을 바꿔요",
+    "날아가요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐡",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tetraodon-hispidus.jpg/500px-Tetraodon-hispidus.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tetraodon-hispidus.jpg/500px-Tetraodon-hispidus.jpg",
+    "credit": "National Oceanic and Atmospheric Administration, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tetraodon-hispidus.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-733",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "연어는 알을 낳으러 어디로 갈까요?",
+   "choices": [
+    "자기가 태어난 강",
+    "깊은 바다",
+    "호수만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐟",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Salmo_salar.jpg/500px-Salmo_salar.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Salmo_salar.jpg/500px-Salmo_salar.jpg",
+    "credit": "Knepp, Timothy, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Salmo_salar.jpg"
+   },
+   "group": "nat-wonder-아기 기르기",
+   "explain": "놀라운 자연 · 아기 기르기"
+  },
+  {
+   "id": "nat-734",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "문어는 위험할 때 무엇을 뿜을까요?",
+   "choices": [
+    "먹물",
+    "불",
+    "모래"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐙",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/500px-Octopus2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/500px-Octopus2.jpg",
+    "credit": "albert kok, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-735",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "문어의 다리는 몇 개일까요?",
+   "choices": [
+    "8개",
+    "10개",
+    "6개"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐙",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/500px-Octopus2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/500px-Octopus2.jpg",
+    "credit": "albert kok, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Octopus2.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-736",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "오징어의 다리는 몇 개일까요?",
+   "choices": [
+    "10개",
+    "8개",
+    "6개"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦑",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg/500px-Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg/500px-Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg",
+    "credit": "Nhobgood Nick Hobgood, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sepioteuthis_sepioidea_(Caribbean_Reef_Squid).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-737",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "해파리 몸은 대부분 무엇으로 되어 있을까요?",
+   "choices": [
+    "물",
+    "뼈",
+    "털"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪼",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jelly_cc11.jpg/500px-Jelly_cc11.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jelly_cc11.jpg/500px-Jelly_cc11.jpg",
+    "credit": "Dan90266, CC BY-SA 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Jelly_cc11.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-738",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "불가사리는 팔이 잘리면 어떻게 될까요?",
+   "choices": [
+    "다시 자라나요",
+    "그대로 없어요",
+    "두 개가 돼요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⭐",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Starfish_montage.png/500px-Starfish_montage.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Starfish_montage.png/500px-Starfish_montage.png",
+    "credit": "Top left: Klaus Rassinger (Museum Wiesbaden) Top right: Katie Ahlfeld Bottom rig, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Starfish_montage.png"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-739",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "게는 어느 쪽으로 걸을까요?",
+   "choices": [
+    "옆으로",
+    "앞으로만",
+    "뒤로만"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🦀",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cancer_pagurus.jpg/500px-Cancer_pagurus.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cancer_pagurus.jpg/500px-Cancer_pagurus.jpg",
+    "credit": "Hans Hillewaert, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cancer_pagurus.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-740",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "새우는 자라면서 무엇을 할까요?",
+   "choices": [
+    "껍질을 벗어요",
+    "알을 깨요",
+    "날개가 나요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦐",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Palaemon_serratus_Croazia.jpg/500px-Palaemon_serratus_Croazia.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Palaemon_serratus_Croazia.jpg/500px-Palaemon_serratus_Croazia.jpg",
+    "credit": "Etrusko25, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Palaemon_serratus_Croazia.jpg"
+   },
+   "group": "nat-wonder-자라기",
+   "explain": "놀라운 자연 · 자라기"
+  },
+  {
+   "id": "nat-741",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "달팽이는 무엇을 지고 다닐까요?",
+   "choices": [
+    "집(껍데기)",
+    "가방",
+    "알"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🐌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/500px-Snail.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/500px-Snail.jpg",
+    "credit": "Geierunited, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Snail.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-742",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "달팽이가 지나간 자리에 남는 것은?",
+   "choices": [
+    "끈적한 점액",
+    "발자국",
+    "모래"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/500px-Snail.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/500px-Snail.jpg",
+    "credit": "Geierunited, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Snail.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-743",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "달팽이의 눈은 어디에 있을까요?",
+   "choices": [
+    "긴 더듬이 끝",
+    "껍데기 위",
+    "배 밑"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐌",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/500px-Snail.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Snail.jpg/500px-Snail.jpg",
+    "credit": "Geierunited, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Snail.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-744",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "꿀벌은 춤으로 무엇을 알려 줄까요?",
+   "choices": [
+    "꽃이 있는 곳",
+    "날씨",
+    "잠잘 시간"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🐝",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/500px-Apis_mellifera_Western_honey_bee.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/500px-Apis_mellifera_Western_honey_bee.jpg",
+    "credit": "Andreas Trepte, CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-745",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "꿀벌 무리에서 알을 낳는 벌은?",
+   "choices": [
+    "여왕벌",
+    "일벌",
+    "수벌만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐝",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/500px-Apis_mellifera_Western_honey_bee.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/500px-Apis_mellifera_Western_honey_bee.jpg",
+    "credit": "Andreas Trepte, CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-746",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "나비는 꽃꿀을 어떻게 먹을까요?",
+   "choices": [
+    "돌돌 말린 긴 입을 펴서 빨아요",
+    "이빨로 씹어요",
+    "날개로 모아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦋",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg/500px-Fesoj_-_Papilio_machaon_%28by%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg/500px-Fesoj_-_Papilio_machaon_%28by%29.jpg",
+    "credit": "fesoj, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fesoj_-_Papilio_machaon_(by).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-747",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "나비는 무엇으로 맛을 볼까요?",
+   "choices": [
+    "발",
+    "날개",
+    "더듬이 끝 털만"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🦋",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg/500px-Fesoj_-_Papilio_machaon_%28by%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fesoj_-_Papilio_machaon_%28by%29.jpg/500px-Fesoj_-_Papilio_machaon_%28by%29.jpg",
+    "credit": "fesoj, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Fesoj_-_Papilio_machaon_(by).jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-748",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "개미는 무리에서 어떻게 살까요?",
+   "choices": [
+    "여왕개미와 일개미가 함께 살아요",
+    "혼자 살아요",
+    "새와 함께 살아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐜",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Red_Ant_-_March_2025.jpg/500px-Red_Ant_-_March_2025.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Red_Ant_-_March_2025.jpg/500px-Red_Ant_-_March_2025.jpg",
+    "credit": "Samantha Henneke from Seagrove, North Carolina, USA, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Ant_-_March_2025.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-749",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "무당벌레는 무엇을 잡아먹어 농사를 도울까요?",
+   "choices": [
+    "진딧물",
+    "꿀벌",
+    "나비"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🐞",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg/500px-7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg/500px-7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg",
+    "credit": "Photographer: Dominik Stodulski Graphic Processing: User:MathKnight, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-750",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "잠자리는 어린 시절을 어디에서 보낼까요?",
+   "choices": [
+    "물속(애벌레)",
+    "나무 속",
+    "하늘"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🪰",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/500px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/500px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_grasshawk_(Neurothemis_fluctuans)_male_Phuket_2.jpg"
+   },
+   "group": "nat-wonder-자라기",
+   "explain": "놀라운 자연 · 자라기"
+  },
+  {
+   "id": "nat-751",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "잠자리 눈이 아주 큰 까닭은?",
+   "choices": [
+    "작은 눈이 아주 많이 모여 있어서",
+    "안경을 써서",
+    "하나만 있어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🪰",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/500px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/500px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg",
+    "credit": "Charles J. Sharp, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_grasshawk_(Neurothemis_fluctuans)_male_Phuket_2.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-752",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "매미는 땅속에서 얼마나 지낼까요?",
+   "choices": [
+    "여러 해 동안",
+    "하루",
+    "한 시간"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪲",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg/500px-Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg/500px-Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg",
+    "credit": "Judy Gallagher, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cicada_-_Neotibicen_linnei,_Woodbridge,_Virginia.jpg"
+   },
+   "group": "nat-wonder-자라기",
+   "explain": "놀라운 자연 · 자라기"
+  },
+  {
+   "id": "nat-753",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "매미 중에 '맴맴' 우는 것은?",
+   "choices": [
+    "수컷",
+    "암컷",
+    "아기 매미"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🪲",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg/500px-Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg/500px-Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg",
+    "credit": "Judy Gallagher, CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cicada_-_Neotibicen_linnei,_Woodbridge,_Virginia.jpg"
+   },
+   "group": "nat-wonder-생활",
+   "explain": "놀라운 자연 · 생활"
+  },
+  {
+   "id": "nat-754",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "귀뚜라미는 어떻게 소리를 낼까요?",
+   "choices": [
+    "날개를 비벼서",
+    "입으로 노래해서",
+    "발을 굴러서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦗",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Gryllus_campestris_MHNT.jpg/500px-Gryllus_campestris_MHNT.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Gryllus_campestris_MHNT.jpg/500px-Gryllus_campestris_MHNT.jpg",
+    "credit": "Didier Descouens, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Gryllus_campestris_MHNT.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-755",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "메뚜기가 높이 뛸 수 있는 까닭은?",
+   "choices": [
+    "뒷다리가 길고 튼튼해서",
+    "날개가 커서",
+    "몸이 가벼워서만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🦗",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/American_Bird_Grasshopper.jpg/500px-American_Bird_Grasshopper.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/American_Bird_Grasshopper.jpg/500px-American_Bird_Grasshopper.jpg",
+    "credit": "http://www.birdphotos.com, CC BY 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:American_Bird_Grasshopper.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-756",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "반딧불이의 빛은 어디에서 날까요?",
+   "choices": [
+    "배 끝",
+    "머리",
+    "날개"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "✨",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Photuris_lucicrescens.jpg/500px-Photuris_lucicrescens.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Photuris_lucicrescens.jpg/500px-Photuris_lucicrescens.jpg",
+    "credit": "Bruce Marlin, CC BY-SA 2.5, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Photuris_lucicrescens.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-757",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "장수풍뎅이 애벌레는 무엇을 먹고 자랄까요?",
+   "choices": [
+    "썩은 나무와 흙",
+    "꿀",
+    "물고기"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🪲",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Kabutomushi-JapaneseBeetle-July2004.jpg/500px-Kabutomushi-JapaneseBeetle-July2004.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Kabutomushi-JapaneseBeetle-July2004.jpg/500px-Kabutomushi-JapaneseBeetle-July2004.jpg",
+    "credit": "Gombe at Japanese Wikipedia, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Kabutomushi-JapaneseBeetle-July2004.jpg"
+   },
+   "group": "nat-wonder-자라기",
+   "explain": "놀라운 자연 · 자라기"
+  },
+  {
+   "id": "nat-758",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "사슴벌레의 큰 턱은 무엇에 쓸까요?",
+   "choices": [
+    "다른 수컷과 힘겨루기",
+    "밥 먹기",
+    "헤엄치기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🪲",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Lucanus_cervus_male_2017_G1.jpg/500px-Lucanus_cervus_male_2017_G1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Lucanus_cervus_male_2017_G1.jpg/500px-Lucanus_cervus_male_2017_G1.jpg",
+    "credit": "George Chernilevsky, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Lucanus_cervus_male_2017_G1.jpg"
+   },
+   "group": "nat-wonder-몸의 비밀",
+   "explain": "놀라운 자연 · 몸의 비밀"
+  },
+  {
+   "id": "nat-759",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "해바라기는 왜 이름이 해바라기일까요?",
+   "choices": [
+    "어린 꽃이 해를 따라 고개를 돌려서",
+    "해처럼 뜨거워서",
+    "해가 질 때 피어서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌻",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sunflower_head_2015_G1.jpg/500px-Sunflower_head_2015_G1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sunflower_head_2015_G1.jpg/500px-Sunflower_head_2015_G1.jpg",
+    "credit": "George Chernilevsky, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunflower_head_2015_G1.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-760",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "해바라기 꽃 가운데에 빽빽한 것은?",
+   "choices": [
+    "씨",
+    "물",
+    "벌레"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌻",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sunflower_head_2015_G1.jpg/500px-Sunflower_head_2015_G1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sunflower_head_2015_G1.jpg/500px-Sunflower_head_2015_G1.jpg",
+    "credit": "George Chernilevsky, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunflower_head_2015_G1.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-761",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "민들레 씨는 어떻게 멀리 갈까요?",
+   "choices": [
+    "솜털 낙하산을 타고 바람에 날아가요",
+    "새가 입에 물고 가요",
+    "땅속으로 굴러가요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌼",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg/500px-Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg/500px-Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg",
+    "credit": "Walther Otto Müller, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-762",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "연꽃은 어디에서 자랄까요?",
+   "choices": [
+    "연못 물속 진흙",
+    "사막",
+    "높은 나무 위"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🪷",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sacred_lotus_Nelumbo_nucifera.jpg/500px-Sacred_lotus_Nelumbo_nucifera.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sacred_lotus_Nelumbo_nucifera.jpg/500px-Sacred_lotus_Nelumbo_nucifera.jpg",
+    "credit": "T.Voekler, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sacred_lotus_Nelumbo_nucifera.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-763",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "나팔꽃 덩굴은 어떻게 위로 올라갈까요?",
+   "choices": [
+    "막대를 감고 올라가요",
+    "날아 올라가요",
+    "뿌리로 기어가요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ipomoea_nil_Akatsukinoumi1.jpg/500px-Ipomoea_nil_Akatsukinoumi1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ipomoea_nil_Akatsukinoumi1.jpg/500px-Ipomoea_nil_Akatsukinoumi1.jpg",
+    "credit": "KENPEI, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ipomoea_nil_Akatsukinoumi1.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-764",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "나팔꽃은 언제 꽃이 활짝 필까요?",
+   "choices": [
+    "아침",
+    "한밤중",
+    "저녁"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ipomoea_nil_Akatsukinoumi1.jpg/500px-Ipomoea_nil_Akatsukinoumi1.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ipomoea_nil_Akatsukinoumi1.jpg/500px-Ipomoea_nil_Akatsukinoumi1.jpg",
+    "credit": "KENPEI, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ipomoea_nil_Akatsukinoumi1.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-765",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "단풍잎은 가을에 왜 색이 변할까요?",
+   "choices": [
+    "추워지면 잎의 초록 색소가 줄어들어서",
+    "물감이 떨어져서",
+    "햇빛이 세서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🍁",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Acer_palmatum0.jpg/500px-Acer_palmatum0.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Acer_palmatum0.jpg/500px-Acer_palmatum0.jpg",
+    "credit": "Kurt Stüber [1], CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Acer_palmatum0.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-766",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "은행나무 열매에서는 어떤 냄새가 날까요?",
+   "choices": [
+    "고약한 냄새",
+    "달콤한 냄새",
+    "아무 냄새도 없어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🍂",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/GINKGOBAUM-2.jpg/500px-GINKGOBAUM-2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/GINKGOBAUM-2.jpg/500px-GINKGOBAUM-2.jpg",
+    "credit": "EecherplazGinkgo06.jpg: Cayambe derivative work: Ginkgotree (talk), CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:GINKGOBAUM-2.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-767",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "소나무는 겨울에도 잎이 어떨까요?",
+   "choices": [
+    "초록색이에요",
+    "모두 떨어져요",
+    "빨갛게 변해요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌲",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pinus_densiflora_01.JPG/500px-Pinus_densiflora_01.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pinus_densiflora_01.JPG/500px-Pinus_densiflora_01.JPG",
+    "credit": "Dalgial, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pinus_densiflora_01.JPG"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-768",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "대나무는 얼마나 빨리 자랄까요?",
+   "choices": [
+    "하루에도 아주 많이 자라요",
+    "백 년에 한 뼘",
+    "전혀 안 자라요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🎋",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bamboo_forest.jpg/500px-Bamboo_forest.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bamboo_forest.jpg/500px-Bamboo_forest.jpg",
+    "credit": "Kamakura, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Bamboo_forest.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-769",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "야자나무 열매는?",
+   "choices": [
+    "코코넛",
+    "사과",
+    "밤"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌴",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg/500px-Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg/500px-Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg",
+    "credit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-770",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "네잎클로버는 어떤 뜻으로 알려져 있나요?",
+   "choices": [
+    "행운",
+    "슬픔",
+    "배고픔"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍀",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Trifolium_repens_-_white_clover_on_way_from_Govindghat_to_Gangria_at_Valley_of_Flowers_National_Park_-_during_LGFC_-_VOF_2019_%281%29.jpg/500px-Trifolium_repens_-_white_clover_on_way_from_Govindghat_to_Gangria_at_Valley_of_Flowers_National_Park_-_during_LGFC_-_VOF_2019_%281%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Trifolium_repens_-_white_clover_on_way_from_Govindghat_to_Gangria_at_Valley_of_Flowers_National_Park_-_during_LGFC_-_VOF_2019_%281%29.jpg/500px-Trifolium_repens_-_white_clover_on_way_from_Govindghat_to_Gangria_at_Valley_of_Flowers_National_Park_-_during_LGFC_-_VOF_2019_%281%29.jpg",
+    "credit": "Vinayaraj, CC BY-SA 4.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Trifolium_repens_-_white_clover_on_way_from_Govindghat_to_Gangria_at_Valley_of_Flowers_National_Park_-_during_LGFC_-_VOF_2019_(1).jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-771",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "식물은 무엇으로 물을 빨아들일까요?",
+   "choices": [
+    "뿌리",
+    "꽃",
+    "잎끝"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌱",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg/500px-Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg/500px-Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg",
+    "credit": "Walther Otto Müller, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-772",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "식물이 햇빛을 받아 양분을 만드는 곳은?",
+   "choices": [
+    "잎",
+    "뿌리",
+    "씨"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🍃",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Acer_palmatum0.jpg/500px-Acer_palmatum0.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Acer_palmatum0.jpg/500px-Acer_palmatum0.jpg",
+    "credit": "Kurt Stüber [1], CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Acer_palmatum0.jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-773",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "벚꽃이 피면 어느 계절일까요?",
+   "choices": [
+    "봄",
+    "여름",
+    "가을"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌸",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg/500px-Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg/500px-Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg",
+    "credit": "TANAKA Juuyoh (田中十洋), CC BY 2.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sakura_and_Moss_Pink_-_%E6%A1%9C(%E3%81%95%E3%81%8F%E3%82%89)%E3%81%A8%E8%8A%9D%E6%A1%9C(%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89).jpg"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-774",
+   "subject": "자연",
+   "type": "choice",
+   "prompt": "무궁화는 어떤 꽃일까요?",
+   "choices": [
+    "우리나라를 대표하는 꽃",
+    "일본의 꽃",
+    "사막의 꽃"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌺",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Hibiscus_Syriacus.JPG/500px-Hibiscus_Syriacus.JPG",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Hibiscus_Syriacus.JPG/500px-Hibiscus_Syriacus.JPG",
+    "credit": "Eric Kounce TexasRaiser, CC BY-SA 3.0, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_Syriacus.JPG"
+   },
+   "group": "nat-wonder-식물",
+   "explain": "놀라운 자연 · 식물"
+  },
+  {
+   "id": "nat-775",
+   "subject": "자연",
+   "type": "choice",
    "prompt": "비가 오는 날에는 무엇을 챙길까요?",
    "choices": [
     "우산",
@@ -73144,7 +76268,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-634",
+   "id": "nat-776",
    "subject": "자연",
    "type": "choice",
    "prompt": "햇볕이 쨍쨍한 여름날 밖에 나갈 때 쓰면 좋은 것은?",
@@ -73161,7 +76285,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-635",
+   "id": "nat-777",
    "subject": "자연",
    "type": "choice",
    "prompt": "눈이 펑펑 오는 날 할 수 있는 놀이는?",
@@ -73178,7 +76302,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-636",
+   "id": "nat-778",
    "subject": "자연",
    "type": "choice",
    "prompt": "번개가 칠 때는 어디에 있어야 안전할까요?",
@@ -73195,7 +76319,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-637",
+   "id": "nat-779",
    "subject": "자연",
    "type": "choice",
    "prompt": "비가 그치고 해가 나면 하늘에 무엇이 생길 수 있을까요?",
@@ -73212,7 +76336,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-638",
+   "id": "nat-780",
    "subject": "자연",
    "type": "choice",
    "prompt": "바람이 많이 부는 날 하기 좋은 놀이는?",
@@ -73229,7 +76353,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-639",
+   "id": "nat-781",
    "subject": "자연",
    "type": "choice",
    "prompt": "구름이 해를 가려서 하늘이 회색이에요. 이런 날씨는?",
@@ -73246,7 +76370,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-640",
+   "id": "nat-782",
    "subject": "자연",
    "type": "choice",
    "prompt": "추운 겨울에 물이 얼면 무엇이 될까요?",
@@ -73263,7 +76387,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-641",
+   "id": "nat-783",
    "subject": "자연",
    "type": "choice",
    "prompt": "물이 끓으면 하얀 김이 나와요. 이 김은 무엇일까요?",
@@ -73280,7 +76404,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-642",
+   "id": "nat-784",
    "subject": "자연",
    "type": "choice",
    "prompt": "하늘에서 떨어지는 작은 얼음 알갱이는?",
@@ -73297,7 +76421,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-643",
+   "id": "nat-785",
    "subject": "자연",
    "type": "choice",
    "prompt": "아침에 풀잎에 맺힌 작은 물방울은?",
@@ -73314,7 +76438,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-644",
+   "id": "nat-786",
    "subject": "자연",
    "type": "choice",
    "prompt": "황사가 심한 날에는 무엇을 쓰면 좋을까요?",
@@ -73331,7 +76455,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-645",
+   "id": "nat-787",
    "subject": "자연",
    "type": "choice",
    "prompt": "씨앗이 자라는 순서에서 맨 처음은?",
@@ -73348,7 +76472,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-646",
+   "id": "nat-788",
    "subject": "자연",
    "type": "choice",
    "prompt": "씨앗 → 싹 → 줄기와 잎 → 꽃 → ?",
@@ -73365,7 +76489,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-647",
+   "id": "nat-789",
    "subject": "자연",
    "type": "choice",
    "prompt": "씨앗을 심고 나서 가장 먼저 나오는 것은?",
@@ -73382,7 +76506,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-648",
+   "id": "nat-790",
    "subject": "자연",
    "type": "choice",
    "prompt": "식물이 자라려면 꼭 필요한 것이 아닌 것은?",
@@ -73399,7 +76523,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-649",
+   "id": "nat-791",
    "subject": "자연",
    "type": "choice",
    "prompt": "식물이 땅속에서 물을 빨아들이는 부분은?",
@@ -73416,7 +76540,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-650",
+   "id": "nat-792",
    "subject": "자연",
    "type": "choice",
    "prompt": "알 → 애벌레 → 번데기 → ? 나비가 되는 순서예요",
@@ -73433,7 +76557,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-651",
+   "id": "nat-793",
    "subject": "자연",
    "type": "choice",
    "prompt": "개구리는 어릴 때 무엇이라고 부를까요?",
@@ -73450,7 +76574,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-652",
+   "id": "nat-794",
    "subject": "자연",
    "type": "choice",
    "prompt": "닭은 어릴 때 무엇이라고 부를까요?",
@@ -73467,7 +76591,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-653",
+   "id": "nat-795",
    "subject": "자연",
    "type": "choice",
    "prompt": "개는 어릴 때 무엇이라고 부를까요?",
@@ -73484,7 +76608,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-654",
+   "id": "nat-796",
    "subject": "자연",
    "type": "choice",
    "prompt": "소는 어릴 때 무엇이라고 부를까요?",
@@ -73501,7 +76625,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-655",
+   "id": "nat-797",
    "subject": "자연",
    "type": "choice",
    "prompt": "말은 어릴 때 무엇이라고 부를까요?",
@@ -73518,7 +76642,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-656",
+   "id": "nat-798",
    "subject": "자연",
    "type": "choice",
    "prompt": "나비의 애벌레가 실을 감고 쉬는 모습은?",
@@ -73535,7 +76659,7 @@
    "group": "nat-qa"
   },
   {
-   "id": "nat-657",
+   "id": "nat-799",
    "subject": "자연",
    "type": "choice",
    "prompt": "모기의 애벌레는 무엇이라고 부를까요?",
