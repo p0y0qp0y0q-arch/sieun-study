@@ -29,8 +29,7 @@ WORKS = """
 월하정인|신윤복|달빛 아래 이야기하는 두 사람|file:Hyewon-Wolha-jeongin-2.jpg
 미인도|신윤복|한복을 입은 여인|file:Hyewon-Miindo.jpg
 인왕제색도|정선|비가 그친 뒤의 바위산|file:Inwangjesaekdo.jpg
-초충도|신사임당|풀과 꽃과 벌레|file:Shin.Saimdang-Chochungdo-01.jpg
-수박과 들쥐|신사임당|수박을 갉아 먹는 쥐|file:Shin.Saimdang-Chochungdo-02.jpg
+여뀌와 사마귀|신사임당|꽃과 사마귀와 잠자리|file:Shin.Saimdang-Chochungdo-02.jpg
 꿩 깃털을 가지고 노는 강아지|이암|깃털을 물고 노는 강아지|file:Attributed_to_Yi_Am,_Korean_-_Puppy_Playing_with_a_Pheasant_Feather_-_Google_Art_Project.jpg
 피아노 치는 소녀들|르누아르|피아노를 치는 두 소녀|wp:Two Young Girls at the Piano
 물랭 드 라 갈레트의 무도회|르누아르|햇살 아래 춤추는 사람들|wp:Bal du moulin de la Galette
@@ -92,7 +91,7 @@ def build():
         # 1) 무엇이 그려져 있나요? (가장 쉬움)
         n += 1
         wp = [w for w in whats if w != r["what"]]
-        out.append(Q(f"art-{n:03d}", "미술", f"{pw['가']} 미술관에서 이 그림을 봤어요. 무엇이 그려져 있나요?" if i % 2 == 0 else "그림을 잘 보세요. 무엇이 그려져 있나요?",
+        out.append(Q(f"art-{n:03d}", "미술", "이 그림에는 무엇이 그려져 있나요?",
                      [r["what"]] + R.sample(wp, 2), 0, level=1, image=im, pool=wp, group="art-what", explain=ex))
         # 2) 제목 고르기 (힌트: 그림 내용)
         n += 1
@@ -122,7 +121,7 @@ def build():
             R = random.Random(n)
             o = R.sample(others, 2)
             pw = who(n, 33)
-            out.append(Q(f"art-{n:03d}", "미술", f"{pw['가']} {a}의 그림을 찾고 있어요. 어느 것일까요?",
+            out.append(Q(f"art-{n:03d}", "미술", f"{a}의 그림은 어느 것일까요?",
                          [mk(r)] + [mk(x) for x in o], 0, type="imageChoice", level=2, hint=PAINTER[a],
                          poolImages=[mk(x) for x in others], group="art-byartist", explain=f"〈{r['t']}〉 — {a}. {PAINTER[a]}"))
     # 6) 화가 이야기 (그림 없이)
