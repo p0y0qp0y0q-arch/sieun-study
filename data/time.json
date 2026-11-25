@@ -1,0 +1,1578 @@
+{
+ "subject": "시간",
+ "items": [
+  {
+   "id": "time-001",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "시계에서 짧은바늘은 무엇을 알려 줄까요?",
+   "choices": [
+    "시",
+    "분",
+    "초"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🕰️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-002",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "시계에서 긴바늘은 무엇을 알려 줄까요?",
+   "choices": [
+    "분",
+    "시",
+    "요일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🕰️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-003",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "긴바늘이 12를 가리키면 몇 분일까요?",
+   "choices": [
+    "정각(0분)",
+    "12분",
+    "30분"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🕛"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-004",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "긴바늘이 6을 가리키면 몇 분일까요?",
+   "choices": [
+    "30분",
+    "6분",
+    "60분"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🕡"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-005",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "긴바늘이 3을 가리키면 몇 분일까요?",
+   "choices": [
+    "15분",
+    "3분",
+    "30분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🕒"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-006",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "긴바늘이 9를 가리키면 몇 분일까요?",
+   "choices": [
+    "45분",
+    "9분",
+    "15분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🕘"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-007",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "긴바늘이 숫자 한 칸을 가면 몇 분이 지날까요?",
+   "choices": [
+    "5분",
+    "1분",
+    "10분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🕐"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-008",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "긴바늘이 시계를 한 바퀴 돌면 몇 분이 지날까요?",
+   "choices": [
+    "60분",
+    "12분",
+    "30분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🔄"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-009",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1시간은 몇 분일까요?",
+   "choices": [
+    "60분",
+    "10분",
+    "100분"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⏰"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-010",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "30분은 몇 시간일까요?",
+   "choices": [
+    "반 시간",
+    "한 시간",
+    "두 시간"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⏰"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-011",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "'3시 반'은 몇 시 몇 분과 같을까요?",
+   "choices": [
+    "3시 30분",
+    "3시 15분",
+    "3시 50분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🕞"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-012",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "'2시 반'은 몇 시 몇 분과 같을까요?",
+   "choices": [
+    "2시 30분",
+    "2시 20분",
+    "2시 50분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🕝"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-013",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1분은 몇 초일까요?",
+   "choices": [
+    "60초",
+    "10초",
+    "100초"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⏱️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-014",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "하루는 몇 시간일까요?",
+   "choices": [
+    "24시간",
+    "12시간",
+    "10시간"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌞"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-015",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "짧은바늘은 하루에 시계를 몇 바퀴 돌까요?",
+   "choices": [
+    "2바퀴",
+    "1바퀴",
+    "12바퀴"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🕰️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-016",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "일주일은 며칠일까요?",
+   "choices": [
+    "7일",
+    "5일",
+    "10일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-017",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1년은 몇 달일까요?",
+   "choices": [
+    "12달",
+    "10달",
+    "7달"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-018",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1년은 며칠일까요?",
+   "choices": [
+    "365일",
+    "100일",
+    "30일"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-019",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "2월은 보통 며칠까지 있을까요?",
+   "choices": [
+    "28일",
+    "31일",
+    "30일"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-020",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "3월은 며칠까지 있을까요?",
+   "choices": [
+    "31일",
+    "30일",
+    "28일"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-021",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "4월은 며칠까지 있을까요?",
+   "choices": [
+    "30일",
+    "31일",
+    "28일"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-022",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "월요일 다음 날은 무슨 요일일까요?",
+   "choices": [
+    "화요일",
+    "수요일",
+    "일요일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-023",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "금요일 다음 날은 무슨 요일일까요?",
+   "choices": [
+    "토요일",
+    "목요일",
+    "일요일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-024",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "토요일 다음 날은 무슨 요일일까요?",
+   "choices": [
+    "일요일",
+    "월요일",
+    "금요일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-025",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "수요일 바로 앞의 요일은 무엇일까요?",
+   "choices": [
+    "화요일",
+    "목요일",
+    "월요일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-026",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "일주일은 무슨 요일부터 시작할까요? (달력에서 맨 왼쪽)",
+   "choices": [
+    "일요일",
+    "월요일",
+    "토요일"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-027",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "주말은 무슨 요일과 무슨 요일일까요?",
+   "choices": [
+    "토요일과 일요일",
+    "월요일과 화요일",
+    "금요일과 월요일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏖️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-028",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "달력에서 빨간 글씨로 쓴 날은 보통 무슨 요일일까요?",
+   "choices": [
+    "일요일",
+    "수요일",
+    "목요일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-029",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1년의 첫 번째 달은 몇 월일까요?",
+   "choices": [
+    "1월",
+    "12월",
+    "3월"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎍"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-030",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1년의 마지막 달은 몇 월일까요?",
+   "choices": [
+    "12월",
+    "10월",
+    "1월"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎄"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-031",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "12월 다음 달은 몇 월일까요?",
+   "choices": [
+    "1월",
+    "13월",
+    "11월"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🎍"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-032",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "어린이날은 몇 월 며칠일까요?",
+   "choices": [
+    "5월 5일",
+    "3월 3일",
+    "10월 10일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧒"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-033",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "크리스마스는 몇 월 며칠일까요?",
+   "choices": [
+    "12월 25일",
+    "1월 1일",
+    "10월 25일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎄"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-034",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "한글날은 몇 월 며칠일까요?",
+   "choices": [
+    "10월 9일",
+    "5월 5일",
+    "3월 1일"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🇰🇷"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-035",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "새해 첫날은 몇 월 며칠일까요?",
+   "choices": [
+    "1월 1일",
+    "12월 31일",
+    "3월 1일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎍"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-036",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "삼일절은 몇 월 며칠일까요?",
+   "choices": [
+    "3월 1일",
+    "3월 3일",
+    "8월 15일"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🇰🇷"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-037",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "광복절은 몇 월 며칠일까요?",
+   "choices": [
+    "8월 15일",
+    "3월 1일",
+    "6월 6일"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🇰🇷"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-038",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "어버이날은 몇 월 며칠일까요?",
+   "choices": [
+    "5월 8일",
+    "5월 5일",
+    "5월 15일"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "💐"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-039",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "스승의 날은 몇 월 며칠일까요?",
+   "choices": [
+    "5월 15일",
+    "5월 8일",
+    "12월 25일"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🍎"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-040",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "오늘의 다음 날을 뭐라고 할까요?",
+   "choices": [
+    "내일",
+    "어제",
+    "그제"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "☀️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-041",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "오늘의 바로 전날을 뭐라고 할까요?",
+   "choices": [
+    "어제",
+    "내일",
+    "모레"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌙"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-042",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "내일의 다음 날을 뭐라고 할까요?",
+   "choices": [
+    "모레",
+    "어제",
+    "오늘"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-043",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "어제의 전날을 뭐라고 할까요?",
+   "choices": [
+    "그제",
+    "모레",
+    "내일"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-044",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "밤 12시부터 낮 12시 전까지를 뭐라고 할까요?",
+   "choices": [
+    "오전",
+    "오후",
+    "저녁"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-045",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "낮 12시부터 밤 12시 전까지를 뭐라고 할까요?",
+   "choices": [
+    "오후",
+    "오전",
+    "새벽"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌇"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-046",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "낮 12시를 다른 말로 뭐라고 할까요?",
+   "choices": [
+    "정오",
+    "자정",
+    "새벽"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "☀️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-047",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "밤 12시를 다른 말로 뭐라고 할까요?",
+   "choices": [
+    "자정",
+    "정오",
+    "아침"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🌙"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-048",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "아침에 학교에 가는 때는 오전일까요, 오후일까요?",
+   "choices": [
+    "오전",
+    "오후",
+    "밤"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏫"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-049",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "저녁밥을 먹는 때는 오전일까요, 오후일까요?",
+   "choices": [
+    "오후",
+    "오전",
+    "새벽"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍚"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-050",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "해가 뜨는 때는 언제일까요?",
+   "choices": [
+    "아침",
+    "저녁",
+    "한밤중"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌅"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-051",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "해가 지는 때는 언제일까요?",
+   "choices": [
+    "저녁",
+    "아침",
+    "낮 12시"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌇"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-052",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "점심밥은 보통 몇 시쯤 먹을까요?",
+   "choices": [
+    "12시",
+    "3시",
+    "9시"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍱"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-053",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "밤에 잠자리에 드는 시각으로 알맞은 것은?",
+   "choices": [
+    "밤 9시",
+    "낮 12시",
+    "아침 7시"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🛏️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-054",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "아침에 일어나는 시각으로 알맞은 것은?",
+   "choices": [
+    "아침 7시",
+    "밤 10시",
+    "오후 3시"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⏰"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-055",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "10분, 30분, 1시간 중에서 가장 긴 시간은?",
+   "choices": [
+    "1시간",
+    "10분",
+    "30분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⏳"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-056",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1분, 1시간, 1일 중에서 가장 짧은 시간은?",
+   "choices": [
+    "1분",
+    "1시간",
+    "1일"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⏳"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-057",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "가장 긴 시간은 무엇일까요?",
+   "choices": [
+    "1년",
+    "1달",
+    "1주일"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⏳"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-058",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "가장 짧은 시간은 무엇일까요?",
+   "choices": [
+    "1초",
+    "1분",
+    "1시간"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⏳"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-059",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "모래가 다 떨어지면 시간이 다 된 걸 알려 주는 시계는?",
+   "choices": [
+    "모래시계",
+    "손목시계",
+    "벽시계"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⏳"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-060",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "정해 둔 시각에 소리를 내서 깨워 주는 시계는?",
+   "choices": [
+    "자명종 시계",
+    "모래시계",
+    "해시계"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⏰"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-061",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "해의 그림자로 시각을 알았던 옛날 시계는?",
+   "choices": [
+    "해시계",
+    "모래시계",
+    "전자시계"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "☀️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-062",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "숫자로만 시각을 보여 주는 시계는?",
+   "choices": [
+    "디지털 시계",
+    "모래시계",
+    "해시계"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📟"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-063",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "'3:00'이라고 쓴 디지털 시계는 몇 시일까요?",
+   "choices": [
+    "3시",
+    "30분",
+    "3분"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📟"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-064",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "'7:30'이라고 쓴 디지털 시계는 몇 시 몇 분일까요?",
+   "choices": [
+    "7시 30분",
+    "7시 3분",
+    "30시 7분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📟"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-065",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "'10:15'라고 쓴 디지털 시계는 몇 시 몇 분일까요?",
+   "choices": [
+    "10시 15분",
+    "10시 1분",
+    "15시 10분"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "📟"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-066",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1시간 동안 짧은바늘은 숫자 몇 칸을 갈까요?",
+   "choices": [
+    "1칸",
+    "12칸",
+    "5칸"
+   ],
+   "answer": 0,
+   "level": 3,
+   "image": {
+    "fallbackEmoji": "🕰️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-067",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "1시간 동안 긴바늘은 몇 바퀴를 돌까요?",
+   "choices": [
+    "1바퀴",
+    "12바퀴",
+    "반 바퀴"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🕰️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-068",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "봄은 몇 월부터 시작할까요?",
+   "choices": [
+    "3월",
+    "6월",
+    "12월"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🌸"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-069",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "여름에 있는 달은 어느 것일까요?",
+   "choices": [
+    "7월",
+    "1월",
+    "10월"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "☀️"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-070",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "가을에 있는 달은 어느 것일까요?",
+   "choices": [
+    "10월",
+    "4월",
+    "7월"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🍁"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-071",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "겨울에 있는 달은 어느 것일까요?",
+   "choices": [
+    "1월",
+    "5월",
+    "8월"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "⛄"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-072",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "크리스마스는 어느 계절에 있을까요?",
+   "choices": [
+    "겨울",
+    "여름",
+    "봄"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎄"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-073",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "어린이날은 어느 계절에 있을까요?",
+   "choices": [
+    "봄",
+    "겨울",
+    "가을"
+   ],
+   "answer": 0,
+   "level": 2,
+   "image": {
+    "fallbackEmoji": "🧒"
+   },
+   "group": "time-fact"
+  },
+  {
+   "id": "time-074",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "일어나기",
+    "아침밥 먹기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "⏰"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-075",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "세수하기",
+    "학교 가기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🧼"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-076",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "학교 가기",
+    "집에 오기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🏫"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-077",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "점심밥 먹기",
+    "저녁밥 먹기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍱"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-078",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "저녁밥 먹기",
+    "잠자기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍚"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-079",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "이 닦기",
+    "잠자기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🪥"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-080",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "씨앗 심기",
+    "꽃 피기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌱"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-081",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "봄",
+    "여름"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌸"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-082",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "여름",
+    "가을"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "☀️"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-083",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "가을",
+    "겨울"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🍁"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-084",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "아침",
+    "저녁"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🌅"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-085",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "월요일",
+    "화요일"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📅"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-086",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "1월",
+    "2월"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "🎍"
+   },
+   "group": "time-order"
+  },
+  {
+   "id": "time-087",
+   "subject": "시간",
+   "type": "choice",
+   "prompt": "둘 중에서 먼저 오는 것은 무엇일까요?",
+   "choices": [
+    "어제",
+    "오늘"
+   ],
+   "answer": 0,
+   "level": 1,
+   "image": {
+    "fallbackEmoji": "📆"
+   },
+   "group": "time-order"
+  }
+ ],
+ "generators": [
+  {
+   "id": "gen-tHour",
+   "gen": "tHour",
+   "level": 1,
+   "weight": 3,
+   "title": "몇 시 (정각)"
+  },
+  {
+   "id": "gen-tHalf",
+   "gen": "tHalf",
+   "level": 1,
+   "weight": 3,
+   "title": "몇 시 30분"
+  },
+  {
+   "id": "gen-tFind",
+   "gen": "tFind",
+   "level": 1,
+   "weight": 2,
+   "title": "시각에 맞는 시계 찾기"
+  },
+  {
+   "id": "gen-tInputHalf",
+   "gen": "tInputHalf",
+   "level": 1,
+   "weight": 3,
+   "title": "시·분 직접 고르기 (정각·30분)"
+  },
+  {
+   "id": "gen-calDay",
+   "gen": "calDay",
+   "level": 1,
+   "weight": 2,
+   "title": "달력 요일 찾기"
+  },
+  {
+   "id": "gen-dayNext",
+   "gen": "dayNext",
+   "level": 1,
+   "weight": 2,
+   "title": "어제·내일·모레"
+  },
+  {
+   "id": "gen-monthNext",
+   "gen": "monthNext",
+   "level": 1,
+   "weight": 1,
+   "title": "다음 달"
+  },
+  {
+   "id": "gen-tQuarter",
+   "gen": "tQuarter",
+   "level": 2,
+   "weight": 2,
+   "title": "15분·45분"
+  },
+  {
+   "id": "gen-tInputQuarter",
+   "gen": "tInputQuarter",
+   "level": 2,
+   "weight": 2,
+   "title": "시·분 직접 고르기 (15분 단위)"
+  },
+  {
+   "id": "gen-tDigital",
+   "gen": "tDigital",
+   "level": 2,
+   "weight": 2,
+   "title": "디지털 시계와 같은 시계"
+  },
+  {
+   "id": "gen-tLater",
+   "gen": "tLater",
+   "level": 2,
+   "weight": 2,
+   "title": "몇 시간 뒤"
+  },
+  {
+   "id": "gen-calAfter",
+   "gen": "calAfter",
+   "level": 2,
+   "weight": 2,
+   "title": "일주일 뒤·며칠 뒤"
+  },
+  {
+   "id": "gen-calCount",
+   "gen": "calCount",
+   "level": 2,
+   "weight": 1,
+   "title": "달력에서 요일 세기"
+  },
+  {
+   "id": "gen-t5",
+   "gen": "t5",
+   "level": 3,
+   "weight": 3,
+   "title": "5분 단위 읽기"
+  },
+  {
+   "id": "gen-tInput5",
+   "gen": "tInput5",
+   "level": 3,
+   "weight": 3,
+   "title": "시·분 직접 고르기 (5분 단위)"
+  }
+ ],
+ "key": "time"
+}

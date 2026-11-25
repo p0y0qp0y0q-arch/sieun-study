@@ -28,13 +28,17 @@
   function clockSVG(h, m) {
     const ha = ((h % 12) + m / 60) * 30, ma = m * 6;
     let ticks = '';
+    for (let i = 0; i < 60; i++) {
+      const a = i * 6 * Math.PI / 180, big = i % 5 === 0, r1 = big ? 80 : 84;
+      ticks += `<line x1="${100 + r1 * Math.sin(a)}" y1="${100 - r1 * Math.cos(a)}" x2="${100 + 89 * Math.sin(a)}" y2="${100 - 89 * Math.cos(a)}" stroke="${big ? '#3b2f2f' : '#b9a9a0'}" stroke-width="${big ? 2.5 : 1.2}"/>`;
+    }
     for (let i = 1; i <= 12; i++) {
       const a = (i * 30 - 90) * Math.PI / 180;
-      ticks += `<text x="${100 + 72 * Math.cos(a)}" y="${100 + 72 * Math.sin(a) + 8}" font-size="22" text-anchor="middle" fill="#3b2f2f">${i}</text>`;
+      ticks += `<text x="${100 + 66 * Math.cos(a)}" y="${100 + 66 * Math.sin(a) + 8}" font-size="22" font-weight="700" font-family="sans-serif" text-anchor="middle" fill="#3b2f2f">${i}</text>`;
     }
-    return `<svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="94" fill="#fff" stroke="#ff8fab" stroke-width="8"/>${ticks}
-      <line x1="100" y1="100" x2="${100 + 45 * Math.sin(ha * Math.PI / 180)}" y2="${100 - 45 * Math.cos(ha * Math.PI / 180)}" stroke="#3b2f2f" stroke-width="9" stroke-linecap="round"/>
-      <line x1="100" y1="100" x2="${100 + 68 * Math.sin(ma * Math.PI / 180)}" y2="${100 - 68 * Math.cos(ma * Math.PI / 180)}" stroke="#e2577e" stroke-width="5" stroke-linecap="round"/>
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle cx="100" cy="100" r="94" fill="#fff" stroke="#ff8fab" stroke-width="8"/>${ticks}
+      <line x1="100" y1="100" x2="${100 + 40 * Math.sin(ha * Math.PI / 180)}" y2="${100 - 40 * Math.cos(ha * Math.PI / 180)}" stroke="#3b2f2f" stroke-width="10" stroke-linecap="round"/>
+      <line x1="100" y1="100" x2="${100 + 60 * Math.sin(ma * Math.PI / 180)}" y2="${100 - 60 * Math.cos(ma * Math.PI / 180)}" stroke="#e2577e" stroke-width="5" stroke-linecap="round"/>
       <circle cx="100" cy="100" r="7" fill="#3b2f2f"/></svg>`;
   }
   const SHAPES = {
@@ -294,6 +298,131 @@
     }
     return null;
   }
+
+  // ---------- 시간 (시계·달력) ----------
+  const tl = (h, m) => `${h}시` + (m ? ` ${m}분` : '');          // 3시 / 3시 30분
+  const hAdd = (h, k) => ((h - 1 + k) % 12 + 12) % 12 + 1;
+  const clockBox = (h, m) => `<div class="svgbox clock">${clockSVG(h, m)}</div>`;
+  const clockImg = (h, m) => ({ url: 'data:image/svg+xml;utf8,' + encodeURIComponent(clockSVG(h, m)), fallbackEmoji: '🕒' });
+  // 시와 분을 모두 봐야 맞힐 수 있는 3지선다: [정답, 시는 같고 분이 다름, 분은 같고 시가 다름]
+  function timeChoices(h, m, mins) {
+    const otherM = shuffle(mins.filter(x => x !== m))[0];
+    const hourErr = m >= 30 ? hAdd(h, 1) : pick([hAdd(h, 1), hAdd(h, -1)]); // 짧은바늘이 다음 숫자 쪽에 있을 때 헷갈림
+    return { choices: [tl(h, m), tl(h, otherM), tl(hourErr, m)], answer: 0 };
+  }
+  G.tHour = () => {
+    const h = R(1, 12);
+    const wrong = shuffle([...new Set([hAdd(h, 1), hAdd(h, -1), h === 12 ? 6 : 12])].filter(x => x !== h)).slice(0, 2);
+    return { prompt: '시계가 가리키는 시각은 몇 시일까요?', html: clockBox(h, 0), choices: [tl(h, 0), ...wrong.map(x => tl(x, 0))], answer: 0,
+      explain: `짧은바늘이 ${h}, 긴바늘이 12를 가리키면 ${h}시예요.` };
+  };
+  G.tHalf = () => {
+    const h = R(1, 12);
+    return { prompt: '시계가 가리키는 시각은 몇 시 몇 분일까요?', html: clockBox(h, 30), ...timeChoices(h, 30, [0, 30, 15, 45]),
+      explain: `긴바늘이 6을 가리키면 30분이에요. 짧은바늘은 ${h}${J(String(h), '과', '와')} ${hAdd(h, 1)} 사이에 있으니까 ${h}시 30분!` };
+  };
+  G.tQuarter = () => {
+    const h = R(1, 12), m = pick([15, 45]);
+    return { prompt: '시계가 가리키는 시각은 몇 시 몇 분일까요?', html: clockBox(h, m), ...timeChoices(h, m, [0, 15, 30, 45]),
+      explain: `긴바늘이 ${m / 5}${J(String(m / 5), '을', '를')} 가리키면 ${m}분이에요.` };
+  };
+  G.t5 = () => {
+    const h = R(1, 12), m = 5 * R(1, 11);
+    const r = timeChoices(h, m, [m / 5, 5 * R(1, 11), m + 5 > 55 ? m - 5 : m + 5].filter(x => x !== m && x > 0 && x < 60));
+    return { prompt: '시계가 가리키는 시각은 몇 시 몇 분일까요?', html: clockBox(h, m), ...r,
+      explain: `긴바늘이 가리키는 숫자에 5를 곱하면 분이에요. ${m / 5} × 5 = ${m}, 그래서 ${tl(h, m)}!` };
+  };
+  G.tFind = () => {
+    const h = R(1, 12), m = pick([0, 0, 30, 30, 15, 45]);
+    const swapH = m === 0 ? 12 : m / 5, swapM = (h % 12) * 5;   // 긴바늘·짧은바늘을 바꿔 본 시계
+    let others = [[swapH, swapM], [hAdd(h, 1), m]];
+    if (swapH === h && swapM === m) others[0] = [hAdd(h, -1), m];
+    return { type: 'imageChoice', clocks: true, prompt: `${J(tl(h, m), '을', '를')} 가리키는 시계를 골라요.`, choices: [clockImg(h, m), ...others.map(([a, b]) => clockImg(a, b))], answer: 0,
+      explain: '짧은바늘은 시, 긴바늘은 분을 가리켜요.' };
+  };
+  G.tDigital = () => {
+    const h = R(1, 12), m = pick([0, 30, 15, 45, 5 * R(1, 11)]);
+    const others = [[hAdd(h, 1), m], [h, (m + 30) % 60]];
+    return { type: 'imageChoice', clocks: true, prompt: '디지털 시계와 같은 시각을 가리키는 시계를 골라요.', display: `${h}:${String(m).padStart(2, '0')}`, displayClass: 'digital',
+      speak: `디지털 시계와 같은 시각을 가리키는 시계를 골라요. ${tl(h, m)}`,
+      choices: [clockImg(h, m), ...others.map(([a, b]) => clockImg(a, b))], answer: 0 };
+  };
+  // 직접 고르기: 시 버튼 + 분 버튼
+  function clockInput(steps) {
+    const h = R(1, 12), m = pick(steps);
+    return { type: 'clockInput', prompt: '시계를 보고 몇 시 몇 분인지 직접 골라요.', html: clockBox(h, m), h, m,
+      minutes: steps.length > 4 ? [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55] : steps.length > 2 ? [0, 15, 30, 45] : [0, 30],
+      choices: [tl(h, m)], answer: 0 };
+  }
+  G.tInputHalf = () => clockInput([0, 30]);
+  G.tInputQuarter = () => clockInput([0, 15, 30, 45]);
+  G.tInput5 = () => clockInput([0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55]);
+  G.tLater = () => {
+    const h = R(1, 11), m = pick([0, 30]);
+    if (Math.random() < 0.6) {
+      const k = R(1, 3), a = hAdd(h, k);
+      return { prompt: `지금 시계를 보세요. ${k}시간 뒤는 몇 시일까요?`, html: clockBox(h, m), choices: [tl(a, m), tl(hAdd(h, -k), m), tl(hAdd(a, 1), m)], answer: 0,
+        explain: `${tl(h, m)}에서 ${k}시간 뒤는 ${tl(a, m)}예요.` };
+    }
+    const after = m === 0 ? tl(h, 30) : tl(hAdd(h, 1), 0);
+    const w = m === 0 ? [tl(h + 1, 0), tl(h, 0)] : [tl(h, 0), tl(hAdd(h, 1), 30)];
+    return { prompt: '지금 시계를 보세요. 30분 뒤는 몇 시 몇 분일까요?', html: clockBox(h, m), choices: [after, ...w], answer: 0,
+      explain: '긴바늘이 한 바퀴의 반을 돌면 30분이 지나요.' };
+  };
+  // 달력
+  const WD = ['일', '월', '화', '수', '목', '금', '토'];
+  function calHTML(y, mo, mark) {
+    const first = new Date(y, mo - 1, 1).getDay(), days = new Date(y, mo, 0).getDate();
+    let h = `<div class="cal"><div class="cal-title">${y}년 ${mo}월</div><table><tr>${WD.map((w, i) => `<th class="${i === 0 ? 'sun' : i === 6 ? 'sat' : ''}">${w}</th>`).join('')}</tr><tr>`;
+    for (let i = 0; i < first; i++) h += '<td></td>';
+    for (let d = 1; d <= days; d++) {
+      const wd = (first + d - 1) % 7;
+      h += `<td class="${wd === 0 ? 'sun' : wd === 6 ? 'sat' : ''}${mark && mark.includes(d) ? ' mark' : ''}">${d}</td>`;
+      if (wd === 6 && d < days) h += '</tr><tr>';
+    }
+    return h + '</tr></table></div>';
+  }
+  const ym = () => ({ y: pick([2026, 2027]), mo: R(1, 12) });
+  G.calDay = () => {
+    const { y, mo } = ym(), days = new Date(y, mo, 0).getDate(), d = R(1, days), wd = new Date(y, mo - 1, d).getDay();
+    return { prompt: `달력을 보세요. ${mo}월 ${d}일은 무슨 요일일까요?`, html: calHTML(y, mo),
+      choices: [WD[wd] + '요일', WD[(wd + 1) % 7] + '요일', WD[(wd + 6) % 7] + '요일'], answer: 0 };
+  };
+  G.calCount = () => {
+    const { y, mo } = ym(), wd = R(0, 6), first = new Date(y, mo - 1, 1).getDay(), days = new Date(y, mo, 0).getDate();
+    let n = 0; for (let d = 1; d <= days; d++) if ((first + d - 1) % 7 === wd) n++;
+    return { prompt: `달력을 보세요. ${mo}월에 ${WD[wd]}요일은 모두 몇 번 있나요?`, html: calHTML(y, mo), choices: [`${n}번`, `${n === 4 ? 5 : 4}번`, `${n === 4 ? 3 : 6}번`], answer: 0 };
+  };
+  G.calAfter = () => {
+    const { y, mo } = ym(), days = new Date(y, mo, 0).getDate();
+    const kind = pick(['week', 'week', 'days', 'before']);
+    if (kind === 'week') {
+      const d = R(1, days - 7);
+      return { prompt: `오늘은 ${mo}월 ${d}일이에요. 일주일 뒤는 며칠일까요?`, html: calHTML(y, mo, [d]), choices: [`${d + 7}일`, `${d + 1}일`, `${d + 6}일`], answer: 0,
+        explain: '일주일은 7일이에요. 달력에서 바로 아래 칸이 일주일 뒤예요.' };
+    }
+    if (kind === 'before') {
+      const d = R(9, days);
+      return { prompt: `오늘은 ${mo}월 ${d}일이에요. 일주일 전은 며칠일까요?`, html: calHTML(y, mo, [d]), choices: [`${d - 7}일`, `${d - 1}일`, `${d + 7 <= days ? d + 7 : d - 6}일`], answer: 0,
+        explain: '일주일 전은 달력에서 바로 위 칸이에요.' };
+    }
+    const d = R(1, days - 5), k = R(2, 5);
+    return { prompt: `오늘은 ${mo}월 ${d}일이에요. ${k}일 뒤는 며칠일까요?`, html: calHTML(y, mo, [d]), ...numChoices(d + k, [d + k + 1, d + k - 1, d + k + 7]), suffix: '일' };
+  };
+  G.dayNext = () => {
+    const w = R(0, 6), kind = pick(['내일', '어제', '모레']);
+    const off = { 내일: 1, 어제: -1, 모레: 2 }[kind], a = (w + off + 7) % 7;
+    const set = new Set([a]); for (const x of shuffle([(w + 7 - off) % 7, w, (a + 1) % 7, (a + 6) % 7])) { if (set.size >= 3) break; set.add(x); }
+    return { prompt: `오늘이 ${WD[w]}요일이면 ${J(kind, '은', '는')} 무슨 요일일까요?`, choices: [...set].map(x => WD[x] + '요일'), answer: 0,
+      explain: '일, 월, 화, 수, 목, 금, 토 순서로 돌아요.' };
+  };
+  G.monthNext = () => {
+    const m = R(1, 12), k = pick([1, 1, 2, 3]), a = (m - 1 + k) % 12 + 1;
+    const set = new Set([a]); for (const x of shuffle([(m + 10) % 12 + 1, (a % 12) + 1, m, ((a + 10) % 12) + 1])) { if (set.size >= 3) break; set.add(x); }
+    return { prompt: k === 1 ? `${m}월 다음 달은 몇 월일까요?` : `${m}월에서 ${k}달 뒤는 몇 월일까요?`, choices: [...set].map(x => x + '월'), answer: 0,
+      explain: '12월 다음에는 다시 1월이 와요.' };
+  };
+
   const SHOP_FALLBACK = '{N가} {i1}{와} {i2}{를} 샀어요. 모두 얼마일까요?';
 
   window.GEN = { G, wordProblem, shopProblem, shuffle, pick, R, batchim, J, person, fillTemplate };

@@ -191,3 +191,33 @@ button { font: inherit; color: inherit; border: 0; background: none; cursor: poi
 .tool-grid .tool { min-height: 46px; font-size: 17px; border-radius: 14px; padding: 6px 4px; }
 .palette button { width: 40px; height: 40px; }
 #canvas { height: calc(100vh - 330px); min-height: 260px; }
+
+/* ---------- 시간: 시계·달력 ---------- */
+.svgbox.clock { width: 230px; margin: 0 auto; }
+.display.digital { font-family: "Courier New", ui-monospace, monospace; background: #2b2b2b; color: #7dff9b; border-radius: 14px; padding: 8px 22px; letter-spacing: 4px; font-size: 44px; display: inline-block; }
+.cal { background: #fff; border-radius: 14px; padding: 8px; box-shadow: 0 2px 0 #f0e2d6; max-width: 340px; margin: 0 auto; }
+.cal-title { text-align: center; font-weight: 800; font-size: 19px; margin-bottom: 4px; }
+.cal table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.cal th, .cal td { text-align: center; padding: 5px 0; font-size: 17px; }
+.cal th { font-size: 15px; color: #6b5a50; }
+.cal .sun { color: #e03131; }
+.cal .sat { color: #1c7ed6; }
+.cal td.mark { background: #ffd43b; border-radius: 50%; font-weight: 800; color: #3b2f2f; }
+.clock-input { display: flex; flex-direction: column; gap: 6px; }
+.ci-read { text-align: center; font-size: 26px; font-weight: 700; }
+.ci-read b { display: inline-block; min-width: 44px; padding: 0 6px; border-bottom: 3px solid #ff8fab; color: #d6336c; }
+.ci-label { font-size: 16px; font-weight: 700; color: #6b5a50; margin-top: 2px; }
+.ci-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.ci-row.mins { grid-template-columns: repeat(4, 1fr); }
+.ci-row.mins.many { grid-template-columns: repeat(6, 1fr); }
+.ci { min-height: 48px; border: none; border-radius: 12px; background: #fff; box-shadow: 0 3px 0 #ead9cc; font-size: 21px; font-weight: 700; color: #3b2f2f; padding: 0; }
+.ci-row.mins.many .ci { font-size: 16px; }
+.ci.sel { background: #ffd6e0; box-shadow: 0 3px 0 #ff8fab; }
+.ci.wrong { background: #ffe3e3; color: #c92a2a; }
+.ci.correct { background: #d3f9d8; box-shadow: 0 3px 0 #69db7c; }
+.ci-ok { margin-top: 6px; }
+.ci-ok:disabled { opacity: .45; }
+.choices.img.clocks { grid-template-columns: repeat(2, 1fr); justify-items: stretch; }
+.choices.img.clocks .choice:nth-child(3) { grid-column: 1 / span 2; width: calc(50% - 6px); justify-self: center; }
+.choices.img.clocks .choice .thumb { background: #fff; }
+.choices.img.clocks .choice .thumb img { object-fit: contain; }

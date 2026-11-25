@@ -10,6 +10,7 @@
     { key: 'english', name: '영어', icon: '🔤' },
     { key: 'calc', name: '연산', icon: '➕' },
     { key: 'math', name: '창의 수학', icon: '🧩' },
+    { key: 'time', name: '시간', icon: '🕰️' },
     { key: 'hanja', name: '한자', icon: '🀄' },
     { key: 'art', name: '미술', icon: '🖼️' },
     { key: 'world', name: '세계', icon: '🌏' },
@@ -24,7 +25,7 @@
     { key: 'draw', name: '그림', icon: '🎨', draw: true },
   ];
   // 생성기 문제 비율(하루 10문제 중)
-  const GEN_SHARE = { calc: 10, math: 4, store: 5, hanja: 2 };
+  const GEN_SHARE = { calc: 10, math: 4, time: 7, store: 5, hanja: 2 };
 
   const PRAISE = ['시은아, 정답이야! 🎉', '역시 시은이!', '시은이 천재인걸?', '우와, 맞았어요! 👏', '최고예요, 시은아!', '딩동댕! 정답!', '시은이 정말 똑똑하다!', '멋져요! ⭐', '척척박사 시은이!', '와, 대단해요!'];
   const RETRY = ['아깝다, 시은아! 한 번 더 해볼까?', '괜찮아, 다시 해볼까?', '조금만 더 생각해 볼까?', '천천히 다시 골라 봐요!'];
@@ -75,8 +76,10 @@
   function mathSpeech(t) {
     return String(t).replace(/(\d|□)\s*\+\s*/g, '$1 더하기 ').replace(/(\d|□)\s*[−-]\s*(?=\d|□)/g, '$1 빼기 ').replace(/\s*=\s*/g, ' 은 ').replace(/→/g, '은').replace(/\?$/, '');
   }
+  const NATIVE = ['', '한', '두', '세', '네', '다섯', '여섯', '일곱', '여덟', '아홉', '열', '열한', '열두'];
   function cleanForSpeech(t) {
-    return String(t).replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}️‍]/gu, '').replace(/□/g, '네모').replace(/\(\s*\?\s*\)/g, '빈칸').replace(/[〈〉'"]/g, ' ');
+    return String(t).replace(/(\d{1,2})\s?(시간|시|바퀴|달)(?![가-힣]*요일)/g, (m0, n, u) => { n = +n; if (n === 24) return '스물네 ' + u; return n >= 1 && n <= 12 ? NATIVE[n] + ' ' + u : m0; })
+      .replace(/(^|[^\d])6월/g, '$1유월').replace(/(^|[^\d])10월/g, '$1시월').replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}️‍]/gu, '').replace(/□/g, '네모').replace(/\(\s*\?\s*\)/g, '빈칸').replace(/[〈〉'"]/g, ' ');
   }
 
   // ---------- 효과음 (칭찬 소리) ----------
@@ -190,6 +193,7 @@
       q.type = q.type || 'choice';
       q.review = entry.review;
     }
+    if (q.type === 'clockInput') { q._choices = []; return q; }
     // 오답 보기 바꾸기
     const isImg = q.type === 'imageChoice';
     let correct = q.choices[q.answer];
@@ -313,6 +317,7 @@
     if (q.display) {
       const d = document.createElement('div');
       d.className = 'display' + (q.display.length > 12 ? ' sentence' : '') + (q.display.length <= 2 ? ' huge' : '') + (/^[一-鿿]+$/.test(q.display) || q.hanja ? ' hanja' : '');
+      if (q.displayClass) d.classList.add(q.displayClass);
       if (q.displayLang) d.lang = q.displayLang;
       d.textContent = q.display;
       if (q.displayLang && q.displayLang.startsWith('en')) d.style.fontFamily = '"Comic Sans MS","Chalkboard SE",system-ui,sans-serif';
@@ -342,8 +347,10 @@
     const box = $('#choices'); box.innerHTML = '';
     box.className = 'choices';
     if (q.type === 'sort') return renderSort(q, media, box);
+    if (q.type === 'clockInput') return renderClockInput(q, box);
     const isImg = q.type === 'imageChoice';
     if (isImg) box.classList.add('img');
+    if (q.clocks) box.classList.add('clocks');
     else if (q._choices.length === 3 && q._choices.every(c => String(c.c).length <= 3)) box.classList.add('grid3');
     else if (q._choices.length === 2 && q._choices.every(c => String(c.c).length <= 8)) box.classList.add('two');
     q._choices.forEach((ch, i) => {
@@ -469,6 +476,54 @@
       c.appendChild(e);
     }
     setTimeout(() => c.innerHTML = '', 6000);
+  }
+
+  // ---------- 시계: 시·분 직접 고르기 ----------
+  function renderClockInput(q, box) {
+    box.className = 'clock-input';
+    const mLabel = (m) => m === 0 ? '정각' : m + '분';
+    box.innerHTML = `<div class="ci-read"><b id="ciH">?</b>시 <b id="ciM">?</b></div>
+      <div class="ci-label">짧은바늘 👉 몇 시?</div><div class="ci-row hours">${Array.from({ length: 12 }, (_, i) => `<button class="ci" data-h="${i + 1}">${i + 1}</button>`).join('')}</div>
+      <div class="ci-label">긴바늘 👉 몇 분?</div><div class="ci-row mins ${q.minutes.length > 4 ? 'many' : ''}">${q.minutes.map(m => `<button class="ci" data-m="${m}">${mLabel(m)}</button>`).join('')}</div>
+      <button class="next-btn ci-ok" disabled>확인 ✔</button>`;
+    let sh = null, sm = null;
+    const ok = box.querySelector('.ci-ok');
+    const upd = () => {
+      box.querySelectorAll('[data-h]').forEach(b => b.classList.toggle('sel', +b.dataset.h === sh));
+      box.querySelectorAll('[data-m]').forEach(b => b.classList.toggle('sel', +b.dataset.m === sm));
+      $('#ciH').textContent = sh == null ? '?' : sh;
+      $('#ciM').textContent = sm == null ? '?' : (sm === 0 ? '정각' : sm + '분');
+      ok.disabled = sh == null || sm == null || cur.answered;
+    };
+    box.querySelectorAll('[data-h]').forEach(b => b.onclick = () => { if (cur.answered) return; sh = +b.dataset.h; b.classList.remove('wrong'); upd(); speak(sh + '시'); });
+    box.querySelectorAll('[data-m]').forEach(b => b.onclick = () => { if (cur.answered) return; sm = +b.dataset.m; b.classList.remove('wrong'); upd(); speak(mLabel(sm)); });
+    ok.onclick = () => {
+      if (cur.answered || sh == null || sm == null) return;
+      const okH = sh === q.h, okM = sm === q.m, fb = $('#feedback');
+      const ansTxt = `${q.h}시` + (q.m ? ` ${q.m}분` : '');
+      const explain = `짧은바늘은 ${q.h}${q.m ? ' 근처' : ''}, 긴바늘은 ${q.m === 0 ? 12 : q.m / 5}에 있어요. 그래서 ${ansTxt}!`;
+      const finish = (right) => {
+        cur.answered = true;
+        box.querySelectorAll('.ci').forEach(b => b.disabled = true); ok.classList.add('hidden');
+        box.querySelector(`[data-h="${q.h}"]`).classList.add('correct'); box.querySelector(`[data-m="${q.m}"]`).classList.add('correct');
+        $('#nextBtn').classList.remove('hidden');
+        const msg = right ? pick(PRAISE) : pick(SHOW);
+        fb.className = 'feedback ' + (right ? 'ok' : 'no'); fb.innerHTML = msg + `<span class="explain">${right ? '' : '정답: ' + ansTxt + '. '}${explain}</span>`;
+        sayPhrase(msg);
+      };
+      if (okH && okM) { chime(true); const first = cur.tries === 0; record(true, first); flyStar(); return finish(true); }
+      cur.tries++; chime(false);
+      if (cur.tries === 1) {
+        if (!okH) { box.querySelector(`[data-h="${sh}"]`).classList.add('wrong'); sh = null; }
+        if (!okM) { box.querySelector(`[data-m="${sm}"]`).classList.add('wrong'); sm = null; }
+        const msg = okH ? '시는 맞았어요! 긴바늘을 다시 볼까요?' : okM ? '분은 맞았어요! 짧은바늘을 다시 볼까요?' : pick(RETRY);
+        fb.className = 'feedback no'; fb.textContent = msg; sayPhrase(msg); upd();
+        return;
+      }
+      record(false, false); finish(false);
+    };
+    upd();
+    speakQuestion(q);
   }
 
   // ---------- 분리수거: 끌어다 놓기 ----------
