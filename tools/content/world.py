@@ -1,6 +1,11 @@
 from common import Q, img, who
 import random
 
+# 국기 문제에 쓰는 유명한 나라 (앞쪽 15개는 레벨 1)
+FAMOUS = ["대한민국", "일본", "중국", "미국", "영국", "프랑스", "캐나다", "독일", "이탈리아", "브라질", "호주", "인도", "스위스", "베트남", "태국",
+          "몽골", "필리핀", "러시아", "스페인", "네덜란드", "그리스", "튀르키예", "멕시코", "아르헨티나", "이집트", "케냐",
+          "남아프리카 공화국", "뉴질랜드", "사우디아라비아", "스웨덴"]
+
 # 나라|대륙|국기 파일명(Commons)
 COUNTRIES = """
 대한민국|아시아|Flag_of_South_Korea.svg
@@ -209,19 +214,20 @@ def build():
     cs = [l.split("|") for l in COUNTRIES]
     names = [c[0] for c in cs]
     flag = {c[0]: img("file:" + c[2], "🏳️", flag=True) for c in cs}
-    for i, (nm, cont, f) in enumerate(cs):
+    # 국기는 아이에게 익숙한 나라 30개만 (나라마다 2문제 = 60문제)
+    famous = [c for c in cs if c[0] in FAMOUS]
+    fnames = [c[0] for c in famous]
+    for i, (nm, cont, f) in enumerate(famous):
         R = random.Random(i)
-        pool = [x for x in names if x != nm]
-        same = [x for x in names if x != nm and dict((c[0], c[1]) for c in cs)[x] == cont]
-        pw = who(i, 41)
+        pool = [x for x in fnames if x != nm]
         n += 1
         out.append(Q(f"wld-{n:03d}", "세계", "이 국기는 어느 나라 국기일까요?",
-                     [nm] + R.sample(same if len(same) >= 2 else pool, 2), 0, level=1 if i < 30 else 2,
-                     image=flag[nm], pool=same if len(same) >= 4 else pool, group="wld-flag"))
+                     [nm] + R.sample(pool, 2), 0, level=1 if nm in FAMOUS[:15] else 2,
+                     image=flag[nm], pool=pool, group="wld-flag"))
         n += 1
-        o = R.sample(same if len(same) >= 2 else pool, 2)
+        o = R.sample(pool, 2)
         out.append(Q(f"wld-{n:03d}", "세계", f"{nm}의 국기는 어느 것일까요?", [flag[nm]] + [flag[x] for x in o], 0,
-                     type="imageChoice", level=2, poolImages=[flag[x] for x in (same if len(same) >= 4 else pool)], group="wld-flag2"))
+                     type="imageChoice", level=1 if nm in FAMOUS[:15] else 2, poolImages=[flag[x] for x in pool], group="wld-flag2"))
         if i % 2 == 0:
             n += 1
             conts = ["아시아", "유럽", "아프리카", "북아메리카", "남아메리카", "오세아니아"]
