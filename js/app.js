@@ -712,6 +712,12 @@
       <label>한국어 <select id="voiceKo"></select></label><br>
       <label>영어 <select id="voiceEn"></select></label><br>
       <label>빠르기 <select id="speechRate"><option value="0.85">천천히</option><option value="1">보통</option><option value="1.15">조금 빠르게</option></select></label><br>
+      <h3 style="margin:18px 0 4px">📲 기록 옮기기 (다른 폰과 합치기)</h3>
+      <p style="font-size:14px;color:#8a7a72;margin:0 0 6px">① 이 폰에서 「기록 내보내기」 → 카톡 등으로 보내기 ② 다른 폰 공부방의 「기록 가져오기」에 붙여 넣기.<br>두 폰의 기록(별·푼 문제·복습·오답노트)이 <b>합쳐져요</b>. 몇 번을 해도 같은 기록이 두 번 더해지지 않아요.</p>
+      <button id="exportRec">📤 기록 내보내기</button>
+      <button id="importRec">📥 기록 가져오기</button>
+      <div id="xferBox" class="xfer hidden"></div>
+      <h3 style="margin:18px 0 4px">⚙️ 기타</h3>
       <button id="testVoice">🔊 음성 테스트</button>
       <button id="resetToday">오늘 기록 지우기</button>
       <button id="resetAll">전체 기록 지우기</button>`;
@@ -724,9 +730,93 @@
     fill($('#voiceKo'), 'ko'); fill($('#voiceEn'), 'en');
     $('#speechRate').value = String(S.speechRate || 1);
     $('#speechRate').onchange = (e) => { S.speechRate = +e.target.value; save(); speak('이 빠르기로 읽어 줄게요.'); };
+    $('#exportRec').onclick = exportRecord;
+    $('#importRec').onclick = () => {
+      const box = $('#xferBox'); box.classList.remove('hidden');
+      box.innerHTML = `<p>다른 폰에서 받은 기록 글자(SIEUN1:로 시작)를 붙여 넣거나, 받은 파일을 골라 주세요.</p>
+        <textarea id="xferIn" rows="5" placeholder="SIEUN1:..."></textarea>
+        <input type="file" id="xferFile" accept=".txt,text/plain">
+        <button id="xferGo">가져와서 합치기</button>`;
+      $('#xferFile').onchange = async (e) => { const f = e.target.files[0]; if (f) $('#xferIn').value = (await f.text()).trim(); };
+      $('#xferGo').onclick = async () => {
+        try {
+          const other = await decodeRecord($('#xferIn').value);
+          const before = { stars: S.stars, notes: Object.keys(S.notes).length };
+          mergeRecord(other); save(); renderHome();
+          alert(`기록을 합쳤어요!\n별 ${before.stars} → ${S.stars}개\n오답노트 ${before.notes} → ${Object.keys(S.notes).length}문제`);
+          renderParents();
+        } catch (err) { console.error(err); alert('기록 글자를 읽지 못했어요. 처음부터 끝까지 전부 복사했는지 확인해 주세요.'); }
+      };
+    };
     $('#testVoice').onclick = () => speak([{ text: '시은아, 안녕! 오늘도 같이 공부하자!' }, { text: 'Hello, Sieun!', lang: 'en-US' }]);
     $('#resetToday').onclick = () => { if (confirm('오늘 기록을 지울까요?')) { delete S.daily[today()]; save(); renderParents(); } };
     $('#resetAll').onclick = () => { if (confirm('정말 모든 기록(별, 푼 문제)을 지울까요?')) { localStorage.removeItem(STORE_KEY); load(); renderParents(); } };
+  }
+
+  // ---------- 기록 옮기기 (내보내기·가져오기·합치기) ----------
+  const REC_KEYS = ['seen', 'wrong', 'daily', 'stars', 'solved', 'notes'];
+  async function gz(str, dir) {
+    if (!window.CompressionStream) return null;
+    const stream = new Blob([str]).stream().pipeThrough(dir === 'c' ? new CompressionStream('gzip') : new DecompressionStream('gzip'));
+    return new Uint8Array(await new Response(stream).arrayBuffer());
+  }
+  const b64 = (u8) => { let s = ''; for (let i = 0; i < u8.length; i += 0x8000) s += String.fromCharCode.apply(null, u8.subarray(i, i + 0x8000)); return btoa(s); };
+  const unb64 = (t) => Uint8Array.from(atob(t), c => c.charCodeAt(0));
+  async function encodeRecord() {
+    const o = {}; REC_KEYS.forEach(k => o[k] = S[k]);
+    const json = JSON.stringify(o);
+    const z = await gz(json, 'c').catch(() => null);
+    return z ? 'SIEUN1:' + b64(z) : 'SIEUN0:' + b64(new TextEncoder().encode(json));
+  }
+  async function decodeRecord(t) {
+    t = String(t).replace(/\s+/g, '');
+    const m = t.match(/SIEUN([01]):([A-Za-z0-9+/=]+)/);
+    if (!m) throw new Error('형식');
+    const bytes = unb64(m[2]);
+    const json = m[1] === '1' ? new TextDecoder().decode(await gz(bytes, 'd')) : new TextDecoder().decode(bytes);
+    return JSON.parse(json);
+  }
+  function mergeRecord(o) {
+    o = o || {};
+    S.stars = Math.max(S.stars || 0, o.stars || 0);
+    for (const [k, v] of Object.entries(o.solved || {})) S.solved[k] = Math.max(S.solved[k] || 0, v || 0);
+    for (const [k, arr] of Object.entries(o.seen || {})) S.seen[k] = [...new Set([...(S.seen[k] || []), ...(arr || [])])];
+    for (const [id, w] of Object.entries(o.wrong || {})) { const a = S.wrong[id]; if (!a || (w.n || 0) > (a.n || 0)) S.wrong[id] = w; }
+    for (const [dt, subs] of Object.entries(o.daily || {})) {
+      S.daily[dt] = S.daily[dt] || {};
+      for (const [k, x] of Object.entries(subs)) { const a = S.daily[dt][k]; if (!a || (x.done || 0) > (a.done || 0)) S.daily[dt][k] = x; }
+    }
+    // 별: 날짜·과목별 기록을 합친 뒤 다시 더함 (여러 번 가져와도 두 번 더해지지 않음)
+    let sum = 0; Object.values(S.daily).forEach(subs => Object.values(subs).forEach(x => sum += x.stars || 0));
+    S.stars = Math.max(S.stars, sum);
+    for (const [id, n] of Object.entries(o.notes || {})) {
+      const a = S.notes[id];
+      if (!a) { S.notes[id] = n; continue; }
+      const later = (n.last || '') > (a.last || '') ? n : a;
+      S.notes[id] = { ...later, count: Math.max(a.count || 0, n.count || 0), first: (a.first || '') < (n.first || '') ? a.first : n.first };
+      if (later.fixed) S.notes[id].fixed = later.fixed; else delete S.notes[id].fixed;
+    }
+  }
+  async function exportRecord() {
+    const box = $('#xferBox'); box.classList.remove('hidden'); box.innerHTML = '<p>기록을 만드는 중…</p>';
+    const code = await encodeRecord();
+    const fname = `시은이공부방-기록-${today()}.txt`;
+    box.innerHTML = `<p>아래 글자 전체가 기록이에요. (${Math.ceil(code.length / 1000)}천 글자)</p>
+      <textarea id="xferOut" rows="4" readonly>${code}</textarea>
+      <button id="xferShare">📤 카톡 등으로 보내기</button><button id="xferCopy">📋 복사하기</button><button id="xferSave">💾 파일로 저장</button>`;
+    $('#xferCopy').onclick = async () => {
+      try { await navigator.clipboard.writeText(code); } catch (e) { const t = $('#xferOut'); t.select(); document.execCommand('copy'); }
+      alert('복사했어요! 다른 폰의 「기록 가져오기」에 붙여 넣으세요.');
+    };
+    $('#xferSave').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([code], { type: 'text/plain' })); a.download = fname; a.click(); };
+    $('#xferShare').onclick = async () => {
+      try {
+        const file = new File([code], fname, { type: 'text/plain' });
+        if (code.length > 15000 && navigator.canShare && navigator.canShare({ files: [file] })) await navigator.share({ files: [file], title: '시은이 공부방 기록' });
+        else if (navigator.share) await navigator.share({ text: code, title: '시은이 공부방 기록' });
+        else $('#xferCopy').click();
+      } catch (e) { if (e && e.name !== 'AbortError') $('#xferCopy').click(); }
+    };
   }
 
   // ---------- 연결 ----------
@@ -756,6 +846,6 @@
     cur = { key, d, list: [it.gen ? { gen: it } : { item: it }], idx: 0, base: 0, stars: 0, extra: true };
     show('quiz'); nextQuestion(true);
   }
-  window.APP = { buildSession, materialize, loadSubject, SUBJECTS, preview, get state() { return S; }, get cur() { return cur; } };
+  window.APP = { buildSession, materialize, loadSubject, SUBJECTS, preview, get state() { return S; }, get cur() { return cur; }, encodeRecord, decodeRecord, mergeRecord };
   init();
 })();
