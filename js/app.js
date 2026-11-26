@@ -125,9 +125,15 @@
 
   // ---------- 데이터 ----------
   const DATA = {};
+  // 앱을 한동안 안 보다가 다시 열면 문제 파일을 새로 받음 (그사이 문제가 바뀌었을 수 있어서)
+  let hiddenAt = 0;
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') hiddenAt = Date.now();
+    else if (hiddenAt && Date.now() - hiddenAt > 60000) Object.keys(DATA).forEach(k => delete DATA[k]);
+  });
   async function loadSubject(key) {
     if (DATA[key]) return DATA[key];
-    const r = await fetch(`data/${key}.json`);
+    const r = await fetch(`data/${key}.json`, { cache: 'no-cache' }); // 문제를 고치면 바로 반영되게 매번 새 버전인지 확인
     DATA[key] = await r.json();
     return DATA[key];
   }
