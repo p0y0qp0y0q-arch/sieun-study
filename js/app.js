@@ -23,6 +23,7 @@
     { key: 'people', name: '사람', icon: '🧑‍🚒' },
     { key: 'society', name: '사회', icon: '🏘️' },
     { key: 'folktale', name: '전래동화', icon: '📜' },
+    { key: 'idiom', name: '관용구·속담', icon: '💬' },
     { key: 'draw', name: '그림', icon: '🎨', draw: true },
     { key: 'notes', name: '오답노트', icon: '📒', notes: true },
   ];
