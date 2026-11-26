@@ -97,8 +97,8 @@ def build():
     means = [r[3] for r in prow]
     for i, (a, b, wr, mean, lv) in enumerate(prow):
         R = random.Random(100 + i)
-        add("속담을 완성해요. 빈칸에 알맞은 말은?", [b] + wr.split(","), int(lv), "prv-fill", display=f"{a} (  ?  )",
-            speak=f"속담을 완성해요. {a}, 빈칸.", speakChoices=True, explain=f"{a} {b}: {mean}")
+        add(f"'{mean.rstrip('.')}'라는 뜻의 속담이에요. 빈칸에 알맞은 말은?", [b] + wr.split(","), int(lv), "prv-fill", display=f"{a} (  ?  )",
+            speak=f"{mean.rstrip('.')}, 라는 뜻의 속담이에요. {a}, 빈칸.", speakChoices=True, explain=f"{a} {b}: {mean}")
         others = [x for x in means if x != mean]
-        add(f"'{a} {b}'{josa(b, '은', '는')} 무슨 뜻일까요?", [mean] + R.sample(others, 2), max(2, int(lv)), "prv-mean", pool=others, speakChoices=True)
+        add(f"'{a} {b}'{josa(b, '은', '는')} 무슨 뜻일까요?", [mean] + R.sample(others, 2), int(lv), "prv-mean", pool=others, speakChoices=True)
     return out
