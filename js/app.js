@@ -22,7 +22,6 @@
     { key: 'idiom', name: '관용구·속담', icon: '💬' },
     { key: 'sports', name: '운동', icon: '⚽' },
     { key: 'music', name: '악기', icon: '🎻' },
-    { key: 'recycle', name: '분리수거', icon: '♻️' },
     { key: 'env', name: '환경', icon: '🌱' },
     { key: 'draw', name: '그림', icon: '🎨', draw: true },
     { key: 'notes', name: '오답노트', icon: '📒', notes: true },

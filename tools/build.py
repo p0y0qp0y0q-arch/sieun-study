@@ -8,7 +8,7 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.join(HERE, "content"))
 import media
-import korean, english, mathq, hanja, art, world, nature, store, sports, music, recycle, env, people, society, timeq, folktale, world2, idiom
+import korean, english, mathq, hanja, art, world, nature, store, sports, music, env, people, society, timeq, folktale, world2, idiom
 
 SOUNDS = os.path.join(ROOT, "assets", "sounds", "sounds.json")
 OVERRIDES = os.path.join(HERE, "image_overrides.json")   # 사진 수동 교체/제외: {"wp:Dog": "file:X.jpg" 또는 null}
@@ -35,7 +35,6 @@ def all_subjects(sounds):
         "store": {"subject": "가게", "items": store_items, "goods": store_goods, "generators": store.GENERATORS},
         "sports": {"subject": "운동", "items": sports.build()},
         "music": {"subject": "악기", "items": music_items},
-        "recycle": {"subject": "분리수거", "items": recycle.build()},
         "env": {"subject": "환경", "items": env.build()},
         "people": {"subject": "사람", "items": people.build()},
         "society": {"subject": "사회", "items": society.build()},
