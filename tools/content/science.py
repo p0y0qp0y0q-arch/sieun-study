@@ -372,6 +372,6 @@ def build():
         for q, a, w, lv in b["qs"]:
             n += 1
             out.append(Q(f"sci-{n:03d}", "과학", q, [a] + w.split(","), 0, level=int(lv), display=b["emo"], displayClass="scene",
-                         html=f'<div class="book-tag">📚 {b["no"]}. {b["t"]}</div>', group=f"sci-{b['area']}",
+                         html=f'<div class="book-tag">📚 {b["t"]}</div>', group=f"sci-{b['area']}",
                          explain=f"『{b['t']}』 ({b['area']})"))
     return out
