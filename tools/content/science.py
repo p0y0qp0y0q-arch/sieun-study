@@ -366,10 +366,15 @@ def parse():
     return sorted(books, key=lambda b: b['no'])
 
 def build():
+    from science_plus import PLUS
+    extra = {}
+    for line in PLUS.strip().splitlines():
+        no, q, a, w, lv = line.split("|")
+        extra.setdefault(int(no), []).append([q, a, w, lv])
     out = []
     n = 0
     for b in parse():
-        for q, a, w, lv in b["qs"]:
+        for q, a, w, lv in b["qs"] + extra.get(b["no"], []):
             n += 1
             out.append(Q(f"sci-{n:03d}", "과학", q, [a] + w.split(","), 0, level=int(lv), display=b["emo"], displayClass="scene",
                          group=f"sci-{b['area']}",

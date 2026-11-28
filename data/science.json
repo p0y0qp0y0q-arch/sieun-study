@@ -90,6 +90,40 @@
    "id": "sci-006",
    "subject": "과학",
    "type": "choice",
+   "prompt": "매미 애벌레는 땅속에서 몇 년을 지낸 뒤 나와서 무엇이 될까요?",
+   "choices": [
+    "허물을 벗고 어른 매미가 돼요",
+    "번데기가 돼요",
+    "알이 돼요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🐣",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『모두 모두 자라요』 (생명)"
+  },
+  {
+   "id": "sci-007",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "번데기 단계가 없는 곤충은?",
+   "choices": [
+    "메뚜기",
+    "나비",
+    "무당벌레"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🐣",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『모두 모두 자라요』 (생명)"
+  },
+  {
+   "id": "sci-008",
+   "subject": "과학",
+   "type": "choice",
    "prompt": "낙타 발바닥이 넓적하면 어디에서 살기 좋을까요?",
    "choices": [
     "모래 사막",
@@ -104,7 +138,7 @@
    "explain": "『사는 곳에 따라 달라요』 (생명)"
   },
   {
-   "id": "sci-007",
+   "id": "sci-009",
    "subject": "과학",
    "type": "choice",
    "prompt": "물고기의 지느러미는 무엇을 하기 좋을까요?",
@@ -121,7 +155,7 @@
    "explain": "『사는 곳에 따라 달라요』 (생명)"
   },
   {
-   "id": "sci-008",
+   "id": "sci-010",
    "subject": "과학",
    "type": "choice",
    "prompt": "북극곰은 왜 추운 곳에서도 살 수 있을까요?",
@@ -138,7 +172,7 @@
    "explain": "『사는 곳에 따라 달라요』 (생명)"
   },
   {
-   "id": "sci-009",
+   "id": "sci-011",
    "subject": "과학",
    "type": "choice",
    "prompt": "오리 발에 물갈퀴가 있으면 좋은 점은?",
@@ -155,7 +189,7 @@
    "explain": "『사는 곳에 따라 달라요』 (생명)"
   },
   {
-   "id": "sci-010",
+   "id": "sci-012",
    "subject": "과학",
    "type": "choice",
    "prompt": "사막여우의 귀가 큰 까닭은?",
@@ -172,7 +206,41 @@
    "explain": "『사는 곳에 따라 달라요』 (생명)"
   },
   {
-   "id": "sci-011",
+   "id": "sci-013",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "물고기를 물 밖에 꺼내 놓으면 숨쉬기 힘든 까닭은?",
+   "choices": [
+    "아가미는 물속 산소만 쓸 수 있어서",
+    "물고기가 추워서",
+    "햇빛이 너무 밝아서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🏜️",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『사는 곳에 따라 달라요』 (생명)"
+  },
+  {
+   "id": "sci-014",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "두더지의 눈이 아주 작은 까닭은?",
+   "choices": [
+    "깜깜한 땅속에서 살아서 눈을 잘 안 써서",
+    "해를 보려고",
+    "물속에 살아서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🏜️",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『사는 곳에 따라 달라요』 (생명)"
+  },
+  {
+   "id": "sci-015",
    "subject": "과학",
    "type": "choice",
    "prompt": "개구리와 곰은 겨울을 어떻게 보낼까요?",
@@ -189,7 +257,7 @@
    "explain": "『추운 겨울에 뭐 하니?』 (생명)"
   },
   {
-   "id": "sci-012",
+   "id": "sci-016",
    "subject": "과학",
    "type": "choice",
    "prompt": "제비는 겨울이 오기 전에 어떻게 할까요?",
@@ -206,7 +274,7 @@
    "explain": "『추운 겨울에 뭐 하니?』 (생명)"
   },
   {
-   "id": "sci-013",
+   "id": "sci-017",
    "subject": "과학",
    "type": "choice",
    "prompt": "다람쥐가 가을에 도토리를 모으는 까닭은?",
@@ -223,7 +291,7 @@
    "explain": "『추운 겨울에 뭐 하니?』 (생명)"
   },
   {
-   "id": "sci-014",
+   "id": "sci-018",
    "subject": "과학",
    "type": "choice",
    "prompt": "겨울잠을 자는 동물은 몸이 어떻게 될까요?",
@@ -240,7 +308,7 @@
    "explain": "『추운 겨울에 뭐 하니?』 (생명)"
   },
   {
-   "id": "sci-015",
+   "id": "sci-019",
    "subject": "과학",
    "type": "choice",
    "prompt": "겨울에 털이 하얗게 바뀌는 동물은?",
@@ -257,7 +325,41 @@
    "explain": "『추운 겨울에 뭐 하니?』 (생명)"
   },
   {
-   "id": "sci-016",
+   "id": "sci-020",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "겨울에 남쪽에서 우리나라로 오는 철새가 아니라 북쪽에서 오는 철새는?",
+   "choices": [
+    "두루미(겨울 철새)",
+    "제비",
+    "뻐꾸기"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "❄️",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『추운 겨울에 뭐 하니?』 (생명)"
+  },
+  {
+   "id": "sci-021",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "겨울잠을 자기 전에 곰이 먹이를 아주 많이 먹는 까닭은?",
+   "choices": [
+    "몸에 지방을 쌓아 두려고",
+    "배탈을 나게 하려고",
+    "살이 빠지려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "❄️",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『추운 겨울에 뭐 하니?』 (생명)"
+  },
+  {
+   "id": "sci-022",
    "subject": "과학",
    "type": "choice",
    "prompt": "주변과 비슷한 색으로 몸을 숨기는 것을 뭐라고 할까요?",
@@ -274,7 +376,7 @@
    "explain": "『꼭꼭 숨어라』 (생명)"
   },
   {
-   "id": "sci-017",
+   "id": "sci-023",
    "subject": "과학",
    "type": "choice",
    "prompt": "풀밭에 사는 메뚜기가 초록색이면 좋은 점은?",
@@ -291,7 +393,7 @@
    "explain": "『꼭꼭 숨어라』 (생명)"
   },
   {
-   "id": "sci-018",
+   "id": "sci-024",
    "subject": "과학",
    "type": "choice",
    "prompt": "몸 색깔을 바꿔 숨는 동물은?",
@@ -308,7 +410,7 @@
    "explain": "『꼭꼭 숨어라』 (생명)"
   },
   {
-   "id": "sci-019",
+   "id": "sci-025",
    "subject": "과학",
    "type": "choice",
    "prompt": "나뭇가지처럼 생겨서 숨는 곤충은?",
@@ -325,7 +427,7 @@
    "explain": "『꼭꼭 숨어라』 (생명)"
   },
   {
-   "id": "sci-020",
+   "id": "sci-026",
    "subject": "과학",
    "type": "choice",
    "prompt": "눈 덮인 곳에 사는 흰 토끼가 겨울에 좋은 점은?",
@@ -342,7 +444,41 @@
    "explain": "『꼭꼭 숨어라』 (생명)"
   },
   {
-   "id": "sci-021",
+   "id": "sci-027",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "무당벌레의 빨간색에 검은 점은 어떤 역할일까요?",
+   "choices": [
+    "'나는 맛없어!'라고 적에게 경고해요",
+    "숨기 좋게 해요",
+    "짝을 찾지 않게 해요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🦎",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『꼭꼭 숨어라』 (생명)"
+  },
+  {
+   "id": "sci-028",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "보호색이 동물에게 좋은 까닭 두 가지는?",
+   "choices": [
+    "숨어서 잡아먹히지 않고 먹이에게 몰래 다가가요",
+    "빨리 달리고 높이 날아요",
+    "잠을 잘 자고 노래해요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🦎",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『꼭꼭 숨어라』 (생명)"
+  },
+  {
+   "id": "sci-029",
    "subject": "과학",
    "type": "choice",
    "prompt": "곤충의 다리는 몇 개일까요?",
@@ -359,7 +495,7 @@
    "explain": "『곤충일까 아닐까』 (생명)"
   },
   {
-   "id": "sci-022",
+   "id": "sci-030",
    "subject": "과학",
    "type": "choice",
    "prompt": "곤충의 몸은 몇 부분으로 나뉠까요?",
@@ -376,7 +512,7 @@
    "explain": "『곤충일까 아닐까』 (생명)"
   },
   {
-   "id": "sci-023",
+   "id": "sci-031",
    "subject": "과학",
    "type": "choice",
    "prompt": "거미는 곤충일까요?",
@@ -393,7 +529,7 @@
    "explain": "『곤충일까 아닐까』 (생명)"
   },
   {
-   "id": "sci-024",
+   "id": "sci-032",
    "subject": "과학",
    "type": "choice",
    "prompt": "다음 중 곤충은?",
@@ -410,7 +546,7 @@
    "explain": "『곤충일까 아닐까』 (생명)"
   },
   {
-   "id": "sci-025",
+   "id": "sci-033",
    "subject": "과학",
    "type": "choice",
    "prompt": "곤충의 더듬이는 무엇을 할까요?",
@@ -427,7 +563,41 @@
    "explain": "『곤충일까 아닐까』 (생명)"
   },
   {
-   "id": "sci-026",
+   "id": "sci-034",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "곤충의 다리와 날개는 몸의 어느 부분에 붙어 있을까요?",
+   "choices": [
+    "가슴",
+    "머리",
+    "배"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🐞",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『곤충일까 아닐까』 (생명)"
+  },
+  {
+   "id": "sci-035",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "개미는 곤충일까요?",
+   "choices": [
+    "네! 다리 6개에 몸이 3부분이에요",
+    "아니요! 날개가 없어서요",
+    "아니요! 너무 작아서요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🐞",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『곤충일까 아닐까』 (생명)"
+  },
+  {
+   "id": "sci-036",
    "subject": "과학",
    "type": "choice",
    "prompt": "연못 물 위에 동동 떠서 자라는 식물은?",
@@ -444,7 +614,7 @@
    "explain": "『연못에서 만나요』 (생명)"
   },
   {
-   "id": "sci-027",
+   "id": "sci-037",
    "subject": "과학",
    "type": "choice",
    "prompt": "연못에서 올챙이가 자라면 무엇이 될까요?",
@@ -461,7 +631,7 @@
    "explain": "『연못에서 만나요』 (생명)"
   },
   {
-   "id": "sci-028",
+   "id": "sci-038",
    "subject": "과학",
    "type": "choice",
    "prompt": "물속에서 아가미로 숨 쉬는 동물은?",
@@ -478,7 +648,7 @@
    "explain": "『연못에서 만나요』 (생명)"
   },
   {
-   "id": "sci-029",
+   "id": "sci-039",
    "subject": "과학",
    "type": "choice",
    "prompt": "잠자리 애벌레는 어디에서 살까요?",
@@ -495,7 +665,7 @@
    "explain": "『연못에서 만나요』 (생명)"
   },
   {
-   "id": "sci-030",
+   "id": "sci-040",
    "subject": "과학",
    "type": "choice",
    "prompt": "연못 물이 더러워지면 어떻게 될까요?",
@@ -512,7 +682,41 @@
    "explain": "『연못에서 만나요』 (생명)"
   },
   {
-   "id": "sci-031",
+   "id": "sci-041",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "연못 물이 초록색으로 변하고 물고기가 죽는 까닭 중 하나는?",
+   "choices": [
+    "더러운 물로 작은 풀(녹조)이 너무 많아져서",
+    "물고기가 너무 많이 먹어서",
+    "비가 안 와서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🪷",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『연못에서 만나요』 (생명)"
+  },
+  {
+   "id": "sci-042",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "연못 먹이 사슬에서 작은 물고기를 먹는 동물은?",
+   "choices": [
+    "왜가리",
+    "개구리밥",
+    "올챙이 알"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🪷",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『연못에서 만나요』 (생명)"
+  },
+  {
+   "id": "sci-043",
    "subject": "과학",
    "type": "choice",
    "prompt": "씨앗이 싹 트려면 꼭 필요한 것은?",
@@ -529,7 +733,7 @@
    "explain": "『콩 심은 데 콩 나고』 (생명)"
   },
   {
-   "id": "sci-032",
+   "id": "sci-044",
    "subject": "과학",
    "type": "choice",
    "prompt": "씨앗에서 가장 먼저 나오는 것은?",
@@ -546,7 +750,7 @@
    "explain": "『콩 심은 데 콩 나고』 (생명)"
   },
   {
-   "id": "sci-033",
+   "id": "sci-045",
    "subject": "과학",
    "type": "choice",
    "prompt": "식물은 뿌리로 무엇을 빨아들일까요?",
@@ -563,7 +767,7 @@
    "explain": "『콩 심은 데 콩 나고』 (생명)"
   },
   {
-   "id": "sci-034",
+   "id": "sci-046",
    "subject": "과학",
    "type": "choice",
    "prompt": "식물의 한살이 순서는?",
@@ -580,7 +784,7 @@
    "explain": "『콩 심은 데 콩 나고』 (생명)"
   },
   {
-   "id": "sci-035",
+   "id": "sci-047",
    "subject": "과학",
    "type": "choice",
    "prompt": "콩을 심으면 무엇이 날까요?",
@@ -597,7 +801,41 @@
    "explain": "『콩 심은 데 콩 나고』 (생명)"
   },
   {
-   "id": "sci-036",
+   "id": "sci-048",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "강낭콩 싹이 트면 처음 나오는 두 장의 잎을 뭐라 할까요?",
+   "choices": [
+    "떡잎",
+    "꽃잎",
+    "솔잎"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🌱",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『콩 심은 데 콩 나고』 (생명)"
+  },
+  {
+   "id": "sci-049",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "화분을 창가에 두면 식물 줄기가 창 쪽으로 휘는 까닭은?",
+   "choices": [
+    "햇빛 쪽으로 자라서",
+    "바람이 불어서",
+    "물이 창가에 있어서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🌱",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『콩 심은 데 콩 나고』 (생명)"
+  },
+  {
+   "id": "sci-050",
    "subject": "과학",
    "type": "choice",
    "prompt": "가을에 나뭇잎이 떨어지는 까닭은?",
@@ -614,7 +852,7 @@
    "explain": "『나뭇잎은 왜 떨어질까』 (생명)"
   },
   {
-   "id": "sci-037",
+   "id": "sci-051",
    "subject": "과학",
    "type": "choice",
    "prompt": "가을에 나뭇잎 색이 바뀌는 까닭은?",
@@ -631,7 +869,7 @@
    "explain": "『나뭇잎은 왜 떨어질까』 (생명)"
   },
   {
-   "id": "sci-038",
+   "id": "sci-052",
    "subject": "과학",
    "type": "choice",
    "prompt": "겨울에도 잎이 초록색인 나무는?",
@@ -648,7 +886,7 @@
    "explain": "『나뭇잎은 왜 떨어질까』 (생명)"
   },
   {
-   "id": "sci-039",
+   "id": "sci-053",
    "subject": "과학",
    "type": "choice",
    "prompt": "나무는 겨울을 위해 무엇을 만들어 둘까요?",
@@ -665,7 +903,41 @@
    "explain": "『나뭇잎은 왜 떨어질까』 (생명)"
   },
   {
-   "id": "sci-040",
+   "id": "sci-054",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "나무가 잎을 떨어뜨리면 겨울에 좋은 점은?",
+   "choices": [
+    "잎으로 물이 빠져나가지 않아요",
+    "더 따뜻해져요",
+    "열매가 더 열려요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🍂",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『나뭇잎은 왜 떨어질까』 (생명)"
+  },
+  {
+   "id": "sci-055",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "낙엽이 땅에 쌓이면 나중에 무엇이 될까요?",
+   "choices": [
+    "썩어서 흙의 양분이 돼요",
+    "돌이 돼요",
+    "다시 나무에 붙어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🍂",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『나뭇잎은 왜 떨어질까』 (생명)"
+  },
+  {
+   "id": "sci-056",
    "subject": "과학",
    "type": "choice",
    "prompt": "벌과 나비가 꽃을 찾아가는 까닭은?",
@@ -682,7 +954,7 @@
    "explain": "『꽃가루 옮기기 대작전』 (생명)"
   },
   {
-   "id": "sci-041",
+   "id": "sci-057",
    "subject": "과학",
    "type": "choice",
    "prompt": "벌이 꽃가루를 옮겨 주면 꽃은 무엇을 만들 수 있을까요?",
@@ -699,7 +971,7 @@
    "explain": "『꽃가루 옮기기 대작전』 (생명)"
   },
   {
-   "id": "sci-042",
+   "id": "sci-058",
    "subject": "과학",
    "type": "choice",
    "prompt": "꽃가루를 옮겨 주는 것이 아닌 것은?",
@@ -716,7 +988,7 @@
    "explain": "『꽃가루 옮기기 대작전』 (생명)"
   },
   {
-   "id": "sci-043",
+   "id": "sci-059",
    "subject": "과학",
    "type": "choice",
    "prompt": "꽃이 예쁜 색과 좋은 향기를 내는 까닭은?",
@@ -733,7 +1005,41 @@
    "explain": "『꽃가루 옮기기 대작전』 (생명)"
   },
   {
-   "id": "sci-044",
+   "id": "sci-060",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "꽃가루가 암술에 붙는 것을 뭐라고 할까요?",
+   "choices": [
+    "꽃가루받이(수분)",
+    "광합성",
+    "싹트기"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🐝",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『꽃가루 옮기기 대작전』 (생명)"
+  },
+  {
+   "id": "sci-061",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "벌이 없어지면 우리에게 어떤 일이 생길까요?",
+   "choices": [
+    "과일과 채소가 잘 열리지 않아요",
+    "꽃이 더 많아져요",
+    "아무 일도 없어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🐝",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『꽃가루 옮기기 대작전』 (생명)"
+  },
+  {
+   "id": "sci-062",
    "subject": "과학",
    "type": "choice",
    "prompt": "민들레 씨는 어떻게 멀리 갈까요?",
@@ -750,7 +1056,7 @@
    "explain": "『열려라! 열매 퍼져라! 씨』 (생명)"
   },
   {
-   "id": "sci-045",
+   "id": "sci-063",
    "subject": "과학",
    "type": "choice",
    "prompt": "도깨비바늘 씨는 어떻게 멀리 갈까요?",
@@ -767,7 +1073,7 @@
    "explain": "『열려라! 열매 퍼져라! 씨』 (생명)"
   },
   {
-   "id": "sci-046",
+   "id": "sci-064",
    "subject": "과학",
    "type": "choice",
    "prompt": "코코넛 열매는 어떻게 멀리 갈까요?",
@@ -784,7 +1090,7 @@
    "explain": "『열려라! 열매 퍼져라! 씨』 (생명)"
   },
   {
-   "id": "sci-047",
+   "id": "sci-065",
    "subject": "과학",
    "type": "choice",
    "prompt": "새가 열매를 먹으면 씨는 어떻게 될까요?",
@@ -801,7 +1107,41 @@
    "explain": "『열려라! 열매 퍼져라! 씨』 (생명)"
   },
   {
-   "id": "sci-048",
+   "id": "sci-066",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "단풍나무 씨가 프로펠러처럼 생긴 까닭은?",
+   "choices": [
+    "빙글빙글 날아 멀리 가려고",
+    "땅에 빨리 떨어지려고",
+    "물에 뜨려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🌰",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『열려라! 열매 퍼져라! 씨』 (생명)"
+  },
+  {
+   "id": "sci-067",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "봉숭아 씨는 어떻게 퍼질까요?",
+   "choices": [
+    "열매가 톡 터지며 튀어 나가요",
+    "바람에 날아가요",
+    "물에 떠내려가요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌰",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『열려라! 열매 퍼져라! 씨』 (생명)"
+  },
+  {
+   "id": "sci-068",
    "subject": "과학",
    "type": "choice",
    "prompt": "식물은 무엇으로 스스로 양분을 만들까요?",
@@ -818,7 +1158,7 @@
    "explain": "『물 먹고 햇빛 먹고』 (생명)"
   },
   {
-   "id": "sci-049",
+   "id": "sci-069",
    "subject": "과학",
    "type": "choice",
    "prompt": "식물이 양분을 만드는 곳은 주로 어디일까요?",
@@ -835,7 +1175,7 @@
    "explain": "『물 먹고 햇빛 먹고』 (생명)"
   },
   {
-   "id": "sci-050",
+   "id": "sci-070",
    "subject": "과학",
    "type": "choice",
    "prompt": "식물을 어두운 곳에만 두면 어떻게 될까요?",
@@ -852,7 +1192,7 @@
    "explain": "『물 먹고 햇빛 먹고』 (생명)"
   },
   {
-   "id": "sci-051",
+   "id": "sci-071",
    "subject": "과학",
    "type": "choice",
    "prompt": "식물이 양분을 만들면서 내보내는 것은?",
@@ -869,7 +1209,7 @@
    "explain": "『물 먹고 햇빛 먹고』 (생명)"
   },
   {
-   "id": "sci-052",
+   "id": "sci-072",
    "subject": "과학",
    "type": "choice",
    "prompt": "잎이 초록색으로 보이는 까닭은?",
@@ -886,7 +1226,41 @@
    "explain": "『물 먹고 햇빛 먹고』 (생명)"
   },
   {
-   "id": "sci-053",
+   "id": "sci-073",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "식물이 많은 숲속 공기가 맑은 까닭은?",
+   "choices": [
+    "식물이 산소를 내보내서",
+    "숲에 바람이 없어서",
+    "나무가 먼지를 먹어서만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🌿",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『물 먹고 햇빛 먹고』 (생명)"
+  },
+  {
+   "id": "sci-074",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "감자는 식물의 어느 부분에 양분을 저장한 것일까요?",
+   "choices": [
+    "땅속줄기",
+    "꽃",
+    "잎"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌿",
+   "displayClass": "scene",
+   "group": "sci-생명",
+   "explain": "『물 먹고 햇빛 먹고』 (생명)"
+  },
+  {
+   "id": "sci-075",
    "subject": "과학",
    "type": "choice",
    "prompt": "아기는 태어나기 전에 어디에서 자랄까요?",
@@ -903,7 +1277,7 @@
    "explain": "『엄마랑 아기랑』 (인체)"
   },
   {
-   "id": "sci-054",
+   "id": "sci-076",
    "subject": "과학",
    "type": "choice",
    "prompt": "엄마 배 속 아기는 무엇으로 영양분을 받을까요?",
@@ -920,7 +1294,7 @@
    "explain": "『엄마랑 아기랑』 (인체)"
   },
   {
-   "id": "sci-055",
+   "id": "sci-077",
    "subject": "과학",
    "type": "choice",
    "prompt": "배꼽은 무엇이 있던 자리일까요?",
@@ -937,7 +1311,7 @@
    "explain": "『엄마랑 아기랑』 (인체)"
   },
   {
-   "id": "sci-056",
+   "id": "sci-078",
    "subject": "과학",
    "type": "choice",
    "prompt": "엄마 배 속에서 아기는 보통 몇 달쯤 자랄까요?",
@@ -954,7 +1328,41 @@
    "explain": "『엄마랑 아기랑』 (인체)"
   },
   {
-   "id": "sci-057",
+   "id": "sci-079",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "아기가 태어나서 처음 먹는 음식은?",
+   "choices": [
+    "엄마 젖이나 분유",
+    "밥",
+    "고기"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🤰",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『엄마랑 아기랑』 (인체)"
+  },
+  {
+   "id": "sci-080",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "아기가 엄마를 닮는 까닭은?",
+   "choices": [
+    "엄마 아빠에게서 몸의 정보를 물려받아서",
+    "엄마를 많이 봐서",
+    "같은 밥을 먹어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🤰",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『엄마랑 아기랑』 (인체)"
+  },
+  {
+   "id": "sci-081",
    "subject": "과학",
    "type": "choice",
    "prompt": "맛을 느끼는 곳은?",
@@ -971,7 +1379,7 @@
    "explain": "『보고 듣고 냠냠』 (인체)"
   },
   {
-   "id": "sci-058",
+   "id": "sci-082",
    "subject": "과학",
    "type": "choice",
    "prompt": "냄새를 맡는 곳은?",
@@ -988,7 +1396,7 @@
    "explain": "『보고 듣고 냠냠』 (인체)"
   },
   {
-   "id": "sci-059",
+   "id": "sci-083",
    "subject": "과학",
    "type": "choice",
    "prompt": "소리를 듣는 곳은?",
@@ -1005,7 +1413,7 @@
    "explain": "『보고 듣고 냠냠』 (인체)"
   },
   {
-   "id": "sci-060",
+   "id": "sci-084",
    "subject": "과학",
    "type": "choice",
    "prompt": "뜨겁고 차가운 것을 느끼는 곳은?",
@@ -1022,7 +1430,7 @@
    "explain": "『보고 듣고 냠냠』 (인체)"
   },
   {
-   "id": "sci-061",
+   "id": "sci-085",
    "subject": "과학",
    "type": "choice",
    "prompt": "코를 막고 음식을 먹으면 맛이 어떨까요?",
@@ -1039,7 +1447,41 @@
    "explain": "『보고 듣고 냠냠』 (인체)"
   },
   {
-   "id": "sci-062",
+   "id": "sci-086",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "맛있는 냄새를 맡으면 입에 침이 고이는 까닭은?",
+   "choices": [
+    "코와 혀가 함께 음식 맛을 느끼려고 준비해서",
+    "이가 아파서",
+    "목이 말라서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "👀",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『보고 듣고 냠냠』 (인체)"
+  },
+  {
+   "id": "sci-087",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "눈을 감고도 소리 나는 쪽을 알 수 있는 까닭은?",
+   "choices": [
+    "두 귀에 소리가 다르게 들려서",
+    "눈꺼풀이 들어서",
+    "코가 알려 줘서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "👀",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『보고 듣고 냠냠』 (인체)"
+  },
+  {
+   "id": "sci-088",
    "subject": "과학",
    "type": "choice",
    "prompt": "땀은 어디에서 나올까요?",
@@ -1056,7 +1498,7 @@
    "explain": "『땀은 어디에서 나올까』 (인체)"
   },
   {
-   "id": "sci-063",
+   "id": "sci-089",
    "subject": "과학",
    "type": "choice",
    "prompt": "더울 때 땀이 나는 까닭은?",
@@ -1073,7 +1515,7 @@
    "explain": "『땀은 어디에서 나올까』 (인체)"
   },
   {
-   "id": "sci-064",
+   "id": "sci-090",
    "subject": "과학",
    "type": "choice",
    "prompt": "추울 때 소름이 돋는 까닭은?",
@@ -1090,7 +1532,7 @@
    "explain": "『땀은 어디에서 나올까』 (인체)"
   },
   {
-   "id": "sci-065",
+   "id": "sci-091",
    "subject": "과학",
    "type": "choice",
    "prompt": "피부가 하는 일이 아닌 것은?",
@@ -1107,7 +1549,41 @@
    "explain": "『땀은 어디에서 나올까』 (인체)"
   },
   {
-   "id": "sci-066",
+   "id": "sci-092",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "땀이 마르면 시원해지는 까닭은?",
+   "choices": [
+    "땀이 증발하면서 몸의 열을 가져가서",
+    "땀이 차가워서",
+    "바람이 늘 불어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "💦",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『땀은 어디에서 나올까』 (인체)"
+  },
+  {
+   "id": "sci-093",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "여름에 햇빛을 오래 쬐면 피부가 까매지는 까닭은?",
+   "choices": [
+    "피부가 햇빛으로부터 자신을 지키려고",
+    "때가 묻어서",
+    "피부가 아파서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "💦",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『땀은 어디에서 나올까』 (인체)"
+  },
+  {
+   "id": "sci-094",
    "subject": "과학",
    "type": "choice",
    "prompt": "머리뼈가 하는 일은?",
@@ -1124,7 +1600,7 @@
    "explain": "『뼈! 뼈! 무슨 뼈?』 (인체)"
   },
   {
-   "id": "sci-067",
+   "id": "sci-095",
    "subject": "과학",
    "type": "choice",
    "prompt": "갈비뼈가 지켜 주는 것은?",
@@ -1141,7 +1617,7 @@
    "explain": "『뼈! 뼈! 무슨 뼈?』 (인체)"
   },
   {
-   "id": "sci-068",
+   "id": "sci-096",
    "subject": "과학",
    "type": "choice",
    "prompt": "팔과 다리를 굽힐 수 있게 해 주는 곳은?",
@@ -1158,7 +1634,7 @@
    "explain": "『뼈! 뼈! 무슨 뼈?』 (인체)"
   },
   {
-   "id": "sci-069",
+   "id": "sci-097",
    "subject": "과학",
    "type": "choice",
    "prompt": "뼈를 당겨서 몸을 움직이게 하는 것은?",
@@ -1175,7 +1651,7 @@
    "explain": "『뼈! 뼈! 무슨 뼈?』 (인체)"
   },
   {
-   "id": "sci-070",
+   "id": "sci-098",
    "subject": "과학",
    "type": "choice",
    "prompt": "뼈를 튼튼하게 해 주는 음식은?",
@@ -1192,7 +1668,41 @@
    "explain": "『뼈! 뼈! 무슨 뼈?』 (인체)"
   },
   {
-   "id": "sci-071",
+   "id": "sci-099",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "우리 몸에서 가장 큰 뼈는?",
+   "choices": [
+    "넓적다리뼈",
+    "손가락뼈",
+    "귀 속 뼈"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🦴",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『뼈! 뼈! 무슨 뼈?』 (인체)"
+  },
+  {
+   "id": "sci-100",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "근육은 짝을 지어 어떻게 일할까요?",
+   "choices": [
+    "하나가 줄어들면 다른 하나가 늘어나요",
+    "둘 다 늘 똑같이 움직여요",
+    "하나만 일해요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🦴",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『뼈! 뼈! 무슨 뼈?』 (인체)"
+  },
+  {
+   "id": "sci-101",
    "subject": "과학",
    "type": "choice",
    "prompt": "음식을 처음 잘게 부수는 곳은?",
@@ -1209,7 +1719,7 @@
    "explain": "『꾸르륵 배 속 여행』 (인체)"
   },
   {
-   "id": "sci-072",
+   "id": "sci-102",
    "subject": "과학",
    "type": "choice",
    "prompt": "입에서 위로 음식이 내려가는 길은?",
@@ -1226,7 +1736,7 @@
    "explain": "『꾸르륵 배 속 여행』 (인체)"
   },
   {
-   "id": "sci-073",
+   "id": "sci-103",
    "subject": "과학",
    "type": "choice",
    "prompt": "음식물이 지나가는 순서는?",
@@ -1243,7 +1753,7 @@
    "explain": "『꾸르륵 배 속 여행』 (인체)"
   },
   {
-   "id": "sci-074",
+   "id": "sci-104",
    "subject": "과학",
    "type": "choice",
    "prompt": "음식의 영양분을 주로 빨아들이는 곳은?",
@@ -1260,7 +1770,7 @@
    "explain": "『꾸르륵 배 속 여행』 (인체)"
   },
   {
-   "id": "sci-075",
+   "id": "sci-105",
    "subject": "과학",
    "type": "choice",
    "prompt": "배가 고프면 '꾸르륵' 소리가 나는 곳은?",
@@ -1277,7 +1787,41 @@
    "explain": "『꾸르륵 배 속 여행』 (인체)"
   },
   {
-   "id": "sci-076",
+   "id": "sci-106",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "음식을 꼭꼭 씹어 먹으면 좋은 까닭은?",
+   "choices": [
+    "잘게 부서져 소화가 잘돼요",
+    "배가 빨리 고파요",
+    "이가 빠져요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🍽️",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『꾸르륵 배 속 여행』 (인체)"
+  },
+  {
+   "id": "sci-107",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "위에서 음식을 녹이는 것은?",
+   "choices": [
+    "위액",
+    "침만",
+    "피"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🍽️",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『꾸르륵 배 속 여행』 (인체)"
+  },
+  {
+   "id": "sci-108",
    "subject": "과학",
    "type": "choice",
    "prompt": "생각하고 기억하는 곳은?",
@@ -1294,7 +1838,7 @@
    "explain": "『내 머리는 대단해』 (인체)"
   },
   {
-   "id": "sci-077",
+   "id": "sci-109",
    "subject": "과학",
    "type": "choice",
    "prompt": "뇌가 보낸 명령을 온몸에 전해 주는 것은?",
@@ -1311,7 +1855,7 @@
    "explain": "『내 머리는 대단해』 (인체)"
   },
   {
-   "id": "sci-078",
+   "id": "sci-110",
    "subject": "과학",
    "type": "choice",
    "prompt": "뜨거운 것을 만지면 손을 빨리 떼는 까닭은?",
@@ -1328,7 +1872,7 @@
    "explain": "『내 머리는 대단해』 (인체)"
   },
   {
-   "id": "sci-079",
+   "id": "sci-111",
    "subject": "과학",
    "type": "choice",
    "prompt": "뇌가 쉬고 튼튼해지려면 무엇이 중요할까요?",
@@ -1345,7 +1889,41 @@
    "explain": "『내 머리는 대단해』 (인체)"
   },
   {
-   "id": "sci-080",
+   "id": "sci-112",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "공이 날아오면 저절로 눈을 감는 것처럼 생각하기 전에 몸이 먼저 하는 행동을 뭐라 할까요?",
+   "choices": [
+    "반사",
+    "기억",
+    "꿈"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🧠",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『내 머리는 대단해』 (인체)"
+  },
+  {
+   "id": "sci-113",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "발을 다쳤는데 머리에서 아픈 것을 느끼는 까닭은?",
+   "choices": [
+    "신경이 뇌에 아프다고 알려 줘서",
+    "발에 뇌가 있어서",
+    "피가 머리로 가서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🧠",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『내 머리는 대단해』 (인체)"
+  },
+  {
+   "id": "sci-114",
    "subject": "과학",
    "type": "choice",
    "prompt": "숨을 쉴 때 공기가 들어가는 곳은?",
@@ -1362,7 +1940,7 @@
    "explain": "『헉헉 숨이 차요』 (인체)"
   },
   {
-   "id": "sci-081",
+   "id": "sci-115",
    "subject": "과학",
    "type": "choice",
    "prompt": "숨을 들이마실 때 몸에 필요한 것은?",
@@ -1379,7 +1957,7 @@
    "explain": "『헉헉 숨이 차요』 (인체)"
   },
   {
-   "id": "sci-082",
+   "id": "sci-116",
    "subject": "과학",
    "type": "choice",
    "prompt": "숨을 내쉴 때 나가는 것은?",
@@ -1396,7 +1974,7 @@
    "explain": "『헉헉 숨이 차요』 (인체)"
   },
   {
-   "id": "sci-083",
+   "id": "sci-117",
    "subject": "과학",
    "type": "choice",
    "prompt": "달리기를 하면 숨이 차는 까닭은?",
@@ -1413,7 +1991,41 @@
    "explain": "『헉헉 숨이 차요』 (인체)"
   },
   {
-   "id": "sci-084",
+   "id": "sci-118",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "물속에서 오래 숨을 참기 힘든 까닭은?",
+   "choices": [
+    "몸에 산소가 계속 필요해서",
+    "물이 차가워서",
+    "눈이 따가워서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🫁",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『헉헉 숨이 차요』 (인체)"
+  },
+  {
+   "id": "sci-119",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "코로 숨을 쉬면 좋은 점은?",
+   "choices": [
+    "코털이 먼지를 걸러 줘요",
+    "더 빨리 숨이 차요",
+    "냄새를 못 맡아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🫁",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『헉헉 숨이 차요』 (인체)"
+  },
+  {
+   "id": "sci-120",
    "subject": "과학",
    "type": "choice",
    "prompt": "피를 온몸으로 보내는 곳은?",
@@ -1430,7 +2042,7 @@
    "explain": "『가슴이 콩닥콩닥』 (인체)"
   },
   {
-   "id": "sci-085",
+   "id": "sci-121",
    "subject": "과학",
    "type": "choice",
    "prompt": "피가 다니는 길은?",
@@ -1447,7 +2059,7 @@
    "explain": "『가슴이 콩닥콩닥』 (인체)"
   },
   {
-   "id": "sci-086",
+   "id": "sci-122",
    "subject": "과학",
    "type": "choice",
    "prompt": "운동을 하면 심장은 어떻게 될까요?",
@@ -1464,7 +2076,7 @@
    "explain": "『가슴이 콩닥콩닥』 (인체)"
   },
   {
-   "id": "sci-087",
+   "id": "sci-123",
    "subject": "과학",
    "type": "choice",
    "prompt": "피가 온몸에 실어 나르는 것은?",
@@ -1481,7 +2093,41 @@
    "explain": "『가슴이 콩닥콩닥』 (인체)"
   },
   {
-   "id": "sci-088",
+   "id": "sci-124",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "손목에 손가락을 대면 콩닥콩닥 느껴지는 것은?",
+   "choices": [
+    "맥박",
+    "숨소리",
+    "뼈"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "❤️",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『가슴이 콩닥콩닥』 (인체)"
+  },
+  {
+   "id": "sci-125",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "피가 빨간 까닭은?",
+   "choices": [
+    "피 속 적혈구 때문에",
+    "빨간 음식을 먹어서",
+    "햇빛 때문에"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "❤️",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『가슴이 콩닥콩닥』 (인체)"
+  },
+  {
+   "id": "sci-126",
    "subject": "과학",
    "type": "choice",
    "prompt": "몸에 들어온 나쁜 균과 싸우는 피 속의 세포는?",
@@ -1498,7 +2144,7 @@
    "explain": "『힘내라! 백혈구』 (인체)"
   },
   {
-   "id": "sci-089",
+   "id": "sci-127",
    "subject": "과학",
    "type": "choice",
    "prompt": "감기를 옮기는 작은 것은?",
@@ -1515,7 +2161,7 @@
    "explain": "『힘내라! 백혈구』 (인체)"
   },
   {
-   "id": "sci-090",
+   "id": "sci-128",
    "subject": "과학",
    "type": "choice",
    "prompt": "병균이 몸에 들어오지 않게 하는 가장 쉬운 방법은?",
@@ -1532,7 +2178,7 @@
    "explain": "『힘내라! 백혈구』 (인체)"
   },
   {
-   "id": "sci-091",
+   "id": "sci-129",
    "subject": "과학",
    "type": "choice",
    "prompt": "예방 주사를 맞는 까닭은?",
@@ -1549,7 +2195,7 @@
    "explain": "『힘내라! 백혈구』 (인체)"
   },
   {
-   "id": "sci-092",
+   "id": "sci-130",
    "subject": "과학",
    "type": "choice",
    "prompt": "다쳤을 때 피를 멈추게 도와주는 것은?",
@@ -1566,7 +2212,41 @@
    "explain": "『힘내라! 백혈구』 (인체)"
   },
   {
-   "id": "sci-093",
+   "id": "sci-131",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "열이 나는 것은 몸에서 무엇을 하고 있다는 뜻일까요?",
+   "choices": [
+    "병균과 싸우고 있어요",
+    "잠을 자고 있어요",
+    "밥을 소화하고 있어요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🛡️",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『힘내라! 백혈구』 (인체)"
+  },
+  {
+   "id": "sci-132",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "기침할 때 팔꿈치 안쪽으로 입을 가리는 까닭은?",
+   "choices": [
+    "병균이 다른 사람에게 퍼지지 않게",
+    "멋있어 보이려고",
+    "팔이 따뜻해서"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🛡️",
+   "displayClass": "scene",
+   "group": "sci-인체",
+   "explain": "『힘내라! 백혈구』 (인체)"
+  },
+  {
+   "id": "sci-133",
    "subject": "과학",
    "type": "choice",
    "prompt": "미세먼지가 많은 날 밖에 나갈 때 쓰면 좋은 것은?",
@@ -1583,7 +2263,7 @@
    "explain": "『숨 쉬기가 힘들어요』 (환경)"
   },
   {
-   "id": "sci-094",
+   "id": "sci-134",
    "subject": "과학",
    "type": "choice",
    "prompt": "공기를 더럽히는 것은?",
@@ -1600,7 +2280,7 @@
    "explain": "『숨 쉬기가 힘들어요』 (환경)"
   },
   {
-   "id": "sci-095",
+   "id": "sci-135",
    "subject": "과학",
    "type": "choice",
    "prompt": "공기를 맑게 해 주는 것은?",
@@ -1617,7 +2297,7 @@
    "explain": "『숨 쉬기가 힘들어요』 (환경)"
   },
   {
-   "id": "sci-096",
+   "id": "sci-136",
    "subject": "과학",
    "type": "choice",
    "prompt": "가까운 곳에 갈 때 공기를 지키는 방법은?",
@@ -1634,7 +2314,41 @@
    "explain": "『숨 쉬기가 힘들어요』 (환경)"
   },
   {
-   "id": "sci-097",
+   "id": "sci-137",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "미세먼지는 왜 몸에 해로울까요?",
+   "choices": [
+    "아주 작아서 폐 깊이 들어가요",
+    "색이 예뻐서",
+    "냄새가 좋아서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "😷",
+   "displayClass": "scene",
+   "group": "sci-환경",
+   "explain": "『숨 쉬기가 힘들어요』 (환경)"
+  },
+  {
+   "id": "sci-138",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "공기를 깨끗하게 하려고 공장 굴뚝에 다는 것은?",
+   "choices": [
+    "먼지를 거르는 장치",
+    "확성기",
+    "풍선"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "😷",
+   "displayClass": "scene",
+   "group": "sci-환경",
+   "explain": "『숨 쉬기가 힘들어요』 (환경)"
+  },
+  {
+   "id": "sci-139",
    "subject": "과학",
    "type": "choice",
    "prompt": "물을 아끼는 방법은?",
@@ -1651,7 +2365,7 @@
    "explain": "『깨끗한 물 소중한 물』 (환경)"
   },
   {
-   "id": "sci-098",
+   "id": "sci-140",
    "subject": "과학",
    "type": "choice",
    "prompt": "강물을 더럽히는 것은?",
@@ -1668,7 +2382,7 @@
    "explain": "『깨끗한 물 소중한 물』 (환경)"
   },
   {
-   "id": "sci-099",
+   "id": "sci-141",
    "subject": "과학",
    "type": "choice",
    "prompt": "더러운 물을 깨끗하게 해서 다시 내보내는 곳은?",
@@ -1685,7 +2399,7 @@
    "explain": "『깨끗한 물 소중한 물』 (환경)"
   },
   {
-   "id": "sci-100",
+   "id": "sci-142",
    "subject": "과학",
    "type": "choice",
    "prompt": "지구의 물 중에서 우리가 바로 마실 수 있는 물은?",
@@ -1702,7 +2416,41 @@
    "explain": "『깨끗한 물 소중한 물』 (환경)"
   },
   {
-   "id": "sci-101",
+   "id": "sci-143",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "기름 묻은 그릇을 휴지로 먼저 닦고 설거지하는 까닭은?",
+   "choices": [
+    "물이 덜 더러워지게",
+    "그릇이 깨지지 않게",
+    "물을 더 쓰려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "💧",
+   "displayClass": "scene",
+   "group": "sci-환경",
+   "explain": "『깨끗한 물 소중한 물』 (환경)"
+  },
+  {
+   "id": "sci-144",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "바닷물을 그냥 마실 수 없는 까닭은?",
+   "choices": [
+    "소금이 너무 많아서",
+    "너무 차가워서",
+    "색이 파래서"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "💧",
+   "displayClass": "scene",
+   "group": "sci-환경",
+   "explain": "『깨끗한 물 소중한 물』 (환경)"
+  },
+  {
+   "id": "sci-145",
    "subject": "과학",
    "type": "choice",
    "prompt": "다 쓴 페트병을 다시 쓸 수 있게 만드는 것을 뭐라 할까요?",
@@ -1719,7 +2467,7 @@
    "explain": "『쓰레기가 너무 많아』 (환경)"
   },
   {
-   "id": "sci-102",
+   "id": "sci-146",
    "subject": "과학",
    "type": "choice",
    "prompt": "쓰레기를 줄이는 방법은?",
@@ -1736,7 +2484,7 @@
    "explain": "『쓰레기가 너무 많아』 (환경)"
   },
   {
-   "id": "sci-103",
+   "id": "sci-147",
    "subject": "과학",
    "type": "choice",
    "prompt": "페트병을 버릴 때 먼저 할 일은?",
@@ -1753,7 +2501,7 @@
    "explain": "『쓰레기가 너무 많아』 (환경)"
   },
   {
-   "id": "sci-104",
+   "id": "sci-148",
    "subject": "과학",
    "type": "choice",
    "prompt": "플라스틱이 바다에 버려지면 어떻게 될까요?",
@@ -1770,7 +2518,41 @@
    "explain": "『쓰레기가 너무 많아』 (환경)"
   },
   {
-   "id": "sci-105",
+   "id": "sci-149",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "우유 팩을 모아 다시 만들 수 있는 것은?",
+   "choices": [
+    "휴지 같은 종이",
+    "유리컵",
+    "쇠못"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🗑️",
+   "displayClass": "scene",
+   "group": "sci-환경",
+   "explain": "『쓰레기가 너무 많아』 (환경)"
+  },
+  {
+   "id": "sci-150",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "쓰레기를 땅에 묻으면 오래 남아 문제인 것은?",
+   "choices": [
+    "플라스틱",
+    "사과 껍질",
+    "나뭇잎"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🗑️",
+   "displayClass": "scene",
+   "group": "sci-환경",
+   "explain": "『쓰레기가 너무 많아』 (환경)"
+  },
+  {
+   "id": "sci-151",
    "subject": "과학",
    "type": "choice",
    "prompt": "숲을 마구 베면 어떻게 될까요?",
@@ -1787,7 +2569,7 @@
    "explain": "『살 곳을 잃어 가요』 (환경)"
   },
   {
-   "id": "sci-106",
+   "id": "sci-152",
    "subject": "과학",
    "type": "choice",
    "prompt": "북극 얼음이 녹으면 살기 힘든 동물은?",
@@ -1804,7 +2586,7 @@
    "explain": "『살 곳을 잃어 가요』 (환경)"
   },
   {
-   "id": "sci-107",
+   "id": "sci-153",
    "subject": "과학",
    "type": "choice",
    "prompt": "멸종 위기 동물을 지키는 방법은?",
@@ -1821,7 +2603,7 @@
    "explain": "『살 곳을 잃어 가요』 (환경)"
   },
   {
-   "id": "sci-108",
+   "id": "sci-154",
    "subject": "과학",
    "type": "choice",
    "prompt": "한 번 사라져서 다시 볼 수 없게 된 동물은?",
@@ -1838,7 +2620,41 @@
    "explain": "『살 곳을 잃어 가요』 (환경)"
   },
   {
-   "id": "sci-109",
+   "id": "sci-155",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "벌이나 개구리처럼 작은 동물이 사라지면 어떻게 될까요?",
+   "choices": [
+    "그 동물을 먹는 동물도 살기 힘들어져요",
+    "아무 일도 없어요",
+    "다른 동물이 더 많아져요만"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🐼",
+   "displayClass": "scene",
+   "group": "sci-환경",
+   "explain": "『살 곳을 잃어 가요』 (환경)"
+  },
+  {
+   "id": "sci-156",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "동물이 다니는 길을 끊지 않으려고 도로 위아래에 만드는 길은?",
+   "choices": [
+    "생태 통로",
+    "지하철",
+    "육교 계단"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🐼",
+   "displayClass": "scene",
+   "group": "sci-환경",
+   "explain": "『살 곳을 잃어 가요』 (환경)"
+  },
+  {
+   "id": "sci-157",
    "subject": "과학",
    "type": "choice",
    "prompt": "큰 바위가 오랫동안 비바람에 깎이면 무엇이 될까요?",
@@ -1855,7 +2671,7 @@
    "explain": "『돌고 도는 돌의 여행』 (지구)"
   },
   {
-   "id": "sci-110",
+   "id": "sci-158",
    "subject": "과학",
    "type": "choice",
    "prompt": "강가의 돌이 동글동글한 까닭은?",
@@ -1872,7 +2688,7 @@
    "explain": "『돌고 도는 돌의 여행』 (지구)"
   },
   {
-   "id": "sci-111",
+   "id": "sci-159",
    "subject": "과학",
    "type": "choice",
    "prompt": "화산에서 나온 용암이 식어서 굳으면 무엇이 될까요?",
@@ -1889,7 +2705,7 @@
    "explain": "『돌고 도는 돌의 여행』 (지구)"
   },
   {
-   "id": "sci-112",
+   "id": "sci-160",
    "subject": "과학",
    "type": "choice",
    "prompt": "모래가 오랫동안 쌓이고 굳어서 생긴 돌은?",
@@ -1906,7 +2722,41 @@
    "explain": "『돌고 도는 돌의 여행』 (지구)"
   },
   {
-   "id": "sci-113",
+   "id": "sci-161",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "화강암처럼 마그마가 땅속에서 천천히 식은 돌의 특징은?",
+   "choices": [
+    "알갱이가 커요",
+    "구멍이 많아요",
+    "물에 떠요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🪨",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『돌고 도는 돌의 여행』 (지구)"
+  },
+  {
+   "id": "sci-162",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "돌이 부서진 모래와 흙은 다시 무엇이 될 수 있을까요?",
+   "choices": [
+    "쌓이고 굳어 다시 돌",
+    "구름",
+    "물고기"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🪨",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『돌고 도는 돌의 여행』 (지구)"
+  },
+  {
+   "id": "sci-163",
    "subject": "과학",
    "type": "choice",
    "prompt": "흐르는 물이 땅을 깎아 내는 것을 뭐라고 할까요?",
@@ -1923,7 +2773,7 @@
    "explain": "『물돌이 마을의 비밀』 (지구)"
   },
   {
-   "id": "sci-114",
+   "id": "sci-164",
    "subject": "과학",
    "type": "choice",
    "prompt": "흐르는 물이 흙과 모래를 쌓아 놓는 것을 뭐라고 할까요?",
@@ -1940,7 +2790,7 @@
    "explain": "『물돌이 마을의 비밀』 (지구)"
   },
   {
-   "id": "sci-115",
+   "id": "sci-165",
    "subject": "과학",
    "type": "choice",
    "prompt": "강물은 어떻게 흘러갈까요?",
@@ -1957,7 +2807,7 @@
    "explain": "『물돌이 마을의 비밀』 (지구)"
   },
   {
-   "id": "sci-116",
+   "id": "sci-166",
    "subject": "과학",
    "type": "choice",
    "prompt": "강이 바다와 만나는 곳에는 무엇이 많이 쌓일까요?",
@@ -1974,7 +2824,41 @@
    "explain": "『물돌이 마을의 비밀』 (지구)"
   },
   {
-   "id": "sci-117",
+   "id": "sci-167",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "비가 많이 오면 강물이 흙탕물이 되는 까닭은?",
+   "choices": [
+    "물이 흙을 깎아 함께 흘러서",
+    "물고기가 놀아서",
+    "하늘이 흐려서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🏞️",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『물돌이 마을의 비밀』 (지구)"
+  },
+  {
+   "id": "sci-168",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "강의 굽은 곳 바깥쪽이 더 많이 깎이는 까닭은?",
+   "choices": [
+    "물이 더 빠르게 흘러서",
+    "물이 멈춰 있어서",
+    "돌이 없어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🏞️",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『물돌이 마을의 비밀』 (지구)"
+  },
+  {
+   "id": "sci-169",
    "subject": "과학",
    "type": "choice",
    "prompt": "바닷물은 맛이 어떨까요?",
@@ -1991,7 +2875,7 @@
    "explain": "『와, 바다다!』 (지구)"
   },
   {
-   "id": "sci-118",
+   "id": "sci-170",
    "subject": "과학",
    "type": "choice",
    "prompt": "바닷물이 짠 까닭은?",
@@ -2008,7 +2892,7 @@
    "explain": "『와, 바다다!』 (지구)"
   },
   {
-   "id": "sci-119",
+   "id": "sci-171",
    "subject": "과학",
    "type": "choice",
    "prompt": "바닷물이 하루에 두 번쯤 들어왔다 나갔다 하는 것을 뭐라고 할까요?",
@@ -2025,7 +2909,7 @@
    "explain": "『와, 바다다!』 (지구)"
   },
   {
-   "id": "sci-120",
+   "id": "sci-172",
    "subject": "과학",
    "type": "choice",
    "prompt": "지구에서 바다가 차지하는 넓이는?",
@@ -2042,7 +2926,41 @@
    "explain": "『와, 바다다!』 (지구)"
   },
   {
-   "id": "sci-121",
+   "id": "sci-173",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "바다에서 수영하면 수영장보다 몸이 잘 뜨는 까닭은?",
+   "choices": [
+    "짠 바닷물이 더 세게 밀어 올려서",
+    "파도가 들어 줘서",
+    "물이 따뜻해서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌊",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『와, 바다다!』 (지구)"
+  },
+  {
+   "id": "sci-174",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "바닷물을 햇볕에 말려서 얻는 것은?",
+   "choices": [
+    "소금",
+    "설탕",
+    "모래"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🌊",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『와, 바다다!』 (지구)"
+  },
+  {
+   "id": "sci-175",
    "subject": "과학",
    "type": "choice",
    "prompt": "공룡이 살던 때는 언제일까요?",
@@ -2059,7 +2977,7 @@
    "explain": "『옛날 옛날 지구에서는』 (지구)"
   },
   {
-   "id": "sci-122",
+   "id": "sci-176",
    "subject": "과학",
    "type": "choice",
    "prompt": "아주 옛날 지구에 살던 생물을 어떻게 알 수 있을까요?",
@@ -2076,7 +2994,7 @@
    "explain": "『옛날 옛날 지구에서는』 (지구)"
   },
   {
-   "id": "sci-123",
+   "id": "sci-177",
    "subject": "과학",
    "type": "choice",
    "prompt": "지구에는 아주 추운 빙하기가 있었을까요?",
@@ -2093,7 +3011,7 @@
    "explain": "『옛날 옛날 지구에서는』 (지구)"
   },
   {
-   "id": "sci-124",
+   "id": "sci-178",
    "subject": "과학",
    "type": "choice",
    "prompt": "매머드는 어떤 동물이었을까요?",
@@ -2110,7 +3028,41 @@
    "explain": "『옛날 옛날 지구에서는』 (지구)"
   },
   {
-   "id": "sci-125",
+   "id": "sci-179",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "지구에 생물이 처음 생긴 곳은?",
+   "choices": [
+    "바다",
+    "사막",
+    "높은 산"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌋",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『옛날 옛날 지구에서는』 (지구)"
+  },
+  {
+   "id": "sci-180",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "공룡이 사라진 까닭으로 알려진 것은?",
+   "choices": [
+    "큰 운석이 떨어져 환경이 크게 바뀌어서",
+    "사람이 다 잡아서",
+    "공룡이 너무 착해서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌋",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『옛날 옛날 지구에서는』 (지구)"
+  },
+  {
+   "id": "sci-181",
    "subject": "과학",
    "type": "choice",
    "prompt": "아주 옛날 생물의 뼈나 흔적이 돌에 남은 것은?",
@@ -2127,7 +3079,7 @@
    "explain": "『공룡을 본 적 있나요?』 (지구)"
   },
   {
-   "id": "sci-126",
+   "id": "sci-182",
    "subject": "과학",
    "type": "choice",
    "prompt": "공룡에 대해 알 수 있는 까닭은?",
@@ -2144,7 +3096,7 @@
    "explain": "『공룡을 본 적 있나요?』 (지구)"
   },
   {
-   "id": "sci-127",
+   "id": "sci-183",
    "subject": "과학",
    "type": "choice",
    "prompt": "흙과 모래가 차곡차곡 쌓여 줄무늬가 생긴 땅은?",
@@ -2161,7 +3113,7 @@
    "explain": "『공룡을 본 적 있나요?』 (지구)"
   },
   {
-   "id": "sci-128",
+   "id": "sci-184",
    "subject": "과학",
    "type": "choice",
    "prompt": "지층에서 보통 더 오래된 층은?",
@@ -2178,7 +3130,41 @@
    "explain": "『공룡을 본 적 있나요?』 (지구)"
   },
   {
-   "id": "sci-129",
+   "id": "sci-185",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "산꼭대기 지층에서 조개 화석이 나오면 알 수 있는 것은?",
+   "choices": [
+    "옛날에 그곳이 바다였어요",
+    "조개가 산을 올라갔어요",
+    "누가 버렸어요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🦕",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『공룡을 본 적 있나요?』 (지구)"
+  },
+  {
+   "id": "sci-186",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "화석이 잘 생기려면?",
+   "choices": [
+    "생물이 죽은 뒤 빨리 흙에 묻혀야 해요",
+    "햇볕에 오래 있어야 해요",
+    "바람에 날려야 해요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🦕",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『공룡을 본 적 있나요?』 (지구)"
+  },
+  {
+   "id": "sci-187",
    "subject": "과학",
    "type": "choice",
    "prompt": "화산에서 흘러나오는 뜨겁게 녹은 돌을 뭐라고 할까요?",
@@ -2195,7 +3181,7 @@
    "explain": "『부글부글 화산이 쾅』 (지구)"
   },
   {
-   "id": "sci-130",
+   "id": "sci-188",
    "subject": "과학",
    "type": "choice",
    "prompt": "우리나라의 화산섬은?",
@@ -2212,7 +3198,7 @@
    "explain": "『부글부글 화산이 쾅』 (지구)"
   },
   {
-   "id": "sci-131",
+   "id": "sci-189",
    "subject": "과학",
    "type": "choice",
    "prompt": "한라산 꼭대기의 호수는?",
@@ -2229,7 +3215,7 @@
    "explain": "『부글부글 화산이 쾅』 (지구)"
   },
   {
-   "id": "sci-132",
+   "id": "sci-190",
    "subject": "과학",
    "type": "choice",
    "prompt": "화산이 터지면 하늘로 솟아오르는 것은?",
@@ -2246,7 +3232,41 @@
    "explain": "『부글부글 화산이 쾅』 (지구)"
   },
   {
-   "id": "sci-133",
+   "id": "sci-191",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "화산 주변 땅이 농사짓기 좋은 까닭은?",
+   "choices": [
+    "화산재가 양분이 많은 흙이 돼서",
+    "늘 따뜻해서만",
+    "물이 없어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌋",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『부글부글 화산이 쾅』 (지구)"
+  },
+  {
+   "id": "sci-192",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "화산 활동으로 생긴 뜨거운 물이 나오는 곳은?",
+   "choices": [
+    "온천",
+    "우물",
+    "바다"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🌋",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『부글부글 화산이 쾅』 (지구)"
+  },
+  {
+   "id": "sci-193",
    "subject": "과학",
    "type": "choice",
    "prompt": "지진이 나면 집 안에서 어떻게 할까요?",
@@ -2263,7 +3283,7 @@
    "explain": "『땅이 흔들, 지진이다!』 (지구)"
   },
   {
-   "id": "sci-134",
+   "id": "sci-194",
    "subject": "과학",
    "type": "choice",
    "prompt": "지진이 멈추면 밖으로 나갈 때 무엇을 이용할까요?",
@@ -2280,7 +3300,7 @@
    "explain": "『땅이 흔들, 지진이다!』 (지구)"
   },
   {
-   "id": "sci-135",
+   "id": "sci-195",
    "subject": "과학",
    "type": "choice",
    "prompt": "밖에서 지진이 나면 어디로 피할까요?",
@@ -2297,7 +3317,7 @@
    "explain": "『땅이 흔들, 지진이다!』 (지구)"
   },
   {
-   "id": "sci-136",
+   "id": "sci-196",
    "subject": "과학",
    "type": "choice",
    "prompt": "지진은 왜 일어날까요?",
@@ -2314,7 +3334,41 @@
    "explain": "『땅이 흔들, 지진이다!』 (지구)"
   },
   {
-   "id": "sci-137",
+   "id": "sci-197",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "바다 밑에서 큰 지진이 나면 생길 수 있는 큰 파도는?",
+   "choices": [
+    "지진 해일(쓰나미)",
+    "무지개",
+    "밀물"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🫨",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『땅이 흔들, 지진이다!』 (지구)"
+  },
+  {
+   "id": "sci-198",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "지진에 잘 견디려면 건물을 어떻게 지어야 할까요?",
+   "choices": [
+    "흔들림을 견디게 튼튼하게",
+    "높이만 아주 높게",
+    "종이로 가볍게"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🫨",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『땅이 흔들, 지진이다!』 (지구)"
+  },
+  {
+   "id": "sci-199",
    "subject": "과학",
    "type": "choice",
    "prompt": "비가 오려고 할 때 하늘은 어떻게 될까요?",
@@ -2331,7 +3385,7 @@
    "explain": "『맑은 날 흐린 날 비 오는 날』 (지구)"
   },
   {
-   "id": "sci-138",
+   "id": "sci-200",
    "subject": "과학",
    "type": "choice",
    "prompt": "비를 막으려고 쓰는 것은?",
@@ -2348,7 +3402,7 @@
    "explain": "『맑은 날 흐린 날 비 오는 날』 (지구)"
   },
   {
-   "id": "sci-139",
+   "id": "sci-201",
    "subject": "과학",
    "type": "choice",
    "prompt": "날씨를 미리 알려 주는 것을 뭐라고 할까요?",
@@ -2365,7 +3419,7 @@
    "explain": "『맑은 날 흐린 날 비 오는 날』 (지구)"
   },
   {
-   "id": "sci-140",
+   "id": "sci-202",
    "subject": "과학",
    "type": "choice",
    "prompt": "무지개는 언제 잘 볼 수 있을까요?",
@@ -2382,7 +3436,7 @@
    "explain": "『맑은 날 흐린 날 비 오는 날』 (지구)"
   },
   {
-   "id": "sci-141",
+   "id": "sci-203",
    "subject": "과학",
    "type": "choice",
    "prompt": "바람의 방향을 알려 주는 도구는?",
@@ -2399,7 +3453,41 @@
    "explain": "『맑은 날 흐린 날 비 오는 날』 (지구)"
   },
   {
-   "id": "sci-142",
+   "id": "sci-204",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "구름이 많이 끼면 낮과 밤의 기온 차이는?",
+   "choices": [
+    "작아져요",
+    "커져요",
+    "똑같아요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌦️",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『맑은 날 흐린 날 비 오는 날』 (지구)"
+  },
+  {
+   "id": "sci-205",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "천둥보다 번개가 먼저 보이는 까닭은?",
+   "choices": [
+    "빛이 소리보다 훨씬 빨라서",
+    "번개가 더 가까워서",
+    "천둥이 늦잠 자서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌦️",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『맑은 날 흐린 날 비 오는 날』 (지구)"
+  },
+  {
+   "id": "sci-206",
    "subject": "과학",
    "type": "choice",
    "prompt": "낮이 가장 길고 더운 계절은?",
@@ -2416,7 +3504,7 @@
    "explain": "『계절이 바뀌면』 (지구)"
   },
   {
-   "id": "sci-143",
+   "id": "sci-207",
    "subject": "과학",
    "type": "choice",
    "prompt": "여름에 더운 까닭은?",
@@ -2433,7 +3521,7 @@
    "explain": "『계절이 바뀌면』 (지구)"
   },
   {
-   "id": "sci-144",
+   "id": "sci-208",
    "subject": "과학",
    "type": "choice",
    "prompt": "겨울에는 낮과 밤 중 무엇이 더 길까요?",
@@ -2450,7 +3538,7 @@
    "explain": "『계절이 바뀌면』 (지구)"
   },
   {
-   "id": "sci-145",
+   "id": "sci-209",
    "subject": "과학",
    "type": "choice",
    "prompt": "우리나라의 계절 순서는?",
@@ -2467,7 +3555,41 @@
    "explain": "『계절이 바뀌면』 (지구)"
   },
   {
-   "id": "sci-146",
+   "id": "sci-210",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "겨울에 해가 지는 시각은 여름보다?",
+   "choices": [
+    "더 일러요",
+    "더 늦어요",
+    "똑같아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🌸",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『계절이 바뀌면』 (지구)"
+  },
+  {
+   "id": "sci-211",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "계절이 생기는 까닭은?",
+   "choices": [
+    "지구가 기울어진 채 해 둘레를 돌아서",
+    "해가 커졌다 작아졌다 해서",
+    "달이 가려서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌸",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『계절이 바뀌면』 (지구)"
+  },
+  {
+   "id": "sci-212",
    "subject": "과학",
    "type": "choice",
    "prompt": "낮과 밤이 생기는 까닭은?",
@@ -2484,7 +3606,7 @@
    "explain": "『지구도 돌고 달도 돌고』 (지구)"
   },
   {
-   "id": "sci-147",
+   "id": "sci-213",
    "subject": "과학",
    "type": "choice",
    "prompt": "지구가 스스로 한 바퀴 도는 데 걸리는 시간은?",
@@ -2501,7 +3623,7 @@
    "explain": "『지구도 돌고 달도 돌고』 (지구)"
   },
   {
-   "id": "sci-148",
+   "id": "sci-214",
    "subject": "과학",
    "type": "choice",
    "prompt": "지구가 해 둘레를 한 바퀴 도는 데 걸리는 시간은?",
@@ -2518,7 +3640,7 @@
    "explain": "『지구도 돌고 달도 돌고』 (지구)"
   },
   {
-   "id": "sci-149",
+   "id": "sci-215",
    "subject": "과학",
    "type": "choice",
    "prompt": "지구 둘레를 도는 것은?",
@@ -2535,7 +3657,7 @@
    "explain": "『지구도 돌고 달도 돌고』 (지구)"
   },
   {
-   "id": "sci-150",
+   "id": "sci-216",
    "subject": "과학",
    "type": "choice",
    "prompt": "달 모양이 날마다 바뀌어 보이는 까닭은?",
@@ -2552,7 +3674,41 @@
    "explain": "『지구도 돌고 달도 돌고』 (지구)"
   },
   {
-   "id": "sci-151",
+   "id": "sci-217",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "해가 동쪽에서 떠서 서쪽으로 지는 것처럼 보이는 까닭은?",
+   "choices": [
+    "지구가 서쪽에서 동쪽으로 돌아서",
+    "해가 지구를 돌아서",
+    "구름이 해를 밀어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🌍",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『지구도 돌고 달도 돌고』 (지구)"
+  },
+  {
+   "id": "sci-218",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "보름달은 어떤 모양일까요?",
+   "choices": [
+    "둥근 모양",
+    "눈썹 모양",
+    "반쪽 모양"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🌍",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『지구도 돌고 달도 돌고』 (지구)"
+  },
+  {
+   "id": "sci-219",
    "subject": "과학",
    "type": "choice",
    "prompt": "태양계의 가운데에 있는 것은?",
@@ -2569,7 +3725,7 @@
    "explain": "『빙글빙글 태양계 탐험』 (지구)"
   },
   {
-   "id": "sci-152",
+   "id": "sci-220",
    "subject": "과학",
    "type": "choice",
    "prompt": "우리가 사는 행성은?",
@@ -2586,7 +3742,7 @@
    "explain": "『빙글빙글 태양계 탐험』 (지구)"
   },
   {
-   "id": "sci-153",
+   "id": "sci-221",
    "subject": "과학",
    "type": "choice",
    "prompt": "태양계에서 가장 큰 행성은?",
@@ -2603,7 +3759,7 @@
    "explain": "『빙글빙글 태양계 탐험』 (지구)"
   },
   {
-   "id": "sci-154",
+   "id": "sci-222",
    "subject": "과학",
    "type": "choice",
    "prompt": "고리가 아름다운 행성으로 유명한 것은?",
@@ -2620,7 +3776,7 @@
    "explain": "『빙글빙글 태양계 탐험』 (지구)"
   },
   {
-   "id": "sci-155",
+   "id": "sci-223",
    "subject": "과학",
    "type": "choice",
    "prompt": "붉게 보여서 '붉은 행성'이라 부르는 것은?",
@@ -2637,7 +3793,41 @@
    "explain": "『빙글빙글 태양계 탐험』 (지구)"
   },
   {
-   "id": "sci-156",
+   "id": "sci-224",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "태양에서 가장 가까운 행성은?",
+   "choices": [
+    "수성",
+    "지구",
+    "해왕성"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🪐",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『빙글빙글 태양계 탐험』 (지구)"
+  },
+  {
+   "id": "sci-225",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "지구에만 생물이 살 수 있는 까닭 중 하나는?",
+   "choices": [
+    "물과 알맞은 온도가 있어서",
+    "가장 커서",
+    "고리가 있어서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🪐",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『빙글빙글 태양계 탐험』 (지구)"
+  },
+  {
+   "id": "sci-226",
    "subject": "과학",
    "type": "choice",
    "prompt": "북쪽 하늘에서 국자 모양으로 보이는 일곱 개의 별은?",
@@ -2654,7 +3844,7 @@
    "explain": "『별자리가 들려주는 별별 이야기』 (지구)"
   },
   {
-   "id": "sci-157",
+   "id": "sci-227",
    "subject": "과학",
    "type": "choice",
    "prompt": "별이 밤에만 보이는 까닭은?",
@@ -2671,7 +3861,7 @@
    "explain": "『별자리가 들려주는 별별 이야기』 (지구)"
   },
   {
-   "id": "sci-158",
+   "id": "sci-228",
    "subject": "과학",
    "type": "choice",
    "prompt": "밤하늘의 별은 왜 반짝반짝 보일까요?",
@@ -2688,7 +3878,7 @@
    "explain": "『별자리가 들려주는 별별 이야기』 (지구)"
   },
   {
-   "id": "sci-159",
+   "id": "sci-229",
    "subject": "과학",
    "type": "choice",
    "prompt": "별을 크게 볼 수 있는 도구는?",
@@ -2705,7 +3895,41 @@
    "explain": "『별자리가 들려주는 별별 이야기』 (지구)"
   },
   {
-   "id": "sci-160",
+   "id": "sci-230",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "북극성이 길잡이 별로 쓰인 까닭은?",
+   "choices": [
+    "늘 북쪽 하늘에 있어서",
+    "가장 밝아서만",
+    "낮에도 보여서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "✨",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『별자리가 들려주는 별별 이야기』 (지구)"
+  },
+  {
+   "id": "sci-231",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "도시보다 시골에서 별이 더 잘 보이는 까닭은?",
+   "choices": [
+    "불빛이 적어 하늘이 어두워서",
+    "시골이 하늘에 가까워서",
+    "별이 시골을 좋아해서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "✨",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『별자리가 들려주는 별별 이야기』 (지구)"
+  },
+  {
+   "id": "sci-232",
    "subject": "과학",
    "type": "choice",
    "prompt": "우주에 가는 사람을 뭐라고 할까요?",
@@ -2722,7 +3946,7 @@
    "explain": "『3, 2, 1, 로켓 발사!』 (지구)"
   },
   {
-   "id": "sci-161",
+   "id": "sci-233",
    "subject": "과학",
    "type": "choice",
    "prompt": "사람이 처음으로 발을 디딘 곳은?",
@@ -2739,7 +3963,7 @@
    "explain": "『3, 2, 1, 로켓 발사!』 (지구)"
   },
   {
-   "id": "sci-162",
+   "id": "sci-234",
    "subject": "과학",
    "type": "choice",
    "prompt": "우주에서 몸이 둥둥 뜨는 까닭은?",
@@ -2756,7 +3980,7 @@
    "explain": "『3, 2, 1, 로켓 발사!』 (지구)"
   },
   {
-   "id": "sci-163",
+   "id": "sci-235",
    "subject": "과학",
    "type": "choice",
    "prompt": "우리나라 우주 발사체(로켓)의 이름은?",
@@ -2773,7 +3997,7 @@
    "explain": "『3, 2, 1, 로켓 발사!』 (지구)"
   },
   {
-   "id": "sci-164",
+   "id": "sci-236",
    "subject": "과학",
    "type": "choice",
    "prompt": "로켓은 어떻게 하늘로 올라갈까요?",
@@ -2790,7 +4014,41 @@
    "explain": "『3, 2, 1, 로켓 발사!』 (지구)"
   },
   {
-   "id": "sci-165",
+   "id": "sci-237",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "달에는 왜 발자국이 오래 남을까요?",
+   "choices": [
+    "바람과 비가 없어서",
+    "달이 차가워서",
+    "모래가 끈적해서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🚀",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『3, 2, 1, 로켓 발사!』 (지구)"
+  },
+  {
+   "id": "sci-238",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "우주 비행사가 우주복을 입는 까닭은?",
+   "choices": [
+    "우주에는 숨 쉴 공기가 없어서",
+    "멋있어 보이려고",
+    "날기 위해서"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🚀",
+   "displayClass": "scene",
+   "group": "sci-지구",
+   "explain": "『3, 2, 1, 로켓 발사!』 (지구)"
+  },
+  {
+   "id": "sci-239",
    "subject": "과학",
    "type": "choice",
    "prompt": "유리컵이 잘 깨지는 까닭은?",
@@ -2807,7 +4065,7 @@
    "explain": "『무엇으로 만들었을까』 (물질)"
   },
   {
-   "id": "sci-166",
+   "id": "sci-240",
    "subject": "과학",
    "type": "choice",
    "prompt": "비 올 때 입는 비옷은 어떤 재료로 만들면 좋을까요?",
@@ -2824,7 +4082,7 @@
    "explain": "『무엇으로 만들었을까』 (물질)"
   },
   {
-   "id": "sci-167",
+   "id": "sci-241",
    "subject": "과학",
    "type": "choice",
    "prompt": "자석에 붙는 물건은?",
@@ -2841,7 +4099,7 @@
    "explain": "『무엇으로 만들었을까』 (물질)"
   },
   {
-   "id": "sci-168",
+   "id": "sci-242",
    "subject": "과학",
    "type": "choice",
    "prompt": "고무가 잘 쓰이는 물건은?",
@@ -2858,7 +4116,7 @@
    "explain": "『무엇으로 만들었을까』 (물질)"
   },
   {
-   "id": "sci-169",
+   "id": "sci-243",
    "subject": "과학",
    "type": "choice",
    "prompt": "나무로 만든 물건이 물에 넣으면 어떻게 될까요?",
@@ -2875,7 +4133,41 @@
    "explain": "『무엇으로 만들었을까』 (물질)"
   },
   {
-   "id": "sci-170",
+   "id": "sci-244",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "운동화 끈에 고무가 아닌 천을 쓰는 까닭은?",
+   "choices": [
+    "잘 늘어나지 않고 튼튼해서",
+    "더 무거워서",
+    "빛이 나서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🧱",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『무엇으로 만들었을까』 (물질)"
+  },
+  {
+   "id": "sci-245",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "냄비를 쇠로 만드는 까닭은?",
+   "choices": [
+    "열을 잘 전해서",
+    "가벼워서",
+    "예뻐서만"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🧱",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『무엇으로 만들었을까』 (물질)"
+  },
+  {
+   "id": "sci-246",
    "subject": "과학",
    "type": "choice",
    "prompt": "얼음이 녹으면 무엇이 될까요?",
@@ -2892,7 +4184,7 @@
    "explain": "『변신! 고체, 액체, 기체』 (물질)"
   },
   {
-   "id": "sci-171",
+   "id": "sci-247",
    "subject": "과학",
    "type": "choice",
    "prompt": "물을 끓이면 무엇이 될까요?",
@@ -2909,7 +4201,7 @@
    "explain": "『변신! 고체, 액체, 기체』 (물질)"
   },
   {
-   "id": "sci-172",
+   "id": "sci-248",
    "subject": "과학",
    "type": "choice",
    "prompt": "물을 얼리면 무엇이 될까요?",
@@ -2926,7 +4218,7 @@
    "explain": "『변신! 고체, 액체, 기체』 (물질)"
   },
   {
-   "id": "sci-173",
+   "id": "sci-249",
    "subject": "과학",
    "type": "choice",
    "prompt": "담는 그릇에 따라 모양이 바뀌는 것은?",
@@ -2943,7 +4235,7 @@
    "explain": "『변신! 고체, 액체, 기체』 (물질)"
   },
   {
-   "id": "sci-174",
+   "id": "sci-250",
    "subject": "과학",
    "type": "choice",
    "prompt": "눈에 보이지 않고 풍선을 부풀게 하는 것은?",
@@ -2960,7 +4252,41 @@
    "explain": "『변신! 고체, 액체, 기체』 (물질)"
   },
   {
-   "id": "sci-175",
+   "id": "sci-251",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "냉동실에 물을 가득 넣은 병을 두면 깨질 수 있는 까닭은?",
+   "choices": [
+    "물이 얼면 부피가 커져서",
+    "얼음이 무거워져서",
+    "병이 추워서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🧊",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『변신! 고체, 액체, 기체』 (물질)"
+  },
+  {
+   "id": "sci-252",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "아이스크림을 밖에 두면 녹는 것은 어떤 변화일까요?",
+   "choices": [
+    "고체가 액체로 바뀌어요",
+    "액체가 기체로 바뀌어요",
+    "기체가 고체로 바뀌어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🧊",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『변신! 고체, 액체, 기체』 (물질)"
+  },
+  {
+   "id": "sci-253",
    "subject": "과학",
    "type": "choice",
    "prompt": "눈에 보이지 않지만 우리 주변에 가득한 것은?",
@@ -2977,7 +4303,7 @@
    "explain": "『공기를 찾아봐!』 (물질)"
   },
   {
-   "id": "sci-176",
+   "id": "sci-254",
    "subject": "과학",
    "type": "choice",
    "prompt": "풍선을 불면 커지는 까닭은?",
@@ -2994,7 +4320,7 @@
    "explain": "『공기를 찾아봐!』 (물질)"
   },
   {
-   "id": "sci-177",
+   "id": "sci-255",
    "subject": "과학",
    "type": "choice",
    "prompt": "공기가 있다는 것을 느낄 수 있는 때는?",
@@ -3011,7 +4337,7 @@
    "explain": "『공기를 찾아봐!』 (물질)"
   },
   {
-   "id": "sci-178",
+   "id": "sci-256",
    "subject": "과학",
    "type": "choice",
    "prompt": "빈 컵을 거꾸로 물에 넣으면 물이 다 들어오지 않는 까닭은?",
@@ -3028,7 +4354,7 @@
    "explain": "『공기를 찾아봐!』 (물질)"
   },
   {
-   "id": "sci-179",
+   "id": "sci-257",
    "subject": "과학",
    "type": "choice",
    "prompt": "자전거 바퀴에 넣는 것은?",
@@ -3045,7 +4371,41 @@
    "explain": "『공기를 찾아봐!』 (물질)"
   },
   {
-   "id": "sci-180",
+   "id": "sci-258",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "뜨거운 공기는 위로 갈까요 아래로 갈까요?",
+   "choices": [
+    "위로 올라가요",
+    "아래로 내려가요",
+    "제자리에 있어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🎈",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『공기를 찾아봐!』 (물질)"
+  },
+  {
+   "id": "sci-259",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "공기에도 무게가 있을까요?",
+   "choices": [
+    "네! 아주 조금 있어요",
+    "아니요! 전혀 없어요",
+    "아니요! 공기는 마이너스예요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🎈",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『공기를 찾아봐!』 (물질)"
+  },
+  {
+   "id": "sci-260",
    "subject": "과학",
    "type": "choice",
    "prompt": "젖은 빨래가 햇빛에 마르는 까닭은?",
@@ -3062,7 +4422,7 @@
    "explain": "『보이는 물 보이지 않는 물』 (물질)"
   },
   {
-   "id": "sci-181",
+   "id": "sci-261",
    "subject": "과학",
    "type": "choice",
    "prompt": "차가운 컵 겉에 물방울이 맺히는 까닭은?",
@@ -3079,7 +4439,7 @@
    "explain": "『보이는 물 보이지 않는 물』 (물질)"
   },
   {
-   "id": "sci-182",
+   "id": "sci-262",
    "subject": "과학",
    "type": "choice",
    "prompt": "구름은 무엇으로 만들어졌을까요?",
@@ -3096,7 +4456,7 @@
    "explain": "『보이는 물 보이지 않는 물』 (물질)"
   },
   {
-   "id": "sci-183",
+   "id": "sci-263",
    "subject": "과학",
    "type": "choice",
    "prompt": "겨울에 입김이 하얗게 보이는 까닭은?",
@@ -3113,7 +4473,7 @@
    "explain": "『보이는 물 보이지 않는 물』 (물질)"
   },
   {
-   "id": "sci-184",
+   "id": "sci-264",
    "subject": "과학",
    "type": "choice",
    "prompt": "비는 어디에서 내릴까요?",
@@ -3130,7 +4490,41 @@
    "explain": "『보이는 물 보이지 않는 물』 (물질)"
   },
   {
-   "id": "sci-185",
+   "id": "sci-265",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "비가 그치고 물웅덩이가 사라지는 까닭은?",
+   "choices": [
+    "물이 증발해서",
+    "땅이 물을 먹어서만",
+    "새가 마셔서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "☁️",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『보이는 물 보이지 않는 물』 (물질)"
+  },
+  {
+   "id": "sci-266",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "욕실 거울이 뿌옇게 되는 까닭은?",
+   "choices": [
+    "수증기가 차가운 거울에 물방울로 맺혀서",
+    "거울이 더러워져서",
+    "비누 거품 때문에"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "☁️",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『보이는 물 보이지 않는 물』 (물질)"
+  },
+  {
+   "id": "sci-267",
    "subject": "과학",
    "type": "choice",
    "prompt": "소금물에서 소금을 다시 얻는 방법은?",
@@ -3147,7 +4541,7 @@
    "explain": "『와글와글 혼합물』 (물질)"
   },
   {
-   "id": "sci-186",
+   "id": "sci-268",
    "subject": "과학",
    "type": "choice",
    "prompt": "모래와 쇠구슬이 섞여 있으면 쇠구슬을 빨리 고르는 방법은?",
@@ -3164,7 +4558,7 @@
    "explain": "『와글와글 혼합물』 (물질)"
   },
   {
-   "id": "sci-187",
+   "id": "sci-269",
    "subject": "과학",
    "type": "choice",
    "prompt": "흙탕물을 거름종이로 거르면?",
@@ -3181,7 +4575,7 @@
    "explain": "『와글와글 혼합물』 (물질)"
   },
   {
-   "id": "sci-188",
+   "id": "sci-270",
    "subject": "과학",
    "type": "choice",
    "prompt": "콩과 좁쌀이 섞여 있으면 쉽게 나누는 방법은?",
@@ -3198,7 +4592,41 @@
    "explain": "『와글와글 혼합물』 (물질)"
   },
   {
-   "id": "sci-189",
+   "id": "sci-271",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "바닷물에서 마실 물을 얻으려면 어떻게 할까요?",
+   "choices": [
+    "끓여서 나온 수증기를 모아 식혀요",
+    "체로 걸러요",
+    "자석을 대요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🧂",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『와글와글 혼합물』 (물질)"
+  },
+  {
+   "id": "sci-272",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "철가루와 모래가 섞였을 때 쓰는 도구는?",
+   "choices": [
+    "자석",
+    "체",
+    "돋보기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🧂",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『와글와글 혼합물』 (물질)"
+  },
+  {
+   "id": "sci-273",
    "subject": "과학",
    "type": "choice",
    "prompt": "설탕을 물에 넣고 저으면 어떻게 될까요?",
@@ -3215,7 +4643,7 @@
    "explain": "『사라진 설탕의 비밀』 (물질)"
   },
   {
-   "id": "sci-190",
+   "id": "sci-274",
    "subject": "과학",
    "type": "choice",
    "prompt": "설탕이 녹아 안 보이는 물맛은?",
@@ -3232,7 +4660,7 @@
    "explain": "『사라진 설탕의 비밀』 (물질)"
   },
   {
-   "id": "sci-191",
+   "id": "sci-275",
    "subject": "과학",
    "type": "choice",
    "prompt": "설탕이 더 빨리 녹는 물은?",
@@ -3249,7 +4677,7 @@
    "explain": "『사라진 설탕의 비밀』 (물질)"
   },
   {
-   "id": "sci-192",
+   "id": "sci-276",
    "subject": "과학",
    "type": "choice",
    "prompt": "물에 잘 녹지 않는 것은?",
@@ -3266,7 +4694,41 @@
    "explain": "『사라진 설탕의 비밀』 (물질)"
   },
   {
-   "id": "sci-193",
+   "id": "sci-277",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "소금을 계속 넣으면 어느 순간 더 녹지 않는 까닭은?",
+   "choices": [
+    "물이 녹일 수 있는 양이 정해져 있어서",
+    "소금이 화나서",
+    "물이 얼어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🍬",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『사라진 설탕의 비밀』 (물질)"
+  },
+  {
+   "id": "sci-278",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "코코아 가루가 차가운 우유보다 따뜻한 우유에 잘 녹는 까닭은?",
+   "choices": [
+    "따뜻할수록 잘 녹아서",
+    "따뜻한 우유가 더 달아서",
+    "컵이 커서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🍬",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『사라진 설탕의 비밀』 (물질)"
+  },
+  {
+   "id": "sci-279",
    "subject": "과학",
    "type": "choice",
    "prompt": "달걀을 삶으면 어떻게 될까요?",
@@ -3283,7 +4745,7 @@
    "explain": "『맛있게 보글보글』 (물질)"
   },
   {
-   "id": "sci-194",
+   "id": "sci-280",
    "subject": "과학",
    "type": "choice",
    "prompt": "빵을 구우면 겉이 어떻게 될까요?",
@@ -3300,7 +4762,7 @@
    "explain": "『맛있게 보글보글』 (물질)"
   },
   {
-   "id": "sci-195",
+   "id": "sci-281",
    "subject": "과학",
    "type": "choice",
    "prompt": "익힌 음식을 다시 날것으로 되돌릴 수 있을까요?",
@@ -3317,7 +4779,7 @@
    "explain": "『맛있게 보글보글』 (물질)"
   },
   {
-   "id": "sci-196",
+   "id": "sci-282",
    "subject": "과학",
    "type": "choice",
    "prompt": "쇠못을 비 맞게 두면 생기는 것은?",
@@ -3334,7 +4796,41 @@
    "explain": "『맛있게 보글보글』 (물질)"
   },
   {
-   "id": "sci-197",
+   "id": "sci-283",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "사과를 깎아 두면 갈색으로 변하는 까닭은?",
+   "choices": [
+    "공기 속 산소와 만나서",
+    "사과가 졸려서",
+    "햇빛이 없어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🍳",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『맛있게 보글보글』 (물질)"
+  },
+  {
+   "id": "sci-284",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "우유로 만들 수 있는 것은?",
+   "choices": [
+    "치즈",
+    "빵",
+    "간장"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🍳",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『맛있게 보글보글』 (물질)"
+  },
+  {
+   "id": "sci-285",
    "subject": "과학",
    "type": "choice",
    "prompt": "식초와 레몬즙의 맛은?",
@@ -3351,7 +4847,7 @@
    "explain": "『식초는 너무 셔』 (물질)"
   },
   {
-   "id": "sci-198",
+   "id": "sci-286",
    "subject": "과학",
    "type": "choice",
    "prompt": "신맛이 나는 물질을 뭐라고 할까요?",
@@ -3368,7 +4864,7 @@
    "explain": "『식초는 너무 셔』 (물질)"
   },
   {
-   "id": "sci-199",
+   "id": "sci-287",
    "subject": "과학",
    "type": "choice",
    "prompt": "비누를 만지면 어떤 느낌이 날까요?",
@@ -3385,7 +4881,7 @@
    "explain": "『식초는 너무 셔』 (물질)"
   },
   {
-   "id": "sci-200",
+   "id": "sci-288",
    "subject": "과학",
    "type": "choice",
    "prompt": "산과 염기를 알아볼 때 색이 바뀌는 종이는?",
@@ -3402,7 +4898,41 @@
    "explain": "『식초는 너무 셔』 (물질)"
   },
   {
-   "id": "sci-201",
+   "id": "sci-289",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "식초를 달걀 껍데기에 부으면 어떻게 될까요?",
+   "choices": [
+    "거품이 나며 껍데기가 녹아요",
+    "단단해져요",
+    "아무 일도 없어요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🍋",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『식초는 너무 셔』 (물질)"
+  },
+  {
+   "id": "sci-290",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "생선 비린내를 줄이려고 레몬즙을 뿌리는 까닭은?",
+   "choices": [
+    "신맛 물질이 비린내를 줄여 줘서",
+    "색을 예쁘게 하려고",
+    "생선을 차갑게 하려고"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🍋",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『식초는 너무 셔』 (물질)"
+  },
+  {
+   "id": "sci-291",
    "subject": "과학",
    "type": "choice",
    "prompt": "불이 타려면 꼭 필요한 것은?",
@@ -3419,7 +4949,7 @@
    "explain": "『불이 번쩍, 불이 활활』 (물질)"
   },
   {
-   "id": "sci-202",
+   "id": "sci-292",
    "subject": "과학",
    "type": "choice",
    "prompt": "촛불에 컵을 덮으면 불이 꺼지는 까닭은?",
@@ -3436,7 +4966,7 @@
    "explain": "『불이 번쩍, 불이 활활』 (물질)"
   },
   {
-   "id": "sci-203",
+   "id": "sci-293",
    "subject": "과학",
    "type": "choice",
    "prompt": "불이 나면 먼저 어떻게 할까요?",
@@ -3453,7 +4983,7 @@
    "explain": "『불이 번쩍, 불이 활활』 (물질)"
   },
   {
-   "id": "sci-204",
+   "id": "sci-294",
    "subject": "과학",
    "type": "choice",
    "prompt": "불이 났을 때 연기를 피하는 방법은?",
@@ -3470,7 +5000,7 @@
    "explain": "『불이 번쩍, 불이 활활』 (물질)"
   },
   {
-   "id": "sci-205",
+   "id": "sci-295",
    "subject": "과학",
    "type": "choice",
    "prompt": "불을 끄는 도구는?",
@@ -3487,7 +5017,41 @@
    "explain": "『불이 번쩍, 불이 활활』 (물질)"
   },
   {
-   "id": "sci-206",
+   "id": "sci-296",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "기름에 불이 붙으면 물을 부으면 안 되는 까닭은?",
+   "choices": [
+    "기름이 튀어 불이 더 번져서",
+    "물이 아까워서",
+    "기름이 물에 녹아서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🔥",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『불이 번쩍, 불이 활활』 (물질)"
+  },
+  {
+   "id": "sci-297",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "모닥불을 끌 때 흙을 덮는 까닭은?",
+   "choices": [
+    "공기를 막으려고",
+    "불을 키우려고",
+    "흙을 데우려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🔥",
+   "displayClass": "scene",
+   "group": "sci-물질",
+   "explain": "『불이 번쩍, 불이 활활』 (물질)"
+  },
+  {
+   "id": "sci-298",
    "subject": "과학",
    "type": "choice",
    "prompt": "자석이 끌어당기는 것은?",
@@ -3504,7 +5068,7 @@
    "explain": "『찰카닥! 자석의 힘』 (힘과 운동)"
   },
   {
-   "id": "sci-207",
+   "id": "sci-299",
    "subject": "과학",
    "type": "choice",
    "prompt": "자석의 두 끝을 뭐라고 할까요?",
@@ -3521,7 +5085,7 @@
    "explain": "『찰카닥! 자석의 힘』 (힘과 운동)"
   },
   {
-   "id": "sci-208",
+   "id": "sci-300",
    "subject": "과학",
    "type": "choice",
    "prompt": "같은 극끼리 가까이 대면 어떻게 될까요?",
@@ -3538,7 +5102,7 @@
    "explain": "『찰카닥! 자석의 힘』 (힘과 운동)"
   },
   {
-   "id": "sci-209",
+   "id": "sci-301",
    "subject": "과학",
    "type": "choice",
    "prompt": "나침반 바늘이 북쪽을 가리키는 까닭은?",
@@ -3555,7 +5119,41 @@
    "explain": "『찰카닥! 자석의 힘』 (힘과 운동)"
   },
   {
-   "id": "sci-210",
+   "id": "sci-302",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "자석을 반으로 자르면 어떻게 될까요?",
+   "choices": [
+    "두 개 모두 N극과 S극이 생겨요",
+    "자석 힘이 없어져요",
+    "N극만 남아요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🧲",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『찰카닥! 자석의 힘』 (힘과 운동)"
+  },
+  {
+   "id": "sci-303",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "자석과 클립 사이에 종이를 끼워도 클립이 붙는 까닭은?",
+   "choices": [
+    "자석의 힘은 얇은 종이를 지나가서",
+    "종이가 끈적해서",
+    "클립이 가벼워서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🧲",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『찰카닥! 자석의 힘』 (힘과 운동)"
+  },
+  {
+   "id": "sci-304",
    "subject": "과학",
    "type": "choice",
    "prompt": "고무줄을 당겼다 놓으면 어떻게 될까요?",
@@ -3572,7 +5170,7 @@
    "explain": "『통통 튀는 탄성 나라』 (힘과 운동)"
   },
   {
-   "id": "sci-211",
+   "id": "sci-305",
    "subject": "과학",
    "type": "choice",
    "prompt": "원래 모양으로 돌아가려는 성질을 뭐라고 할까요?",
@@ -3589,7 +5187,7 @@
    "explain": "『통통 튀는 탄성 나라』 (힘과 운동)"
   },
   {
-   "id": "sci-212",
+   "id": "sci-306",
    "subject": "과학",
    "type": "choice",
    "prompt": "트램펄린에서 높이 뛸 수 있는 까닭은?",
@@ -3606,7 +5204,7 @@
    "explain": "『통통 튀는 탄성 나라』 (힘과 운동)"
   },
   {
-   "id": "sci-213",
+   "id": "sci-307",
    "subject": "과학",
    "type": "choice",
    "prompt": "탄성을 이용한 물건이 아닌 것은?",
@@ -3623,7 +5221,41 @@
    "explain": "『통통 튀는 탄성 나라』 (힘과 운동)"
   },
   {
-   "id": "sci-214",
+   "id": "sci-308",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "용수철을 너무 세게 당기면 어떻게 될까요?",
+   "choices": [
+    "늘어나서 원래대로 돌아오지 않아요",
+    "더 튼튼해져요",
+    "짧아져요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🏀",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『통통 튀는 탄성 나라』 (힘과 운동)"
+  },
+  {
+   "id": "sci-309",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "탄성을 이용해 화살을 쏘는 도구는?",
+   "choices": [
+    "활",
+    "망치",
+    "가위"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🏀",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『통통 튀는 탄성 나라』 (힘과 운동)"
+  },
+  {
+   "id": "sci-310",
    "subject": "과학",
    "type": "choice",
    "prompt": "공을 위로 던지면 다시 떨어지는 까닭은?",
@@ -3640,7 +5272,7 @@
    "explain": "『앗, 떨어진다!』 (힘과 운동)"
   },
   {
-   "id": "sci-215",
+   "id": "sci-311",
    "subject": "과학",
    "type": "choice",
    "prompt": "지구가 물체를 끌어당기는 힘을 뭐라고 할까요?",
@@ -3657,7 +5289,7 @@
    "explain": "『앗, 떨어진다!』 (힘과 운동)"
   },
   {
-   "id": "sci-216",
+   "id": "sci-312",
    "subject": "과학",
    "type": "choice",
    "prompt": "달에 가면 몸무게가 어떻게 될까요?",
@@ -3674,7 +5306,41 @@
    "explain": "『앗, 떨어진다!』 (힘과 운동)"
   },
   {
-   "id": "sci-217",
+   "id": "sci-313",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "무거운 공과 가벼운 공을 같은 높이에서 떨어뜨리면? (공기 저항 없이)",
+   "choices": [
+    "같이 떨어져요",
+    "무거운 공이 훨씬 먼저",
+    "가벼운 공이 먼저"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🍎",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『앗, 떨어진다!』 (힘과 운동)"
+  },
+  {
+   "id": "sci-314",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "낙하산이 천천히 내려오는 까닭은?",
+   "choices": [
+    "넓은 천이 공기를 받아서",
+    "중력이 없어져서",
+    "바람이 위로만 불어서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🍎",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『앗, 떨어진다!』 (힘과 운동)"
+  },
+  {
+   "id": "sci-315",
    "subject": "과학",
    "type": "choice",
    "prompt": "시소에서 무거운 사람은 어디에 앉아야 균형이 맞을까요?",
@@ -3691,7 +5357,7 @@
    "explain": "『아슬아슬 수평 잡기』 (힘과 운동)"
   },
   {
-   "id": "sci-218",
+   "id": "sci-316",
    "subject": "과학",
    "type": "choice",
    "prompt": "시소가 한쪽으로 기우는 까닭은?",
@@ -3708,7 +5374,7 @@
    "explain": "『아슬아슬 수평 잡기』 (힘과 운동)"
   },
   {
-   "id": "sci-219",
+   "id": "sci-317",
    "subject": "과학",
    "type": "choice",
    "prompt": "줄타기할 때 긴 막대를 드는 까닭은?",
@@ -3725,7 +5391,41 @@
    "explain": "『아슬아슬 수평 잡기』 (힘과 운동)"
   },
   {
-   "id": "sci-220",
+   "id": "sci-318",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "무게가 다른 두 사람이 시소 수평을 맞추려면?",
+   "choices": [
+    "무거운 사람이 가운데 쪽에 앉아요",
+    "가벼운 사람이 가운데 쪽에 앉아요",
+    "둘 다 끝에 앉아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "⚖️",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『아슬아슬 수평 잡기』 (힘과 운동)"
+  },
+  {
+   "id": "sci-319",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "오뚝이가 넘어져도 다시 일어나는 까닭은?",
+   "choices": [
+    "아래쪽이 무거워서",
+    "위쪽이 무거워서",
+    "속이 비어 있어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "⚖️",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『아슬아슬 수평 잡기』 (힘과 운동)"
+  },
+  {
+   "id": "sci-320",
    "subject": "과학",
    "type": "choice",
    "prompt": "무거운 돌을 막대로 쉽게 들어 올리는 도구는?",
@@ -3742,7 +5442,7 @@
    "explain": "『코끼리도 들 수 있어요』 (힘과 운동)"
   },
   {
-   "id": "sci-221",
+   "id": "sci-321",
    "subject": "과학",
    "type": "choice",
    "prompt": "병뚜껑을 쉽게 따는 도구는?",
@@ -3759,7 +5459,7 @@
    "explain": "『코끼리도 들 수 있어요』 (힘과 운동)"
   },
   {
-   "id": "sci-222",
+   "id": "sci-322",
    "subject": "과학",
    "type": "choice",
    "prompt": "무거운 짐을 높이 올릴 때 쓰는 줄과 바퀴 도구는?",
@@ -3776,7 +5476,7 @@
    "explain": "『코끼리도 들 수 있어요』 (힘과 운동)"
   },
   {
-   "id": "sci-223",
+   "id": "sci-323",
    "subject": "과학",
    "type": "choice",
    "prompt": "경사진 길(비탈길)로 짐을 밀면 좋은 점은?",
@@ -3793,7 +5493,7 @@
    "explain": "『코끼리도 들 수 있어요』 (힘과 운동)"
   },
   {
-   "id": "sci-224",
+   "id": "sci-324",
    "subject": "과학",
    "type": "choice",
    "prompt": "시소도 도구일까요?",
@@ -3810,7 +5510,41 @@
    "explain": "『코끼리도 들 수 있어요』 (힘과 운동)"
   },
   {
-   "id": "sci-225",
+   "id": "sci-325",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "가위는 어떤 도구의 원리를 쓸까요?",
+   "choices": [
+    "지레",
+    "도르래",
+    "비탈"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🏗️",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『코끼리도 들 수 있어요』 (힘과 운동)"
+  },
+  {
+   "id": "sci-326",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "국기 게양대 꼭대기에서 깃발을 올리는 바퀴는?",
+   "choices": [
+    "고정 도르래",
+    "톱니바퀴",
+    "물레방아"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🏗️",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『코끼리도 들 수 있어요』 (힘과 운동)"
+  },
+  {
+   "id": "sci-327",
    "subject": "과학",
    "type": "choice",
    "prompt": "얼음 위에서 잘 미끄러지는 까닭은?",
@@ -3827,7 +5561,7 @@
    "explain": "『미끌미끌 거칠거칠』 (힘과 운동)"
   },
   {
-   "id": "sci-226",
+   "id": "sci-328",
    "subject": "과학",
    "type": "choice",
    "prompt": "운동화 바닥이 울퉁불퉁한 까닭은?",
@@ -3844,7 +5578,7 @@
    "explain": "『미끌미끌 거칠거칠』 (힘과 운동)"
   },
   {
-   "id": "sci-227",
+   "id": "sci-329",
    "subject": "과학",
    "type": "choice",
    "prompt": "문지를 때 생기는 힘을 뭐라고 할까요?",
@@ -3861,7 +5595,7 @@
    "explain": "『미끌미끌 거칠거칠』 (힘과 운동)"
   },
   {
-   "id": "sci-228",
+   "id": "sci-330",
    "subject": "과학",
    "type": "choice",
    "prompt": "손을 비비면 따뜻해지는 까닭은?",
@@ -3878,7 +5612,41 @@
    "explain": "『미끌미끌 거칠거칠』 (힘과 운동)"
   },
   {
-   "id": "sci-229",
+   "id": "sci-331",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "눈길에서 자동차 바퀴에 체인을 감는 까닭은?",
+   "choices": [
+    "마찰을 크게 해 미끄러지지 않게",
+    "더 빨리 달리려고",
+    "소리를 내려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🛝",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『미끌미끌 거칠거칠』 (힘과 운동)"
+  },
+  {
+   "id": "sci-332",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "자전거 체인에 기름을 칠하는 까닭은?",
+   "choices": [
+    "마찰을 줄여 부드럽게 돌게",
+    "녹이 슬게 하려고",
+    "멈추게 하려고"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🛝",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『미끌미끌 거칠거칠』 (힘과 운동)"
+  },
+  {
+   "id": "sci-333",
    "subject": "과학",
    "type": "choice",
    "prompt": "버스가 갑자기 멈추면 몸은 어느 쪽으로 쏠릴까요?",
@@ -3895,7 +5663,7 @@
    "explain": "『갑자기 멈추면?』 (힘과 운동)"
   },
   {
-   "id": "sci-230",
+   "id": "sci-334",
    "subject": "과학",
    "type": "choice",
    "prompt": "버스가 갑자기 출발하면 몸은 어느 쪽으로 쏠릴까요?",
@@ -3912,7 +5680,7 @@
    "explain": "『갑자기 멈추면?』 (힘과 운동)"
   },
   {
-   "id": "sci-231",
+   "id": "sci-335",
    "subject": "과학",
    "type": "choice",
    "prompt": "차에서 안전띠를 매야 하는 까닭은?",
@@ -3929,7 +5697,41 @@
    "explain": "『갑자기 멈추면?』 (힘과 운동)"
   },
   {
-   "id": "sci-232",
+   "id": "sci-336",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "식탁보를 아주 빠르게 빼면 그릇이 그대로 있는 까닭은?",
+   "choices": [
+    "그릇이 가만히 있으려는 성질(관성) 때문에",
+    "그릇이 무거워서만",
+    "식탁이 끈적해서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🚌",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『갑자기 멈추면?』 (힘과 운동)"
+  },
+  {
+   "id": "sci-337",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "달리다가 갑자기 멈추기 힘든 까닭은?",
+   "choices": [
+    "몸이 계속 움직이려 해서",
+    "발이 미끄러워서만",
+    "숨이 차서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🚌",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『갑자기 멈추면?』 (힘과 운동)"
+  },
+  {
+   "id": "sci-338",
    "subject": "과학",
    "type": "choice",
    "prompt": "물에 뜨는 것은?",
@@ -3946,7 +5748,7 @@
    "explain": "『물 위에 동동』 (힘과 운동)"
   },
   {
-   "id": "sci-233",
+   "id": "sci-339",
    "subject": "과학",
    "type": "choice",
    "prompt": "물에 가라앉는 것은?",
@@ -3963,7 +5765,7 @@
    "explain": "『물 위에 동동』 (힘과 운동)"
   },
   {
-   "id": "sci-234",
+   "id": "sci-340",
    "subject": "과학",
    "type": "choice",
    "prompt": "물이 물체를 위로 밀어 올리는 힘을 뭐라고 할까요?",
@@ -3980,7 +5782,7 @@
    "explain": "『물 위에 동동』 (힘과 운동)"
   },
   {
-   "id": "sci-235",
+   "id": "sci-341",
    "subject": "과학",
    "type": "choice",
    "prompt": "쇠로 만든 큰 배가 물에 뜨는 까닭은?",
@@ -3997,7 +5799,7 @@
    "explain": "『물 위에 동동』 (힘과 운동)"
   },
   {
-   "id": "sci-236",
+   "id": "sci-342",
    "subject": "과학",
    "type": "choice",
    "prompt": "수영할 때 튜브를 쓰면 뜨는 까닭은?",
@@ -4014,7 +5816,41 @@
    "explain": "『물 위에 동동』 (힘과 운동)"
   },
   {
-   "id": "sci-237",
+   "id": "sci-343",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "구명조끼를 입으면 물에 잘 뜨는 까닭은?",
+   "choices": [
+    "가볍고 부피가 커 물이 많이 밀어 올려서",
+    "구명조끼가 헤엄쳐서",
+    "물이 따뜻해져서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "⛵",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『물 위에 동동』 (힘과 운동)"
+  },
+  {
+   "id": "sci-344",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "찰흙 공은 가라앉는데 같은 찰흙으로 배 모양을 만들면 뜨는 까닭은?",
+   "choices": [
+    "물을 밀어내는 부피가 커져서",
+    "찰흙이 가벼워져서",
+    "배 모양이 예뻐서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "⛵",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『물 위에 동동』 (힘과 운동)"
+  },
+  {
+   "id": "sci-345",
    "subject": "과학",
    "type": "choice",
    "prompt": "비행기는 무엇으로 하늘에 뜰까요?",
@@ -4031,7 +5867,7 @@
    "explain": "『떴다 떴다 비행기』 (힘과 운동)"
   },
   {
-   "id": "sci-238",
+   "id": "sci-346",
    "subject": "과학",
    "type": "choice",
    "prompt": "비행기 날개를 위로 들어 올리는 힘을 뭐라고 할까요?",
@@ -4048,7 +5884,7 @@
    "explain": "『떴다 떴다 비행기』 (힘과 운동)"
   },
   {
-   "id": "sci-239",
+   "id": "sci-347",
    "subject": "과학",
    "type": "choice",
    "prompt": "비행기는 뜨기 전에 어떻게 할까요?",
@@ -4065,7 +5901,7 @@
    "explain": "『떴다 떴다 비행기』 (힘과 운동)"
   },
   {
-   "id": "sci-240",
+   "id": "sci-348",
    "subject": "과학",
    "type": "choice",
    "prompt": "종이비행기가 잘 날려면 어떻게 해야 할까요?",
@@ -4082,7 +5918,41 @@
    "explain": "『떴다 떴다 비행기』 (힘과 운동)"
   },
   {
-   "id": "sci-241",
+   "id": "sci-349",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "새가 날 수 있는 까닭과 비슷한 것은?",
+   "choices": [
+    "날개 위아래로 공기가 다르게 흘러서",
+    "깃털이 가스로 차 있어서",
+    "새가 아주 가벼워서만"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "✈️",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『떴다 떴다 비행기』 (힘과 운동)"
+  },
+  {
+   "id": "sci-350",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "헬리콥터가 하늘에 뜨는 까닭은?",
+   "choices": [
+    "회전 날개가 돌며 공기를 아래로 밀어서",
+    "풍선이 달려서",
+    "바퀴가 굴러서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "✈️",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『떴다 떴다 비행기』 (힘과 운동)"
+  },
+  {
+   "id": "sci-351",
    "subject": "과학",
    "type": "choice",
    "prompt": "같은 시간에 더 먼 거리를 가면 어떤 걸까요?",
@@ -4099,7 +5969,7 @@
    "explain": "『누가누가 빠르나』 (힘과 운동)"
   },
   {
-   "id": "sci-242",
+   "id": "sci-352",
    "subject": "과학",
    "type": "choice",
    "prompt": "달리기 경주에서 1등은 누구일까요?",
@@ -4116,7 +5986,7 @@
    "explain": "『누가누가 빠르나』 (힘과 운동)"
   },
   {
-   "id": "sci-243",
+   "id": "sci-353",
    "subject": "과학",
    "type": "choice",
    "prompt": "가장 빠른 동물은?",
@@ -4133,7 +6003,7 @@
    "explain": "『누가누가 빠르나』 (힘과 운동)"
   },
   {
-   "id": "sci-244",
+   "id": "sci-354",
    "subject": "과학",
    "type": "choice",
    "prompt": "자동차의 빠르기를 알려 주는 것은?",
@@ -4150,7 +6020,7 @@
    "explain": "『누가누가 빠르나』 (힘과 운동)"
   },
   {
-   "id": "sci-245",
+   "id": "sci-355",
    "subject": "과학",
    "type": "choice",
    "prompt": "학교 앞에서 자동차가 천천히 달려야 하는 까닭은?",
@@ -4167,7 +6037,41 @@
    "explain": "『누가누가 빠르나』 (힘과 운동)"
   },
   {
-   "id": "sci-246",
+   "id": "sci-356",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "1시간에 60km를 가는 자동차와 1시간에 30km를 가는 자전거 중 더 빠른 것은?",
+   "choices": [
+    "자동차",
+    "자전거",
+    "똑같아요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🏎️",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『누가누가 빠르나』 (힘과 운동)"
+  },
+  {
+   "id": "sci-357",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "같은 거리를 달릴 때 시간이 적게 걸릴수록?",
+   "choices": [
+    "더 빠른 거예요",
+    "더 느린 거예요",
+    "거리가 길어요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🏎️",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『누가누가 빠르나』 (힘과 운동)"
+  },
+  {
+   "id": "sci-358",
    "subject": "과학",
    "type": "choice",
    "prompt": "북을 치면 소리가 나는 까닭은?",
@@ -4184,7 +6088,7 @@
    "explain": "『소리는 어떻게 날까』 (힘과 운동)"
   },
   {
-   "id": "sci-247",
+   "id": "sci-359",
    "subject": "과학",
    "type": "choice",
    "prompt": "소리가 날 때 물체가 떨리는 것을 뭐라고 할까요?",
@@ -4201,7 +6105,7 @@
    "explain": "『소리는 어떻게 날까』 (힘과 운동)"
   },
   {
-   "id": "sci-248",
+   "id": "sci-360",
    "subject": "과학",
    "type": "choice",
    "prompt": "실 전화기에서 소리는 무엇을 타고 전해질까요?",
@@ -4218,7 +6122,7 @@
    "explain": "『소리는 어떻게 날까』 (힘과 운동)"
   },
   {
-   "id": "sci-249",
+   "id": "sci-361",
    "subject": "과학",
    "type": "choice",
    "prompt": "큰 소리는 떨림이 어떨까요?",
@@ -4235,7 +6139,7 @@
    "explain": "『소리는 어떻게 날까』 (힘과 운동)"
   },
   {
-   "id": "sci-250",
+   "id": "sci-362",
    "subject": "과학",
    "type": "choice",
    "prompt": "우주처럼 공기가 없는 곳에서 소리가 들릴까요?",
@@ -4252,7 +6156,41 @@
    "explain": "『소리는 어떻게 날까』 (힘과 운동)"
   },
   {
-   "id": "sci-251",
+   "id": "sci-363",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "목소리를 낼 때 목에 손을 대면 떨리는 까닭은?",
+   "choices": [
+    "목 속 성대가 떨려서",
+    "목이 추워서",
+    "피가 흘러서"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🥁",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『소리는 어떻게 날까』 (힘과 운동)"
+  },
+  {
+   "id": "sci-364",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "산에서 '야호!' 하면 다시 들리는 소리는?",
+   "choices": [
+    "메아리",
+    "천둥",
+    "바람 소리"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🥁",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『소리는 어떻게 날까』 (힘과 운동)"
+  },
+  {
+   "id": "sci-365",
    "subject": "과학",
    "type": "choice",
    "prompt": "빛은 어떻게 나아갈까요?",
@@ -4269,7 +6207,7 @@
    "explain": "『반짝반짝 요술쟁이 빛』 (힘과 운동)"
   },
   {
-   "id": "sci-252",
+   "id": "sci-366",
    "subject": "과학",
    "type": "choice",
    "prompt": "그림자는 왜 생길까요?",
@@ -4286,7 +6224,7 @@
    "explain": "『반짝반짝 요술쟁이 빛』 (힘과 운동)"
   },
   {
-   "id": "sci-253",
+   "id": "sci-367",
    "subject": "과학",
    "type": "choice",
    "prompt": "해가 낮게 뜬 저녁에는 그림자가 어떻게 될까요?",
@@ -4303,7 +6241,7 @@
    "explain": "『반짝반짝 요술쟁이 빛』 (힘과 운동)"
   },
   {
-   "id": "sci-254",
+   "id": "sci-368",
    "subject": "과학",
    "type": "choice",
    "prompt": "거울에 비친 모습은 어떻게 보일까요?",
@@ -4320,7 +6258,7 @@
    "explain": "『반짝반짝 요술쟁이 빛』 (힘과 운동)"
   },
   {
-   "id": "sci-255",
+   "id": "sci-369",
    "subject": "과학",
    "type": "choice",
    "prompt": "무지개는 어떻게 생길까요?",
@@ -4337,7 +6275,41 @@
    "explain": "『반짝반짝 요술쟁이 빛』 (힘과 운동)"
   },
   {
-   "id": "sci-256",
+   "id": "sci-370",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "돋보기로 햇빛을 모으면 어떻게 될까요?",
+   "choices": [
+    "한 점이 뜨거워져요",
+    "빛이 사라져요",
+    "차가워져요"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "💡",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『반짝반짝 요술쟁이 빛』 (힘과 운동)"
+  },
+  {
+   "id": "sci-371",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "물이 담긴 컵에 넣은 빨대가 꺾여 보이는 까닭은?",
+   "choices": [
+    "빛이 물과 공기 사이에서 꺾여서",
+    "빨대가 휘어서",
+    "물이 빨대를 밀어서"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "💡",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『반짝반짝 요술쟁이 빛』 (힘과 운동)"
+  },
+  {
+   "id": "sci-372",
    "subject": "과학",
    "type": "choice",
    "prompt": "뜨거운 국에 넣은 쇠숟가락이 뜨거워지는 까닭은?",
@@ -4354,7 +6326,7 @@
    "explain": "『뜨거웠다 차가웠다』 (힘과 운동)"
   },
   {
-   "id": "sci-257",
+   "id": "sci-373",
    "subject": "과학",
    "type": "choice",
    "prompt": "겨울에 장갑을 끼는 까닭은?",
@@ -4371,7 +6343,7 @@
    "explain": "『뜨거웠다 차가웠다』 (힘과 운동)"
   },
   {
-   "id": "sci-258",
+   "id": "sci-374",
    "subject": "과학",
    "type": "choice",
    "prompt": "뜨거운 물과 차가운 물을 섞으면?",
@@ -4388,7 +6360,7 @@
    "explain": "『뜨거웠다 차가웠다』 (힘과 운동)"
   },
   {
-   "id": "sci-259",
+   "id": "sci-375",
    "subject": "과학",
    "type": "choice",
    "prompt": "냄비 손잡이를 나무나 플라스틱으로 만드는 까닭은?",
@@ -4405,7 +6377,41 @@
    "explain": "『뜨거웠다 차가웠다』 (힘과 운동)"
   },
   {
-   "id": "sci-260",
+   "id": "sci-376",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "여름에 하얀 옷을 입으면 더 시원한 까닭은?",
+   "choices": [
+    "햇빛을 덜 흡수해서",
+    "하얀색이 차가워서",
+    "바람이 잘 통해서만"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🔥",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『뜨거웠다 차가웠다』 (힘과 운동)"
+  },
+  {
+   "id": "sci-377",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "따뜻한 공기가 위로 올라가 방 전체가 따뜻해지는 것을 뭐라 할까요?",
+   "choices": [
+    "대류",
+    "전도",
+    "복사"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🔥",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『뜨거웠다 차가웠다』 (힘과 운동)"
+  },
+  {
+   "id": "sci-378",
    "subject": "과학",
    "type": "choice",
    "prompt": "전기가 흐르는 물건은?",
@@ -4422,7 +6428,7 @@
    "explain": "『전기가 찌릿찌릿』 (힘과 운동)"
   },
   {
-   "id": "sci-261",
+   "id": "sci-379",
    "subject": "과학",
    "type": "choice",
    "prompt": "젖은 손으로 콘센트를 만지면 안 되는 까닭은?",
@@ -4439,7 +6445,7 @@
    "explain": "『전기가 찌릿찌릿』 (힘과 운동)"
   },
   {
-   "id": "sci-262",
+   "id": "sci-380",
    "subject": "과학",
    "type": "choice",
    "prompt": "전기를 아끼는 방법은?",
@@ -4456,7 +6462,7 @@
    "explain": "『전기가 찌릿찌릿』 (힘과 운동)"
   },
   {
-   "id": "sci-263",
+   "id": "sci-381",
    "subject": "과학",
    "type": "choice",
    "prompt": "전지·전선·전구를 이어 전구에 불이 켜지려면?",
@@ -4473,7 +6479,7 @@
    "explain": "『전기가 찌릿찌릿』 (힘과 운동)"
   },
   {
-   "id": "sci-264",
+   "id": "sci-382",
    "subject": "과학",
    "type": "choice",
    "prompt": "번개는 무엇일까요?",
@@ -4490,7 +6496,41 @@
    "explain": "『전기가 찌릿찌릿』 (힘과 운동)"
   },
   {
-   "id": "sci-265",
+   "id": "sci-383",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "건전지에 표시된 +와 -는 무엇일까요?",
+   "choices": [
+    "전기가 나가고 들어오는 두 극",
+    "위와 아래",
+    "크기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "⚡",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『전기가 찌릿찌릿』 (힘과 운동)"
+  },
+  {
+   "id": "sci-384",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "전선을 고무나 플라스틱으로 감싸는 까닭은?",
+   "choices": [
+    "전기가 밖으로 새지 않게",
+    "예뻐 보이려고",
+    "전기를 빨리 보내려고"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "⚡",
+   "displayClass": "scene",
+   "group": "sci-힘과 운동",
+   "explain": "『전기가 찌릿찌릿』 (힘과 운동)"
+  },
+  {
+   "id": "sci-385",
    "subject": "과학",
    "type": "choice",
    "prompt": "집 밖에서 휴대폰으로 에어컨을 켜는 것처럼 물건들이 인터넷으로 연결된 것을 뭐라고 할까요?",
@@ -4507,7 +6547,7 @@
    "explain": "『어디에나 컴퓨터가』 (첨단)"
   },
   {
-   "id": "sci-266",
+   "id": "sci-386",
    "subject": "과학",
    "type": "choice",
    "prompt": "말을 하면 음악을 틀어 주는 기계는?",
@@ -4524,7 +6564,7 @@
    "explain": "『어디에나 컴퓨터가』 (첨단)"
   },
   {
-   "id": "sci-267",
+   "id": "sci-387",
    "subject": "과학",
    "type": "choice",
    "prompt": "인터넷에 연결된 물건을 쓸 때 지켜야 할 것은?",
@@ -4541,7 +6581,41 @@
    "explain": "『어디에나 컴퓨터가』 (첨단)"
   },
   {
-   "id": "sci-268",
+   "id": "sci-388",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "사물인터넷 냉장고는 무엇을 할 수 있을까요?",
+   "choices": [
+    "음식이 떨어지면 휴대폰으로 알려 줘요",
+    "음식을 요리해 줘요",
+    "스스로 장을 봐요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "📱",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『어디에나 컴퓨터가』 (첨단)"
+  },
+  {
+   "id": "sci-389",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "사물인터넷 물건들이 서로 정보를 주고받을 때 필요한 것은?",
+   "choices": [
+    "인터넷 연결",
+    "건전지만",
+    "종이"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "📱",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『어디에나 컴퓨터가』 (첨단)"
+  },
+  {
+   "id": "sci-390",
    "subject": "과학",
    "type": "choice",
    "prompt": "사람이 운전하지 않아도 스스로 달리는 자동차는?",
@@ -4558,7 +6632,7 @@
    "explain": "『스스로 달리는 자동차』 (첨단)"
   },
   {
-   "id": "sci-269",
+   "id": "sci-391",
    "subject": "과학",
    "type": "choice",
    "prompt": "자율주행 자동차가 주변을 보는 것은?",
@@ -4575,7 +6649,7 @@
    "explain": "『스스로 달리는 자동차』 (첨단)"
   },
   {
-   "id": "sci-270",
+   "id": "sci-392",
    "subject": "과학",
    "type": "choice",
    "prompt": "전기로 달리는 자동차는 무엇을 충전할까요?",
@@ -4592,7 +6666,7 @@
    "explain": "『스스로 달리는 자동차』 (첨단)"
   },
   {
-   "id": "sci-271",
+   "id": "sci-393",
    "subject": "과학",
    "type": "choice",
    "prompt": "전기자동차가 좋은 점은?",
@@ -4609,7 +6683,41 @@
    "explain": "『스스로 달리는 자동차』 (첨단)"
   },
   {
-   "id": "sci-272",
+   "id": "sci-394",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "자율주행 자동차가 사람을 발견하면 어떻게 해야 할까요?",
+   "choices": [
+    "스스로 멈춰요",
+    "경적만 울려요",
+    "더 빨리 달려요"
+   ],
+   "answer": 0,
+   "level": 1,
+   "display": "🚗",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『스스로 달리는 자동차』 (첨단)"
+  },
+  {
+   "id": "sci-395",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "미래의 하늘을 나는 택시 같은 탈것을 뭐라고 할까요?",
+   "choices": [
+    "도심항공 모빌리티(드론 택시)",
+    "잠수함",
+    "마차"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "🚗",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『스스로 달리는 자동차』 (첨단)"
+  },
+  {
+   "id": "sci-396",
    "subject": "과학",
    "type": "choice",
    "prompt": "로봇이 움직이도록 명령을 내리는 것은?",
@@ -4626,7 +6734,7 @@
    "explain": "『로봇이 궁금해』 (첨단)"
   },
   {
-   "id": "sci-273",
+   "id": "sci-397",
    "subject": "과학",
    "type": "choice",
    "prompt": "공장에서 로봇이 하는 일은?",
@@ -4643,7 +6751,7 @@
    "explain": "『로봇이 궁금해』 (첨단)"
   },
   {
-   "id": "sci-274",
+   "id": "sci-398",
    "subject": "과학",
    "type": "choice",
    "prompt": "청소를 대신 해 주는 로봇은?",
@@ -4660,7 +6768,7 @@
    "explain": "『로봇이 궁금해』 (첨단)"
   },
   {
-   "id": "sci-275",
+   "id": "sci-399",
    "subject": "과학",
    "type": "choice",
    "prompt": "로봇이 주변을 알아차리게 해 주는 것은?",
@@ -4677,7 +6785,41 @@
    "explain": "『로봇이 궁금해』 (첨단)"
   },
   {
-   "id": "sci-276",
+   "id": "sci-400",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "로봇이 사람을 돕기 좋은 일은?",
+   "choices": [
+    "위험하고 힘든 일",
+    "친구와 놀아 주기만",
+    "잠자기"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🤖",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『로봇이 궁금해』 (첨단)"
+  },
+  {
+   "id": "sci-401",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "화성 같은 먼 행성을 탐사하는 로봇을 뭐라 할까요?",
+   "choices": [
+    "탐사 로봇(로버)",
+    "청소 로봇",
+    "장난감 로봇"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🤖",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『로봇이 궁금해』 (첨단)"
+  },
+  {
+   "id": "sci-402",
    "subject": "과학",
    "type": "choice",
    "prompt": "컴퓨터나 기계에게 할 일을 순서대로 알려 주는 것은?",
@@ -4694,7 +6836,7 @@
    "explain": "『척척! 기계를 움직이는 코딩』 (첨단)"
   },
   {
-   "id": "sci-277",
+   "id": "sci-403",
    "subject": "과학",
    "type": "choice",
    "prompt": "'앞으로 2칸 → 오른쪽으로 돌기'처럼 정해진 차례를 뭐라고 할까요?",
@@ -4711,7 +6853,7 @@
    "explain": "『척척! 기계를 움직이는 코딩』 (첨단)"
   },
   {
-   "id": "sci-278",
+   "id": "sci-404",
    "subject": "과학",
    "type": "choice",
    "prompt": "같은 일을 여러 번 하라고 시키는 명령은?",
@@ -4728,7 +6870,7 @@
    "explain": "『척척! 기계를 움직이는 코딩』 (첨단)"
   },
   {
-   "id": "sci-279",
+   "id": "sci-405",
    "subject": "과학",
    "type": "choice",
    "prompt": "명령의 순서가 틀리면 로봇은 어떻게 될까요?",
@@ -4745,7 +6887,41 @@
    "explain": "『척척! 기계를 움직이는 코딩』 (첨단)"
   },
   {
-   "id": "sci-280",
+   "id": "sci-406",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "'만약 앞에 벽이 있으면 오른쪽으로 돌아'처럼 조건에 따라 다르게 하는 명령은?",
+   "choices": [
+    "조건(만약 ~라면)",
+    "반복",
+    "끝내기"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "💻",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『척척! 기계를 움직이는 코딩』 (첨단)"
+  },
+  {
+   "id": "sci-407",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "코딩에서 틀린 곳을 찾아 고치는 것을 뭐라 할까요?",
+   "choices": [
+    "디버깅(벌레 잡기)",
+    "청소",
+    "요리"
+   ],
+   "answer": 0,
+   "level": 3,
+   "display": "💻",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『척척! 기계를 움직이는 코딩』 (첨단)"
+  },
+  {
+   "id": "sci-408",
    "subject": "과학",
    "type": "choice",
    "prompt": "사람처럼 배우고 생각하도록 만든 컴퓨터 기술은?",
@@ -4762,7 +6938,7 @@
    "explain": "『인공지능 탐정 공일빵』 (첨단)"
   },
   {
-   "id": "sci-281",
+   "id": "sci-409",
    "subject": "과학",
    "type": "choice",
    "prompt": "인공지능은 어떻게 똑똑해질까요?",
@@ -4779,7 +6955,7 @@
    "explain": "『인공지능 탐정 공일빵』 (첨단)"
   },
   {
-   "id": "sci-282",
+   "id": "sci-410",
    "subject": "과학",
    "type": "choice",
    "prompt": "인공지능이 사진 속 고양이를 알아보려면?",
@@ -4796,7 +6972,7 @@
    "explain": "『인공지능 탐정 공일빵』 (첨단)"
   },
   {
-   "id": "sci-283",
+   "id": "sci-411",
    "subject": "과학",
    "type": "choice",
    "prompt": "인공지능이 한 말이 늘 맞을까요?",
@@ -4807,6 +6983,40 @@
    ],
    "answer": 0,
    "level": 2,
+   "display": "🕵️",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『인공지능 탐정 공일빵』 (첨단)"
+  },
+  {
+   "id": "sci-412",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "인공지능에게 고양이 사진을 강아지라고 잘못 가르치면?",
+   "choices": [
+    "틀리게 배워요",
+    "스스로 알아서 고쳐요",
+    "더 똑똑해져요"
+   ],
+   "answer": 0,
+   "level": 2,
+   "display": "🕵️",
+   "displayClass": "scene",
+   "group": "sci-첨단",
+   "explain": "『인공지능 탐정 공일빵』 (첨단)"
+  },
+  {
+   "id": "sci-413",
+   "subject": "과학",
+   "type": "choice",
+   "prompt": "인공지능 번역기가 하는 일은?",
+   "choices": [
+    "다른 나라 말로 바꿔 줘요",
+    "사진을 찍어요",
+    "음식을 만들어요"
+   ],
+   "answer": 0,
+   "level": 1,
    "display": "🕵️",
    "displayClass": "scene",
    "group": "sci-첨단",
