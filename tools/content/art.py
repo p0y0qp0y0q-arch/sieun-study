@@ -130,6 +130,7 @@ def build():
         n += 1
         R = random.Random(900 + k)
         ap = [x for x in artists if x != a]
-        out.append(Q(f"art-{n:03d}", "미술", f"'{h.replace(a + '는', '이 화가는').replace(a + '은', '이 화가는')}' 이 화가는 누구일까요?",
-                     [a] + R.sample(ap, 2), 0, level=2, pool=ap, image=img(None, "🎨"), group="art-painterstory", explain=h))
+        r0 = by[a][0]  # 그 화가의 대표 그림을 같이 보여 줌
+        out.append(Q(f"art-{n:03d}", "미술", f"{h.replace(a + '는', '이 그림을 그린 화가는').replace(a + '은', '이 그림을 그린 화가는')} 이 화가는 누구일까요?",
+                     [a] + R.sample(ap, 2), 0, level=2, pool=ap, image=mk(r0), group="art-painterstory", explain=f"〈{r0['t']}〉 — {h}"))
     return out, rows

@@ -15775,7 +15775,7 @@
    "id": "art-168",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 꿈틀꿈틀 굵은 붓 자국으로 노랑과 파랑을 많이 칠했어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 꿈틀꿈틀 굵은 붓 자국으로 노랑과 파랑을 많이 칠했어요. 이 화가는 누구일까요?",
    "choices": [
     "고흐",
     "밀레",
@@ -15805,16 +15805,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/500px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/500px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "credit": "Vincent van Gogh, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
    },
    "group": "art-painterstory",
-   "explain": "고흐는 꿈틀꿈틀 굵은 붓 자국으로 노랑과 파랑을 많이 칠했어요."
+   "explain": "〈별이 빛나는 밤〉 — 고흐는 꿈틀꿈틀 굵은 붓 자국으로 노랑과 파랑을 많이 칠했어요."
   },
   {
    "id": "art-169",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 빛과 물, 연못의 수련을 즐겨 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 빛과 물, 연못의 수련을 즐겨 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "모네",
     "아르침볼도",
@@ -15844,16 +15848,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/500px-Monet_-_Impression%2C_Sunrise.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/500px-Monet_-_Impression%2C_Sunrise.jpg",
+    "credit": "Claude Monet, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg"
    },
    "group": "art-painterstory",
-   "explain": "모네는 빛과 물, 연못의 수련을 즐겨 그렸어요."
+   "explain": "〈인상, 해돋이〉 — 모네는 빛과 물, 연못의 수련을 즐겨 그렸어요."
   },
   {
    "id": "art-170",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 〈모나리자〉를 그린 이탈리아의 천재 화가예요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 〈모나리자〉를 그린 이탈리아의 천재 화가예요. 이 화가는 누구일까요?",
    "choices": [
     "다빈치",
     "브뤼헐",
@@ -15883,16 +15891,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "credit": "Leonardo da Vinci, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
    },
    "group": "art-painterstory",
-   "explain": "다빈치는 〈모나리자〉를 그린 이탈리아의 천재 화가예요."
+   "explain": "〈모나리자〉 — 다빈치는 〈모나리자〉를 그린 이탈리아의 천재 화가예요."
   },
   {
    "id": "art-171",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 밭에서 일하는 농부들을 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 밭에서 일하는 농부들을 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "밀레",
     "김홍도",
@@ -15922,16 +15934,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg/500px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg/500px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
+    "credit": "Jean-François Millet, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg"
    },
    "group": "art-painterstory",
-   "explain": "밀레는 밭에서 일하는 농부들을 그렸어요."
+   "explain": "〈이삭 줍는 사람들〉 — 밀레는 밭에서 일하는 농부들을 그렸어요."
   },
   {
    "id": "art-172",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 작은 점을 콕콕 찍어서 그림을 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 작은 점을 콕콕 찍어서 그림을 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "쇠라",
     "브뤼헐",
@@ -15961,16 +15977,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/500px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/500px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+    "credit": "Georges Seurat, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg"
    },
    "group": "art-painterstory",
-   "explain": "쇠라는 작은 점을 콕콕 찍어서 그림을 그렸어요."
+   "explain": "〈그랑드 자트 섬의 일요일 오후〉 — 쇠라는 작은 점을 콕콕 찍어서 그림을 그렸어요."
   },
   {
    "id": "art-173",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 창문으로 들어오는 부드러운 빛을 잘 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 창문으로 들어오는 부드러운 빛을 잘 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "페르메이르",
     "쇠라",
@@ -16000,16 +16020,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/500px-1665_Girl_with_a_Pearl_Earring.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/500px-1665_Girl_with_a_Pearl_Earring.jpg",
+    "credit": "Johannes Vermeer, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
    },
    "group": "art-painterstory",
-   "explain": "페르메이르는 창문으로 들어오는 부드러운 빛을 잘 그렸어요."
+   "explain": "〈진주 귀고리를 한 소녀〉 — 페르메이르는 창문으로 들어오는 부드러운 빛을 잘 그렸어요."
   },
   {
    "id": "art-174",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 커다란 파도와 후지산을 그린 일본 화가예요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 커다란 파도와 후지산을 그린 일본 화가예요. 이 화가는 누구일까요?",
    "choices": [
     "호쿠사이",
     "고흐",
@@ -16039,16 +16063,20 @@
     "페르메이르"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/500px-Tsunami_by_hokusai_19th_century.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/500px-Tsunami_by_hokusai_19th_century.jpg",
+    "credit": "Katsushika Hokusai, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg"
    },
    "group": "art-painterstory",
-   "explain": "호쿠사이는 커다란 파도와 후지산을 그린 일본 화가예요."
+   "explain": "〈가나가와 해변의 높은 파도〉 — 호쿠사이는 커다란 파도와 후지산을 그린 일본 화가예요."
   },
   {
    "id": "art-175",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 옛날 우리나라 사람들의 생활을 재미있게 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 옛날 우리나라 사람들의 생활을 재미있게 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "김홍도",
     "신윤복",
@@ -16078,16 +16106,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Danwon_Ssireum.jpg/500px-Danwon_Ssireum.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Danwon_Ssireum.jpg/500px-Danwon_Ssireum.jpg",
+    "credit": "Kim Hong-do, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Danwon_Ssireum.jpg"
    },
    "group": "art-painterstory",
-   "explain": "김홍도는 옛날 우리나라 사람들의 생활을 재미있게 그렸어요."
+   "explain": "〈씨름〉 — 김홍도는 옛날 우리나라 사람들의 생활을 재미있게 그렸어요."
   },
   {
    "id": "art-176",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 한복 입은 사람들을 고운 색으로 그린 우리나라 화가예요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 한복 입은 사람들을 고운 색으로 그린 우리나라 화가예요. 이 화가는 누구일까요?",
    "choices": [
     "신윤복",
     "김홍도",
@@ -16117,16 +16149,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hyewon-Wolha-jeongin-2.jpg/500px-Hyewon-Wolha-jeongin-2.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hyewon-Wolha-jeongin-2.jpg/500px-Hyewon-Wolha-jeongin-2.jpg",
+    "credit": "혜원 신윤복 (申潤福: 1758-19세기 초반), Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hyewon-Wolha-jeongin-2.jpg"
    },
    "group": "art-painterstory",
-   "explain": "신윤복은 한복 입은 사람들을 고운 색으로 그린 우리나라 화가예요."
+   "explain": "〈월하정인〉 — 신윤복은 한복 입은 사람들을 고운 색으로 그린 우리나라 화가예요."
   },
   {
    "id": "art-177",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 우리나라 산과 경치를 그린 화가예요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 우리나라 산과 경치를 그린 화가예요. 이 화가는 누구일까요?",
    "choices": [
     "정선",
     "모네",
@@ -16156,16 +16192,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Inwangjesaekdo.jpg/500px-Inwangjesaekdo.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Inwangjesaekdo.jpg/500px-Inwangjesaekdo.jpg",
+    "credit": "Jeong Seon, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Inwangjesaekdo.jpg"
    },
    "group": "art-painterstory",
-   "explain": "정선은 우리나라 산과 경치를 그린 화가예요."
+   "explain": "〈인왕제색도〉 — 정선은 우리나라 산과 경치를 그린 화가예요."
   },
   {
    "id": "art-178",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 풀, 꽃, 벌레를 예쁘게 그렸어요. 5만 원 지폐에 나오는 분이에요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 풀, 꽃, 벌레를 예쁘게 그렸어요. 5만 원 지폐에 나오는 분이에요. 이 화가는 누구일까요?",
    "choices": [
     "신사임당",
     "이암",
@@ -16195,16 +16235,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Shin.Saimdang-Chochungdo-02.jpg/500px-Shin.Saimdang-Chochungdo-02.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Shin.Saimdang-Chochungdo-02.jpg/500px-Shin.Saimdang-Chochungdo-02.jpg",
+    "credit": "신사임당(申師任堂), Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Shin.Saimdang-Chochungdo-02.jpg"
    },
    "group": "art-painterstory",
-   "explain": "신사임당은 풀, 꽃, 벌레를 예쁘게 그렸어요. 5만 원 지폐에 나오는 분이에요."
+   "explain": "〈여뀌와 사마귀〉 — 신사임당은 풀, 꽃, 벌레를 예쁘게 그렸어요. 5만 원 지폐에 나오는 분이에요."
   },
   {
    "id": "art-179",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 귀여운 강아지 그림으로 유명한 우리나라 화가예요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 귀여운 강아지 그림으로 유명한 우리나라 화가예요. 이 화가는 누구일까요?",
    "choices": [
     "이암",
     "아르침볼도",
@@ -16234,16 +16278,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Attributed_to_Yi_Am%2C_Korean_-_Puppy_Playing_with_a_Pheasant_Feather_-_Google_Art_Project.jpg/500px-Attributed_to_Yi_Am%2C_Korean_-_Puppy_Playing_with_a_Pheasant_Feather_-_Google_Art_Project.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Attributed_to_Yi_Am%2C_Korean_-_Puppy_Playing_with_a_Pheasant_Feather_-_Google_Art_Project.jpg/500px-Attributed_to_Yi_Am%2C_Korean_-_Puppy_Playing_with_a_Pheasant_Feather_-_Google_Art_Project.jpg",
+    "credit": "Attributed to Yi Am, Korean, 1499 - 1566 (1499 - 1566) – Attributed artist (Kore, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Attributed_to_Yi_Am,_Korean_-_Puppy_Playing_with_a_Pheasant_Feather_-_Google_Art_Project.jpg"
    },
    "group": "art-painterstory",
-   "explain": "이암은 귀여운 강아지 그림으로 유명한 우리나라 화가예요."
+   "explain": "〈꿩 깃털을 가지고 노는 강아지〉 — 이암은 귀여운 강아지 그림으로 유명한 우리나라 화가예요."
   },
   {
    "id": "art-180",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 밝고 행복한 사람들의 모습을 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 밝고 행복한 사람들의 모습을 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "르누아르",
     "클림트",
@@ -16273,16 +16321,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Auguste_Renoir_-_Young_Girls_at_the_Piano_-_Google_Art_Project.jpg/500px-Auguste_Renoir_-_Young_Girls_at_the_Piano_-_Google_Art_Project.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Auguste_Renoir_-_Young_Girls_at_the_Piano_-_Google_Art_Project.jpg/500px-Auguste_Renoir_-_Young_Girls_at_the_Piano_-_Google_Art_Project.jpg",
+    "credit": "Pierre-Auguste Renoir, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Young_Girls_at_the_Piano_-_Google_Art_Project.jpg"
    },
    "group": "art-painterstory",
-   "explain": "르누아르는 밝고 행복한 사람들의 모습을 그렸어요."
+   "explain": "〈피아노 치는 소녀들〉 — 르누아르는 밝고 행복한 사람들의 모습을 그렸어요."
   },
   {
    "id": "art-181",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 반짝이는 금색을 많이 쓴 화가예요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 반짝이는 금색을 많이 쓴 화가예요. 이 화가는 누구일까요?",
    "choices": [
     "클림트",
     "드가",
@@ -16312,16 +16364,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/500px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/500px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "credit": "Gustav Klimt, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
    },
    "group": "art-painterstory",
-   "explain": "클림트는 반짝이는 금색을 많이 쓴 화가예요."
+   "explain": "〈키스〉 — 클림트는 반짝이는 금색을 많이 쓴 화가예요."
   },
   {
    "id": "art-182",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 검은 선과 빨강·파랑·노랑 네모로 그림을 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 검은 선과 빨강·파랑·노랑 네모로 그림을 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "몬드리안",
     "김홍도",
@@ -16351,16 +16407,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg/500px-Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg/500px-Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg",
+    "credit": "Piet Mondrian, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg"
    },
    "group": "art-painterstory",
-   "explain": "몬드리안은 검은 선과 빨강·파랑·노랑 네모로 그림을 그렸어요."
+   "explain": "〈빨강, 파랑, 노랑의 구성〉 — 몬드리안은 검은 선과 빨강·파랑·노랑 네모로 그림을 그렸어요."
   },
   {
    "id": "art-183",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 과일, 채소, 꽃을 모아 사람 얼굴을 만들었어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 과일, 채소, 꽃을 모아 사람 얼굴을 만들었어요. 이 화가는 누구일까요?",
    "choices": [
     "아르침볼도",
     "르누아르",
@@ -16390,16 +16450,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Vertumnus_%C3%A5rstidernas_gud_m%C3%A5lad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg/500px-Vertumnus_%C3%A5rstidernas_gud_m%C3%A5lad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Vertumnus_%C3%A5rstidernas_gud_m%C3%A5lad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg/500px-Vertumnus_%C3%A5rstidernas_gud_m%C3%A5lad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg",
+    "credit": "Giuseppe Arcimboldo, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Vertumnus_%C3%A5rstidernas_gud_m%C3%A5lad_av_Giuseppe_Arcimboldo_1591_-_Skoklosters_slott_-_91503.jpg"
    },
    "group": "art-painterstory",
-   "explain": "아르침볼도는 과일, 채소, 꽃을 모아 사람 얼굴을 만들었어요."
+   "explain": "〈베르툼누스〉 — 아르침볼도는 과일, 채소, 꽃을 모아 사람 얼굴을 만들었어요."
   },
   {
    "id": "art-184",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 초록 정글과 동물을 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 초록 정글과 동물을 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "루소",
     "호쿠사이",
@@ -16429,16 +16493,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Surprised-Rousseau.jpg/500px-Surprised-Rousseau.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Surprised-Rousseau.jpg/500px-Surprised-Rousseau.jpg",
+    "credit": "Henri Rousseau, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Surprised-Rousseau.jpg"
    },
    "group": "art-painterstory",
-   "explain": "루소는 초록 정글과 동물을 그렸어요."
+   "explain": "〈열대 폭풍 속의 호랑이〉 — 루소는 초록 정글과 동물을 그렸어요."
   },
   {
    "id": "art-185",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 발레하는 무용수들을 많이 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 발레하는 무용수들을 많이 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "드가",
     "클림트",
@@ -16468,16 +16536,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Edgar_Degas_-_La_Classe_de_danse.jpg/500px-Edgar_Degas_-_La_Classe_de_danse.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Edgar_Degas_-_La_Classe_de_danse.jpg/500px-Edgar_Degas_-_La_Classe_de_danse.jpg",
+    "credit": "Edgar Degas, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_La_Classe_de_danse.jpg"
    },
    "group": "art-painterstory",
-   "explain": "드가는 발레하는 무용수들을 많이 그렸어요."
+   "explain": "〈발레 수업〉 — 드가는 발레하는 무용수들을 많이 그렸어요."
   },
   {
    "id": "art-186",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 사과 같은 과일을 여러 번 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 사과 같은 과일을 여러 번 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "세잔",
     "이암",
@@ -16507,16 +16579,20 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg/500px-Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg/500px-Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg",
+    "credit": "Paul Cézanne, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg"
    },
    "group": "art-painterstory",
-   "explain": "세잔은 사과 같은 과일을 여러 번 그렸어요."
+   "explain": "〈사과 바구니〉 — 세잔은 사과 같은 과일을 여러 번 그렸어요."
   },
   {
    "id": "art-187",
    "subject": "미술",
    "type": "choice",
-   "prompt": "'이 화가는 사람이 아주 많이 나오는 그림을 그렸어요.' 이 화가는 누구일까요?",
+   "prompt": "이 그림을 그린 화가는 사람이 아주 많이 나오는 그림을 그렸어요. 이 화가는 누구일까요?",
    "choices": [
     "브뤼헐",
     "클림트",
@@ -16546,10 +16622,14 @@
     "호쿠사이"
    ],
    "image": {
-    "fallbackEmoji": "🎨"
+    "fallbackEmoji": "🖼️",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg/500px-Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg/500px-Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg",
+    "credit": "Pieter Bruegel the Elder, Public domain, Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg"
    },
    "group": "art-painterstory",
-   "explain": "브뤼헐은 사람이 아주 많이 나오는 그림을 그렸어요."
+   "explain": "〈아이들의 놀이〉 — 브뤼헐은 사람이 아주 많이 나오는 그림을 그렸어요."
   }
  ],
  "key": "art"
