@@ -15,6 +15,7 @@
     { key: 'art', name: '미술', icon: '🖼️' },
     { key: 'world', name: '세계', icon: '🌏' },
     { key: 'nature', name: '자연', icon: '🦁' },
+    { key: 'science', name: '과학', icon: '🔬' },
     { key: 'store', name: '가게', icon: '🏪' },
     { key: 'people', name: '사람', icon: '🧑‍🚒' },
     { key: 'society', name: '사회', icon: '🏘️' },
